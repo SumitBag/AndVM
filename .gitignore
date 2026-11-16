@@ -1,0 +1,8 @@
+# Large binaries (exceeds GitHub 100MB limit)
+*.apk
+
+# Ephemeral chat attachments
+attachments/
+
+# Temporary dumps
+resources_dump.txt

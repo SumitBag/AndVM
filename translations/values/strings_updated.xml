@@ -1,0 +1,2356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AndVM Refined & Polished English Localization -->
+<resources>
+    <string name="app_name">AndVM</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="bottomsheet_drag_handle_content_description">Drag handle</string>
+    <string name="call_notification_answer_action">Answer</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Decline</string>
+    <string name="call_notification_hang_up_action">Hang Up</string>
+    <string name="call_notification_incoming_text">Incoming call</string>
+    <string name="call_notification_ongoing_text">Ongoing call</string>
+    <string name="call_notification_screening_text">Screening an incoming call</string>
+    <string name="close_sheet">Close sheet</string>
+    <string name="default_error_message">Invalid input</string>
+    <string name="default_popup_window_title">Pop-Up Window</string>
+    <string name="dev_email">andvm.dev@gmail.com</string>
+    <string name="error_a11y_label">Error: invalid</string>
+    <!-- ZH: 取消静音 -->
+    <string name="host_action_unmute">Unmute</string>
+    <!-- ZH: 已复制 ADB 连接命令。 -->
+    <string name="host_adb_debug_panel_00ebd1ef">ADB connect command copied.</string>
+    <!-- ZH: 已开启外部无线调试。 | Refined: Clearer and more standard technical terminology -->
+    <string name="host_adb_debug_panel_04f46a76">External wireless ADB debugging is enabled.</string>
+    <!-- ZH: 宿主密钥指纹 -->
+    <string name="host_adb_debug_panel_0abaafd6">Host key fingerprint</string>
+    <!-- ZH: 已撤销调试授权，连接已断开。重新调试时需再次授权。 -->
+    <string name="host_adb_debug_panel_0ba2dbed">The debugging authorization has been revoked and the connection has been disconnected. Authorization is required again when re-commissioning.</string>
+    <!-- ZH: 正在读取状态… -->
+    <string name="host_adb_debug_panel_0f90f9d0">Reading status...</string>
+    <!-- ZH: ADB 调试 -->
+    <string name="host_adb_debug_panel_15def2e2">ADB debugging</string>
+    <!-- ZH: 开启 -->
+    <string name="host_adb_debug_panel_256783b7">Open</string>
+    <!-- ZH: 宿主 ADB 调试 -->
+    <string name="host_adb_debug_panel_28b71056">Host ADB debugging</string>
+    <!-- ZH: 已授权 Download/AndVM -->
+    <string name="host_adb_debug_panel_2e22a0a7">Authorized Download/AndVM</string>
+    <!-- ZH: 复制 adb connect 命令 -->
+    <string name="host_adb_debug_panel_31f0e30c">Copy adb connect command</string>
+    <!-- ZH: ADB 连接命令 -->
+    <string name="host_adb_debug_panel_32c4fb98">ADB connection command</string>
+    <!-- ZH: 连接已断开，可重新连接。 -->
+    <string name="host_adb_debug_panel_357cbec8">The connection has been disconnected and can be reconnected.</string>
+    <!-- ZH: 已开启本机 ADB 调试。 | Refined: Clearer distinction between local device debugging and external wireless debugging -->
+    <string name="host_adb_debug_panel_35eb5b12">Local ADB debugging is enabled.</string>
+    <!-- ZH: 无法读取 ADB 状态。 -->
+    <string name="host_adb_debug_panel_433fcdf6">Unable to read ADB status.</string>
+    <!-- ZH: 取消 -->
+    <string name="host_adb_debug_panel_4d0b4688">Cancel</string>
+    <!-- ZH: 已关闭，仅本机可连接 -->
+    <string name="host_adb_debug_panel_4fcabbad">Closed, only this machine can connect</string>
+    <!-- ZH: ADB 终端 -->
+    <string name="host_adb_debug_panel_58112d43">ADB terminal</string>
+    <!-- ZH: 电脑与宿主设备连接同一可信网络 -->
+    <string name="host_adb_debug_panel_581cb08d">Computer and host device are connected to the same trusted network</string>
+    <!-- ZH: 开启 ADB 调试？ -->
+    <string name="host_adb_debug_panel_5c12bcbc">Turn on ADB debugging?</string>
+    <!-- ZH: 请求已提交，正在等待虚拟机更新 ADB 状态。 -->
+    <string name="host_adb_debug_panel_5ee2dd46">The request has been submitted and is waiting for the virtual machine to update the ADB status.</string>
+    <!-- ZH: 虚拟机暂时无法接受 ADB 配置，请确认虚拟机正在运行。 -->
+    <string name="host_adb_debug_panel_601d5f83">The virtual machine is temporarily unable to accept the ADB configuration. Please confirm that the virtual machine is running.</string>
+    <!-- ZH: 启动失败 -->
+    <string name="host_adb_debug_panel_65525f0f">Startup failed</string>
+    <!-- ZH: 连接已断开。 -->
+    <string name="host_adb_debug_panel_689251ea">The connection has been disconnected.</string>
+    <!-- ZH: 无法打开文件权限设置：%1$s -->
+    <string name="host_adb_debug_panel_6b2c6a41">Unable to open file permission settings: %1$s</string>
+    <!-- ZH: 撤销调试授权？ -->
+    <string name="host_adb_debug_panel_70c5bf27">Revoke debugging authorization?</string>
+    <!-- ZH: 直接执行 adb 命令，支持双指缩放字号、命令历史和 Ctrl+C 中断。宿主默认目录 Download/AndVM。 -->
+    <string name="host_adb_debug_panel_710d6abc">Directly execute adb commands, support two-finger zoom font size, command history and Ctrl+C interrupt. Host default directory Download/AndVM.</string>
+    <!-- ZH: 将撤销此虚拟机的 ADB 授权并断开调试连接。电脑再次连接时需要重新确认授权。 -->
+    <string name="host_adb_debug_panel_7491cd15">The ADB authorization for this virtual machine will be revoked and the debugging connection will be disconnected. Authorization needs to be reconfirmed when the computer is connected again.</string>
+    <!-- ZH: 暂未找到可用的局域网地址，请检查宿主设备的网络连接。 -->
+    <string name="host_adb_debug_panel_7754c448">No available LAN address has been found, please check the network connection of the host device.</string>
+    <!-- ZH: 无须电脑直连虚拟机 ADB 调试 -->
+    <string name="host_adb_debug_panel_77eebf46">No need for computer to directly connect to virtual machine ADB debugging</string>
+    <!-- ZH: 已复制终端内容 -->
+    <string name="host_adb_debug_panel_7f8f5931">Terminal content has been copied</string>
+    <!-- ZH: 撤销调试授权 -->
+    <string name="host_adb_debug_panel_834ee04f">Revoke debugging authorization</string>
+    <!-- ZH: 启动或快照操作期间暂不可修改 ADB 调试。 -->
+    <string name="host_adb_debug_panel_8860ebe9">ADB debugging cannot be modified temporarily during startup or snapshot operations.</string>
+    <!-- ZH: ADB 配置失败。 -->
+    <string name="host_adb_debug_panel_89fa5bd1">ADB configuration failed.</string>
+    <!-- ZH: 启动虚拟机后可开启 ADB 调试。 | Refined: Better verb usage -->
+    <string name="host_adb_debug_panel_928d80fa">ADB debugging can be enabled after starting the virtual machine.</string>
+    <!-- ZH: 打开调试终端 -->
+    <string name="host_adb_debug_panel_a89ac7c9">Open debugging terminal</string>
+    <!-- ZH: 首次连接时，请打开虚拟机画面，核对并确认电脑的 RSA 密钥指纹。 -->
+    <string name="host_adb_debug_panel_ac070d8a">When connecting for the first time, please open the virtual machine screen, check and confirm the RSA key fingerprint of the computer.</string>
+    <!-- ZH: 撤销授权 -->
+    <string name="host_adb_debug_panel_b31883bd">Revoke authorization</string>
+    <!-- ZH: 目录授权失败 -->
+    <string name="host_adb_debug_panel_b3a3360b">Directory authorization failed</string>
+    <!-- ZH: 无线 ADB 调试 -->
+    <string name="host_adb_debug_panel_bd064c4b">Wireless ADB debugging</string>
+    <!-- ZH: 调试连接可执行命令、安装应用并访问虚拟机内的数据。开启后默认仅允许本机连接，外部无线调试需单独开启。请仅在需要调试时使用。 -->
+    <string name="host_adb_debug_panel_bd240ae4">A debug connection can execute commands, install applications, and access data within the virtual machine. After turning it on, only local connection is allowed by default, and external wireless debugging needs to be turned on separately. Please use only when debugging is required.</string>
+    <!-- ZH: 单次粘贴最多支持 16,384 个字符，请分段粘贴。 | Refined: Improved sentence flow -->
+    <string name="host_adb_debug_panel_c248f129">A single paste supports up to 16,384 characters. Please paste in smaller chunks.</string>
+    <!-- ZH: 允许外部网络连接 -->
+    <string name="host_adb_debug_panel_c38f29f7">Allow external network connections</string>
+    <!-- ZH: 本机地址  127.0.0.1:%1$s -->
+    <string name="host_adb_debug_panel_ca266cf8">Local address 127.0.0.1:%1$s</string>
+    <!-- ZH: 启用 ADB -->
+    <string name="host_adb_debug_panel_cb02432a">Enable ADB</string>
+    <!-- ZH: 无线 ADB 已开启 | Refined: Standard status phrasing -->
+    <string name="host_adb_debug_panel_cc0c19fb">Wireless ADB is enabled</string>
+    <!-- ZH: 通过 ADB 调试接口对虚拟机系统进行操作 -->
+    <string name="host_adb_debug_panel_d8b895e7">Operate the virtual machine system through the ADB debugging interface</string>
+    <!-- ZH: 开启外部无线调试？ | Refined: More professional dialog prompt -->
+    <string name="host_adb_debug_panel_df575eb0">Enable external wireless debugging?</string>
+    <!-- ZH: 正在准备调试服务… -->
+    <string name="host_adb_debug_panel_e07a34bb">Preparing debugging service...</string>
+    <!-- ZH: 已关闭 ADB 调试。 | Refined: Standard status phrasing -->
+    <string name="host_adb_debug_panel_e2fbd1a4">ADB debugging is disabled.</string>
+    <!-- ZH: 断开连接 -->
+    <string name="host_adb_debug_panel_eb724612">Disconnect</string>
+    <!-- ZH: 认证方式：ADB 密钥。调试权限由虚拟机系统决定。 -->
+    <string name="host_adb_debug_panel_ef7431ab">Authentication method: ADB key. Debugging permissions are determined by the virtual machine system.</string>
+    <!-- ZH: 恢复调试终端 -->
+    <string name="host_adb_debug_panel_f197950a">Restore debugging terminal</string>
+    <!-- ZH: 已就绪 -->
+    <string name="host_adb_debug_panel_f2afde89">Ready</string>
+    <!-- ZH: 已关闭 -->
+    <string name="host_adb_debug_panel_f628761b">Closed</string>
+    <!-- ZH: 同一网络的电脑将可以连接此虚拟机，并在授权后执行调试操作。无线 ADB 使用未加密的 TCP 连接，请仅在可信网络使用，并在调试结束后关闭。 -->
+    <string name="host_adb_debug_panel_fa7735fa">Computers on the same network will be able to connect to this virtual machine and perform debugging operations after authorization. Wireless ADB uses unencrypted TCP connections, please only use it on a trusted network and close it after debugging.</string>
+    <!-- ZH: 收起键盘 | Refined: More natural Android UI terminology for dismissing soft keyboard -->
+    <string name="host_adb_terminal_pane_0478ffd3">Hide keyboard</string>
+    <!-- ZH: 缩小字号 -->
+    <string name="host_adb_terminal_pane_0a1432d7">Reduce font size</string>
+    <!-- ZH: 正在准备终端… -->
+    <string name="host_adb_terminal_pane_11f03e0b">Preparing terminal...</string>
+    <!-- ZH: 光标右移 -->
+    <string name="host_adb_terminal_pane_229b6967">Cursor moves right</string>
+    <!-- ZH: 断开 -->
+    <string name="host_adb_terminal_pane_28fb7ced">Disconnect</string>
+    <!-- ZH: 下一条命令 -->
+    <string name="host_adb_terminal_pane_4235661b">Next command</string>
+    <!-- ZH: 宿主文件访问权限 | Refined: Standard Android permission terminology -->
+    <string name="host_adb_terminal_pane_44238741">Host file access permissions</string>
+    <!-- ZH: 虚拟机 Shell -->
+    <string name="host_adb_terminal_pane_4b76bbaa">Virtual Machine Shell</string>
+    <!-- ZH: ADB 终端 -->
+    <string name="host_adb_terminal_pane_58112d43">ADB terminal</string>
+    <!-- ZH: 宿主 ADB 交互式终端 -->
+    <string name="host_adb_terminal_pane_5fc823bc">Host ADB interactive terminal</string>
+    <!-- ZH: 回到最新输出 | Refined: Standard terminal UI action for scrolling down to latest output -->
+    <string name="host_adb_terminal_pane_627387f4">Jump to latest output</string>
+    <!-- ZH: 复制选区 / 全部输出 | Refined: Clearer action description -->
+    <string name="host_adb_terminal_pane_666b26cb">Copy selection / Copy all output</string>
+    <!-- ZH: 回车 -->
+    <string name="host_adb_terminal_pane_67d8ad0a">Enter</string>
+    <!-- ZH: 正在连接… -->
+    <string name="host_adb_terminal_pane_703c7fdd">Connecting...</string>
+    <!-- ZH: 连接 | Refined: Verb action label on button instead of noun -->
+    <string name="host_adb_terminal_pane_7328deeb">Connect</string>
+    <!-- ZH: 授权 Download/AndVM | Refined: Proper English phrasing for granting storage permission -->
+    <string name="host_adb_terminal_pane_80e37fe7">Authorize Download/AndVM directory</string>
+    <!-- ZH: 更多 -->
+    <string name="host_adb_terminal_pane_9b0c6c78">More</string>
+    <!-- ZH: 上一条命令 -->
+    <string name="host_adb_terminal_pane_a21dbf8c">Previous command</string>
+    <!-- ZH: 光标左移 -->
+    <string name="host_adb_terminal_pane_af689452">Cursor moves left</string>
+    <!-- ZH: 显示键盘 -->
+    <string name="host_adb_terminal_pane_af88626f">Display keyboard</string>
+    <!-- ZH: 放大字号 -->
+    <string name="host_adb_terminal_pane_b60958c3">Enlarge font size</string>
+    <!-- ZH: 关闭终端 -->
+    <string name="host_adb_terminal_pane_cfc53731">Close terminal</string>
+    <!-- ZH: 宿主 · AndVM -->
+    <string name="host_adb_terminal_pane_dbddfe34">Host·AndVM</string>
+    <!-- ZH: 粘贴 -->
+    <string name="host_adb_terminal_pane_de7fb7d3">Paste</string>
+    <!-- ZH: 清屏 -->
+    <string name="host_adb_terminal_pane_e8db7ce0">Clear screen</string>
+    <!-- ZH: 未连接 -->
+    <string name="host_adb_terminal_pane_f2f3e980">Not connected</string>
+    <!-- ZH: 使用 ROM 默认属性 -->
+    <string name="host_advanced_options_2ec24b0f">Using ROM default properties</string>
+    <!-- ZH: 高级选项 -->
+    <string name="host_advanced_options_378a5408">Advanced options</string>
+    <!-- ZH: 已收起 -->
+    <string name="host_advanced_options_5dd9d53e">Collected</string>
+    <!-- ZH: 清空属性 | Refined: Correct Android terminology for build.prop / system properties -->
+    <string name="host_advanced_options_642c86e0">Clear properties</string>
+    <!-- ZH: 覆盖系统加载的属性默认值；persist.* 的已保存值及系统脚本可能再次改写属性。修改核心属性可能影响启动，可清空配置恢复。 -->
+    <string name="host_advanced_options_a5c5caee">Overwrite the default value of the attribute loaded by the system; the saved value of persist.* and the system script may rewrite the attribute again. Modifying core attributes may affect startup, and you can clear the configuration and restore it.</string>
+    <!-- ZH: 每行填写 属性名=值，支持 # 注释。 | Refined: Clearer instruction syntax -->
+    <string name="host_advanced_options_b6db14ae">Enter property=value on each line. Lines beginning with # are comments.</string>
+    <!-- ZH: 编辑属性 -->
+    <string name="host_advanced_options_c98388f3">Edit properties</string>
+    <!-- ZH: build.prop 属性覆盖 -->
+    <string name="host_advanced_options_d1b402d5">build.prop property override</string>
+    <!-- ZH: 已配置 %1$s 个覆盖属性 | Refined: Correct Android system properties terminology -->
+    <string name="host_advanced_options_d6f19fa7">%1$s override properties configured</string>
+    <!-- ZH: 下次冷启动生效，无需重新准备系统。清空配置后恢复 ROM 默认属性。 | Refined: More concise and professional phrasing -->
+    <string name="host_advanced_options_dbb39e25">Takes effect upon next cold start without re-preparing the system. Cleared configuration restores ROM default properties.</string>
+    <!-- ZH: 已展开 -->
+    <string name="host_advanced_options_fa83a257">Expanded</string>
+    <!-- ZH: 保存 -->
+    <string name="host_advanced_options_fadf24db">Save</string>
+    <!-- ZH: AndVM 正在启动虚拟机 -->
+    <string name="host_and_vm_startup_animation_d17705a9">AndVM is starting the virtual machine</string>
+    <!-- ZH: 本机 Android %1$s · 可直接用「开发者选项」 -->
+    <string name="host_android_developer_method">This device: Android %1$s · Use Developer options directly</string>
+    <!-- ZH: 本机 Android %1$s · 需使用「无线调试」方式 -->
+    <string name="host_android_wireless_method">This device: Android %1$s · Use wireless debugging</string>
+    <!-- ZH: 虚拟机仍在运行，后台限制可能导致系统强行停止虚拟机。 -->
+    <string name="host_background_execution_reminder_0cf8528e">A virtual machine is still running. Background restrictions may force it to stop.</string>
+    <!-- ZH: 请设置 AndVM 后台无限制 -->
+    <string name="host_background_execution_reminder_45a03622">Allow unrestricted background use for AndVM</string>
+    <!-- ZH: 前往设置 -->
+    <string name="host_background_execution_reminder_9ea2c95e">Go to Settings</string>
+    <!-- ZH: 虚拟机后台运行提醒 -->
+    <string name="host_background_execution_reminder_a56abb0a">Virtual machines running in the background</string>
+    <!-- ZH: 虚拟机仍在运行。建议在系统电池或后台设置中将 AndVM 设为「无限制」，否则虚拟机可能被系统强行停止。 -->
+    <string name="host_background_execution_reminder_aa1bf5c5">A virtual machine is still running. Set AndVM to Unrestricted in the system battery or background settings to prevent the system from forcing it to stop.</string>
+    <!-- ZH: 取消 -->
+    <string name="host_background_execution_settings_4d0b4688">Cancel</string>
+    <!-- ZH: "若需要在后台或息屏继续运行虚拟机，请将 AndVM 的电池或后台策略设为「无限制」，否则虚拟机可能被系统强行停止；允许持续运行可能增加耗电。 -->
+    <string name="host_background_execution_settings_55a69ee1">"To keep virtual machines running in the background or with the screen off, set AndVM’s battery or background policy to Unrestricted. Otherwise, the system may force them to stop. Continuous operation may increase battery use.</string>
+    <!-- ZH: 前往设置 -->
+    <string name="host_background_execution_settings_9ea2c95e">Go to Settings</string>
+    <!-- ZH: 允许虚拟机持续在后台运行 -->
+    <string name="host_background_execution_settings_f71710aa">Allow virtual machines to keep running in the background</string>
+    <!-- ZH: 请输入 %1$s–%2$s 之间的整数 -->
+    <string name="host_bottom_gesture_settings_2cd4a17a">Please enter an integer between %1$s–%2$s</string>
+    <!-- ZH: 上滑触发区域高度（dp） | Refined: Standard gesture terminology (swipe-up instead of slide-up) -->
+    <string name="host_bottom_gesture_settings_45688a63">Swipe-up trigger area height (dp)</string>
+    <!-- ZH: 跟随宿主机 | Refined: Clearer meaning for inheriting host system settings -->
+    <string name="host_bottom_gesture_settings_79529e83">Match host device</string>
+    <!-- ZH: 手势导航栏优化 | Refined: Standard pluralization -->
+    <string name="host_bottom_gesture_settings_86dc6c3e">Gesture navigation bar optimizations</string>
+    <!-- ZH: 区域高 %1$s dp -->
+    <string name="host_bottom_gesture_settings_87c03e45">Area height: %1$s dp</string>
+    <!-- ZH: 扩大底部上滑触发区域，避免与宿主手势冲突 | Refined: Clearer technical explanation -->
+    <string name="host_bottom_gesture_settings_c43df18f">Expand bottom swipe-up trigger area to prevent conflicts with host navigation gestures</string>
+    <!-- ZH: 自定义 -->
+    <string name="host_bottom_gesture_settings_c493338e">Custom</string>
+    <!-- ZH: 取消 -->
+    <string name="host_cancel">Cancel</string>
+    <!-- ZH: 精简组件 | Refined: Accurate translation of 精简组件 (debloading/streamlining rather than just deleting) -->
+    <string name="host_component_settings_page_07b00f3f">Streamline components</string>
+    <!-- ZH: 组件清单来自旧版本扫描，「必要」标识和「最精简」会偏保守；重新扫描可更新。 -->
+    <string name="host_component_settings_page_14066b82">This component list was scanned by an older version. Essential-component labels and the minimal preset may be conservative. Scan again to update them.</string>
+    <!-- ZH: 扫描后显示此系统的组件和应用。扫描与应用均可在后台进行。 -->
+    <string name="host_component_settings_page_1e60ac57">The components and applications of this system are displayed after scanning. Scans and applications can be performed in the background.</string>
+    <!-- ZH: 另一虚拟机正在处理系统组件… -->
+    <string name="host_component_settings_page_36100c88">Another virtual machine is processing system components...</string>
+    <!-- ZH: 扫描系统组件 -->
+    <string name="host_component_settings_page_38acb408">Scanning System Components</string>
+    <!-- ZH: 精简组件 (%1$s) -->
+    <string name="host_component_settings_page_55edd0ff">Remove components (%1$s)</string>
+    <!-- ZH: 重新扫描 -->
+    <string name="host_component_settings_page_7b3a48e2">Rescan</string>
+    <!-- ZH: 精简组件可能导致系统无法启动，应用前请检查标识和影响提示；若出现无法启动，可取消勾选恢复组件。 -->
+    <string name="host_component_settings_page_7bfbe0d6">Removing components may prevent the system from starting. Review the labels and impact notes before applying. If startup fails, deselect the removed components to restore them.</string>
+    <!-- ZH: 后台进行 -->
+    <string name="host_component_settings_page_95669168">Performed in background</string>
+    <!-- ZH: 正在读取虚拟机… -->
+    <string name="host_component_settings_page_b55da8c1">Reading virtual machine...</string>
+    <!-- ZH: 管理系统组件 -->
+    <string name="host_component_settings_page_c918028f">Management system components</string>
+    <!-- ZH: %1$s · 已精简 %2$s 项 · 勾选表示移除 -->
+    <string name="host_component_settings_page_dd6dc5c8">%1$s · Removed: %2$s · Select to remove</string>
+    <!-- ZH: 共 %1$s 项，可复制后分享给使用同一 ROM 的人 -->
+    <string name="host_component_trim_sheets_1094ac8a">Total %1$s items, can be copied and shared with people using the same ROM</string>
+    <!-- ZH: %1$s 项 -->
+    <string name="host_component_trim_sheets_27500691">%1$s items</string>
+    <!-- ZH: 来源系统 -->
+    <string name="host_component_trim_sheets_43552db8">Source system</string>
+    <!-- ZH: 精简配置 JSON -->
+    <string name="host_component_trim_sheets_45ebdd0d">Removal configuration JSON</string>
+    <!-- ZH: 粘贴配置，自动勾选对应组件 -->
+    <string name="host_component_trim_sheets_47803786">Paste the configuration and automatically check the corresponding components</string>
+    <!-- ZH: 导出精简配置 -->
+    <string name="host_component_trim_sheets_4f29babf">Export removal configuration</string>
+    <!-- ZH: 配置包含 -->
+    <string name="host_component_trim_sheets_5e80951d">Configuration includes</string>
+    <!-- ZH: 勾选 %1$s 项 -->
+    <string name="host_component_trim_sheets_8489dc55">Check the %1$s item</string>
+    <!-- ZH: 清空 -->
+    <string name="host_component_trim_sheets_84fcd70d">Clear</string>
+    <!-- ZH: 本机匹配 -->
+    <string name="host_component_trim_sheets_858c9c87">Local matching</string>
+    <!-- ZH: 把导出的配置粘贴到这里。 -->
+    <string name="host_component_trim_sheets_85d88ce9">Paste the exported configuration here.</string>
+    <!-- ZH: 无法读取这段精简配置 -->
+    <string name="host_component_trim_sheets_b348a3be">Could not read this removal configuration</string>
+    <!-- ZH: 这份配置里的组件此系统一个也没有，可能来自另一个 ROM 或另一个版本。 -->
+    <string name="host_component_trim_sheets_c0553d7c">None of the components in this configuration are present in this system and may come from another ROM or another version.</string>
+    <!-- ZH: AndVM 精简配置 -->
+    <string name="host_component_trim_sheets_c19743eb">AndVM removal configuration</string>
+    <!-- ZH: 勾选组件 -->
+    <string name="host_component_trim_sheets_c6eb2dd5">Check component</string>
+    <!-- ZH: 勾选后仍需点“精简组件”才会真正精简。 -->
+    <string name="host_component_trim_sheets_d75ec54c">After selecting components, tap “Remove components” to apply the changes.</string>
+    <!-- ZH: 已复制 -->
+    <string name="host_component_trim_sheets_e381a576">Copied</string>
+    <!-- ZH: 导入精简配置 -->
+    <string name="host_component_trim_sheets_ea44b2ac">Import removal configuration</string>
+    <!-- ZH: 粘贴剪贴板 -->
+    <string name="host_component_trim_sheets_f2519e46">Paste clipboard</string>
+    <!-- ZH: 复制配置 -->
+    <string name="host_component_trim_sheets_f4500a2a">Copy configuration</string>
+    <!-- ZH: 压缩内存 %1$s -->
+    <string name="host_compressed_memory">Compressed memory: %1$s</string>
+    <!-- ZH: 正在准备运行环境，请稍后... -->
+    <string name="host_console_bindings_2ffe4d48">Preparing the operating environment, please wait...</string>
+    <!-- ZH: 正在初始化应用 -->
+    <string name="host_console_bindings_7475b9d1">Initializing application</string>
+    <!-- ZH: 运行通知用于查看虚拟机状态，以及从通知栏返回或停止虚拟机。 -->
+    <string name="host_console_bindings_7d6032ba">The running notification is used to view the status of the virtual machine, and return or stop the virtual machine from the notification bar.</string>
+    <!-- ZH: 取消启动 -->
+    <string name="host_console_bindings_8f935f0b">Cancel startup</string>
+    <!-- ZH: 正在恢复… -->
+    <string name="host_console_components_0654d3fc">Recovering...</string>
+    <!-- ZH: 恢复快照中 -->
+    <string name="host_console_components_1db887cb">Restore snapshot</string>
+    <!-- ZH: 虚拟机预览 -->
+    <string name="host_console_components_2ad0b684">Virtual machine preview</string>
+    <!-- ZH: 暂停前的 Guest 画面 -->
+    <string name="host_console_components_4a4127d0">Guest screen before suspension</string>
+    <!-- ZH: 实时画面 -->
+    <string name="host_console_components_54ced08c">Real-time picture</string>
+    <!-- ZH: 运行中 -->
+    <string name="host_console_components_59424970">Running</string>
+    <!-- ZH: 启动失败 -->
+    <string name="host_console_components_65525f0f">Startup failed</string>
+    <!-- ZH: 已暂停，恢复后继续上次运行状态 -->
+    <string name="host_console_components_7a7385f5">Paused, resume the last running state after recovery</string>
+    <!-- ZH: 上次启动失败，可重新启动排查 -->
+    <string name="host_console_components_7b0e859a">The last startup failed, you can restart to check</string>
+    <!-- ZH: 画面已交给全屏 Guest 任务，返回后继续预览 -->
+    <string name="host_console_components_97540606">The screen has been handed over to the full-screen Guest task, and the preview will continue after returning.</string>
+    <!-- ZH: 正在停止… -->
+    <string name="host_console_components_a6dd18c3">Stopping...</string>
+    <!-- ZH: 未运行 -->
+    <string name="host_console_components_b2ba9634">Stopped</string>
+    <!-- ZH: 未运行，启动后在这里显示实时画面 -->
+    <string name="host_console_components_b4c6e3aa">Not running, real-time picture will be displayed here after startup</string>
+    <!-- ZH: 进入全屏操作 -->
+    <string name="host_console_components_db52f6ec">Enter full screen operation</string>
+    <!-- ZH: 正在暂停… -->
+    <string name="host_console_components_e8c236b6">Pausing...</string>
+    <!-- ZH: 已暂停 -->
+    <string name="host_console_components_fcbae46b">Paused</string>
+    <!-- ZH: 保存快照中 -->
+    <string name="host_console_components_fd5ffbf3">Saving snapshot</string>
+    <!-- ZH: 操作失败 -->
+    <string name="host_console_feedback_09e424b5">Operation failed</string>
+    <!-- ZH: 知道了 -->
+    <string name="host_console_feedback_cb63c62e">Got it</string>
+    <!-- ZH: Android 通用内核 GSI 虚拟机 -->
+    <string name="host_console_screen_0e891d23">Android general kernel GSI virtual machine</string>
+    <!-- ZH: 导入 ROM -->
+    <string name="host_console_screen_233cfdb1">Import ROM</string>
+    <!-- ZH: 设置 -->
+    <string name="host_console_screen_7debf9cb">Settings</string>
+    <!-- ZH: 查看导入任务 -->
+    <string name="host_console_screen_92213089">View import tasks</string>
+    <!-- ZH: 正在处理… -->
+    <string name="host_console_screen_ce9fd54c">Processing...</string>
+    <!-- ZH: ROM 市场 -->
+    <string name="host_console_screen_d8540f96">ROM market</string>
+    <!-- ZH: %1$s 核 %2$s 进程 -->
+    <string name="host_cpu_processes">CPU cores: %1$s · Processes: %2$s</string>
+    <!-- ZH: %1$s 核 最大进程 -->
+    <string name="host_cpu_unlimited_processes">CPU cores: %1$s · Unlimited processes</string>
+    <!-- ZH: 正在恢复… -->
+    <string name="host_detail_header_0654d3fc">Recovering…</string>
+    <!-- ZH: 停止虚拟机 -->
+    <string name="host_detail_header_078b34fd">Stop virtual machine</string>
+    <!-- ZH: 运行中，点按画面放大 -->
+    <string name="host_detail_header_0aecbb24">During operation, click on the screen to enlarge</string>
+    <!-- ZH: 暂停并保存运行快照 -->
+    <string name="host_detail_header_1c757341">Pause and save running snapshot</string>
+    <!-- ZH: 虚拟机已暂停。停止会丢弃运行快照，下次启动执行冷启动。 -->
+    <string name="host_detail_header_1fd9aaa7">The virtual machine has been paused. Stopping will discard the running snapshot and perform a cold start at the next startup.</string>
+    <!-- ZH: 虚拟机画面 -->
+    <string name="host_detail_header_25b3ab4d">Virtual machine screen</string>
+    <!-- ZH: 虚拟机预览 -->
+    <string name="host_detail_header_2ad0b684">Virtual machine preview</string>
+    <!-- ZH: 停止并丢弃运行快照？ -->
+    <string name="host_detail_header_2f2328b4">Stop and discard running snapshot?</string>
+    <!-- ZH: 正在启动… -->
+    <string name="host_detail_header_4fe38132">Starting...</string>
+    <!-- ZH: 恢复运行 -->
+    <string name="host_detail_header_67be57f3">Resume operation</string>
+    <!-- ZH: 已暂停，恢复后继续上次运行状态 -->
+    <string name="host_detail_header_7a7385f5">Paused, resume the last running state after recovery</string>
+    <!-- ZH: 正在暂停 -->
+    <string name="host_detail_header_897ea382">Pausing</string>
+    <!-- ZH: 停止虚拟机并丢弃运行快照 -->
+    <string name="host_detail_header_a1bc393b">Stop virtual machine and discard running snapshot</string>
+    <!-- ZH: 正在恢复运行… -->
+    <string name="host_detail_header_a8405a26">Resuming operation...</string>
+    <!-- ZH: 正在停止 -->
+    <string name="host_detail_header_caa14e6a">Stopping</string>
+    <!-- ZH: 打开画面 -->
+    <string name="host_detail_header_d4f465dd">Open screen</string>
+    <!-- ZH: 完成 -->
+    <string name="host_device_mapping_components_33246f6a">Done</string>
+    <!-- ZH: 虚拟充电状态 -->
+    <string name="host_device_mapping_editors_1bde82f5">Virtual charging state</string>
+    <!-- ZH: 纬度（-90..90） -->
+    <string name="host_device_mapping_editors_7464cab2">Latitude (-90..90)</string>
+    <!-- ZH: 虚拟电量 -->
+    <string name="host_device_mapping_editors_9ab57937">Virtual power</string>
+    <!-- ZH: 有效数值会立即保存，并在下一次启动时生效 -->
+    <string name="host_device_mapping_editors_b88288ba">The valid value will be saved immediately and will take effect at the next startup.</string>
+    <!-- ZH: 经度（-180..180） -->
+    <string name="host_device_mapping_editors_d6aada69">Longitude (-180..180)</string>
+    <!-- ZH: 精度半径（米） | Refined: Standard GPS geolocation terminology (accuracy radius in meters) -->
+    <string name="host_device_mapping_editors_df1fe2af">Accuracy radius (meters)</string>
+    <!-- ZH: 海拔（米） | Refined: Standard plural unit -->
+    <string name="host_device_mapping_editors_eb045494">Altitude (meters)</string>
+    <!-- ZH: 虚拟 GPS 固定位置 -->
+    <string name="host_device_mapping_editors_f0d57fa7">Virtual GPS fixed location</string>
+    <!-- ZH: 当前完全跟随默认映射，修改任意一项后即成为此虚拟机的独立配置。 | Refined: More concise and professional -->
+    <string name="host_device_mapping_screen_00124354">Currently inherits default mapping. Modifying any item creates an independent configuration for this VM.</string>
+    <!-- ZH: 九项能力 · 点按卡片调整 | Refined: More natural terminology and mobile touch verb -->
+    <string name="host_device_mapping_screen_10822810">9 Capabilities · Tap card to configure</string>
+    <!-- ZH: 虚拟模式由 AndVM 提供确定的数据，无需额外设置。 | Refined: Accurate description of synthetic device data -->
+    <string name="host_device_mapping_screen_1c060d0c">In Virtual mode, simulated device data is generated automatically by AndVM.</string>
+    <!-- ZH: 此虚拟机已有独立映射，未覆盖的项目继续跟随默认值。 | Refined: Clearer inheritance behavior -->
+    <string name="host_device_mapping_screen_1f1759d5">This virtual machine has custom mappings; unconfigured items continue to inherit default values.</string>
+    <!-- ZH: 字段：name、address、kind（CLASSIC/LE/DUAL）、rssi、class（十六进制）。当前映射扫描身份，不转交宿主配对密钥或 Profile。 -->
+    <string name="host_device_mapping_screen_23079883">Fields: name, address, kind (CLASSIC/LE/DUAL), rssi, class (hexadecimal). Only scanned device identities are mapped; host pairing keys and profiles are not shared.</string>
+    <!-- ZH: 每行一个 Wi-Fi | Refined: Clearer specification -->
+    <string name="host_device_mapping_screen_2897c077">One Wi-Fi network per line</string>
+    <!-- ZH: 新虚拟机默认映射 -->
+    <string name="host_device_mapping_screen_2cc5d064">New virtual machine default mapping</string>
+    <!-- ZH: 每行一个基站 | Refined: Accurate telecom terminology (cellular tower / cell station) -->
+    <string name="host_device_mapping_screen_3a51924c">One cellular tower per line</string>
+    <!-- ZH: 这里的选择只作为新导入虚拟机的初始值；已有虚拟机在各自的配置页中单独设置。 | Refined: Improved readability -->
+    <string name="host_device_mapping_screen_47fd06b6">These choices serve as the initial default for newly imported VMs. Existing virtual machines retain their individual settings.</string>
+    <!-- ZH: 取消 -->
+    <string name="host_device_mapping_screen_4d0b4688">Cancel</string>
+    <!-- ZH: 字段以分号分隔：ssid、bssid、frequency、rssi、security（OPEN/WPA2/WPA3）。 -->
+    <string name="host_device_mapping_screen_6d575971">Fields separated by semicolons: ssid, bssid, frequency, rssi, security (OPEN/WPA2/WPA3).</string>
+    <!-- ZH: 宿主模式使用 Android 公开 API，只读映射，不控制宿主设备。 | Refined: Clarifies safety of host mapping -->
+    <string name="host_device_mapping_screen_82981e71">Host mode uses official Android public APIs for read-only mapping without controlling the host device.</string>
+    <!-- ZH: 禁用后虚拟机里看不到这项设备。 | Refined: Clearer explanation -->
+    <string name="host_device_mapping_screen_8bf6ac7c">When disabled, this device capability is hidden from the virtual machine.</string>
+    <!-- ZH: 作用范围 | Refined: Standard UI heading -->
+    <string name="host_device_mapping_screen_95a5e614">Scope</string>
+    <!-- ZH: 每行一个蓝牙设备 -->
+    <string name="host_device_mapping_screen_aa80c1e2">One Bluetooth device per line</string>
+    <!-- ZH: 虚拟机应用可使用宿主摄像头，并调整支持的闪光灯、对焦、变焦和曝光。 -->
+    <string name="host_device_mapping_screen_af3c32b9">The virtual machine application can use the host camera and adjust supported flash, focus, zoom and exposure.</string>
+    <!-- ZH: 支持 GSM/WCDMA/TDSCDMA/LTE/NR；字段以分号分隔。LTE 的 RSRP/RSRQ 与 NR 信号值使用负 dBm。 -->
+    <string name="host_device_mapping_screen_b832208f">Supports GSM/WCDMA/TDSCDMA/LTE/NR; separate fields with semicolons. Use negative dBm for LTE RSRP/RSRQ and NR signal values.</string>
+    <!-- ZH: 继续授权 -->
+    <string name="host_device_mapping_screen_c11028eb">Continue authorization</string>
+    <!-- ZH:   恢复为默认映射 -->
+    <string name="host_device_mapping_screen_c6dac9e0">  Restore to default mapping</string>
+    <!-- ZH: "%1$s -->
+    <string name="host_device_mapping_screen_c70c955e">"%1$s</string>
+    <!-- ZH: 真实模式使用 Android 公开 API；虚拟模式由 AndVM 的 UMK 设备/HAL 提供。 -->
+    <string name="host_device_mapping_screen_d98e255b">Real mode uses the Android public API; virtual mode is provided by AndVM\'s UMK device/HAL.</string>
+    <!-- ZH: 使用宿主%1$s -->
+    <string name="host_device_mapping_screen_db3c2c53">Use host %1$s</string>
+    <!-- ZH: 若未授予 AndVM 对应权限，将保留原来的模式。 -->
+    <string name="host_device_mapping_screen_f08155b3">If AndVM is not granted corresponding permissions, the original mode will be retained.</string>
+    <!-- ZH: 新导入的虚拟机从这里取初始值 -->
+    <string name="host_device_mapping_settings_activity_560507bf">Initial settings for newly imported virtual machines</string>
+    <!-- ZH: 默认设备映射 -->
+    <string name="host_device_mapping_settings_activity_5a34bda1">Default device mapping</string>
+    <!-- ZH: 设备映射 -->
+    <string name="host_device_mapping_settings_activity_eaccc7b0">Device mapping</string>
+    <!-- ZH: 请输入整数像素 -->
+    <string name="host_display_settings_0be75071">Please enter an integer pixel</string>
+    <!-- ZH: 每边 %1$s–%2$s 像素，总像素不超过 4096×2160 -->
+    <string name="host_display_settings_16d08cbf">Each side must be %1$s–%2$s pixels, with no more than 4096×2160 pixels in total.</string>
+    <!-- ZH: 宿主状态栏高度无法读取，使用系统资源或 24 dp 估算。 -->
+    <string name="host_display_settings_1aa904f2">The host status bar height cannot be read, estimated using system resources or 24 dp.</string>
+    <!-- ZH: 未检测到顶部圆角，自动边距按挖孔安全区或 0 计算。 -->
+    <string name="host_display_settings_2342663f">The top fillet is not detected, and the automatic margin is calculated as the hole digging safe area or 0.</string>
+    <!-- ZH: 请输入 %1$s–%2$s 之间的整数 -->
+    <string name="host_display_settings_2cd4a17a">Please enter an integer between %1$s–%2$s</string>
+    <!-- ZH: 状态栏高度 %1$s dp；内容边距：左 %2$s、右 %3$s、上 %4$s dp。 -->
+    <string name="host_display_settings_3a7c6ca6">Status bar height: %1$s dp; content margins: left %2$s, right %3$s, top %4$s dp.</string>
+    <!-- ZH: 常见取值：320（标准）、420（高密度）、560（超高密度）。 -->
+    <string name="host_display_settings_6185d56a">Common values: 320 (standard), 420 (high density), 560 (ultra high density).</string>
+    <!-- ZH: 高（像素） -->
+    <string name="host_display_settings_7291ad26">High (pixels)</string>
+    <!-- ZH: 跟随宿主机 -->
+    <string name="host_display_settings_79529e83">Follow host</string>
+    <!-- ZH: 调整虚拟机状态栏高度及内容边距，避免宿主机圆角遮挡状态栏 -->
+    <string name="host_display_settings_7b7a0e74">Adjust the height and content margin of the virtual machine status bar to avoid the rounded corners of the host machine from blocking the status bar.</string>
+    <!-- ZH: 状态栏高度 -->
+    <string name="host_display_settings_7e630ee9">Status bar height</string>
+    <!-- ZH: 自定义尺寸会原样交给 Guest 显示管线；与宿主比例不同的尺寸会在预览中留边。 -->
+    <string name="host_display_settings_9ac6bd50">Custom dimensions are passed directly to the Guest display. If their aspect ratio differs from the host, the preview will have empty borders.</string>
+    <!-- ZH: 右边距 -->
+    <string name="host_display_settings_a78c05fb">Right margin</string>
+    <!-- ZH: 宽（像素） -->
+    <string name="host_display_settings_c1cc1c8d">Width (pixels)</string>
+    <!-- ZH: 左边距 -->
+    <string name="host_display_settings_c22a3ffa">Left margin</string>
+    <!-- ZH: 上边距 -->
+    <string name="host_display_settings_c2b2faa5">Top margin</string>
+    <!-- ZH: 自定义 -->
+    <string name="host_display_settings_c493338e">Custom</string>
+    <!-- ZH: 状态栏美化 -->
+    <string name="host_display_settings_c6841802">Status bar beautification</string>
+    <!-- ZH: 分辨率 -->
+    <string name="host_display_settings_cde9b52b">Resolution</string>
+    <!-- ZH: 支持 %1$s–%2$s dpi -->
+    <string name="host_display_settings_df35aef8">Support %1$s–%2$s dpi</string>
+    <!-- ZH: 请输入整数 DPI -->
+    <string name="host_display_settings_eaa1b6f8">Please enter integer DPI</string>
+    <!-- ZH: 高 %1$s dp -->
+    <string name="host_display_settings_ed4804db">Height: %1$s dp</string>
+    <!-- ZH: 内存扩展 %1$s -->
+    <string name="host_extended_memory">Memory extension: %1$s</string>
+    <!-- ZH: 文件选择器未返回可读取的文件，请切换文件提供器后重试。 -->
+    <string name="host_file_picker_empty">The file picker did not return a readable file. Please try another file provider.</string>
+    <!-- ZH: 未找到可用的文件选择器，请启用系统文件管理器或安装支持选择文件的应用后重试。 -->
+    <string name="host_file_picker_unavailable">No compatible file picker is available. Enable the system file manager or install an app that supports file selection, then try again.</string>
+    <!-- ZH: 读取所选文件失败：%1$s -->
+    <string name="host_file_read_failure">Could not read the selected file: %1$s</string>
+    <!-- ZH: 开启通知后，可以在通知栏查看虚拟机状态、导入和导出进度，并快速返回相应任务。 -->
+    <string name="host_global_settings_activity_37c1eb04">After turning on the notification, you can view the virtual machine status, import and export progress in the notification bar, and quickly return to the corresponding task.</string>
+    <!-- ZH: 未找到邮件应用，请先安装邮件应用。 -->
+    <string name="host_global_settings_activity_3824d378">The mail application was not found, please install the mail application first.</string>
+    <!-- ZH: 无法打开邮件应用，请稍后重试。 -->
+    <string name="host_global_settings_activity_4bc15dde">Unable to open the mail application, please try again later.</string>
+    <!-- ZH: 未找到可分享的应用。 -->
+    <string name="host_global_settings_activity_79581cc7">No shareable application found.</string>
+    <!-- ZH: 设置 -->
+    <string name="host_global_settings_activity_7debf9cb">Settings</string>
+    <!-- ZH: 分享 AndVM -->
+    <string name="host_global_settings_activity_82028d26">Share AndVM</string>
+    <!-- ZH: 返回虚拟机列表 -->
+    <string name="host_global_settings_activity_8e98a049">Return to virtual machine list</string>
+    <!-- ZH: 虚拟机默认配置 -->
+    <string name="host_global_settings_activity_9ccb1700">Virtual machine default configuration</string>
+    <!-- ZH: 通知已开启 -->
+    <string name="host_global_settings_activity_b6b82a88">Notification is on</string>
+    <!-- ZH: 返回设置 -->
+    <string name="host_global_settings_activity_f3b15420">Return to settings</string>
+    <!-- ZH: 外观 -->
+    <string name="host_global_settings_screen_09b58aa3">Appearance</string>
+    <!-- ZH: 预设按短边缩放到宿主比例；默认跟随宿主物理分辨率 -->
+    <string name="host_global_settings_screen_0a966a75">Presets scale the short side to the host aspect ratio. The default uses the host’s physical resolution.</string>
+    <!-- ZH: 联系开发者 -->
+    <string name="host_global_settings_screen_1b2417f9">Contact developer</string>
+    <!-- ZH: 默认显示 -->
+    <string name="host_global_settings_screen_2c8e7b64">Default display</string>
+    <!-- ZH: 新建虚拟机使用的默认显示配置 -->
+    <string name="host_global_settings_screen_2ea370fa">The default display configuration used by a new virtual machine</string>
+    <!-- ZH: 解除子进程限制 -->
+    <string name="host_global_settings_screen_384ec36c">Remove child process restrictions</string>
+    <!-- ZH: 新建虚拟机使用的默认设备映射配置 -->
+    <string name="host_global_settings_screen_42061fa5">The default device mapping configuration used by a new virtual machine</string>
+    <!-- ZH: 默认网络配置 -->
+    <string name="host_global_settings_screen_42a4db0d">Default network configuration</string>
+    <!-- ZH: 允许宿主与虚拟机之间共享复制的文本 -->
+    <string name="host_global_settings_screen_4806cf60">Allow sharing of copied text between host and virtual machine</string>
+    <!-- ZH: 高性能模式下，避免虚拟机子进程被系统终止 -->
+    <string name="host_global_settings_screen_4e8e05fa">Under high-performance mode, avoid virtual machine child processes being terminated by the system</string>
+    <!-- ZH: 显示、网络与代理、剪贴板、设备映射 -->
+    <string name="host_global_settings_screen_5581a878">Display, network and proxy, clipboard, device mapping</string>
+    <!-- ZH: 前台通知 -->
+    <string name="host_global_settings_screen_55e732b1">Front desk notification</string>
+    <!-- ZH: 允许联网 -->
+    <string name="host_global_settings_screen_5a2dec93">Allow networking</string>
+    <!-- ZH: 默认设备映射 -->
+    <string name="host_global_settings_screen_5a34bda1">Default device mapping</string>
+    <!-- ZH: 虚拟机 -->
+    <string name="host_global_settings_screen_5aeca041">Virtual machine</string>
+    <!-- ZH: 版本号 -->
+    <string name="host_global_settings_screen_5d55e288">Version number</string>
+    <!-- ZH: 新建虚拟机使用的默认剪贴板配置 -->
+    <string name="host_global_settings_screen_5dcdb5c9">The default clipboard configuration used by a new virtual machine</string>
+    <!-- ZH: 新导入的虚拟机会带上这个代理；已有虚拟机不受影响。 -->
+    <string name="host_global_settings_screen_6243239a">Newly imported virtual machines will bring this agent; existing virtual machines will not be affected.</string>
+    <!-- ZH: 共享剪贴板 -->
+    <string name="host_global_settings_screen_6d73b0eb">Shared clipboard</string>
+    <!-- ZH: 运行权限 -->
+    <string name="host_global_settings_screen_7058b8a3">Run authority</string>
+    <!-- ZH: 后台无限制 -->
+    <string name="host_global_settings_screen_74cc80b7">Unlimited background</string>
+    <!-- ZH: 配置虚拟机持续运行所需的宿主权限 -->
+    <string name="host_global_settings_screen_88e46da2">Configure the host permissions required for the continuous operation of the virtual machine</string>
+    <!-- ZH: 默认剪贴板配置 -->
+    <string name="host_global_settings_screen_8a5dd3a1">Default clipboard configuration</string>
+    <!-- ZH: 选择 AndVM 的显示主题 -->
+    <string name="host_global_settings_screen_961576eb">Select the display theme of AndVM</string>
+    <!-- ZH: 允许新虚拟机通过宿主网络访问互联网 -->
+    <string name="host_global_settings_screen_9ae727bb">Allow new virtual machines to access the Internet through the host network</string>
+    <!-- ZH: 在通知栏查看运行状态、任务进度和保活虚拟机 -->
+    <string name="host_global_settings_screen_9c754012">Check the running status, task progress and keep alive virtual machine in the notification bar</string>
+    <!-- ZH: 虚拟机默认配置 -->
+    <string name="host_global_settings_screen_9ccb1700">Virtual machine default configuration</string>
+    <!-- ZH: 关于 -->
+    <string name="host_global_settings_screen_bed172ef">About</string>
+    <!-- ZH: 分享应用 -->
+    <string name="host_global_settings_screen_c315d7d9">Sharing application</string>
+    <!-- ZH: 默认跟随宿主物理 DPI -->
+    <string name="host_global_settings_screen_d8d46aa8">Follow host physical DPI by default</string>
+    <!-- ZH: 允许后台持续运行，避免虚拟机被系统停止 -->
+    <string name="host_global_settings_screen_e341851b">Allow the background to continue running to avoid the virtual machine being stopped by the system</string>
+    <!-- ZH: 新建虚拟机使用的默认网络配置 -->
+    <string name="host_global_settings_screen_f81e5e0b">The default network configuration used by a new virtual machine</string>
+    <!-- ZH: 收起错误详情 -->
+    <string name="host_gsi_import_failure_dialog_468eac0f">Close error details</string>
+    <!-- ZH: 失败阶段：%1$s -->
+    <string name="host_gsi_import_failure_dialog_5705d2a8">Failure phase: %1$s</string>
+    <!-- ZH: 关闭 -->
+    <string name="host_gsi_import_failure_dialog_6c14bd7f">Close</string>
+    <!-- ZH: 复制错误信息 -->
+    <string name="host_gsi_import_failure_dialog_d54c6970">Copy error message</string>
+    <!-- ZH: 查看错误详情 -->
+    <string name="host_gsi_import_failure_dialog_f565b3b2">View error details</string>
+    <!-- ZH: 正在启动 Android 系统 -->
+    <string name="host_guest_boot_tips_ae138bfa">Starting Android system</string>
+    <!-- ZH: 首次启动完成，系统仍在初始化，可能卡顿发热 -->
+    <string name="host_guest_boot_tips_ba5cd90f">The first startup is completed, the system is still initializing, and may freeze and become hot.</string>
+    <!-- ZH: 关闭提示 -->
+    <string name="host_guest_boot_tips_c620893e">Close prompt</string>
+    <!-- ZH: %1$s · 首次启动较慢，请耐心等待 -->
+    <string name="host_guest_boot_tips_ee4f9d13">%1$s · The first startup is slow, please wait patiently.</string>
+    <!-- ZH: 系统暂时无法启动悬浮窗。请稍后重试，虚拟机继续在全屏中运行。 -->
+    <string name="host_guest_display_activity_0ad50784">The system cannot open a floating window right now. Try again later. The virtual machine continues running in full screen.</string>
+    <!-- ZH: 返回 -->
+    <string name="host_guest_display_activity_11d02415">Back</string>
+    <!-- ZH: 去设置 -->
+    <string name="host_guest_display_activity_1f2998c9">Open settings</string>
+    <!-- ZH: 无法打开系统悬浮窗设置。可稍后在系统设置中允许 AndVM 显示在其他应用上层，再点按浮窗运行。 -->
+    <string name="host_guest_display_activity_24532a90">Could not open the system overlay settings. Later, allow AndVM to display over other apps in system settings, then tap Floating window again.</string>
+    <!-- ZH: 暂不开启 -->
+    <string name="host_guest_display_activity_2dc8b377">Not now</string>
+    <!-- ZH: 系统未能创建悬浮窗。请确认悬浮窗权限仍然开启，然后重试。虚拟机继续在全屏中运行。 -->
+    <string name="host_guest_display_activity_3020a564">The system could not create a floating window. Check that overlay permission is still enabled and retry. The virtual machine continues running in full screen.</string>
+    <!-- ZH: 无法开启悬浮窗 -->
+    <string name="host_guest_display_activity_3cf2b20c">Could not open the floating window.</string>
+    <!-- ZH: CPU 指令能力检查 -->
+    <string name="host_guest_display_activity_487e63ba">CPU instruction support check</string>
+    <!-- ZH: 悬浮窗权限已关闭。请重新点按浮窗运行，并在提示后开启权限。 -->
+    <string name="host_guest_display_activity_549bf60a">Overlay permission is disabled. Tap Floating window again and enable permission when prompted.</string>
+    <!-- ZH: 浮窗运行需要允许 AndVM 显示在其他应用上层，才能在使用其他应用时继续查看和操作这台虚拟机。开启后返回即可进入浮窗；暂不开启也可继续全屏使用。 -->
+    <string name="host_guest_display_activity_908d29c9">Allow AndVM to display over other apps to keep viewing and controlling this virtual machine while using other apps. Return here after granting permission to enter floating-window mode. You can keep using full screen without granting permission.</string>
+    <!-- ZH: 继续全屏使用 -->
+    <string name="host_guest_display_activity_9b63062e">Continue fullscreen</string>
+    <!-- ZH: 正在检查启动环境… -->
+    <string name="host_guest_display_activity_bd7e00d3">Checking startup environment...</string>
+    <!-- ZH: 虚拟机未启动 -->
+    <string name="host_guest_display_activity_c59d505a">Virtual machine not started</string>
+    <!-- ZH: 允许显示悬浮窗 -->
+    <string name="host_guest_display_activity_ea8637b5">Allow floating windows</string>
+    <!-- ZH: 确定 -->
+    <string name="host_guest_display_activity_f526c899">OK</string>
+    <!-- ZH: 虚拟机启动失败：缺少 SVE 能力 -->
+    <string name="host_guest_display_activity_f7afa95b">Virtual machine startup failed: SVE is not supported</string>
+    <!-- ZH: 搜索当前文件夹 -->
+    <string name="host_guest_file_transfer_sheets_042fe553">Search the current folder</string>
+    <!-- ZH: 导出 -->
+    <string name="host_guest_file_transfer_sheets_18889679">Export</string>
+    <!-- ZH: 保存到宿主的 下载/AndVM 目录，无需存储权限 -->
+    <string name="host_guest_file_transfer_sheets_2808f2d7">Save to the host\'s Download/AndVM directory, no storage permissions required</string>
+    <!-- ZH: 修改时间未知 -->
+    <string name="host_guest_file_transfer_sheets_2f455cc7">Unknown modification time</string>
+    <!-- ZH: 在宿主与这台虚拟机之间导入或导出 -->
+    <string name="host_guest_file_transfer_sheets_31cc5066">Import or export between the host and this virtual machine</string>
+    <!-- ZH: 导出虚拟机文件 -->
+    <string name="host_guest_file_transfer_sheets_45971ccd">Export virtual machine files</string>
+    <!-- ZH: 文件夹 -->
+    <string name="host_guest_file_transfer_sheets_46ecac29">Folder</string>
+    <!-- ZH: 内部存储%1$s -->
+    <string name="host_guest_file_transfer_sheets_4cff2656">Internal storage%1$s</string>
+    <!-- ZH: 没有找到已安装的应用 -->
+    <string name="host_guest_file_transfer_sheets_511137e9">No installed application found</string>
+    <!-- ZH: 上一级 -->
+    <string name="host_guest_file_transfer_sheets_53addb32">Previous level</string>
+    <!-- ZH: 导出 (%1$s) -->
+    <string name="host_guest_file_transfer_sheets_64e873ba">export (%1$s)</string>
+    <!-- ZH: 搜索应用名、包名或版本 -->
+    <string name="host_guest_file_transfer_sheets_6c2885bd">Search application name, package name or version</string>
+    <!-- ZH: 此文件夹为空 -->
+    <string name="host_guest_file_transfer_sheets_6d564b02">This folder is empty</string>
+    <!-- ZH: 没有匹配的应用 -->
+    <string name="host_guest_file_transfer_sheets_78b85095">No matching application</string>
+    <!-- ZH: 后台继续 -->
+    <string name="host_guest_file_transfer_sheets_7c6723cf">Continue in the background</string>
+    <!-- ZH: 已传输 %1$s -->
+    <string name="host_guest_file_transfer_sheets_861b64e3">%1$s transferred</string>
+    <!-- ZH: 导出虚拟机应用 -->
+    <string name="host_guest_file_transfer_sheets_8f80e039">Export virtual machine application</string>
+    <!-- ZH: 分包 -->
+    <string name="host_guest_file_transfer_sheets_99f6b91c">Subcontracting</string>
+    <!-- ZH: 没有匹配的文件 -->
+    <string name="host_guest_file_transfer_sheets_a4d86f59">No matching file</string>
+    <!-- ZH: 文件传输 -->
+    <string name="host_guest_file_transfer_sheets_c3111e97">File transfer</string>
+    <!-- ZH: 已处理 %1$s / %2$s 项 -->
+    <string name="host_guest_file_transfer_sheets_dc6a5acb">%1$s / %2$s items processed</string>
+    <!-- ZH: 保存为安装包到宿主的 下载/AndVM 目录；分包应用保存为 .apks -->
+    <string name="host_guest_file_transfer_sheets_f0da99d2">Save app installation packages to Download/AndVM on the host. Apps with split APKs are saved as .apks.</string>
+    <!-- ZH: 向右展开悬浮菜单 -->
+    <string name="host_guest_floating_menu_36958f54">Expand the floating menu to the right</string>
+    <!-- ZH: 向左展开悬浮菜单 -->
+    <string name="host_guest_floating_menu_8240051f">Expand the floating menu to the left</string>
+    <!-- ZH: 更多 -->
+    <string name="host_guest_floating_menu_9b0c6c78">More</string>
+    <!-- ZH: 取消静音 -->
+    <string name="host_guest_floating_window_59bc75ca">Unmute</string>
+    <!-- ZH: 悬浮窗控制 -->
+    <string name="host_guest_floating_window_8f4dc854">Floating window control</string>
+    <!-- ZH: 静音 -->
+    <string name="host_guest_floating_window_afdbd1dd">mute</string>
+    <!-- ZH: 关闭悬浮窗，长按可暂停或停止虚拟机 | Refined: Clearer touch gesture instructions -->
+    <string name="host_guest_floating_window_b26bc0d8">Tap to close floating window; long-press to pause or shut down VM</string>
+    <!-- ZH: 返回全屏 -->
+    <string name="host_guest_floating_window_c4ad2079">Return to full screen</string>
+    <!-- ZH: 知道了 -->
+    <string name="host_guest_floating_window_cb63c62e">Got it</string>
+    <!-- ZH: 启用触摸透传 -->
+    <string name="host_guest_floating_window_d062f9c0">Enable touch passthrough</string>
+    <!-- ZH: 停用触摸透传 -->
+    <string name="host_guest_floating_window_d4d06337">Disable touch passthrough</string>
+    <!-- ZH: 单击关闭悬浮窗，长按并滑动可暂停或停止虚拟机 | Refined: Standard mobile touch terminology (tap instead of click) -->
+    <string name="host_guest_floating_window_d505a1e3">Tap to close floating window; long-press and drag to pause or shut down VM</string>
+    <!-- ZH: 暂停失败：%1$s -->
+    <string name="host_guest_floating_window_service_140cbd1d">Could not pause: %1$s</string>
+    <!-- ZH: 虚拟机未在运行 -->
+    <string name="host_guest_floating_window_service_4a9b3c67">Virtual machine not running</string>
+    <!-- ZH: %1$s 台虚拟机正在悬浮窗中运行 -->
+    <string name="host_guest_floating_window_service_56183d53">Virtual machines running in floating windows: %1$s</string>
+    <!-- ZH: 全部关闭 -->
+    <string name="host_guest_floating_window_service_6fe9dcf2">Close All</string>
+    <!-- ZH: 关闭悬浮窗 -->
+    <string name="host_guest_floating_window_service_803658e0">Close the floating window.</string>
+    <!-- ZH: 点按悬浮窗可显示关闭与触摸透传按钮 -->
+    <string name="host_guest_floating_window_service_89240144">Tap the floating window to show Close and Touch-through controls</string>
+    <!-- ZH: 正在暂停并保存运行快照… -->
+    <string name="host_guest_floating_window_service_9a55c9ed">Pausing and saving running snapshot...</string>
+    <!-- ZH: 虚拟机正在悬浮窗中运行 -->
+    <string name="host_guest_floating_window_service_b8826051">The virtual machine is running in a floating window.</string>
+    <!-- ZH: 虚拟机悬浮窗 -->
+    <string name="host_guest_floating_window_service_ce73d66c">Virtual machine floating windows</string>
+    <!-- ZH: 停止失败：%1$s -->
+    <string name="host_guest_floating_window_service_e333a0f0">Could not stop: %1$s</string>
+    <!-- ZH: 暂停失败：%1$s -->
+    <string name="host_guest_menu_host_140cbd1d">Pause failed: %1$s</string>
+    <!-- ZH: 停止运行？ -->
+    <string name="host_guest_menu_host_2a2a92d5">Stop running?</string>
+    <!-- ZH: 虚拟机输入尚未就绪，请稍后再试 -->
+    <string name="host_guest_menu_host_2e38f2fb">The virtual machine input is not ready yet, please try again later.</string>
+    <!-- ZH: 停止运行 -->
+    <string name="host_guest_menu_host_42bf555d">Stop running</string>
+    <!-- ZH: 正在暂停并保存运行快照… -->
+    <string name="host_guest_menu_host_9a55c9ed">Pausing and saving running snapshot...</string>
+    <!-- ZH: 虚拟机会立即关闭，未保存的内容将丢失。如需稍后继续，请改用暂停运行。 -->
+    <string name="host_guest_menu_host_a7447a78">The virtual machine will be shut down immediately and unsaved content will be lost. To resume later, use Pause instead.</string>
+    <!-- ZH: 导入 (%1$s) -->
+    <string name="host_host_app_import_dialog_0ef581b9">import (%1$s)</string>
+    <!-- ZH: 导入宿主应用 -->
+    <string name="host_host_app_import_dialog_1a5a9c4a">Import host application</string>
+    <!-- ZH: 运行中的虚拟机会直接安装；未运行时会把 APK 放入 Download -->
+    <string name="host_host_app_import_dialog_24d45d4b">The running virtual machine will be installed directly; when it is not running, the APK will be put into Download</string>
+    <!-- ZH: 导入 -->
+    <string name="host_host_app_import_dialog_60e2bcad">Import</string>
+    <!-- ZH: 搜索应用名、包名或版本 -->
+    <string name="host_host_app_import_dialog_6c2885bd">Search application name, package name or version</string>
+    <!-- ZH: 没有匹配的应用 -->
+    <string name="host_host_app_import_dialog_78b85095">No matching application</string>
+    <!-- ZH: 没有可导入的宿主应用 -->
+    <string name="host_host_app_import_dialog_ea7c4e46">No host application to import</string>
+    <!-- ZH: 搜索分区 -->
+    <string name="host_import_choice_list_0dbc04d1">Search partition</string>
+    <!-- ZH: 全选 -->
+    <string name="host_import_choice_list_3e44b2a9">Select all</string>
+    <!-- ZH: %1$s将移除 %2$s 项，应用前仍可逐项调整。 -->
+    <string name="host_import_choice_list_6a328c76">%1$s will remove the %2$s items, which can still be adjusted item by item before application.</string>
+    <!-- ZH: 收起其他分区 -->
+    <string name="host_import_choice_list_7d4b2ecb">Close other partitions</string>
+    <!-- ZH: 清空 -->
+    <string name="host_import_choice_list_84fcd70d">Clear</string>
+    <!-- ZH: 搜索名称、包名 -->
+    <string name="host_import_choice_list_96cb41e4">Search name, package name</string>
+    <!-- ZH: 已选择移除 %1$s 个必要组件，可能导致相关功能不可用或系统启动失败。 -->
+    <string name="host_import_choice_list_a178f1b7">%1$s necessary components have been selected for removal, which may result in related functions being unavailable or system startup failure.</string>
+    <!-- ZH: 恢复默认 -->
+    <string name="host_import_choice_list_a191935b">Restore defaults</string>
+    <!-- ZH: 搜索恢复内容 -->
+    <string name="host_import_choice_list_acda0202">Search for recovery content</string>
+    <!-- ZH: 未选择 system 时将只保存分区，无法启动虚拟机。 -->
+    <string name="host_import_choice_list_b3fc4e4c">When system is not selected, only the partition will be saved and the virtual machine cannot be started.</string>
+    <!-- ZH: 显示其他 %1$s 个分区 -->
+    <string name="host_import_choice_list_b4fa7661">Show %1$s other partitions</string>
+    <!-- ZH: 没有匹配的条目。 -->
+    <string name="host_import_choice_list_c1d46654">No matching entries.</string>
+    <!-- ZH: 必要 -->
+    <string name="host_import_choice_list_d04a6f75">Necessary</string>
+    <!-- ZH: 请先完成上一步。 -->
+    <string name="host_import_choice_list_f2572feb">Please complete the previous step first.</string>
+    <!-- ZH: 自定义 ·  -->
+    <string name="host_import_choice_list_fac852ea">Customized· </string>
+    <!-- ZH: 导入 ROM 或打开 ROM 市场 -->
+    <string name="host_import_fab_menu_4b48bb3b">Import ROM or open ROM market</string>
+    <!-- ZH: 收起导入菜单 -->
+    <string name="host_import_fab_menu_61016507">Collapse import menu</string>
+    <!-- ZH: 使用 userdata 替换现有用户数据 -->
+    <string name="host_import_wizard_screen_09d03ddb">Use userdata to replace existing user data</string>
+    <!-- ZH: 选择导入分区 -->
+    <string name="host_import_wizard_screen_0eea2d39">Select import partition</string>
+    <!-- ZH: 请返回文件页填写虚拟机名称。 -->
+    <string name="host_import_wizard_screen_13d701f7">Please return to the file page to fill in the virtual machine name.</string>
+    <!-- ZH: 选择文件 -->
+    <string name="host_import_wizard_screen_21a6f5a8">Select file</string>
+    <!-- ZH: 选择恢复内容 -->
+    <string name="host_import_wizard_screen_29cd31b9">Select recovery content</string>
+    <!-- ZH: 重装 -->
+    <string name="host_import_wizard_screen_31891e04">Reinstall</string>
+    <!-- ZH: 完成 -->
+    <string name="host_import_wizard_screen_33246f6a">Done</string>
+    <!-- ZH: 保留现有用户数据 -->
+    <string name="host_import_wizard_screen_392ac0f8">Preserve existing user data</string>
+    <!-- ZH: 重装「%1$s」：%2$s，保留名称和配置，系统分区以本次选择为准。 -->
+    <string name="host_import_wizard_screen_463e101b">Reinstall "%1$s": %2$s, retain the name and configuration, and the system partition will be subject to this selection.</string>
+    <!-- ZH: 无法打开所选文件，请确认文件仍然存在并重新选择。 -->
+    <string name="host_import_wizard_screen_4876de68">The selected file cannot be opened, please confirm that the file still exists and select again.</string>
+    <!-- ZH: 恢复内容 -->
+    <string name="host_import_wizard_screen_4a8f4a64">Restore content</string>
+    <!-- ZH: 列出包内全部分区。已勾选预设分区，你可以自由调整。 -->
+    <string name="host_import_wizard_screen_4c939fb0">List all partitions in the package. The default partition has been checked and you can adjust it freely.</string>
+    <!-- ZH: 取消 -->
+    <string name="host_import_wizard_screen_4d0b4688">Cancel</string>
+    <!-- ZH: 导入虚拟机 -->
+    <string name="host_import_wizard_screen_4db5eeac">Import virtual machine</string>
+    <!-- ZH: 导入 -->
+    <string name="host_import_wizard_screen_60e2bcad">Import</string>
+    <!-- ZH: 用户数据会保留。导入时保存所选分区，启动时自动准备系统；分区提交前取消会丢弃临时内容。 -->
+    <string name="host_import_wizard_screen_61215ed4">User data will be retained. Save selected partitions when importing and automatically prepare the system on startup; canceling before partition submission discards temporary content.</string>
+    <!-- ZH: 第 %1$s 步 / %2$s -->
+    <string name="host_import_wizard_screen_6c858a5c">Step %1$s/%2$s</string>
+    <!-- ZH: 上一步 -->
+    <string name="host_import_wizard_screen_75ef1241">Previous step</string>
+    <!-- ZH: 恢复 -->
+    <string name="host_import_wizard_screen_79748ca1">Recovery</string>
+    <!-- ZH: 返回虚拟机列表 -->
+    <string name="host_import_wizard_screen_8e98a049">Return to virtual machine list</string>
+    <!-- ZH: 后台进行 -->
+    <string name="host_import_wizard_screen_95669168">Performed in background</string>
+    <!-- ZH: 覆盖现有用户数据？ -->
+    <string name="host_import_wizard_screen_a3bb69b9">Overwrite existing user data?</string>
+    <!-- ZH: 退出导入 -->
+    <string name="host_import_wizard_screen_bf115464">Exit import</string>
+    <!-- ZH: 确认覆盖 -->
+    <string name="host_import_wizard_screen_c54d0ff7">Confirm coverage</string>
+    <!-- ZH: 选择分区 -->
+    <string name="host_import_wizard_screen_ccb62923">Select partition</string>
+    <!-- ZH: 勾选 userdata 后，重装时会用该分区中的内容替换虚拟机现有的应用、设置和文件，此操作不可撤销。确认覆盖后才会勾选。 -->
+    <string name="host_import_wizard_screen_cecdf87a">Selecting userdata replaces this virtual machine’s existing apps, settings and files with the contents of that partition during reinstall. This cannot be undone. The partition is selected only after you confirm replacement.</string>
+    <!-- ZH: 导入较大 ROM 包耗时较长，可以切到后台继续 -->
+    <string name="host_import_wizard_screen_d04eeaec">It takes a long time to import a larger ROM package, and you can switch to the background to continue.</string>
+    <!-- ZH: 没有读取所选文件的权限，请重新选择文件。 -->
+    <string name="host_import_wizard_screen_d093007f">There is no permission to read the selected file, please select the file again.</string>
+    <!-- ZH: 重装系统 -->
+    <string name="host_import_wizard_screen_e9499722">Reinstall system</string>
+    <!-- ZH: 下一步 -->
+    <string name="host_import_wizard_screen_ea0ef2ae">Next step</string>
+    <!-- ZH: 已识别 AndVM 虚拟机备份。选择镜像、配置、数据和补丁；保留源文件用于重新准备系统。 -->
+    <string name="host_import_wizard_screen_f64a8cd5">AndVM virtual machine backup identified. Select images, configurations, data, and patches; retain source files for re-preparing the system.</string>
+    <!-- ZH: 查看 -->
+    <string name="host_import_wizard_screen_f7acefd2">View</string>
+    <!-- ZH: 已解压的分区会被丢弃，虚拟机不会被创建。重新导入需要从头开始。 -->
+    <string name="host_import_wizard_screen_fc7ed9bc">The decompressed partition will be discarded and the virtual machine will not be created. Re-importing requires starting from scratch.</string>
+    <!-- ZH: 文件不可用 -->
+    <string name="host_import_wizard_steps_17837c8d">File not available</string>
+    <!-- ZH: 导入进度 -->
+    <string name="host_import_wizard_steps_186aa174">Import progress</string>
+    <!-- ZH: 一些比真机更强大的系统操作能力 -->
+    <string name="host_import_wizard_steps_21271176">Some system operating capabilities are more powerful than real machines</string>
+    <!-- ZH: 选择文件 -->
+    <string name="host_import_wizard_steps_21a6f5a8">Select file</string>
+    <!-- ZH: 导入 ROM 或 GSI 镜像，创建你的虚拟机 -->
+    <string name="host_import_wizard_steps_31baeeea">Import the ROM or GSI image and create your virtual machine</string>
+    <!-- ZH: 失败 -->
+    <string name="host_import_wizard_steps_3e3c8068">Failure</string>
+    <!-- ZH: 虚拟机名称 -->
+    <string name="host_import_wizard_steps_4506ef63">Virtual machine name</string>
+    <!-- ZH: 下一步会列出包内全部分区，可以自由增减。 -->
+    <string name="host_import_wizard_steps_6568683e">The next step will list all partitions in the package, which can be increased or decreased freely.</string>
+    <!-- ZH: 进行中 -->
+    <string name="host_import_wizard_steps_6f1972e4">In progress</string>
+    <!-- ZH: 等待导入服务… -->
+    <string name="host_import_wizard_steps_6fc960c0">Waiting for import service...</string>
+    <!-- ZH: 导入结果 -->
+    <string name="host_import_wizard_steps_747404d6">Import results</string>
+    <!-- ZH: 使用小提示 -->
+    <string name="host_import_wizard_steps_76f08721">Use tips</string>
+    <!-- ZH: 单独的 IMG 镜像会跳过分区选择，下一步直接开始导入。 -->
+    <string name="host_import_wizard_steps_799d6f41">A separate IMG image will skip partition selection and start importing directly in the next step.</string>
+    <!-- ZH: 选择系统文件 -->
+    <string name="host_import_wizard_steps_7cb53121">Select system files</string>
+    <!-- ZH: 导入步骤 -->
+    <string name="host_import_wizard_steps_966a1769">Import step</string>
+    <!-- ZH: 接下来可以做什么 -->
+    <string name="host_import_wizard_steps_98ab08aa">What can be done next?</string>
+    <!-- ZH: 正在检查文件… -->
+    <string name="host_import_wizard_steps_a528d3f5">Checking files...</string>
+    <!-- ZH: 已取消 -->
+    <string name="host_import_wizard_steps_a5ffdc95">Canceled</string>
+    <!-- ZH: 更换 -->
+    <string name="host_import_wizard_steps_b1a3fede">Replacement</string>
+    <!-- ZH: 正在导入 -->
+    <string name="host_import_wizard_steps_c3ddf132">Importing</string>
+    <!-- ZH: 失败详情 -->
+    <string name="host_import_wizard_steps_da5fb1a6">Failure details</string>
+    <!-- ZH: 尚未选择文件 -->
+    <string name="host_import_wizard_steps_dee789fd">No file selected yet</string>
+    <!-- ZH: 已完成 -->
+    <string name="host_import_wizard_steps_e99b48a2">Completed</string>
+    <!-- ZH: 虚拟机启动超过 10 分钟仍未检测到系统启动完成，用户选择停止并上报日志。 -->
+    <string name="host_instance_detail_activity_197898f2">If the virtual machine is started for more than 10 minutes and the system startup is not completed, the user chooses to stop and report the log.</string>
+    <!-- ZH: 上报日志 -->
+    <string name="host_instance_detail_activity_2dc64877">Report log</string>
+    <!-- ZH: 虚拟机已重新启动，本次超时操作已取消。 -->
+    <string name="host_instance_detail_activity_537add17">The virtual machine has been restarted and this timeout operation has been cancelled.</string>
+    <!-- ZH: 虚拟机 -->
+    <string name="host_instance_detail_activity_5aeca041">Virtual machine</string>
+    <!-- ZH: 停止虚拟机失败：%1$s -->
+    <string name="host_instance_detail_activity_75208814">Failed to stop virtual machine: %1$s</string>
+    <!-- ZH: 更多操作 -->
+    <string name="host_instance_detail_activity_77836d3a">More operations</string>
+    <!-- ZH: 返回虚拟机列表 -->
+    <string name="host_instance_detail_activity_8e98a049">Return to virtual machine list</string>
+    <!-- ZH: 虚拟机不可用。 -->
+    <string name="host_instance_detail_activity_a1a4c13f">The virtual machine is unavailable.</string>
+    <!-- ZH: ；当前任务：%1$s -->
+    <string name="host_instance_detail_activity_c1f475f1">;Current task: %1$s</string>
+    <!-- ZH: 正在打包日志 -->
+    <string name="host_instance_detail_activity_e5b4f75a">Packing logs</string>
+    <!-- ZH: " -->
+    <string name="host_instance_detail_overlays_0147664a">"</string>
+    <!-- ZH: 原安装镜像暂不能清理 -->
+    <string name="host_instance_detail_overlays_01c821ef">The original installation image cannot be cleaned temporarily.</string>
+    <!-- ZH: 清理不删除当前系统和用户数据，但无法再从本地取得原始块镜像，不能用于基于原始块的增量 OTA。未来若有功能需要这些内容，须重新导入匹配 ROM。 -->
+    <string name="host_instance_detail_overlays_0420c4a8">Cleaning does not delete the current system and user data, but the original block image cannot be obtained locally and cannot be used for incremental OTA based on the original block. If there are functions that require these contents in the future, the matching ROM must be re-imported.</string>
+    <!-- ZH: 保留快照 -->
+    <string name="host_instance_detail_overlays_15616aa2">Keep snapshot</string>
+    <!-- ZH: 将重置组件精简、Recovery 与兼容性配置；不会执行 Recovery 脚本，也不会清空用户数据。 -->
+    <string name="host_instance_detail_overlays_1588228e">Reset component removals, Recovery and compatibility settings. Recovery scripts will not run. User data will not be cleared.</string>
+    <!-- ZH: 我了解清理后可能需要重新导入 ROM -->
+    <string name="host_instance_detail_overlays_1e1d6885">I understand that you may need to re-import the ROM after cleaning</string>
+    <!-- ZH: 若恢复材料已损坏或缺失，清理时可能无法发现；之后重新准备或恢复系统可能失败，需要重新导入匹配 ROM。 -->
+    <string name="host_instance_detail_overlays_20dca424">If the recovery material is damaged or missing, it may not be found during cleaning; later re-preparation or recovery of the system may fail, and the matching ROM needs to be re-imported.</string>
+    <!-- ZH: 运行快照恢复失败 -->
+    <string name="host_instance_detail_overlays_2234be0b">Failed to run snapshot recovery</string>
+    <!-- ZH: ROM 适配器版本 %1$s → %2$s -->
+    <string name="host_instance_detail_overlays_2244cab2">ROM adapter version %1$s → %2$s</string>
+    <!-- ZH: 请按上方原因处理后重新检查；本次检查不会自动重装或删除文件。 -->
+    <string name="host_instance_detail_overlays_27817814">Please check again after handling the reasons above; this check will not automatically reinstall or delete files.</string>
+    <!-- ZH: 清理原安装镜像？ -->
+    <string name="host_instance_detail_overlays_2c4e1791">Clean the original installation image?</string>
+    <!-- ZH: 提交成功后不保留本次重装的系统回退点；恢复材料完整且原安装镜像不再被引用时，会自动尝试清理原安装镜像。 -->
+    <string name="host_instance_detail_overlays_35f0e554">After successful submission, the system rollback point for this reinstallation will not be retained; when the recovery material is complete and the original installation image is no longer referenced, an automatic attempt will be made to clean up the original installation image.</string>
+    <!-- ZH: 取消 -->
+    <string name="host_instance_detail_overlays_4d0b4688">Cancel</string>
+    <!-- ZH: ROM 适配器有更新 -->
+    <string name="host_instance_detail_overlays_55babc86">There is an update to the ROM adapter</string>
+    <!-- ZH: "该 Android 版本的系统适配器已更新：%1$s -->
+    <string name="host_instance_detail_overlays_58537ea6">"The system adapter for this Android version has been updated: %1$s</string>
+    <!-- ZH: 虚拟机 -->
+    <string name="host_instance_detail_overlays_5aeca041">Virtual machine</string>
+    <!-- ZH: 其他实例、旧快照、Recovery 或未完成事务仍依赖原镜像时不会清理。确认后只复查引用和清理条件，直接删除文件，不再全量读取或校验恢复内容。 -->
+    <string name="host_instance_detail_overlays_77fc9a7c">Original images are kept while other instances, old snapshots, Recovery or unfinished transactions still depend on them. After confirmation, references and cleanup conditions are checked again, then eligible files are deleted without fully rereading or verifying restoration data.</string>
+    <!-- ZH: 成功后旧运行快照将失效；失败保留原系统、配置与快照。恢复来源不完整时会停止重装，并提示重新提供 ROM。 -->
+    <string name="host_instance_detail_overlays_7e453597">After success, the old running snapshot will be invalid; if it fails, the original system, configuration and snapshot will be retained. If the recovery source is incomplete, the reinstallation will stop and you will be prompted to provide the ROM again.</string>
+    <!-- ZH: 重装当前 ROM -->
+    <string name="host_instance_detail_overlays_835d5fa1">Reinstall current ROM</string>
+    <!-- ZH: 暂无法计算 -->
+    <string name="host_instance_detail_overlays_8c223745">Currently unable to calculate</string>
+    <!-- ZH: 冷重启 -->
+    <string name="host_instance_detail_overlays_92552f72">Cold restart</string>
+    <!-- ZH: 原选择必须能完整应用；若存在无法保留的组件或 Recovery 脚本修改，会明确报错，不会静默丢弃。 -->
+    <string name="host_instance_detail_overlays_ad6992d6">The original selection must be fully applicable; if there are components or Recovery script modifications that cannot be retained, an error will be reported clearly and will not be silently discarded.</string>
+    <!-- ZH: 使用当前 ROM 保留数据重装？ -->
+    <string name="host_instance_detail_overlays_ba82db23">Reinstall using current ROM to retain data?</string>
+    <!-- ZH: "「%1$s」的运行快照无法恢复：%2$s -->
+    <string name="host_instance_detail_overlays_bc31d763">"The runtime snapshot of “%1$s” could not be restored: %2$s</string>
+    <!-- ZH: 升级并启动 -->
+    <string name="host_instance_detail_overlays_be47b12d">Upgrade and start</string>
+    <!-- ZH: 确认清理 -->
+    <string name="host_instance_detail_overlays_c1ac3cc2">Confirm cleanup</string>
+    <!-- ZH: 正在导入 -->
+    <string name="host_instance_detail_overlays_c3ddf132">Importing</string>
+    <!-- ZH: 保留组件精简、Recovery 与兼容性配置 -->
+    <string name="host_instance_detail_overlays_c5658d3a">Keep component removals, Recovery and compatibility settings</string>
+    <!-- ZH: 知道了 -->
+    <string name="host_instance_detail_overlays_cb63c62e">Got it</string>
+    <!-- ZH: " -->
+    <string name="host_instance_detail_overlays_cd17bfaa">"</string>
+    <!-- ZH: 「%1$s」本次独占可释放空间：%2$s。 -->
+    <string name="host_instance_detail_overlays_d4de869d">Space used exclusively by “%1$s” that can be reclaimed now: %2$s.</string>
+    <!-- ZH: 没有可安全清理的原安装镜像文件，或已完成清理。 -->
+    <string name="host_instance_detail_overlays_e6820ef1">There is no original installation image file that can be safely cleaned, or the cleanup has been completed.</string>
+    <!-- ZH: 忽略并启动 -->
+    <string name="host_instance_detail_overlays_ef4ae7d9">Ignore and start</string>
+    <!-- ZH: ROM 配置版本 %1$s → %2$s -->
+    <string name="host_instance_detail_overlays_ef62a0dc">ROM configuration version %1$s → %2$s</string>
+    <!-- ZH: 将从「%1$s」保留的原始系统视图重新准备系统，不需要重新选择 ROM。用户数据不会清除，完成后保持停止状态。 -->
+    <string name="host_instance_detail_overlays_ef738703">Prepare the system again from the retained original system view of “%1$s”, without selecting a ROM again. User data is preserved. The virtual machine remains stopped when finished.</string>
+    <!-- ZH:   解除子进程限制 -->
+    <string name="host_instance_detail_screen_01fc2171">  Remove child process restrictions</string>
+    <!-- ZH: 删除虚拟机？ -->
+    <string name="host_instance_detail_screen_043b20b0">Delete virtual machine?</string>
+    <!-- ZH: 虚拟机可使用的 CPU 核心数；默认跟随宿主的 %1$s 核 -->
+    <string name="host_instance_detail_screen_0452cac9">The number of CPU cores that the virtual machine can use; defaults to the host\'s %1$s core</string>
+    <!-- ZH: 正在恢复… -->
+    <string name="host_instance_detail_screen_0654d3fc">Recovering...</string>
+    <!-- ZH: 停止虚拟机 -->
+    <string name="host_instance_detail_screen_078b34fd">Stop virtual machine</string>
+    <!-- ZH: 网络 -->
+    <string name="host_instance_detail_screen_0cbda6b5">Network</string>
+    <!-- ZH: 虚拟机 ID -->
+    <string name="host_instance_detail_screen_0ed36e07">Virtual machine ID</string>
+    <!-- ZH: 已禁用 -->
+    <string name="host_instance_detail_screen_0fe5a98e">Disabled</string>
+    <!-- ZH: 收起分区 -->
+    <string name="host_instance_detail_screen_0ff72db5">Collapse partition</string>
+    <!-- ZH: 暂停虚拟机时自动保存，恢复后继续上次运行状态 -->
+    <string name="host_instance_detail_screen_126e2cd8">Automatically save when suspending the virtual machine, and continue the last running state after recovery</string>
+    <!-- ZH: 若虚拟机正在运行，将先停止再丢弃快照。下次启动会执行冷启动，Guest 文件与已安装应用不受影响。 -->
+    <string name="host_instance_detail_screen_165c0940">If the virtual machine is running, it will be stopped first and then the snapshot will be discarded. A cold boot will be performed on the next startup, and Guest files and installed applications will not be affected.</string>
+    <!-- ZH: 名称 -->
+    <string name="host_instance_detail_screen_1be7ae4f">Name</string>
+    <!-- ZH: 启动虚拟机 -->
+    <string name="host_instance_detail_screen_1c0029aa">Start virtual machine</string>
+    <!-- ZH: 暂停并保存运行快照 -->
+    <string name="host_instance_detail_screen_1c757341">Pause and save running snapshot</string>
+    <!-- ZH: 虚拟机已暂停。停止会丢弃运行快照，下次启动执行冷启动。 -->
+    <string name="host_instance_detail_screen_1fd9aaa7">The virtual machine has been paused. Stopping will discard the running snapshot and perform a cold start at the next startup.</string>
+    <!-- ZH: 虚拟机运行时无法创建或恢复停止态快照。 -->
+    <string name="host_instance_detail_screen_220f0a1f">The stopped state snapshot cannot be created or restored while the virtual machine is running.</string>
+    <!-- ZH: 文件会写入虚拟机的 Download 目录，应用会直接安装到虚拟机 -->
+    <string name="host_instance_detail_screen_2319625e">The file will be written to the Download directory of the virtual machine, and the application will be installed directly into the virtual machine.</string>
+    <!-- ZH: 已启用 -->
+    <string name="host_instance_detail_screen_25d28431">Enabled</string>
+    <!-- ZH: 正在重置数据… -->
+    <string name="host_instance_detail_screen_26862de7">Resetting data...</string>
+    <!-- ZH: %1$s 项 -->
+    <string name="host_instance_detail_screen_27500691">%1$s items</string>
+    <!-- ZH: 运行状态 -->
+    <string name="host_instance_detail_screen_2a4080ad">Operating status</string>
+    <!-- ZH:   选择 ROM 并重装 -->
+    <string name="host_instance_detail_screen_2aa50f40">  Select ROM and reinstall</string>
+    <!-- ZH: 包含分区 -->
+    <string name="host_instance_detail_screen_2b78e51d">Including partitions</string>
+    <!-- ZH: 正在复制… -->
+    <string name="host_instance_detail_screen_2cd116d0">Copying…</string>
+    <!-- ZH: 为当前虚拟机数据留一份可回滚的副本 -->
+    <string name="host_instance_detail_screen_2ef900af">Leave a rollable copy of the current virtual machine data</string>
+    <!-- ZH: 停止并丢弃运行快照？ -->
+    <string name="host_instance_detail_screen_2f2328b4">Stop and discard running snapshot?</string>
+    <!-- ZH: 运行中无法重命名 -->
+    <string name="host_instance_detail_screen_3132ab10">Unable to rename during operation</string>
+    <!-- ZH:   导出虚拟机应用为安装包 -->
+    <string name="host_instance_detail_screen_35486ab3">  Export virtual machine application as installation package</string>
+    <!-- ZH: 删除 -->
+    <string name="host_instance_detail_screen_3755f56f">Delete</string>
+    <!-- ZH: 虚拟机运行时不可用 -->
+    <string name="host_instance_detail_screen_385e98bb">The virtual machine is not available when running</string>
+    <!-- ZH: 删除快照？ -->
+    <string name="host_instance_detail_screen_389bb39f">Delete snapshot?</string>
+    <!-- ZH: 超过 %1$s 个进程时需要解除系统的「子进程限制」（部分系统称为幻影进程限制），否则系统会在运行中终止 Guest 进程。若已解除，请忽略本提示。 -->
+    <string name="host_instance_detail_screen_39e8fda2">Using more than %1$s processes requires lifting the system child-process limit (also called the phantom-process limit). Otherwise, the system may terminate Guest processes while running. Ignore this notice if the limit is already lifted.</string>
+    <!-- ZH: 此虚拟机跟随默认映射，修改后成为独立配置 -->
+    <string name="host_instance_detail_screen_3e97badc">This virtual machine follows the default mapping and becomes an independent configuration after modification.</string>
+    <!-- ZH: %1$s（不含在数据占用中） -->
+    <string name="host_instance_detail_screen_3f7312b3">%1$s (not included in data usage)</string>
+    <!-- ZH: 刷机 -->
+    <string name="host_instance_detail_screen_41c2819a">Flash machine</string>
+    <!-- ZH:   导入宿主应用到虚拟机 -->
+    <string name="host_instance_detail_screen_421cfe91">  Import host application to virtual machine</string>
+    <!-- ZH: 代理配置在下次冷启动时生效。 -->
+    <string name="host_instance_detail_screen_425307ca">The proxy configuration takes effect at the next cold start.</string>
+    <!-- ZH: 虚拟机名称 -->
+    <string name="host_instance_detail_screen_4506ef63">Virtual machine name</string>
+    <!-- ZH:   导入宿主文件到虚拟机 -->
+    <string name="host_instance_detail_screen_4b9d6c6f">  Import host file to virtual machine</string>
+    <!-- ZH: 虚拟机可使用的进程数；系统组件越多，越需要更多的进程，同时也需要更多的内存用量；默认 %1$s。 -->
+    <string name="host_instance_detail_screen_4cccdc79">Number of processes available to the virtual machine. More system components need more processes and memory. Default: %1$s.</string>
+    <!-- ZH: 独立镜像占用 -->
+    <string name="host_instance_detail_screen_4ce26b74">Independent mirror occupation</string>
+    <!-- ZH: 数据占用 -->
+    <string name="host_instance_detail_screen_4ecebce4">Data occupation</string>
+    <!-- ZH: 复制 -->
+    <string name="host_instance_detail_screen_4edd1d00">Copy</string>
+    <!-- ZH: 正在启动… -->
+    <string name="host_instance_detail_screen_4fe38132">Starting...</string>
+    <!-- ZH:  · 快照  -->
+    <string name="host_instance_detail_screen_504efd04"> ·Snapshot </string>
+    <!-- ZH:   导入并安装宿主应用 -->
+    <string name="host_instance_detail_screen_5292c1eb">  Import and install host application</string>
+    <!-- ZH: 重置虚拟机数据？ -->
+    <string name="host_instance_detail_screen_532e4a4f">Reset virtual machine data?</string>
+    <!-- ZH: 基于当前镜像新建虚拟机，带上配置、刷入的补丁与精简组件；不复制用户数据 -->
+    <string name="host_instance_detail_screen_585dd247">Create a virtual machine from the current image, including configuration, installed patches and component removals. User data is not copied.</string>
+    <!-- ZH: 配置此虚拟机的设备映射 -->
+    <string name="host_instance_detail_screen_5b02b312">Configure the device mapping of this virtual machine</string>
+    <!-- ZH: 停止态快照 -->
+    <string name="host_instance_detail_screen_5c48683d">Stop state snapshot</string>
+    <!-- ZH: 修改将在恢复时生效；暂停期间不能关闭代理。 -->
+    <string name="host_instance_detail_screen_5def2f72">Modifications will take effect on resume; the agent cannot be turned off during suspension.</string>
+    <!-- ZH: 正在导出… -->
+    <string name="host_instance_detail_screen_5e0aa0b1">Exporting...</string>
+    <!-- ZH: 由 Worker 与运行快照共同决定 -->
+    <string name="host_instance_detail_screen_60cf1af0">Determined jointly by Worker and running snapshot</string>
+    <!-- ZH: 状态 -->
+    <string name="host_instance_detail_screen_62e951a6">Status</string>
+    <!-- ZH: 给虚拟机分配的性能；将影响虚拟机的开机速度、流畅度、多应用负载。 -->
+    <string name="host_instance_detail_screen_65753f4c">The performance allocated to the virtual machine will affect the startup speed, fluency, and multi-application load of the virtual machine.</string>
+    <!-- ZH: 虚拟机正忙，请稍候 -->
+    <string name="host_instance_detail_screen_662d5d31">The virtual machine is busy, please wait.</string>
+    <!-- ZH: 配置项在下一次启动时生效 -->
+    <string name="host_instance_detail_screen_66e36e4c">Configuration items take effect at next startup</string>
+    <!-- ZH: 恢复运行 -->
+    <string name="host_instance_detail_screen_67be57f3">Resumption of operation</string>
+    <!-- ZH: 删除虚拟机 -->
+    <string name="host_instance_detail_screen_69c51cf2">Delete virtual machine</string>
+    <!-- ZH: 原安装镜像尚未清理，可检查可释放空间并安全清理 -->
+    <string name="host_instance_detail_screen_6afdf611">The original installation image has not been cleaned yet. You can check the freeable space and clean it safely.</string>
+    <!-- ZH:   保存名称 -->
+    <string name="host_instance_detail_screen_6b2afc89">  Save name</string>
+    <!-- ZH: 共享剪贴板 -->
+    <string name="host_instance_detail_screen_6d73b0eb">Shared clipboard</string>
+    <!-- ZH: 使用此虚拟机时，双向同步宿主与虚拟机复制的文本 -->
+    <string name="host_instance_detail_screen_6e0c4bb6">When using this virtual machine, the text copied by the host and the virtual machine is bidirectionally synchronized.</string>
+    <!-- ZH: 显示 -->
+    <string name="host_instance_detail_screen_71b6771b">Display</string>
+    <!-- ZH: 无限制 -->
+    <string name="host_instance_detail_screen_7258118a">Unlimited</string>
+    <!-- ZH: 导入内容 -->
+    <string name="host_instance_detail_screen_73ed57a1">Import content</string>
+    <!-- ZH: 正在计算… -->
+    <string name="host_instance_detail_screen_74192025">Calculating...</string>
+    <!-- ZH:   恢复 -->
+    <string name="host_instance_detail_screen_77214af8">  Recovery</string>
+    <!-- ZH: 将删除“%1$s”的全部数据、快照与准备好的 rootfs，此操作不可撤销。 -->
+    <string name="host_instance_detail_screen_7b5585c5">All data, snapshots and the prepared rootfs of “%1$s” will be deleted. This cannot be undone.</string>
+    <!-- ZH: 导出内容 -->
+    <string name="host_instance_detail_screen_7d1a7c32">Export content</string>
+    <!-- ZH: 最近更新 -->
+    <string name="host_instance_detail_screen_80920cd6">Latest update</string>
+    <!-- ZH: 快照名称 -->
+    <string name="host_instance_detail_screen_83ae8f09">Snapshot name</string>
+    <!-- ZH: 从虚拟机复制文件或应用到宿主的 下载/AndVM 目录，运行或停止时均可导出 -->
+    <string name="host_instance_detail_screen_849626c1">Copy files or applications from the virtual machine to the host\'s Download/AndVM directory, which can be exported when running or stopping.</string>
+    <!-- ZH: 创建时间 -->
+    <string name="host_instance_detail_screen_84e3802f">Creation time</string>
+    <!-- ZH: 选择原 ROM 包或更新的 ROM 包重装虚拟机；保留虚拟机用户数据 -->
+    <string name="host_instance_detail_screen_8590829d">Select the original ROM package or the updated ROM package to reinstall the virtual machine; retain the virtual machine user data</string>
+    <!-- ZH: Recovery 与刷入补丁 -->
+    <string name="host_instance_detail_screen_85ddaaf5">Recovery and patches</string>
+    <!-- ZH: 此虚拟机使用独立的设备映射 -->
+    <string name="host_instance_detail_screen_87771563">This virtual machine uses independent device mapping</string>
+    <!-- ZH: 正在暂停 -->
+    <string name="host_instance_detail_screen_897ea382">Pausing</string>
+    <!-- ZH: 虚拟机信息 -->
+    <string name="host_instance_detail_screen_8ab71444">Virtual machine information</string>
+    <!-- ZH: 通过 Recovery 刷入系统补丁；或管理已刷入的内容 -->
+    <string name="host_instance_detail_screen_8dd3d593">Install system patches through Recovery or manage installed patches.</string>
+    <!-- ZH: 展开全部分区 -->
+    <string name="host_instance_detail_screen_8e122ffa">Expand all partitions</string>
+    <!-- ZH: 还没有停止态快照。 -->
+    <string name="host_instance_detail_screen_8eca4d47">There is no stop state snapshot yet.</string>
+    <!-- ZH:   创建停止态快照 -->
+    <string name="host_instance_detail_screen_8f0e4592">  Create stopped state snapshot</string>
+    <!-- ZH: 原安装镜像 -->
+    <string name="host_instance_detail_screen_906321e5">Original installation image</string>
+    <!-- ZH: %1$s 核 -->
+    <string name="host_instance_detail_screen_90edb1d5">Cores: %1$s</string>
+    <!-- ZH: 正在删除… -->
+    <string name="host_instance_detail_screen_91647936">Deleting...</string>
+    <!-- ZH: 运行快照 -->
+    <string name="host_instance_detail_screen_92b341c7">Run snapshot</string>
+    <!-- ZH: 暂停期间修改配置前需先停止运行，或在“快照”页明确丢弃运行快照。 -->
+    <string name="host_instance_detail_screen_94ecda6a">Before modifying the configuration during the pause period, you need to stop running, or explicitly discard the running snapshot on the "Snapshot" page.</string>
+    <!-- ZH: 仅在虚拟机画面获得焦点时同步文本，不共享图片和文件。 -->
+    <string name="host_instance_detail_screen_95445b70">Only text is synchronized when the virtual machine screen gets focus, and pictures and files are not shared.</string>
+    <!-- ZH: 可以离开此页面，重装会在后台继续。 -->
+    <string name="host_instance_detail_screen_95864348">You can leave this page and reinstallation will continue in the background.</string>
+    <!-- ZH: 虚拟机可使用的进程数；无限制仅适用于内存充足的设备。 -->
+    <string name="host_instance_detail_screen_95d973a0">The number of processes that a virtual machine can use; unlimited is only applicable to devices with sufficient memory.</string>
+    <!-- ZH: 正在重装… -->
+    <string name="host_instance_detail_screen_96d2c23c">Reinstalling...</string>
+    <!-- ZH: （用户数据  -->
+    <string name="host_instance_detail_screen_9710e6e5">(User data </string>
+    <!-- ZH: 虚拟机已暂停，需停止或到“快照”页丢弃运行快照后才能修改配置。 -->
+    <string name="host_instance_detail_screen_992c3ee1">The virtual machine has been suspended and needs to be stopped or the running snapshot must be discarded on the "Snapshot" page before the configuration can be modified.</string>
+    <!-- ZH:   导出虚拟机文件到宿主 -->
+    <string name="host_instance_detail_screen_9d28adf4">  Export virtual machine files to host</string>
+    <!-- ZH: 快照提示：%1$s -->
+    <string name="host_instance_detail_screen_9fa0cb04">Snapshot prompt: %1$s</string>
+    <!-- ZH: 撤销 -->
+    <string name="host_instance_detail_screen_9fcefd8d">Cancellation</string>
+    <!-- ZH: 选择 ROM -->
+    <string name="host_instance_detail_screen_a0146bb7">Select ROM</string>
+    <!-- ZH: 停止虚拟机并丢弃运行快照 -->
+    <string name="host_instance_detail_screen_a1bc393b">Stop the virtual machine and discard the running snapshot</string>
+    <!-- ZH: 检查可释放空间 -->
+    <string name="host_instance_detail_screen_a46cc1ae">Check free space</string>
+    <!-- ZH: 虚拟机网络 -->
+    <string name="host_instance_detail_screen_a6a5c802">Virtual machine network</string>
+    <!-- ZH: 虚拟机屏幕分辨率 -->
+    <string name="host_instance_detail_screen_a6c8b1e9">Virtual machine screen resolution</string>
+    <!-- ZH: 关闭后虚拟机不再获得出站网络 -->
+    <string name="host_instance_detail_screen_a99a4070">After shutdown, the virtual machine no longer obtains the outbound network</string>
+    <!-- ZH: 重置数据 -->
+    <string name="host_instance_detail_screen_b1dd0402">Reset data</string>
+    <!-- ZH: 丢弃运行快照？ -->
+    <string name="host_instance_detail_screen_b34c3510">Discard running snapshot?</string>
+    <!-- ZH: 将永久删除“%1$s”，此操作不可撤销。 -->
+    <string name="host_instance_detail_screen_b45d4021">Permanently delete “%1$s”? This cannot be undone.</string>
+    <!-- ZH:   管理系统组件 -->
+    <string name="host_instance_detail_screen_b460f88a">  Management system components</string>
+    <!-- ZH: 复制虚拟机 -->
+    <string name="host_instance_detail_screen_c01e8325">Copy virtual machine</string>
+    <!-- ZH: 可以离开此页面，核验与清理会在后台继续。 -->
+    <string name="host_instance_detail_screen_c4032cab">You can leave this page, and verification and cleaning will continue in the background.</string>
+    <!-- ZH: 剪贴板 -->
+    <string name="host_instance_detail_screen_c4eb94d0">Clipboard</string>
+    <!-- ZH: 正在停止 -->
+    <string name="host_instance_detail_screen_caa14e6a">Stopping</string>
+    <!-- ZH: 性能 -->
+    <string name="host_instance_detail_screen_cb1df607">Performance</string>
+    <!-- ZH: 正在导入… -->
+    <string name="host_instance_detail_screen_cd74f096">Importing...</string>
+    <!-- ZH: 重置虚拟机数据 -->
+    <string name="host_instance_detail_screen_cef4ad5f">Reset virtual machine data</string>
+    <!-- ZH: 内存 -->
+    <string name="host_instance_detail_screen_d014ab77">Memory</string>
+    <!-- ZH: 精简 -->
+    <string name="host_instance_detail_screen_d0e259b0">Manage</string>
+    <!-- ZH: 保留数据重装？ -->
+    <string name="host_instance_detail_screen_d1aeddd8">Preserve data and reinstall?</string>
+    <!-- ZH:   丢弃运行快照 -->
+    <string name="host_instance_detail_screen_d3d71e66">  Discard running snapshot</string>
+    <!-- ZH: 系统组件 -->
+    <string name="host_instance_detail_screen_d3e6c509">System components</string>
+    <!-- ZH: 打开画面 -->
+    <string name="host_instance_detail_screen_d4f465dd">Open screen</string>
+    <!-- ZH: 当前虚拟机组件较多，建议使用高性能模式，以提升开机速度和运行流畅度。 -->
+    <string name="host_instance_detail_screen_d72c5b49">Currently, there are many virtual machine components, and it is recommended to use high-performance mode to improve boot speed and running smoothness.</string>
+    <!-- ZH: 丢弃快照 -->
+    <string name="host_instance_detail_screen_d852def8">Discard snapshot</string>
+    <!-- ZH: 按需移除系统组件和预装应用，提升运行性能；或恢复已精简的组件 -->
+    <string name="host_instance_detail_screen_d937eee4">Remove unused system components and preinstalled apps to improve performance, or restore removed components.</string>
+    <!-- ZH: 虚拟机可使用的进程数；无限制仅适用于已解除子进程限制且内存充足的设备。 -->
+    <string name="host_instance_detail_screen_d9d9710f">The number of processes that a virtual machine can use; unlimited is only applicable to devices that have released child process restrictions and have sufficient memory.</string>
+    <!-- ZH: 读取失败 -->
+    <string name="host_instance_detail_screen_d9f607a2">Reading failed</string>
+    <!-- ZH: "请选择这台虚拟机原来的 ROM，或它的升级版本。换成别的 ROM 时，保留下来的用户数据可能与新系统不兼容，导致无法开机。新 ROM 保存成功后不保留本次重装的系统回退点。 -->
+    <string name="host_instance_detail_screen_dc91b9d0">"Select the original ROM for this virtual machine or an update to it. Using another ROM may make the retained user data incompatible and prevent startup. No system rollback point for this reinstall is kept after the new ROM is saved.</string>
+    <!-- ZH: 镜像大小 -->
+    <string name="host_instance_detail_screen_df63c0a1">Image size</string>
+    <!-- ZH: 正在准备系统 -->
+    <string name="host_instance_detail_screen_e32d9e7b">Preparing system</string>
+    <!-- ZH: 精简系统组件 -->
+    <string name="host_instance_detail_screen_e36538ee">Remove system components</string>
+    <!-- ZH: 虚拟机可使用的内存；最终可使用内存仍受宿主可用内存限制 -->
+    <string name="host_instance_detail_screen_e5ebfef0">The memory that the virtual machine can use; the final usable memory is still limited by the host\'s available memory.</string>
+    <!-- ZH: 保留数据重装 -->
+    <string name="host_instance_detail_screen_e7c95bcc">Preserve data and reinstall</string>
+    <!-- ZH: 此操作不可逆，请谨慎操作 -->
+    <string name="host_instance_detail_screen_e8c35377">This operation is irreversible, please operate with caution</string>
+    <!-- ZH: 虚拟机正在运行，停止后才能修改配置。 -->
+    <string name="host_instance_detail_screen_ea3484b9">The virtual machine is running and the configuration can be modified only after it is stopped.</string>
+    <!-- ZH: 来源 ROM -->
+    <string name="host_instance_detail_screen_ea7ac7be">Source ROM</string>
+    <!-- ZH: 设备映射 -->
+    <string name="host_instance_detail_screen_eaccc7b0">Device mapping</string>
+    <!-- ZH: 重命名后立即生效 -->
+    <string name="host_instance_detail_screen_f1ffd5c3">Effective immediately after renaming</string>
+    <!-- ZH: 进程数 -->
+    <string name="host_instance_detail_screen_f2b9d59a">Number of processes</string>
+    <!-- ZH: APK 与文件会写入虚拟机的 Download 目录 -->
+    <string name="host_instance_detail_screen_f4b5a18e">APK and files will be written to the Download directory of the virtual machine</string>
+    <!-- ZH: 虚拟机屏幕像素密度 -->
+    <string name="host_instance_detail_screen_f8401cea">Virtual machine screen pixel density</string>
+    <!-- ZH: 虚拟机的用户数据将被清空并回到刚导入的状态，已安装应用会全部丢失。 -->
+    <string name="host_instance_detail_screen_f848fa65">All user data will be cleared and the virtual machine will return to its freshly imported state. All installed apps will be lost.</string>
+    <!-- ZH: 摄像头、麦克风、GPS、Wi-Fi、蓝牙、基站、传感器、震动与电量 -->
+    <string name="host_instance_detail_screen_f9bf5a8c">Camera, microphone, GPS, Wi-Fi, Bluetooth, base station, sensor, vibration and power</string>
+    <!-- ZH: 待统计 -->
+    <string name="host_instance_detail_screen_faf6292b">To be counted</string>
+    <!-- ZH: 正在读取… -->
+    <string name="host_instance_detail_screen_fcabadb2">Reading...</string>
+    <!-- ZH: 危险操作 -->
+    <string name="host_instance_detail_screen_fcfcc873">Dangerous operation</string>
+    <!-- ZH: 新虚拟机名称 -->
+    <string name="host_instance_duplicate_dialog_3ae448c8">New virtual machine name</string>
+    <!-- ZH: 取消 -->
+    <string name="host_instance_duplicate_dialog_4d0b4688">Cancel</string>
+    <!-- ZH: 复制 -->
+    <string name="host_instance_duplicate_dialog_4edd1d00">Create copy</string>
+    <!-- ZH: 基于当前镜像新建一台虚拟机，并带上配置、已刷入的补丁与精简组件状态；用户数据和快照不会复制。新虚拟机首次启动时会重新准备系统。 -->
+    <string name="host_instance_duplicate_dialog_85fb9613">Create a virtual machine from the current image, including its configuration, installed patches and removed-component settings. User data and snapshots are not copied. The system will be prepared again on first start.</string>
+    <!-- ZH: 复制虚拟机 -->
+    <string name="host_instance_duplicate_dialog_c01e8325">Copy virtual machine</string>
+    <!-- ZH: 自定义 -->
+    <string name="host_label_guestdensitymode_custom">Custom</string>
+    <!-- ZH: 高密度 -->
+    <string name="host_label_guestdensitymode_high_density">High density</string>
+    <!-- ZH: 宿主原生 -->
+    <string name="host_label_guestdensitymode_host_native">Host native</string>
+    <!-- ZH: 标准 -->
+    <string name="host_label_guestdensitymode_xhdpi">Standard</string>
+    <!-- ZH: 超高密度 -->
+    <string name="host_label_guestdensitymode_xxxhdpi">Extra-high density</string>
+    <!-- ZH: HTTP -->
+    <string name="host_label_guestproxytype_http">HTTP</string>
+    <!-- ZH: 关闭 -->
+    <string name="host_label_guestproxytype_none">Off</string>
+    <!-- ZH: SOCKS5 -->
+    <string name="host_label_guestproxytype_socks5">SOCKS5</string>
+    <!-- ZH: 自定义 -->
+    <string name="host_label_guestresolutionmode_custom">Custom</string>
+    <!-- ZH: 1080P -->
+    <string name="host_label_guestresolutionmode_full_hd">1080P</string>
+    <!-- ZH: 720P -->
+    <string name="host_label_guestresolutionmode_hd">720P</string>
+    <!-- ZH: 宿主原生 -->
+    <string name="host_label_guestresolutionmode_host_native">Host native</string>
+    <!-- ZH: 仍受限 -->
+    <string name="host_label_phantomlocalstatus_restricted">Restricted</string>
+    <!-- ZH: 待确认 -->
+    <string name="host_label_phantomlocalstatus_unknown">Unconfirmed</string>
+    <!-- ZH: 已解除 -->
+    <string name="host_label_phantomlocalstatus_unlocked">Limit lifted</string>
+    <!-- ZH: 深色 -->
+    <string name="host_label_thememode_dark">Dark</string>
+    <!-- ZH: 浅色 -->
+    <string name="host_label_thememode_light">Light</string>
+    <!-- ZH: 跟随系统 -->
+    <string name="host_label_thememode_system">System</string>
+    <!-- ZH: 返回 -->
+    <string name="host_label_umkguestmenuaction_back">Back</string>
+    <!-- ZH: 设备映射 -->
+    <string name="host_label_umkguestmenuaction_device_mapping">Device mapping</string>
+    <!-- ZH: 文件传输 -->
+    <string name="host_label_umkguestmenuaction_file_transfer">File transfer</string>
+    <!-- ZH: 浮窗运行 -->
+    <string name="host_label_umkguestmenuaction_floating_window">Floating window</string>
+    <!-- ZH: 主页 -->
+    <string name="host_label_umkguestmenuaction_home">Home</string>
+    <!-- ZH: 详情页 -->
+    <string name="host_label_umkguestmenuaction_instance_detail">Details</string>
+    <!-- ZH: 静音 -->
+    <string name="host_label_umkguestmenuaction_mute">Mute</string>
+    <!-- ZH: 暂停运行 -->
+    <string name="host_label_umkguestmenuaction_pause">Pause</string>
+    <!-- ZH: 电源键 -->
+    <string name="host_label_umkguestmenuaction_power">Power</string>
+    <!-- ZH: 最近任务 -->
+    <string name="host_label_umkguestmenuaction_recents">Recents</string>
+    <!-- ZH: 停止运行 -->
+    <string name="host_label_umkguestmenuaction_stop">Stop</string>
+    <!-- ZH: 全部 -->
+    <string name="host_label_umkinstancefilter_all">All</string>
+    <!-- ZH: 已暂停 -->
+    <string name="host_label_umkinstancefilter_paused">Paused</string>
+    <!-- ZH: 运行中 -->
+    <string name="host_label_umkinstancefilter_running">Running</string>
+    <!-- ZH: 未运行 -->
+    <string name="host_label_umkinstancefilter_stopped">Stopped</string>
+    <!-- ZH: 高性能 -->
+    <string name="host_label_umkperformancetier_high">High</string>
+    <!-- ZH: 低性能 -->
+    <string name="host_label_umkperformancetier_low">Low</string>
+    <!-- ZH: 中性能 -->
+    <string name="host_label_umkperformancetier_medium">Balanced</string>
+    <!-- ZH: 语言 -->
+    <string name="host_language">Language</string>
+    <!-- ZH: 可用内存 -->
+    <string name="host_library_header_027febb3">Available memory</string>
+    <!-- ZH: 虚拟内存 %1$s / %2$s -->
+    <string name="host_library_header_11df4471">Virtual memory %1$s / %2$s</string>
+    <!-- ZH: 当前设备未启用虚拟内存，建议启用虚拟内存以增强虚拟机的并发数和保活率。 -->
+    <string name="host_library_header_12c174ae">The current device does not enable virtual memory. It is recommended to enable virtual memory to enhance the number of concurrencies and the keep-alive rate of the virtual machine.</string>
+    <!-- ZH: 搜索虚拟机或来源镜像 -->
+    <string name="host_library_header_159ee508">Search for virtual machines or source images</string>
+    <!-- ZH: 收起虚拟内存与 vCPU 明细 -->
+    <string name="host_library_header_4f6985ef">Collapse virtual memory and vCPU details</string>
+    <!-- ZH: 宿主物理与虚拟内存合计占用 %1$s%% -->
+    <string name="host_library_header_54efe625">Host physical and virtual memory used: %1$s%%</string>
+    <!-- ZH: 内存紧张 -->
+    <string name="host_library_header_5e32eeb5">Memory tight</string>
+    <!-- ZH: 并发 Worker -->
+    <string name="host_library_header_5e5bda91">Concurrent Worker</string>
+    <!-- ZH: Guest 预算 -->
+    <string name="host_library_header_63fc880a">Guest budget</string>
+    <!-- ZH: 本设备支持并发运行 %1$s 个虚拟机。 -->
+    <string name="host_library_header_68a9b72c">This device supports running %1$s virtual machines concurrently.</string>
+    <!-- ZH: 收起宿主明细 -->
+    <string name="host_library_header_6c82ea82">Collapse host details</string>
+    <!-- ZH: 状态良好 -->
+    <string name="host_library_header_729ec409">In good condition</string>
+    <!-- ZH: 长按卡片拖动排序 -->
+    <string name="host_library_header_8c5cb9c4">Long press the card to drag and sort</string>
+    <!-- ZH: 宿主资源 -->
+    <string name="host_library_header_a9c19df8">Host resources</string>
+    <!-- ZH: 展开虚拟内存与 vCPU 明细 -->
+    <string name="host_library_header_c04fc6f5">Expand virtual memory and vCPU details</string>
+    <!-- ZH: 决定能同时跑几个虚拟机 -->
+    <string name="host_library_header_d8388aa5">Decide how many virtual machines can be run at the same time</string>
+    <!-- ZH: 停止虚拟机 -->
+    <string name="host_library_screen_078b34fd">Stop virtual machine</string>
+    <!-- ZH: 暂停并保存运行快照 -->
+    <string name="host_library_screen_1c757341">Pause and save running snapshot</string>
+    <!-- ZH: 处理中… -->
+    <string name="host_library_screen_1cac8ac7">Processing...</string>
+    <!-- ZH: 打开虚拟机详情 -->
+    <string name="host_library_screen_21836d04">Open virtual machine details</string>
+    <!-- ZH: 导入 ROM -->
+    <string name="host_library_screen_233cfdb1">Import ROM</string>
+    <!-- ZH:   启动 -->
+    <string name="host_library_screen_43e8b2d9">  Start</string>
+    <!-- ZH: 还没有虚拟机 -->
+    <string name="host_library_screen_44b5227f">There is no virtual machine yet</string>
+    <!-- ZH: 清除筛选 -->
+    <string name="host_library_screen_4bbc4e5f">Clear filter</string>
+    <!-- ZH: 请先导入一个虚拟机，支持导入 GSI 的 system.img 或整包 ROM.zip。 -->
+    <string name="host_library_screen_50ed6213">Please import a virtual machine first. It supports importing GSI\'s system.img or the entire package ROM.zip.</string>
+    <!-- ZH: 没有匹配的虚拟机 -->
+    <string name="host_library_screen_854ef798">No matching virtual machine</string>
+    <!-- ZH: 正在暂停 -->
+    <string name="host_library_screen_897ea382">Pausing</string>
+    <!-- ZH:   详情 -->
+    <string name="host_library_screen_b538670a">  Details</string>
+    <!-- ZH:   恢复运行 -->
+    <string name="host_library_screen_b89a7031">  Resume operation</string>
+    <!-- ZH: 查找虚拟机 -->
+    <string name="host_library_screen_bd3bcc0a">Find virtual machine</string>
+    <!-- ZH: 正在停止 -->
+    <string name="host_library_screen_caa14e6a">Stopping</string>
+    <!-- ZH:   打开画面 -->
+    <string name="host_library_screen_d77f9f11">  Open screen</string>
+    <!-- ZH: 设备概览 -->
+    <string name="host_library_screen_f9f72001">Equipment Overview</string>
+    <!-- ZH: 我的虚拟机 -->
+    <string name="host_library_screen_fcd74ae4">My virtual machine</string>
+    <!-- ZH: 所选记录 -->
+    <string name="host_log_export_1a9bad61">Selected record</string>
+    <!-- ZH: 当前筛选结果 -->
+    <string name="host_log_export_229ffdef">Current filter results</string>
+    <!-- ZH: 导出日志 -->
+    <string name="host_log_export_252fed94">Export log</string>
+    <!-- ZH: 保留完整原文，不受当前筛选限制 -->
+    <string name="host_log_export_395db2e8">Keep the complete original text without current filtering restrictions</string>
+    <!-- ZH: 取消 -->
+    <string name="host_log_export_4d0b4688">Cancel</string>
+    <!-- ZH: 全部日志 -->
+    <string name="host_log_export_5fc07ff2">All logs</string>
+    <!-- ZH: 当前日志文件 -->
+    <string name="host_log_export_66579aad">Current log file</string>
+    <!-- ZH: 仅保存已选中的 %1$s 条记录 -->
+    <string name="host_log_export_76315481">Save only the selected %1$s records</string>
+    <!-- ZH: 导出 TXT -->
+    <string name="host_log_export_78622e1e">Export TXT</string>
+    <!-- ZH: 无法打开文件选择器：%1$s -->
+    <string name="host_log_export_98935376">Unable to open file selector: %1$s</string>
+    <!-- ZH: 当前页匹配的 %1$s 条记录 -->
+    <string name="host_log_export_9f54eee4">%1$s records matched by the current page</string>
+    <!-- ZH: 包含各日志源及保留的历史文件 -->
+    <string name="host_log_export_c57bc4a7">Contains each log source and retained historical files</string>
+    <!-- ZH: 当前页暂无匹配记录 -->
+    <string name="host_log_export_ca9f735b">There is no matching record on the current page.</string>
+    <!-- ZH: 导出 ZIP -->
+    <string name="host_log_export_d6b10af5">Export ZIP</string>
+    <!-- ZH: 选择需要保存的内容，下一步指定保存位置。 -->
+    <string name="host_log_export_da421cf8">Select the content to be saved and specify the save location in the next step.</string>
+    <!-- ZH: 例如：启动后一直黑屏，等待两分钟仍无画面 -->
+    <string name="host_log_report_description_sheet_24cddba2">For example: the screen remains black after startup, and there is still no picture after waiting for two minutes.</string>
+    <!-- ZH: 取消 -->
+    <string name="host_log_report_description_sheet_4d0b4688">Cancel</string>
+    <!-- ZH: ROM 链接（可选） -->
+    <string name="host_log_report_description_sheet_52c8f52d">ROM link (optional)</string>
+    <!-- ZH: ROM 下载地址或发布页面 -->
+    <string name="host_log_report_description_sheet_627077e9">ROM download address or release page</string>
+    <!-- ZH: "例如：1. 导入 ROM -->
+    <string name="host_log_report_description_sheet_68424cf7">"For example: 1. Import ROM</string>
+    <!-- ZH: 打包并上报 -->
+    <string name="host_log_report_description_sheet_7aeb9b47">Package and report</string>
+    <!-- ZH: 请描述遇到的问题，帮助开发者定位原因。填写内容会附加到邮件和日志报告中。 -->
+    <string name="host_log_report_description_sheet_baf20601">Please describe the problems encountered and help developers locate the causes. The filled-in content will be attached to emails and log reports.</string>
+    <!-- ZH: 问题现象 -->
+    <string name="host_log_report_description_sheet_c27f59d4">Problem phenomenon</string>
+    <!-- ZH: 复现步骤（可选） -->
+    <string name="host_log_report_description_sheet_c86955bf">Reproduction steps (optional)</string>
+    <!-- ZH: 描述问题 -->
+    <string name="host_log_report_description_sheet_cdeaced6">Describe the problem</string>
+    <!-- ZH: 首次使用需要进行联网初始化操作, 请连接网络后重新打开软件 -->
+    <string name="host_main_activity_3e9ceced">An internet connection is required for first-time setup. Connect to the internet, then reopen the app.</string>
+    <!-- ZH: 宿主模式需要精确位置授权；模式在下一次启动时生效。 -->
+    <string name="host_mapping_12bcf996">Host mode needs precise-location permission. Changes apply on the next start.</string>
+    <!-- ZH: 宿主真实 -->
+    <string name="host_mapping_1a5e84ab">Host device</string>
+    <!-- ZH: 传感器 -->
+    <string name="host_mapping_23362670">Sensors</string>
+    <!-- ZH: 需要精确位置权限，向使用此映射的虚拟机提供手机的真实位置、定位精度等定位信息。 -->
+    <string name="host_mapping_2b7dcb88">Precise-location permission shares the phone’s actual location, location accuracy and other location information with virtual machines using this mapping.</string>
+    <!-- ZH: 电量与电池状态 -->
+    <string name="host_mapping_31ac7eb1">Battery level and status</string>
+    <!-- ZH: 震动 -->
+    <string name="host_mapping_3c5112e8">Vibration</string>
+    <!-- ZH: 只读映射扫描列表；宿主模式需要附近设备与精确位置授权，不读取密码或控制宿主网络。 -->
+    <string name="host_mapping_43b39102">Read-only mapping of scan results. Host mode needs nearby-device and precise-location permissions. Passwords are not read and the host network is not controlled.</string>
+    <!-- ZH: 需要麦克风权限，让虚拟机应用录音或语音通话。手机麦克风采集的声音会提供给使用此映射的虚拟机。 -->
+    <string name="host_mapping_4e5265b2">Microphone permission lets virtual machine apps record audio or make voice calls. Audio captured by the phone’s microphone is shared with virtual machines using this mapping.</string>
+    <!-- ZH: 需要精确位置与电话状态权限，向使用此映射的虚拟机提供手机可读取的基站标识、网络类型和信号强度；不开放手机的基带控制。 -->
+    <string name="host_mapping_502d02b0">Precise-location and phone-state permissions share cell identifiers, network types and signal strengths readable by the phone with virtual machines using this mapping. Phone baseband control is not exposed.</string>
+    <!-- ZH: 只读映射标准 CellInfo；宿主模式需要电话状态与精确位置授权，不开放基带控制。 -->
+    <string name="host_mapping_6547baf5">Read-only mapping of standard CellInfo. Host mode needs phone-state and precise-location permissions. Baseband control is not exposed.</string>
+    <!-- ZH: 摄像头 -->
+    <string name="host_mapping_6f67e210">Camera</string>
+    <!-- ZH: 虚拟数据 -->
+    <string name="host_mapping_7c636be7">Virtual data</string>
+    <!-- ZH: GPS 位置 -->
+    <string name="host_mapping_8136ac8a">GPS Position</string>
+    <!-- ZH: 需要蓝牙扫描与连接权限，向使用此映射的虚拟机提供附近蓝牙设备的名称、地址、类型和信号强度；不转交手机的配对密钥。 -->
+    <string name="host_mapping_8248d00f">Bluetooth scan and connect permissions share nearby Bluetooth device names, addresses, types and signal strengths with virtual machines using this mapping. The phone’s pairing keys are not shared.</string>
+    <!-- ZH: 宿主模式使用公开 AudioRecord；虚拟模式提供确定的静音 PCM，均通过 Guest Audio HAL。 -->
+    <string name="host_mapping_8ab32802">Host mode uses the public AudioRecord API. Virtual mode supplies fixed silent PCM. Both use the Guest Audio HAL.</string>
+    <!-- ZH: 仅映射宿主实际存在的标准传感器；虚拟模式提供确定值。 -->
+    <string name="host_mapping_90e36d37">Maps only standard sensors that exist on the host. Virtual mode supplies fixed values.</string>
+    <!-- ZH: 只读映射扫描身份；宿主模式需要蓝牙扫描与连接授权。 -->
+    <string name="host_mapping_9ac55775">Read-only mapping of scanned device identities. Host mode needs Bluetooth scan and connect permissions.</string>
+    <!-- ZH: 宿主模式使用手机真实摄像头的分辨率和已支持的拍摄能力；虚拟模式提供测试画面。切换后重启虚拟机，以更新应用识别到的相机能力。 -->
+    <string name="host_mapping_b918150b">Host mode uses the phone camera’s actual resolutions and supported capture features. Virtual mode supplies a test image. Restart the virtual machine after switching so apps detect the updated camera capabilities.</string>
+    <!-- ZH: Guest 震动通过私有端点映射到宿主公开振动 API。 -->
+    <string name="host_mapping_b9371379">Guest vibration is mapped through a private endpoint to the host’s public vibration API.</string>
+    <!-- ZH: 需要相机权限，让虚拟机应用使用手机摄像头。摄像头画面和支持的拍摄能力会提供给使用此映射的虚拟机。 -->
+    <string name="host_mapping_bacad22c">Camera permission lets virtual machine apps use the phone’s camera. Camera images and supported capture features are shared with virtual machines using this mapping.</string>
+    <!-- ZH: 麦克风 -->
+    <string name="host_mapping_bbefc72e">Microphone</string>
+    <!-- ZH: 禁用 -->
+    <string name="host_mapping_be70be5a">Disabled</string>
+    <!-- ZH: 蓝牙 -->
+    <string name="host_mapping_c4dc12d3">Bluetooth</string>
+    <!-- ZH: UMK 只读电源 ABI 已接入；状态源最多 1 秒更新。 -->
+    <string name="host_mapping_e1fcfd43">Uses the UMK read-only power ABI. Status updates take at most one second.</string>
+    <!-- ZH: 当前 Android 版本需要精确位置权限才能扫描蓝牙。附近蓝牙设备的名称、地址、类型和信号强度会提供给使用此映射的虚拟机；不转交手机的配对密钥。 -->
+    <string name="host_mapping_e436ffd1">This Android version needs precise-location permission to scan Bluetooth. Nearby Bluetooth device names, addresses, types and signal strengths are shared with virtual machines using this mapping. The phone’s pairing keys are not shared.</string>
+    <!-- ZH: 需要精确位置权限；Android 13 及以上还需要附近 Wi-Fi 设备权限。附近 Wi-Fi 的名称、地址、频率、信号强度和安全类型会提供给使用此映射的虚拟机，不读取 Wi-Fi 密码。 -->
+    <string name="host_mapping_effad6d4">Precise-location permission is required. Android 13 and later also require nearby Wi-Fi device permission. Nearby Wi-Fi names, addresses, frequencies, signal strengths and security types are shared with virtual machines using this mapping. Wi-Fi passwords are not read.</string>
+    <!-- ZH: 基站 -->
+    <string name="host_mapping_ffaeea62">Base station</string>
+    <!-- ZH: 只作用于「%1$s」，不影响其他虚拟机。 -->
+    <string name="host_mapping_scope">Applies only to “%1$s”. Other virtual machines are unaffected.</string>
+    <!-- ZH: 已识别设备虚拟内存（%1$s），其中 %2$s 计入 Guest 预算。 -->
+    <string name="host_memory_summary">Virtual memory detected (%1$s); %2$s counts toward the Guest memory budget.</string>
+    <!-- ZH: 已识别设备虚拟内存，其中 %1$s 计入 Guest 预算。 -->
+    <string name="host_memory_summary_no_parts">Virtual memory detected; %1$s counts toward the Guest memory budget.</string>
+    <!-- ZH: 此系统没有的 %1$s 项已跳过：%2$s -->
+    <string name="host_missing_components">Skipped items absent from this system: %1$s — %2$s</string>
+    <!-- ZH: 此系统没有的 %1$s 项已跳过：%2$s 等 -->
+    <string name="host_missing_components_more">Skipped items absent from this system: %1$s — %2$s and more</string>
+    <!-- ZH: 尚未发现分区。 -->
+    <string name="host_no_partitions">No partitions found yet.</string>
+    <!-- ZH: 无法打开通知设置，请在系统应用设置中开启通知。 -->
+    <string name="host_notification_permission_request_2b8495e1">Unable to open notification settings, please enable notifications in system application settings.</string>
+    <!-- ZH: 取消 -->
+    <string name="host_notification_permission_request_4d0b4688">Cancel</string>
+    <!-- ZH: 开启通知提醒 -->
+    <string name="host_notification_permission_request_5b822b94">Turn on notification reminder</string>
+    <!-- ZH: 允许通知 -->
+    <string name="host_notification_permission_request_5d8cce39">Allow notifications</string>
+    <!-- ZH: 系统未允许打开通知授权，请在应用设置中开启通知。 | Refined: Clearer instruction for users troubleshooting permissions -->
+    <string name="host_notification_permission_request_649f160c">Notification permission was not granted by the system. Please enable notifications in device App Settings.</string>
+    <!-- ZH: 前往通知设置 -->
+    <string name="host_notification_permission_request_c2c18fb6">Go to notification settings</string>
+    <!-- ZH: " -->
+    <string name="host_notification_permission_request_e4e85411">"</string>
+    <!-- ZH: 暂不开启，继续 -->
+    <string name="host_notification_permission_request_ef1f3e4a">Do not enable it yet, continue</string>
+    <!-- ZH: 返回 -->
+    <string name="host_page_chrome_11d02415">Back</string>
+    <!-- ZH: 暂停失败：%1$s -->
+    <string name="host_pause_failure">Could not pause: %1$s</string>
+    <!-- ZH: %1$s · %2$s 核 · %3$s 进程 -->
+    <string name="host_performance_summary">%1$s · CPU cores: %2$s · Processes: %3$s</string>
+    <!-- ZH: 若没看到输入框，请长按本通知（或下拉展开）再点“输入配对码”。 -->
+    <string name="host_phantom_pairing_service_08ae3e94">If the input field is missing, touch and hold this notification (or expand it), then tap “Enter pairing code”.</string>
+    <!-- ZH: 已解除子进程限制 -->
+    <string name="host_phantom_pairing_service_2d3c837f">Child-process limit lifted</string>
+    <!-- ZH: 已有解除任务在进行中，请等待它结束后再输入。 -->
+    <string name="host_phantom_pairing_service_3f975cb8">A task to lift the limit is already running. Wait for it to finish before entering another code.</string>
+    <!-- ZH: 尚未检测到配对弹窗：请先打开“无线调试 → 使用配对码配对设备”。 -->
+    <string name="host_phantom_pairing_service_46e14796">No pairing dialog detected yet. Open Wireless debugging → Pair device with pairing code first.</string>
+    <!-- ZH: 正在配对… -->
+    <string name="host_phantom_pairing_service_4a3bd776">Pairing…</string>
+    <!-- ZH: 取消 -->
+    <string name="host_phantom_pairing_service_4d0b4688">Cancel</string>
+    <!-- ZH: 等待打开配对弹窗…长按本通知可展开输入。 -->
+    <string name="host_phantom_pairing_service_4e0a4d49">Waiting for the pairing dialog… Hold this notification to enter the code.</string>
+    <!-- ZH: 已就绪：长按本通知展开并输入 6 位配对码。 -->
+    <string name="host_phantom_pairing_service_59c90ea1">Ready: hold this notification to expand it and enter the six-digit code.</string>
+    <!-- ZH: 输入配对码 -->
+    <string name="host_phantom_pairing_service_7d475d44">Enter a pairing code</string>
+    <!-- ZH: 无线调试配对 -->
+    <string name="host_phantom_pairing_service_8adf19e8">Wireless debugging pairing</string>
+    <!-- ZH: 配对码应为 %1$s 位数字，请重新输入。 -->
+    <string name="host_phantom_pairing_service_8b265482">The pairing code must contain %1$s digits. Enter it again.</string>
+    <!-- ZH: 6 位配对码 -->
+    <string name="host_phantom_pairing_service_8cadbd36">6-digit pairing code</string>
+    <!-- ZH: 正在执行解除命令… -->
+    <string name="host_phantom_pairing_service_926fb6f4">Running command to lift the limit…</string>
+    <!-- ZH: 输入无线调试配对码（长按可展开） -->
+    <string name="host_phantom_pairing_service_9cd4f4ab">Enter wireless debugging pairing code (hold to expand)</string>
+    <!-- ZH: 配对失败。 -->
+    <string name="host_phantom_pairing_service_b9206728">Pairing failed.</string>
+    <!-- ZH: 正在查找配对服务… -->
+    <string name="host_phantom_pairing_service_c80bad9d">Finding pairing service…</string>
+    <!-- ZH: "%1$s -->
+    <string name="host_phantom_pairing_service_ca77cdd6">"%1$s</string>
+    <!-- ZH: 将使用手动指定的端口 %1$s。 -->
+    <string name="host_phantom_pairing_service_cc29136d">Using the manually specified port %1$s.</string>
+    <!-- ZH: 正在处理… -->
+    <string name="host_phantom_pairing_service_ce9fd54c">Processing...</string>
+    <!-- ZH: 高性能现在可以稳定运行。 -->
+    <string name="host_phantom_pairing_service_d48615f8">High-performance mode can now run reliably.</string>
+    <!-- ZH: 解除子进程限制时，在通知里输入无线调试配对码 -->
+    <string name="host_phantom_pairing_service_f3317cd8">Enter a wireless debugging pairing code in the notification to lift the child-process limit</string>
+    <!-- ZH: 正在连接 adbd… -->
+    <string name="host_phantom_pairing_service_f5224d68">Connecting to adbd…</string>
+    <!-- ZH: ✓ 已检测到配对弹窗（%1$s:%2$s），现在可以输入配对码。 -->
+    <string name="host_phantom_pairing_service_f7f4ec87">✓ Pairing dialog detected (%1$s:%2$s). You can now enter the pairing code.</string>
+    <!-- ZH: 正在解除子进程限制 -->
+    <string name="host_phantom_pairing_service_ff6c4204">Lifting child-process limit</string>
+    <!-- ZH: 通知权限用于在通知栏输入无线调试配对码。也可以取消申请，使用下方的分屏输入方式完成配对。 -->
+    <string name="host_phantom_unlock_activity_25caaec0">Notification permission lets you enter a wireless debugging pairing code from the notification shade. You can cancel and use split-screen input below to pair instead.</string>
+    <!-- ZH: 无法发送配对通知，请重试或使用分屏输入。 -->
+    <string name="host_phantom_unlock_activity_41a8787f">Could not send the pairing notification. Retry or use split-screen input.</string>
+    <!-- ZH:   已配对过，直接解除 -->
+    <string name="host_phantom_unlock_screen_033c0c15">  Already paired, cancel directly</string>
+    <!-- ZH: 当前状态 -->
+    <string name="host_phantom_unlock_screen_045859e7">Current status</string>
+    <!-- ZH:   打开无线调试并发送配对通知 -->
+    <string name="host_phantom_unlock_screen_05490590">  Turn on wireless debugging and send pairing notification</string>
+    <!-- ZH: 仍受限 -->
+    <string name="host_phantom_unlock_screen_058662d0">Still limited</string>
+    <!-- ZH: 隐藏分屏输入 -->
+    <string name="host_phantom_unlock_screen_06595b1f">Hide split screen input</string>
+    <!-- ZH: 无需电脑，通过无线调试连接 ADB -->
+    <string name="host_phantom_unlock_screen_0c5eac3f">No computer required, connect ADB through wireless debugging</string>
+    <!-- ZH: 开启开发者选项：进入系统设置 → 关于手机/版本信息，连点「版本号」7 次。 -->
+    <string name="host_phantom_unlock_screen_121485c5">Turn on developer options: Enter system settings → About mobile phone/version information, click "version number" 7 times.</string>
+    <!-- ZH: 本机为 Android %1$s，开发者选项里通常没有该开关。请改用“无线调试”方式。 -->
+    <string name="host_phantom_unlock_screen_1807fa95">This device runs Android %1$s, which usually lacks this switch in Developer options. Use wireless debugging instead.</string>
+    <!-- ZH: 方式二 · 无线调试 -->
+    <string name="host_phantom_unlock_screen_215245e5">Method 2·Wireless debugging</string>
+    <!-- ZH: 进入开发者选项 → 打开「停用子进程限制」。 -->
+    <string name="host_phantom_unlock_screen_23b46a7b">Enter Developer Options → Turn on "Disable Child Process Restrictions".</string>
+    <!-- ZH: 或用电脑 ADB 执行 -->
+    <string name="host_phantom_unlock_screen_248079d7">Or use computer ADB to execute</string>
+    <!-- ZH: 待确认 -->
+    <string name="host_phantom_unlock_screen_27b5842c">To be confirmed</string>
+    <!-- ZH:   用无线调试恢复限制 -->
+    <string name="host_phantom_unlock_screen_291fc9bf">  Restoring Limitations with Wireless Debugging</string>
+    <!-- ZH: 本机 Android %1$s -->
+    <string name="host_phantom_unlock_screen_2937ca38">Native Android %1$s</string>
+    <!-- ZH: 为什么需要解除？ -->
+    <string name="host_phantom_unlock_screen_296651f5">Why does it need to be lifted?</string>
+    <!-- ZH: 撤销解除子进程限制 -->
+    <string name="host_phantom_unlock_screen_2f17f2ca">Cancellation of child process restrictions</string>
+    <!-- ZH: 或 -->
+    <string name="host_phantom_unlock_screen_30f4d7cf">Or</string>
+    <!-- ZH: 解除子进程限制 -->
+    <string name="host_phantom_unlock_screen_384ec36c">Remove child process restrictions</string>
+    <!-- ZH: 配对成功后会自动连接并解除限制，通知栏会显示结果。 -->
+    <string name="host_phantom_unlock_screen_38ddc260">After successful pairing, it will automatically connect and remove restrictions, and the notification bar will display the result.</string>
+    <!-- ZH: 尝试在另一侧打开无线调试 -->
+    <string name="host_phantom_unlock_screen_3cb19c1c">Try to turn on wireless debugging on the other side</string>
+    <!-- ZH: 找不到配对服务？手动指定端口 -->
+    <string name="host_phantom_unlock_screen_4a06c372">Matching service not found? Manually specify port</string>
+    <!-- ZH: 取消 -->
+    <string name="host_phantom_unlock_screen_4d0b4688">Cancel</string>
+    <!-- ZH: 查看日志（%1$s 行） -->
+    <string name="host_phantom_unlock_screen_4edb17a6">View log (line %1$s)</string>
+    <!-- ZH:   进入开发者选项 -->
+    <string name="host_phantom_unlock_screen_506540d4">  Enter developer options</string>
+    <!-- ZH: 保持该弹窗不关闭，下拉通知栏找到 AndVM 的通知。 -->
+    <string name="host_phantom_unlock_screen_5523c142">Keep the pop-up window open and pull down the notification bar to find the AndVM notification.</string>
+    <!-- ZH: 留空自动查找；连接失败时填「无线调试」首页“IP 地址和端口”的端口，勿填配对弹窗端口。 -->
+    <string name="host_phantom_unlock_screen_583d0797">Leave blank to search automatically; when the connection fails, fill in the port of "IP Address and Port" on the homepage of "Wireless Debugging", do not fill in the port in the pairing pop-up window.</string>
+    <!-- ZH:   复制 -->
+    <string name="host_phantom_unlock_screen_5a909f74">  Copy</string>
+    <!-- ZH: 推荐，适用于本机 -->
+    <string name="host_phantom_unlock_screen_6ef195f5">Recommended, applicable to this machine</string>
+    <!-- ZH:   关掉开发者选项里的开关 -->
+    <string name="host_phantom_unlock_screen_752b9c4a">  Turn off the switch in the developer options</string>
+    <!-- ZH: 隐藏手动端口 -->
+    <string name="host_phantom_unlock_screen_7880f082">Hide manual port</string>
+    <!-- ZH: 6 位配对码 -->
+    <string name="host_phantom_unlock_screen_8cadbd36">6-digit pairing code</string>
+    <!-- ZH: 尝试将「设置」与 AndVM 分屏显示。若设置占满屏幕，请从最近任务手动将两者分屏。在设置中打开「无线调试 → 使用配对码配对设备」，保持弹窗可见，再在这里输入配对码。 -->
+    <string name="host_phantom_unlock_screen_8f345786">Try opening Settings and AndVM in split screen. If Settings fills the screen, split the two apps manually from Recents. In Settings, open Wireless debugging → Pair device with pairing code, keep the dialog visible, and enter the code here.</string>
+    <!-- ZH: 恢复后系统重新监控子进程，高性能模式下或多开的虚拟机可能变得不稳定。 -->
+    <string name="host_phantom_unlock_screen_9ab41eb1">Restoring the default limit re-enables child-process monitoring. High-performance mode or running multiple virtual machines may become unstable.</string>
+    <!-- ZH: 通常在通知栏输入配对码；通知不支持输入时可使用分屏输入。 -->
+    <string name="host_phantom_unlock_screen_9ea3fa88">The pairing code is usually entered in the notification bar; split-screen input can be used when the notification does not support input.</string>
+    <!-- ZH: Android %1$s 没有 Android 12 引入的子进程数量限制，无需执行解除操作。 -->
+    <string name="host_phantom_unlock_screen_9fd69c7c">Android %1$s does not have the limit on the number of child processes introduced in Android 12, and there is no need to perform a release operation.</string>
+    <!-- ZH: 长按（或下拉展开）该通知 → 点“输入配对码” → 输入 6 位配对码并发送。 -->
+    <string name="host_phantom_unlock_screen_ab03d3c9">Long press (or pull down to expand) the notification → click "Enter Pairing Code" → enter the 6-digit pairing code and send it.</string>
+    <!-- ZH: 已解除 -->
+    <string name="host_phantom_unlock_screen_ac4a6cc8">Released</string>
+    <!-- ZH: 通知无法输入配对码？分屏输入 -->
+    <string name="host_phantom_unlock_screen_acbf24b9">Notice that the pairing code cannot be entered? Split screen input</string>
+    <!-- ZH: 恢复默认限制 -->
+    <string name="host_phantom_unlock_screen_aeb87de5">Restore default restrictions</string>
+    <!-- ZH: Android 从 12 起会终止启动过多子进程的应用，导致虚拟机在运行中被系统杀掉，解除该限制后高性能模式和多开虚拟机才能稳定运行。 -->
+    <string name="host_phantom_unlock_screen_b242bd08">From Android 12, the system may stop apps that start too many child processes, terminating running virtual machines. Lift this limit for stable high-performance mode and multiple virtual machines.</string>
+    <!-- ZH: 点击下方按钮跳转到开发者选项。 -->
+    <string name="host_phantom_unlock_screen_b3e53155">Click the button below to jump to developer options.</string>
+    <!-- ZH: 当前无法读取或确认系统状态，可通过无线调试校验。 -->
+    <string name="host_phantom_unlock_screen_b53c9934">It is currently impossible to read or confirm the system status, which can be verified through wireless debugging.</string>
+    <!-- ZH: 确认 -->
+    <string name="host_phantom_unlock_screen_b56d9ac6">Confirm</string>
+    <!-- ZH: 读取系统的子进程监控设置；返回此页或点击刷新可重新检测。 -->
+    <string name="host_phantom_unlock_screen_b6903038">Read the sub-process monitoring settings of the system; return to this page or click refresh to re-detect.</string>
+    <!-- ZH: 端口需为 1–65535。 -->
+    <string name="host_phantom_unlock_screen_bbfad719">The port needs to be 1–65535.</string>
+    <!-- ZH: 高性能模式或多开虚拟机时会有大量的进程启动 -->
+    <string name="host_phantom_unlock_screen_bd001045">A large number of processes will be started in high-performance mode or when multiple virtual machines are opened.</string>
+    <!-- ZH: 有些机型的开启方式可能不同，可自行网络搜索：您的机型+开启开发者选项。 -->
+    <string name="host_phantom_unlock_screen_bdd9c6df">The opening methods of some models may be different. You can search online by yourself: your model + open developer options.</string>
+    <!-- ZH:   通过无线调试确认 -->
+    <string name="host_phantom_unlock_screen_c5125b48">  Confirmation through wireless debugging</string>
+    <!-- ZH: 已连 USB/无线调试的电脑上运行以下命令，效果相同 -->
+    <string name="host_phantom_unlock_screen_c569a0ac">Run the following command on a computer connected to USB/wireless debugging, the effect is the same</string>
+    <!-- ZH: 配对端口（配对弹窗中 IP:端口 里的端口） -->
+    <string name="host_phantom_unlock_screen_cd1b1ed8">Pairing port (the port in IP:port in the pairing pop-up window)</string>
+    <!-- ZH: 配对通知已请求发送，打开配对弹窗后下拉通知栏输入。 -->
+    <string name="host_phantom_unlock_screen_d05241ad">The pairing notification has been requested to be sent. After opening the pairing pop-up window, pull down the notification bar to enter.</string>
+    <!-- ZH: 打开「无线调试」→「使用配对码配对设备」。 -->
+    <string name="host_phantom_unlock_screen_dbd8e5b4">Open "Wireless Debugging" → "Pair Device Using Pairing Code".</string>
+    <!-- ZH: 确认恢复系统默认的子进程限制？ -->
+    <string name="host_phantom_unlock_screen_e35b7c38">Confirm to restore the system\'s default child process restrictions?</string>
+    <!-- ZH: 无需解除 -->
+    <string name="host_phantom_unlock_screen_e3f3247f">No need to release</string>
+    <!-- ZH:   刷新 -->
+    <string name="host_phantom_unlock_screen_e4e7e902">  Refresh</string>
+    <!-- ZH: 解除方式 -->
+    <string name="host_phantom_unlock_screen_e766e26b">Release mode</string>
+    <!-- ZH: 连接端口（可选） -->
+    <string name="host_phantom_unlock_screen_eaadb610">Connection port (optional)</string>
+    <!-- ZH: 配对并解除限制 -->
+    <string name="host_phantom_unlock_screen_eb8a2522">Pair and remove restrictions</string>
+    <!-- ZH: 本机版本不支持该开关 -->
+    <string name="host_phantom_unlock_screen_f5399e29">The native version does not support this switch</string>
+    <!-- ZH: 隐藏日志 -->
+    <string name="host_phantom_unlock_screen_f5b388df">Hide log</string>
+    <!-- ZH: 开启开发者选项：进入系统设置 → 关于手机，连点「版本号」7 次。 -->
+    <string name="host_phantom_unlock_screen_fa54853a">Turn on developer options: Enter system settings → About mobile phone, click "Version Number" 7 times.</string>
+    <!-- ZH: 方式一 · 开发者选项 -->
+    <string name="host_phantom_unlock_screen_fec41006">Method One·Developer Options</string>
+    <!-- ZH: 准备系统 · %1$s -->
+    <string name="host_preparation_progress_card_4b2a0d53">Preparing the system · %1$s</string>
+    <!-- ZH: 正在取消… -->
+    <string name="host_preparation_progress_card_6bc0d687">Canceling...</string>
+    <!-- ZH: 取消准备 -->
+    <string name="host_preparation_progress_card_cc601652">Cancel preparation</string>
+    <!-- ZH: 准备系统 -->
+    <string name="host_preparation_progress_card_f9c00b34">Preparing the system</string>
+    <!-- ZH: 代理配置在下次冷启动时生效。 -->
+    <string name="host_proxy_cold_start">Proxy changes apply on the next cold start.</string>
+    <!-- ZH: 配置代理 -->
+    <string name="host_proxy_settings_10cc2378">Configure proxy</string>
+    <!-- ZH: 密码（可选） -->
+    <string name="host_proxy_settings_29e03e6c">Password (optional)</string>
+    <!-- ZH: 服务器地址 -->
+    <string name="host_proxy_settings_2eb291f6">Server address</string>
+    <!-- ZH: 用户名（可选） -->
+    <string name="host_proxy_settings_48517cc4">Username (optional)</string>
+    <!-- ZH: 本机代理可填写 127.0.0.1；IPv6 地址无需方括号。 -->
+    <string name="host_proxy_settings_525b4f86">The local proxy can fill in 127.0.0.1; the IPv6 address does not require square brackets.</string>
+    <!-- ZH: 端口 -->
+    <string name="host_proxy_settings_6cbb7335">Port</string>
+    <!-- ZH: 未使用代理，直接联网 -->
+    <string name="host_proxy_settings_7bc6f234">No proxy is used, connect directly to the Internet</string>
+    <!-- ZH: 网络代理 -->
+    <string name="host_proxy_settings_b046fe27">Network proxy</string>
+    <!-- ZH: 保存 -->
+    <string name="host_proxy_settings_fadf24db">Save</string>
+    <!-- ZH: 包名 -->
+    <string name="host_recovery_dialog_03c2d07a">Package name</string>
+    <!-- ZH: 操作完成前请勿启动虚拟机，可切到后台等待。 | Refined: Improved sentence structure -->
+    <string name="host_recovery_dialog_0478e3a4">Do not start the virtual machine until this operation completes. You may switch to background while waiting.</string>
+    <!-- ZH: 查看文件校验信息 | Refined: Consistent checksum phrasing -->
+    <string name="host_recovery_dialog_06a813a5">View file checksum details</string>
+    <!-- ZH: 确认回退 -->
+    <string name="host_recovery_dialog_0917e35d">Confirm rollback</string>
+    <!-- ZH: 刷入 -->
+    <string name="host_recovery_dialog_11116128">Install</string>
+    <!-- ZH: 完整 OTA 更新系统并保留数据；增量 OTA、真机固件及直接操作块设备的安装包可能不受支持。 -->
+    <string name="host_recovery_dialog_12029a9a">Complete OTA updates the system and retains data; incremental OTA, real device firmware and installation packages that directly operate block devices may not be supported.</string>
+    <!-- ZH: Recovery 正在处理 | Refined: Better ongoing progress state message -->
+    <string name="host_recovery_dialog_399c6826">Recovery processing in progress…</string>
+    <!-- ZH: 未刷入 | Refined: Correct Android custom ROM/Recovery terminology -->
+    <string name="host_recovery_dialog_436073d5">Not flashed</string>
+    <!-- ZH: 管理 -->
+    <string name="host_recovery_dialog_4989b5cf">Management</string>
+    <!-- ZH: OTA 回退恢复原系统并保留数据；Recovery 脚本回退同时恢复刷入前的系统变更与用户数据，刷入后的数据变更会丢失。声明式补丁和 Magisk 回退保留数据。下次冷启动生效。 -->
+    <string name="host_recovery_dialog_535a11ac">OTA rollback restores the previous system and keeps user data. Recovery-script rollback restores both the system changes and user data from before flashing; later data changes will be lost. Declarative-patch and Magisk rollback keep user data. Changes apply on the next cold start.</string>
+    <!-- ZH: 完成后将在此处显示结果，请勿重复操作。 -->
+    <string name="host_recovery_dialog_646e1f54">The results will be displayed here after completion, please do not repeat the operation.</string>
+    <!-- ZH: 无 -->
+    <string name="host_recovery_dialog_72077749">None</string>
+    <!-- ZH: 启动失败时可禁用全部补丁和 Magisk，保留用户数据。下次冷启动生效。 | Refined: Better conditional flow -->
+    <string name="host_recovery_dialog_7973c81e">If startup fails, all patches and Magisk can be disabled while retaining user data. Takes effect upon next cold start.</string>
+    <!-- ZH: 安装脚本会在隔离的 Recovery 中实际执行；成功后保存系统与数据变更，失败保留原状态。OTA 更新系统并保留用户数据。 | Refined: Cleaner and more professional technical documentation -->
+    <string name="host_recovery_dialog_7d199e2d">The installation script executes inside an isolated Recovery environment. System and data changes are applied upon success, or rolled back on failure. OTA updates preserve user data.</string>
+    <!-- ZH: 确认禁用 -->
+    <string name="host_recovery_dialog_816c6819">Confirm disable</string>
+    <!-- ZH: 是 · 上次刷入 -->
+    <string name="host_recovery_dialog_8614885c">Yes · Last installation</string>
+    <!-- ZH: 正在检查 -->
+    <string name="host_recovery_dialog_8872ba18">Checking</string>
+    <!-- ZH: 已刷入项目 -->
+    <string name="host_recovery_dialog_8afa6ad9">Installed items</string>
+    <!-- ZH: 否 -->
+    <string name="host_recovery_dialog_8bf5c10a">No</string>
+    <!-- ZH:   选择文件 -->
+    <string name="host_recovery_dialog_9e03156e">  Select file</string>
+    <!-- ZH: 返回管理 -->
+    <string name="host_recovery_dialog_9ef07f14">Return to management</string>
+    <!-- ZH:   回退上次刷入 -->
+    <string name="host_recovery_dialog_a0c64877">  Roll back last installation</string>
+    <!-- ZH: 可回退 -->
+    <string name="host_recovery_dialog_c0693230">Can be rolled back</string>
+    <!-- ZH: 救援 -->
+    <string name="host_recovery_dialog_c11c41c4">Rescue</string>
+    <!-- ZH: 确认刷入 -->
+    <string name="host_recovery_dialog_c356319f">Confirm installation</string>
+    <!-- ZH: 禁用补丁和 Magisk？ -->
+    <string name="host_recovery_dialog_c604ea67">Disable patches and Magisk?</string>
+    <!-- ZH:   重新选择文件 -->
+    <string name="host_recovery_dialog_c6f0bf48">  Select file again</string>
+    <!-- ZH: 待刷入 -->
+    <string name="host_recovery_dialog_d9226dfb">Ready to install</string>
+    <!-- ZH: 正在处理：%1$s -->
+    <string name="host_recovery_dialog_da107e58">Processing: %1$s</string>
+    <!-- ZH: 选择刷入文件 -->
+    <string name="host_recovery_dialog_dda2f9d3">Select installation file</string>
+    <!-- ZH: 下一次冷启动跳过所有系统补丁和 Magisk。已刷入的 OTA 系统、用户数据、Magisk 设置和模块保留；恢复原系统需使用回退。重新启用前请先处理异常模块，否则仍可能再次启动失败。 -->
+    <string name="host_recovery_dialog_ddd000af">Skip all system patches and Magisk on the next cold start. The installed OTA system, user data, Magisk settings and modules are retained. Use rollback to restore the previous system. Fix problematic modules before enabling them again, or startup may fail again.</string>
+    <!-- ZH: 回退上次刷入？ -->
+    <string name="host_recovery_dialog_e0f7d92c">Roll back the last flash?</string>
+    <!-- ZH: 支持完整 OTA、Recovery ZIP、AndVM 补丁和 Magisk APK。选择文件后先检查，再确认刷入。 -->
+    <string name="host_recovery_dialog_e44455d4">Supports full OTA, Recovery ZIP, AndVM patches and Magisk APK. The selected file is checked before you confirm installation.</string>
+    <!-- ZH: 类型 -->
+    <string name="host_recovery_dialog_e4e46c72">Type</string>
+    <!-- ZH: 已用时 %1$s 分 %2$s 秒 · 大文件处理可能需要较长时间 -->
+    <string name="host_recovery_dialog_ea309504">Elapsed time %1$s minutes %2$s seconds · Large file processing may take a long time</string>
+    <!-- ZH: 当前刷入内容 -->
+    <string name="host_recovery_dialog_f4dda419">Current installations</string>
+    <!-- ZH: 收起文件校验信息 | Refined: Clearer technical description for collapsing checksum card -->
+    <string name="host_recovery_dialog_f78c32d0">Hide file checksum details</string>
+    <!-- ZH:   禁用补丁和 Magisk -->
+    <string name="host_recovery_dialog_ff7728d9">  Disable patches and Magisk</string>
+    <!-- ZH: 重试下载 -->
+    <string name="host_rom_market_cards_14ecb8c9">Retry downloading</string>
+    <!-- ZH: 下载说明 -->
+    <string name="host_rom_market_cards_1fe4d81e">Download instructions</string>
+    <!-- ZH: 导入 ROM -->
+    <string name="host_rom_market_cards_233cfdb1">Import ROM</string>
+    <!-- ZH: 下载 -->
+    <string name="host_rom_market_cards_2b9d0131">Download</string>
+    <!-- ZH: 将在系统浏览器中打开下载页面。 -->
+    <string name="host_rom_market_cards_45d4a1a5">The download page will open in the system browser.</string>
+    <!-- ZH: 取消 -->
+    <string name="host_rom_market_cards_4d0b4688">Cancel</string>
+    <!-- ZH: 有新版可更新 · 保留现有数据 -->
+    <string name="host_rom_market_cards_5827d4c6">There is a new version that can be updated·Keep existing data</string>
+    <!-- ZH: 查看文件 -->
+    <string name="host_rom_market_cards_63deb966">View files</string>
+    <!-- ZH: 已下载 %1$s -->
+    <string name="host_rom_market_cards_a5e2a7e2">Downloaded %1$s</string>
+    <!-- ZH: 查看介绍与安装说明 -->
+    <string name="host_rom_market_cards_a6230ead">View introduction and installation instructions</string>
+    <!-- ZH: 重试更新 -->
+    <string name="host_rom_market_cards_baeb5d4b">Retry update</string>
+    <!-- ZH: 更新虚拟机 -->
+    <string name="host_rom_market_cards_bcbf2722">Update virtual machine</string>
+    <!-- ZH: 浏览器打开 -->
+    <string name="host_rom_market_cards_c578c377">Browser opens</string>
+    <!-- ZH: 知道了 -->
+    <string name="host_rom_market_cards_cb63c62e">Got it</string>
+    <!-- ZH: 下载完成后更新虚拟机 -->
+    <string name="host_rom_market_cards_cd3ad430">Update virtual machine after download is completed</string>
+    <!-- ZH: 关于这个系统 -->
+    <string name="host_rom_market_cards_d07abc2b">About this system</string>
+    <!-- ZH: 文件保存至 Download/AndVM，离开页面后下载仍会继续。 -->
+    <string name="host_rom_market_cards_d65fb18c">The file is saved to Download/AndVM, and the download will continue after leaving the page.</string>
+    <!-- ZH: 更新 -->
+    <string name="host_rom_market_cards_d9db02d0">Update</string>
+    <!-- ZH: 未找到可打开链接的浏览器 -->
+    <string name="host_rom_market_cards_e5e3dd18">No browser found to open the link</string>
+    <!-- ZH: 查看详情 -->
+    <string name="host_rom_market_cards_faea8c1d">View details</string>
+    <!-- ZH: 暂无下载 -->
+    <string name="host_rom_market_cards_fba30a04">No download yet</string>
+    <!-- ZH: 处理中 -->
+    <string name="host_rom_market_cards_fcb979ef">In processing</string>
+    <!-- ZH: 导入新虚拟机 -->
+    <string name="host_rom_market_cards_fe13f080">Import new virtual machine</string>
+    <!-- ZH: 作者暂未提供介绍 -->
+    <string name="host_rom_market_cards_fec2b05d">The author has not yet provided an introduction</string>
+    <!-- ZH: 文件已就绪 -->
+    <string name="host_rom_market_cards_ff7aa385">File is ready</string>
+    <!-- ZH: 可在后台继续 -->
+    <string name="host_rom_market_cards_ff8acf02">Can continue in the background</string>
+    <!-- ZH: 关闭截图 -->
+    <string name="host_rom_market_images_28a04cda">Close screenshot</string>
+    <!-- ZH: 系统截图 · %1$s -->
+    <string name="host_rom_market_images_57a9845a">System screenshot · %1$s</string>
+    <!-- ZH: %2$s 截图 %1$s -->
+    <string name="host_rom_market_images_aa2d8a02">%2$s Screenshot %1$s</string>
+    <!-- ZH: 第 %1$s 张，共 %2$s 张截图 -->
+    <string name="host_rom_market_images_acf4f9b8">No. %1$s, total %2$s screenshots</string>
+    <!-- ZH: %2$s 截图 %1$s，点击放大 -->
+    <string name="host_rom_market_images_bbc5a899">%2$s Screenshot %1$s, click to enlarge</string>
+    <!-- ZH: 重试 -->
+    <string name="host_rom_market_images_e2d53a6d">Retry</string>
+    <!-- ZH: 换个关键词或分类试试，也可以下拉刷新。 -->
+    <string name="host_rom_market_screen_01a95628">Try changing keywords or categories, or you can pull down to refresh.</string>
+    <!-- ZH: 加载遇到了一点问题 -->
+    <string name="host_rom_market_screen_0bab022c">Loading encountered some problems</string>
+    <!-- ZH: 返回 -->
+    <string name="host_rom_market_screen_11d02415">Back</string>
+    <!-- ZH: 查看全部 ROM -->
+    <string name="host_rom_market_screen_19992185">View all ROMs</string>
+    <!-- ZH: 名称 -->
+    <string name="host_rom_market_screen_1be7ae4f">Name</string>
+    <!-- ZH: 热度 -->
+    <string name="host_rom_market_screen_296adf95">Popularity</string>
+    <!-- ZH: 刷新失败，已保留当前列表 -->
+    <string name="host_rom_market_screen_2d055378">Refresh failed, current list has been retained</string>
+    <!-- ZH: 搜索结果 -->
+    <string name="host_rom_market_screen_2f17ec14">Search results</string>
+    <!-- ZH: 展开搜索 -->
+    <string name="host_rom_market_screen_31586e05">Expand search</string>
+    <!-- ZH: 下拉刷新，发现更多系统 -->
+    <string name="host_rom_market_screen_41f87a43">Pull down to refresh and find more systems</string>
+    <!-- ZH: %1$s 个 ROM -->
+    <string name="host_rom_market_screen_519b5bc1">%1$s ROMs</string>
+    <!-- ZH: 已经到底了 · 下拉可刷新 -->
+    <string name="host_rom_market_screen_595c8679">It’s the end · Pull down to refresh</string>
+    <!-- ZH: 重新加载 -->
+    <string name="host_rom_market_screen_5982c44c">Reload</string>
+    <!-- ZH: 刷新 ROM 列表 -->
+    <string name="host_rom_market_screen_63974ae5">Refresh ROM list</string>
+    <!-- ZH: 已选择 -->
+    <string name="host_rom_market_screen_743aaf95">Selected</string>
+    <!-- ZH: 全部 -->
+    <string name="host_rom_market_screen_778fc8f9">All</string>
+    <!-- ZH: 最新 -->
+    <string name="host_rom_market_screen_7e805a12">Latest</string>
+    <!-- ZH: 暂时无法获取 ROM -->
+    <string name="host_rom_market_screen_8c6012c4">Temporarily unable to obtain ROM</string>
+    <!-- ZH: 全部系统 -->
+    <string name="host_rom_market_screen_966d52ed">All systems</string>
+    <!-- ZH: 正在发现可用系统… -->
+    <string name="host_rom_market_screen_cde5f219">Discovering available systems...</string>
+    <!-- ZH: ROM 市场 -->
+    <string name="host_rom_market_screen_d8540f96">ROM market</string>
+    <!-- ZH: 正在加载更多… -->
+    <string name="host_rom_market_screen_e04bb564">Loading more...</string>
+    <!-- ZH: 重试 -->
+    <string name="host_rom_market_screen_e2d53a6d">Retry</string>
+    <!-- ZH: 搜索系统名称 -->
+    <string name="host_rom_market_screen_ea0aba3d">Search system name</string>
+    <!-- ZH: 发现你的下一个系统 -->
+    <string name="host_rom_market_screen_ef464c85">Discover your next system</string>
+    <!-- ZH: 还没有找到匹配的系统 -->
+    <string name="host_rom_market_screen_fc67a1e8">No matching system found yet</string>
+    <!-- ZH: 当前没有需要更新的实例，请刷新 ROM 列表。 -->
+    <string name="host_rom_market_update_sheet_2a5259fc">There are currently no instances that need to be updated, please refresh the ROM list.</string>
+    <!-- ZH: %1$s %2$s · 选择要更新的实例，保留应用、设置与文件 -->
+    <string name="host_rom_market_update_sheet_a5567f92">%1$s %2$s · Select the instance to update, retaining applications, settings and files</string>
+    <!-- ZH: 更新虚拟机 -->
+    <string name="host_rom_market_update_sheet_bcbf2722">Update virtual machine</string>
+    <!-- ZH: 清除搜索 -->
+    <string name="host_search_field_318ea18e">Clear search</string>
+    <!-- ZH: 请重新选择文件 -->
+    <string name="host_select_file_again">Select the file again</string>
+    <!-- ZH: 虚拟机未能保存运行快照 -->
+    <string name="host_snapshot_save_failure">The virtual machine could not save its runtime snapshot</string>
+    <!-- ZH: 上报失败日志 -->
+    <string name="host_startup_failure_report_button_522d674a">Report failure log</string>
+    <!-- ZH: 正在打包全部日志… -->
+    <string name="host_startup_failure_report_button_c50f4e3e">Packing all logs...</string>
+    <!-- ZH: 上报日志准备失败：%1$s -->
+    <string name="host_startup_failure_report_button_d3f5fa1d">Report log preparation failure: %1$s</string>
+    <!-- ZH: 无法打开日志分享，请确认已安装支持附件的邮件或分享应用。 -->
+    <string name="host_startup_failure_report_button_d918147e">Unable to open log sharing, please confirm that you have installed an email or sharing application that supports attachments.</string>
+    <!-- ZH: 正在启动 Android 系统… -->
+    <string name="host_startup_stage_android">Starting Android…</string>
+    <!-- ZH: 正在生成 ART 启动镜像… -->
+    <string name="host_startup_stage_art">Generating ART boot image…</string>
+    <!-- ZH: 首次启动优化完成，正在重启虚拟机… -->
+    <string name="host_startup_stage_art_restart">First-start optimization complete. Restarting virtual machine…</string>
+    <!-- ZH: 正在进入 Guest 桌面… -->
+    <string name="host_startup_stage_desktop">Opening Guest desktop…</string>
+    <!-- ZH: 虚拟机启动失败 -->
+    <string name="host_startup_stage_failed">Virtual machine failed to start</string>
+    <!-- ZH: 正在准备虚拟机… -->
+    <string name="host_startup_stage_preparing">Preparing virtual machine…</string>
+    <!-- ZH: 运行快照恢复失败 -->
+    <string name="host_startup_stage_restore_failed">Runtime snapshot restoration failed</string>
+    <!-- ZH: 正在恢复运行快照… -->
+    <string name="host_startup_stage_restoring">Restoring runtime snapshot…</string>
+    <!-- ZH: 正在启动虚拟机 -->
+    <string name="host_startup_stage_starting">Starting virtual machine</string>
+    <!-- ZH: 虚拟机已停止 -->
+    <string name="host_startup_stage_stopped">Virtual machine stopped</string>
+    <!-- ZH: 操作 -->
+    <string name="host_tab_actions">Actions</string>
+    <!-- ZH: 配置 -->
+    <string name="host_tab_configuration">Settings</string>
+    <!-- ZH: 调试 -->
+    <string name="host_tab_debug">Debug</string>
+    <!-- ZH: 概览 -->
+    <string name="host_tab_overview">Overview</string>
+    <!-- ZH: 快照 -->
+    <string name="host_tab_snapshots">Snapshots</string>
+    <!-- ZH: 此虚拟机 -->
+    <string name="host_this_vm">this virtual machine</string>
+    <!-- ZH: 把虚拟机里安装的应用导出为安装包 -->
+    <string name="host_transfer_export_applications_detail">Export installed virtual machine apps as installation packages</string>
+    <!-- ZH: 导出应用 -->
+    <string name="host_transfer_export_applications_title">Export apps</string>
+    <!-- ZH: 从虚拟机存储中选择文件，保存到宿主的下载目录 -->
+    <string name="host_transfer_export_files_detail">Save selected virtual machine files to the host’s Downloads folder</string>
+    <!-- ZH: 导出文件 -->
+    <string name="host_transfer_export_files_title">Export files</string>
+    <!-- ZH: 把宿主已安装的应用安装到虚拟机 -->
+    <string name="host_transfer_import_applications_detail">Install apps from the host in the virtual machine</string>
+    <!-- ZH: 导入应用 -->
+    <string name="host_transfer_import_applications_title">Import apps</string>
+    <!-- ZH: 从宿主选择文件，写入虚拟机的 Download 目录 -->
+    <string name="host_transfer_import_files_detail">Select host files to copy to the virtual machine’s Download folder</string>
+    <!-- ZH: 导入文件 -->
+    <string name="host_transfer_import_files_title">Import files</string>
+    <!-- ZH: 未知 -->
+    <string name="host_unknown">Unknown</string>
+    <!-- ZH: 无限制 -->
+    <string name="host_unlimited">Unlimited</string>
+    <!-- ZH: 虚拟机 -->
+    <string name="host_virtual_machine">Virtual machine</string>
+    <!-- ZH: 选择保存位置并导出 -->
+    <string name="host_vm_export_sheet_011ef795">Select save location and export</string>
+    <!-- ZH: 正在选择保存位置… -->
+    <string name="host_vm_export_sheet_0b93def9">Selecting save location...</string>
+    <!-- ZH: 请先恢复运行并正常停止虚拟机，或丢弃暂停快照后导出。 -->
+    <string name="host_vm_export_sheet_2f16a743">Please resume operation first and stop the virtual machine normally, or discard the paused snapshot and then export it.</string>
+    <!-- ZH: ZIP 已保存到所选位置，可通过「导入 ROM」恢复虚拟机。 -->
+    <string name="host_vm_export_sheet_2fcc3be1">The ZIP has been saved to the selected location and the virtual machine can be restored through "Import ROM".</string>
+    <!-- ZH: 完成 -->
+    <string name="host_vm_export_sheet_33246f6a">Done</string>
+    <!-- ZH: 虚拟机数据 -->
+    <string name="host_vm_export_sheet_3a47de0d">Virtual machine data</string>
+    <!-- ZH: Recovery 补丁、Magisk 和当前刷入内容 -->
+    <string name="host_vm_export_sheet_50f564f8">Recovery patches, Magisk and current installations</string>
+    <!-- ZH: 取消导出 -->
+    <string name="host_vm_export_sheet_56afa043">Cancel export</string>
+    <!-- ZH: 分辨率、内存、网络、设备映射等 -->
+    <string name="host_vm_export_sheet_5e917853">Resolution, memory, network, device mapping, etc.</string>
+    <!-- ZH: 点击查看结果 | Refined: Mobile UI convention ('Tap') -->
+    <string name="host_vm_export_sheet_62ca2434">Tap to view results</string>
+    <!-- ZH: 可以关闭弹框或离开页面，导出会在后台继续。 -->
+    <string name="host_vm_export_sheet_6a7fd3c3">You can close the pop-up box or leave the page, and the export will continue in the background.</string>
+    <!-- ZH: 刷入的补丁 -->
+    <string name="host_vm_export_sheet_6eb73fed">Installed patches</string>
+    <!-- ZH: 请先停止虚拟机并完成当前任务后导出。 -->
+    <string name="host_vm_export_sheet_7e36bf55">Please stop the virtual machine first and export after completing the current task.</string>
+    <!-- ZH: 准备好的 EROFS 镜像和原 ROM 保留文件会一起导出，可用于再次准备系统及恢复精简组件。 -->
+    <string name="host_vm_export_sheet_87838221">The prepared EROFS image and retained original ROM files are exported together, so the system can be prepared again and removed components can be restored.</string>
+    <!-- ZH: 虚拟机镜像与保留源文件 -->
+    <string name="host_vm_export_sheet_87e583cc">Virtual machine image and retained source files</string>
+    <!-- ZH: 导出虚拟机 -->
+    <string name="host_vm_export_sheet_9a83bd65">Export virtual machine</string>
+    <!-- ZH: 后台导出中 · 点击查看进度 | Refined: Fixed spacing and replaced 'Click' with 'Tap' -->
+    <string name="host_vm_export_sheet_a0f9d567">Background export in progress · Tap to view progress</string>
+    <!-- ZH: 始终包含 -->
+    <string name="host_vm_export_sheet_a10ffbc5">Always include</string>
+    <!-- ZH: 虚拟机配置 -->
+    <string name="host_vm_export_sheet_a4b64c79">Virtual machine configuration</string>
+    <!-- ZH: 分享备份 -->
+    <string name="host_vm_export_sheet_ad9fd0bf">Share backup</string>
+    <!-- ZH: 备份为 ZIP，可通过「导入 ROM」恢复或传输到其他设备 -->
+    <string name="host_vm_export_sheet_ae29cb80">Backup as ZIP, which can be restored or transferred to other devices through "Import ROM"</string>
+    <!-- ZH: 后台导出 -->
+    <string name="host_vm_export_sheet_b0b28759">Background export</string>
+    <!-- ZH: 无法开始导出。 -->
+    <string name="host_vm_export_sheet_b3f77e03">Unable to start export.</string>
+    <!-- ZH: 已安装应用、用户文件和缓存 -->
+    <string name="host_vm_export_sheet_c080da23">Installed applications, user files and caches</string>
+    <!-- ZH:   导出虚拟机 -->
+    <string name="host_vm_export_sheet_cd4201c9">  Export virtual machine</string>
+    <!-- ZH: 导出通知用于显示备份进度和完成结果，离开页面后也能查看导出状态。 -->
+    <string name="host_vm_export_sheet_d4c5d6a7">The export notification is used to display the backup progress and completion results, and the export status can also be viewed after leaving the page.</string>
+    <!-- ZH: 分享虚拟机备份 -->
+    <string name="host_vm_export_sheet_ee594c92">Share virtual machine backup</string>
+    <!-- ZH: 查看虚拟机导出进度 -->
+    <string name="host_vm_export_sheet_fbd8c67b">View virtual machine export progress</string>
+    <!-- ZH: 返回 -->
+    <string name="host_vm_log_activity_11d02415">Back</string>
+    <!-- ZH: 虚拟机日志 -->
+    <string name="host_vm_log_activity_1f282ce2">Virtual machine log</string>
+    <!-- ZH: 虚拟机 -->
+    <string name="host_vm_log_activity_5aeca041">Virtual machine</string>
+    <!-- ZH: 正在读取日志… -->
+    <string name="host_vm_log_activity_79aa9eab">Reading log...</string>
+    <!-- ZH: 无法打开虚拟机日志 -->
+    <string name="host_vm_log_activity_97dddce5">Could not open virtual machine log</string>
+    <!-- ZH: 虚拟机已不存在 -->
+    <string name="host_vm_log_activity_bcfc03b0">Virtual machine no longer exists.</string>
+    <!-- ZH: 返回 -->
+    <string name="host_vm_log_viewer_11d02415">Back</string>
+    <!-- ZH: 启动虚拟机后自动记录，停止后仍可回看。 -->
+    <string name="host_vm_log_viewer_12388351">Automatically record after starting the virtual machine, and can still be viewed after stopping.</string>
+    <!-- ZH: 上一处 -->
+    <string name="host_vm_log_viewer_126a5f43">Previous place</string>
+    <!-- ZH: 更新日志 -->
+    <string name="host_vm_log_viewer_18536844">Update log</string>
+    <!-- ZH: 复制所选日志 -->
+    <string name="host_vm_log_viewer_1887696f">Copy selected log</string>
+    <!-- ZH: 日志选项 -->
+    <string name="host_vm_log_viewer_19a149da">Log options</string>
+    <!-- ZH: 清空显示（保留文件） -->
+    <string name="host_vm_log_viewer_1a21509d">Clear display (keep files)</string>
+    <!-- ZH: 虚拟机日志 -->
+    <string name="host_vm_log_viewer_1f282ce2">Virtual machine log</string>
+    <!-- ZH: 导出日志… -->
+    <string name="host_vm_log_viewer_207b2587">Export log...</string>
+    <!-- ZH: 开头 -->
+    <string name="host_vm_log_viewer_25829b81">Beginning</string>
+    <!-- ZH: 选择当前页日志 -->
+    <string name="host_vm_log_viewer_2c4dcbea">Select current page log</string>
+    <!-- ZH: 日志级别 -->
+    <string name="host_vm_log_viewer_307ac59f">Log level</string>
+    <!-- ZH: 已复制前 100,000 个字符，请分段复制其余日志 -->
+    <string name="host_vm_log_viewer_3512c9d0">The first 100,000 characters have been copied, please copy the rest of the log in sections</string>
+    <!-- ZH: 等待日志 -->
+    <string name="host_vm_log_viewer_36e476f2">Wait for log</string>
+    <!-- ZH: Ⅱ 回看 -->
+    <string name="host_vm_log_viewer_39cc04ae">Ⅱ Look back</string>
+    <!-- ZH: 更早日志 -->
+    <string name="host_vm_log_viewer_44ba0ad2">Earlier log</string>
+    <!-- ZH: %1$s 及以上 -->
+    <string name="host_vm_log_viewer_48052bf7">%1$s and above</string>
+    <!-- ZH: 已复制日志 -->
+    <string name="host_vm_log_viewer_48247d19">Log copied</string>
+    <!-- ZH: 清除筛选 -->
+    <string name="host_vm_log_viewer_4bbc4e5f">Clear filter</string>
+    <!-- ZH: 过滤查询 -->
+    <string name="host_vm_log_viewer_5265e9ba">Filter query</string>
+    <!-- ZH: 查找关键词 -->
+    <string name="host_vm_log_viewer_5845effb">Search keywords</string>
+    <!-- ZH: 调整筛选条件，或加载更早的日志。 -->
+    <string name="host_vm_log_viewer_613a33ee">Adjust filtering conditions, or load earlier logs.</string>
+    <!-- ZH: 复制当前筛选结果 -->
+    <string name="host_vm_log_viewer_6624fb67">Copy current screening results</string>
+    <!-- ZH: 过滤日志… -->
+    <string name="host_vm_log_viewer_6fb5f1d6">Filter log...</string>
+    <!-- ZH: 级别 %1$s -->
+    <string name="host_vm_log_viewer_74fcc5e5">Level %1$s</string>
+    <!-- ZH: 全部 -->
+    <string name="host_vm_log_viewer_778fc8f9">All</string>
+    <!-- ZH: 正在读取日志… -->
+    <string name="host_vm_log_viewer_79aa9eab">Reading log...</string>
+    <!-- ZH: 查找日志 -->
+    <string name="host_vm_log_viewer_7a43ac4a">Search log</string>
+    <!-- ZH: 跳到最新 -->
+    <string name="host_vm_log_viewer_7b3a9cc8">Jump to latest</string>
+    <!-- ZH:  …（点击查看完整日志） -->
+    <string name="host_vm_log_viewer_8272f6d4"> ...(click to view the complete log)</string>
+    <!-- ZH: 切换为紧凑单行 -->
+    <string name="host_vm_log_viewer_85b2512d">Switch to compact single line</string>
+    <!-- ZH: 日志详情 -->
+    <string name="host_vm_log_viewer_88b864bd">Log details</string>
+    <!-- ZH: 自动换行 -->
+    <string name="host_vm_log_viewer_8ad6b817">Automatic line wrapping</string>
+    <!-- ZH: 关闭查找 -->
+    <string name="host_vm_log_viewer_91afbf89">Close search</string>
+    <!-- ZH: 此进程 -->
+    <string name="host_vm_log_viewer_93f16829">This process</string>
+    <!-- ZH: 下一处 -->
+    <string name="host_vm_log_viewer_942482d1">Next place</string>
+    <!-- ZH: 没有匹配的日志 -->
+    <string name="host_vm_log_viewer_9b1e558c">No matching log</string>
+    <!-- ZH: 已选择 %1$s 条 -->
+    <string name="host_vm_log_viewer_a03b1a3a">%1$s items have been selected</string>
+    <!-- ZH: 启动、系统与应用的独立日志工作台 -->
+    <string name="host_vm_log_viewer_a3bc7cdf">Independent log workbench for startup, system and application</string>
+    <!-- ZH: 搜索、筛选、选择与复制作用于当前载入的日志段（约 128 KiB）。底部箭头翻阅历史；拖动列表自动暂停跟随，采集仍继续。点击日志查看完整内容，长按进入多选。 -->
+    <string name="host_vm_log_viewer_a3cb76b9">Search, filter, select, and copy operate on the currently loaded log segment (approximately 128 KiB). Use the arrows at the bottom to scroll through the history; dragging the list automatically pauses the following, and the collection continues. Click on the log to view the complete content, and long press to enter multiple selections.</string>
+    <!-- ZH: 读取日志失败 -->
+    <string name="host_vm_log_viewer_aa2684e3">Failed to read log</string>
+    <!-- ZH: 筛选此 Tag -->
+    <string name="host_vm_log_viewer_ab365eb0">Filter this Tag</string>
+    <!-- ZH: 暂停显示 -->
+    <string name="host_vm_log_viewer_b087167d">Pause display</string>
+    <!-- ZH: 重置筛选 -->
+    <string name="host_vm_log_viewer_b63e2829">Reset filtering</string>
+    <!-- ZH: 复制日志 -->
+    <string name="host_vm_log_viewer_c4a79c3a">Copy log</string>
+    <!-- ZH: 恢复实时 -->
+    <string name="host_vm_log_viewer_c57d4f37">Restore real-time</string>
+    <!-- ZH: 旧版本已在运行的虚拟机需下次启动后开始采集 Logcat。清空显示不会删除文件。 -->
+    <string name="host_vm_log_viewer_ca4e21cf">The virtual machine that is already running in the old version needs to start collecting Logcat after the next startup. Clearing the display will not delete the files.</string>
+    <!-- ZH: 筛选语法与说明 -->
+    <string name="host_vm_log_viewer_cab27967">Filter syntax and description</string>
+    <!-- ZH: 知道了 -->
+    <string name="host_vm_log_viewer_cb63c62e">Got it</string>
+    <!-- ZH: 输入普通关键词，或组合字段筛选。多个条件同时满足，文本匹配忽略大小写。 -->
+    <string name="host_vm_log_viewer_cd16d040">Enter common keywords, or combine field screening. If multiple conditions are met at the same time, text matching ignores case.</string>
+    <!-- ZH: 查看实时日志 -->
+    <string name="host_vm_log_viewer_cebc962b">View real-time log</string>
+    <!-- ZH: 查找当前日志… -->
+    <string name="host_vm_log_viewer_cf35010c">Find current log...</string>
+    <!-- ZH: %1$s 条 · %2$s–%3$s / %4$s KiB -->
+    <string name="host_vm_log_viewer_d4136085">%1$s lines · %2$s–%3$s / %4$s KiB</string>
+    <!-- ZH: 正在导出日志… -->
+    <string name="host_vm_log_viewer_dcb8ae09">Exporting logs...</string>
+    <!-- ZH: 全部级别 -->
+    <string name="host_vm_log_viewer_e1e387db">All levels</string>
+    <!-- ZH: 复制失败：%1$s -->
+    <string name="host_vm_log_viewer_e258486b">Copy failed: %1$s</string>
+    <!-- ZH: 隐藏时间与进程信息 -->
+    <string name="host_vm_log_viewer_e38985ae">Hidden time and process information</string>
+    <!-- ZH: 日志已轮换，请切换到历史记录继续查看。 -->
+    <string name="host_vm_log_viewer_eab2d40e">The log has been rotated, please switch to the history record to continue viewing.</string>
+    <!-- ZH: 筛选与日志说明 -->
+    <string name="host_vm_log_viewer_eeedf995">Screening and log description</string>
+    <!-- ZH: Logcat 每轮读取最近 2000 条，间隔 3 秒；突发大量日志可能遗漏。每个 Logcat 文件最多 4 MiB，保留 3 份历史。其他日志在启动前保留最近 4 MiB，最多 3 份。 -->
+    <string name="host_vm_log_viewer_f00590db">Logcat reads the last 2000 entries in each round, with an interval of 3 seconds; a sudden large number of logs may be missed. Maximum 4 MiB per Logcat file, 3 copies of history retained. Other logs retain the most recent 4 MiB before starting, up to a maximum of 3 copies.</string>
+    <!-- ZH: 取消选择 -->
+    <string name="host_vm_log_viewer_f02e9439">Cancel selection</string>
+    <!-- ZH: 日志源：%1$s -->
+    <string name="host_vm_log_viewer_f29d97f4">Log source: %1$s</string>
+    <!-- ZH: 显示时间与进程信息 -->
+    <string name="host_vm_log_viewer_f7379e2c">Display time and process information</string>
+    <!-- ZH: 日志列表 -->
+    <string name="host_vm_log_viewer_fa32fdb2">Log list</string>
+    <!-- ZH: ● 实时 -->
+    <string name="host_vm_log_viewer_fd2ae082">● Real-time</string>
+    <!-- ZH: 级别包含指定级别及以上。此处支持上述字段、双引号与减号排除；不解析正则、OR 或包名。 -->
+    <string name="host_vm_log_viewer_ffbdb793">Level includes designated level and above. The above fields, double quotes and minus signs are supported here; regular expressions, OR or package names are not parsed.</string>
+    <!-- ZH: 取消导入 -->
+    <string name="host_wizard_import_cancel">Cancel import</string>
+    <!-- ZH: 取消导入？ -->
+    <string name="host_wizard_import_canceltitle">Cancel import?</string>
+    <!-- ZH: 继续导入 -->
+    <string name="host_wizard_import_continuelabel">Continue import</string>
+    <!-- ZH: 退出导入 -->
+    <string name="host_wizard_import_exit">Exit import</string>
+    <!-- ZH: 导入 已结束，可以查看结果 -->
+    <string name="host_wizard_import_finished">The import has ended. You can view the results.</string>
+    <!-- ZH: 开始导入 -->
+    <string name="host_wizard_import_start">Start import</string>
+    <!-- ZH: 取消重装 -->
+    <string name="host_wizard_reinstall_cancel">Cancel reinstallation</string>
+    <!-- ZH: 取消重装？ -->
+    <string name="host_wizard_reinstall_canceltitle">Cancel reinstallation?</string>
+    <!-- ZH: 继续重装 -->
+    <string name="host_wizard_reinstall_continuelabel">Continue reinstallation</string>
+    <!-- ZH: 退出重装 -->
+    <string name="host_wizard_reinstall_exit">Exit reinstallation</string>
+    <!-- ZH: 重装 已结束，可以查看结果 -->
+    <string name="host_wizard_reinstall_finished">The reinstallation has ended. You can view the results.</string>
+    <!-- ZH: 开始重装 -->
+    <string name="host_wizard_reinstall_start">Start reinstallation</string>
+    <!-- ZH: 取消恢复 -->
+    <string name="host_wizard_restore_cancel">Cancel restoration</string>
+    <!-- ZH: 取消恢复？ -->
+    <string name="host_wizard_restore_canceltitle">Cancel restoration?</string>
+    <!-- ZH: 继续恢复 -->
+    <string name="host_wizard_restore_continuelabel">Continue restoration</string>
+    <!-- ZH: 退出恢复 -->
+    <string name="host_wizard_restore_exit">Exit restoration</string>
+    <!-- ZH: 恢复 已结束，可以查看结果 -->
+    <string name="host_wizard_restore_finished">The restoration has ended. You can view the results.</string>
+    <!-- ZH: 开始恢复 -->
+    <string name="host_wizard_restore_start">Start restoration</string>
+    <string name="in_progress">In progress</string>
+    <string name="indeterminate">Partially checked</string>
+    <!-- ZH: 网络不可用, 请检查网络连接 -->
+    <string name="l_lerinet_hint_no_network">Network is unavailable.</string>
+    <!-- ZH: 在浏览器中打开 -->
+    <string name="lib_factory_a_web_menu_openinbrowser">Open in browser</string>
+    <!-- ZH: 刷新 -->
+    <string name="lib_factory_a_web_menu_refresh">Refresh</string>
+    <!-- ZH: 同意 -->
+    <string name="lnotice_dialog_btn_agree">Agree</string>
+    <!-- ZH: 不同意 -->
+    <string name="lnotice_dialog_btn_dont_agree">Don\'t agree</string>
+    <!-- ZH: 不再显示 -->
+    <string name="lnotice_dialog_btn_no_longer_prompt">No longer prompt</string>
+    <!-- ZH: 确定 -->
+    <string name="lnotice_dialog_btn_ok">OK</string>
+    <string name="m3_ref_typeface_brand_regular">sans-serif</string>
+    <string name="m3_ref_typeface_plain_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_plain_regular">sans-serif</string>
+    <string name="m3_sys_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_path_data">M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1</string>
+    <string name="m3_sys_motion_easing_legacy_accelerate">cubic-bezier(0.4, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_decelerate">cubic-bezier(0, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_linear">cubic-bezier(0, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard">cubic-bezier(0.2, 0, 0, 1)</string>
+    <string name="m3c_bottom_sheet_collapse_description">Collapse bottom sheet</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Dismiss bottom sheet</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Drag handle</string>
+    <string name="m3c_bottom_sheet_expand_description">Expand bottom sheet</string>
+    <string name="m3c_bottom_sheet_pane_title">Bottom Sheet</string>
+    <string name="m3c_dialog">Dialog</string>
+    <string name="m3c_snackbar_dismiss">Dismiss</string>
+    <string name="m3c_snackbar_pane_title">Alert</string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="not_selected">Not selected</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="search_menu_title">Search</string>
+    <string name="selected">Selected</string>
+    <string name="side_sheet_accessibility_pane_title">Side Sheet</string>
+    <string name="state_empty">Empty</string>
+    <string name="state_off">Off</string>
+    <string name="state_on">On</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="switch_role">Switch</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">%1$d percent.</string>
+    <string name="tooltip_description">tooltip</string>
+    <string name="tooltip_label">show tooltip</string>
+</resources>

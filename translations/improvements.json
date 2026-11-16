@@ -1,0 +1,232 @@
+{
+  "host_adb_terminal_pane_0478ffd3": {
+    "old": "Put away the keyboard",
+    "new": "Hide keyboard",
+    "reason": "More natural Android UI terminology for dismissing soft keyboard"
+  },
+  "host_adb_terminal_pane_627387f4": {
+    "old": "Return to latest output",
+    "new": "Jump to latest output",
+    "reason": "Standard terminal UI action for scrolling down to latest output"
+  },
+  "host_adb_terminal_pane_7328deeb": {
+    "old": "Connection",
+    "new": "Connect",
+    "reason": "Verb action label on button instead of noun"
+  },
+  "host_adb_terminal_pane_44238741": {
+    "old": "Host file access rights",
+    "new": "Host file access permissions",
+    "reason": "Standard Android permission terminology"
+  },
+  "host_adb_terminal_pane_666b26cb": {
+    "old": "Copy selected area/output all",
+    "new": "Copy selection / Copy all output",
+    "reason": "Clearer action description"
+  },
+  "host_adb_terminal_pane_80e37fe7": {
+    "old": "Authorization Download/AndVM",
+    "new": "Authorize Download/AndVM directory",
+    "reason": "Proper English phrasing for granting storage permission"
+  },
+  "host_adb_debug_panel_04f46a76": {
+    "old": "External wireless debugging has been turned on.",
+    "new": "External wireless ADB debugging is enabled.",
+    "reason": "Clearer and more standard technical terminology"
+  },
+  "host_adb_debug_panel_35eb5b12": {
+    "old": "Native ADB debugging has been turned on.",
+    "new": "Local ADB debugging is enabled.",
+    "reason": "Clearer distinction between local device debugging and external wireless debugging"
+  },
+  "host_adb_debug_panel_cc0c19fb": {
+    "old": "Wireless ADB is turned on",
+    "new": "Wireless ADB is enabled",
+    "reason": "Standard status phrasing"
+  },
+  "host_adb_debug_panel_e2fbd1a4": {
+    "old": "ADB debugging has been turned off.",
+    "new": "ADB debugging is disabled.",
+    "reason": "Standard status phrasing"
+  },
+  "host_adb_debug_panel_df575eb0": {
+    "old": "Turn on external wireless debugging?",
+    "new": "Enable external wireless debugging?",
+    "reason": "More professional dialog prompt"
+  },
+  "host_adb_debug_panel_928d80fa": {
+    "old": "ADB debugging can be turned on after starting the virtual machine.",
+    "new": "ADB debugging can be enabled after starting the virtual machine.",
+    "reason": "Better verb usage"
+  },
+  "host_adb_debug_panel_c248f129": {
+    "old": "A single paste supports up to 16,384 characters, please paste in sections.",
+    "new": "A single paste supports up to 16,384 characters. Please paste in smaller chunks.",
+    "reason": "Improved sentence flow"
+  },
+  "host_bottom_gesture_settings_79529e83": {
+    "old": "Follow the host",
+    "new": "Match host device",
+    "reason": "Clearer meaning for inheriting host system settings"
+  },
+  "host_bottom_gesture_settings_45688a63": {
+    "old": "Slide-up trigger area height (dp)",
+    "new": "Swipe-up trigger area height (dp)",
+    "reason": "Standard gesture terminology (swipe-up instead of slide-up)"
+  },
+  "host_bottom_gesture_settings_c43df18f": {
+    "old": "Expand the bottom sliding trigger area to avoid conflict with the host gesture",
+    "new": "Expand bottom swipe-up trigger area to prevent conflicts with host navigation gestures",
+    "reason": "Clearer technical explanation"
+  },
+  "host_bottom_gesture_settings_86dc6c3e": {
+    "old": "Gesture navigation bar optimization",
+    "new": "Gesture navigation bar optimizations",
+    "reason": "Standard pluralization"
+  },
+  "host_advanced_options_642c86e0": {
+    "old": "Clear attributes",
+    "new": "Clear properties",
+    "reason": "Correct Android terminology for build.prop / system properties"
+  },
+  "host_advanced_options_d6f19fa7": {
+    "old": "%1$s override attributes configured",
+    "new": "%1$s override properties configured",
+    "reason": "Correct Android system properties terminology"
+  },
+  "host_advanced_options_b6db14ae": {
+    "old": "Fill in attribute name = value in each line, support # comment.",
+    "new": "Enter property=value on each line. Lines beginning with # are comments.",
+    "reason": "Clearer instruction syntax"
+  },
+  "host_advanced_options_dbb39e25": {
+    "old": "The next cold start will take effect without re-preparing the system. Restore the ROM default properties after clearing the configuration.",
+    "new": "Takes effect upon next cold start without re-preparing the system. Cleared configuration restores ROM default properties.",
+    "reason": "More concise and professional phrasing"
+  },
+  "host_guest_floating_window_b26bc0d8": {
+    "old": "Close the floating window, long press to pause or stop the virtual machine",
+    "new": "Tap to close floating window; long-press to pause or shut down VM",
+    "reason": "Clearer touch gesture instructions"
+  },
+  "host_guest_floating_window_d505a1e3": {
+    "old": "Click to close the floating window, long press and slide to pause or stop the virtual machine",
+    "new": "Tap to close floating window; long-press and drag to pause or shut down VM",
+    "reason": "Standard mobile touch terminology (tap instead of click)"
+  },
+  "host_vm_export_sheet_a0f9d567": {
+    "old": "Background export in progress·Click to view progress",
+    "new": "Background export in progress · Tap to view progress",
+    "reason": "Fixed spacing and replaced 'Click' with 'Tap'"
+  },
+  "host_vm_export_sheet_62ca2434": {
+    "old": "Click to view results",
+    "new": "Tap to view results",
+    "reason": "Mobile UI convention ('Tap')"
+  },
+  "host_recovery_dialog_f78c32d0": {
+    "old": "Put away file verification information",
+    "new": "Hide file checksum details",
+    "reason": "Clearer technical description for collapsing checksum card"
+  },
+  "host_recovery_dialog_06a813a5": {
+    "old": "View file verification information",
+    "new": "View file checksum details",
+    "reason": "Consistent checksum phrasing"
+  },
+  "host_recovery_dialog_399c6826": {
+    "old": "Recovery is being processed",
+    "new": "Recovery processing in progress…",
+    "reason": "Better ongoing progress state message"
+  },
+  "host_recovery_dialog_436073d5": {
+    "old": "Nothing installed",
+    "new": "Not flashed",
+    "reason": "Correct Android custom ROM/Recovery terminology"
+  },
+  "host_recovery_dialog_7d199e2d": {
+    "old": "The installation script will be actually executed in the isolated Recovery; system and data changes will be saved after success, and the original state will be retained after failure. OTA updates the system and preserves user data.",
+    "new": "The installation script executes inside an isolated Recovery environment. System and data changes are applied upon success, or rolled back on failure. OTA updates preserve user data.",
+    "reason": "Cleaner and more professional technical documentation"
+  },
+  "host_recovery_dialog_7973c81e": {
+    "old": "When startup fails, all patches and Magisk can be disabled and user data retained. It will take effect on the next cold start.",
+    "new": "If startup fails, all patches and Magisk can be disabled while retaining user data. Takes effect upon next cold start.",
+    "reason": "Better conditional flow"
+  },
+  "host_recovery_dialog_0478e3a4": {
+    "old": "Do not start the virtual machine before the operation is completed. You can switch to the background and wait.",
+    "new": "Do not start the virtual machine until this operation completes. You may switch to background while waiting.",
+    "reason": "Improved sentence structure"
+  },
+  "host_device_mapping_screen_10822810": {
+    "old": "Nine abilities · Click the card to adjust",
+    "new": "9 Capabilities · Tap card to configure",
+    "reason": "More natural terminology and mobile touch verb"
+  },
+  "host_device_mapping_screen_00124354": {
+    "old": "Currently, it completely follows the default mapping. After modifying any item, it becomes an independent configuration of this virtual machine.",
+    "new": "Currently inherits default mapping. Modifying any item creates an independent configuration for this VM.",
+    "reason": "More concise and professional"
+  },
+  "host_device_mapping_screen_1f1759d5": {
+    "old": "This virtual machine has independent mapping, and the items that are not covered continue to follow the default value.",
+    "new": "This virtual machine has custom mappings; unconfigured items continue to inherit default values.",
+    "reason": "Clearer inheritance behavior"
+  },
+  "host_device_mapping_screen_1c060d0c": {
+    "old": "Virtual mode provides certain data by AndVM, no additional settings are required.",
+    "new": "In Virtual mode, simulated device data is generated automatically by AndVM.",
+    "reason": "Accurate description of synthetic device data"
+  },
+  "host_device_mapping_screen_3a51924c": {
+    "old": "One base station per row",
+    "new": "One cellular tower per line",
+    "reason": "Accurate telecom terminology (cellular tower / cell station)"
+  },
+  "host_device_mapping_screen_2897c077": {
+    "old": "One Wi-Fi per row",
+    "new": "One Wi-Fi network per line",
+    "reason": "Clearer specification"
+  },
+  "host_device_mapping_screen_8bf6ac7c": {
+    "old": "This device cannot be seen in the virtual machine after being disabled.",
+    "new": "When disabled, this device capability is hidden from the virtual machine.",
+    "reason": "Clearer explanation"
+  },
+  "host_device_mapping_screen_82981e71": {
+    "old": "Host mode uses Android public API, read-only mapping, and does not control the host device.",
+    "new": "Host mode uses official Android public APIs for read-only mapping without controlling the host device.",
+    "reason": "Clarifies safety of host mapping"
+  },
+  "host_device_mapping_screen_95a5e614": {
+    "old": "Scope of action",
+    "new": "Scope",
+    "reason": "Standard UI heading"
+  },
+  "host_device_mapping_screen_47fd06b6": {
+    "old": "The selection here is only used as the initial value for the newly imported virtual machine; existing virtual machines are set separately in their respective configuration pages.",
+    "new": "These choices serve as the initial default for newly imported VMs. Existing virtual machines retain their individual settings.",
+    "reason": "Improved readability"
+  },
+  "host_device_mapping_editors_df1fe2af": {
+    "old": "Precision radius (meter)",
+    "new": "Accuracy radius (meters)",
+    "reason": "Standard GPS geolocation terminology (accuracy radius in meters)"
+  },
+  "host_device_mapping_editors_eb045494": {
+    "old": "Altitude (meter)",
+    "new": "Altitude (meters)",
+    "reason": "Standard plural unit"
+  },
+  "host_notification_permission_request_649f160c": {
+    "old": "The system does not allow notification authorization to be turned on. Please turn on notifications in the application settings.",
+    "new": "Notification permission was not granted by the system. Please enable notifications in device App Settings.",
+    "reason": "Clearer instruction for users troubleshooting permissions"
+  },
+  "host_component_settings_page_07b00f3f": {
+    "old": "Remove components",
+    "new": "Streamline components",
+    "reason": "Accurate translation of 精简组件 (debloading/streamlining rather than just deleting)"
+  }
+}

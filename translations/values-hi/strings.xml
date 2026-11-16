@@ -1,0 +1,2316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bottomsheet_action_expand_halfway">पूरी तरह बड़ा करें</string>
+    <string name="bottomsheet_drag_handle_content_description">खींचकर छोड़ने वाला हैंडल</string>
+    <string name="call_notification_answer_action">जवाब दें</string>
+    <string name="call_notification_answer_video_action">वीडियो</string>
+    <string name="call_notification_decline_action">अस्वीकार करें</string>
+    <string name="call_notification_hang_up_action">कॉल काटें</string>
+    <string name="call_notification_incoming_text">आने वाला (इनकमिंग) कॉल</string>
+    <string name="call_notification_ongoing_text">पहले से जारी कॉल</string>
+    <string name="call_notification_screening_text">इनकमिंग कॉल को स्क्रीन किया जा रहा है</string>
+    <string name="close_sheet">शीट बंद करें</string>
+    <string name="default_error_message">अमान्य इनपुट</string>
+    <string name="default_popup_window_title">पॉप-अप विंडो</string>
+    <string name="error_a11y_label">गड़बड़ी: यह अमान्य है</string>
+    <!-- ZH: 取消静音 -->
+    <string name="host_action_unmute">आवाज़ चालू करें</string>
+    <!-- ZH: 已复制 ADB 连接命令。 -->
+    <string name="host_adb_debug_panel_00ebd1ef">ADB कनेक्ट कमांड कॉपी किया गया।</string>
+    <!-- ZH: 已开启外部无线调试。 -->
+    <string name="host_adb_debug_panel_04f46a76">बाह्य वायरलेस डीबगिंग चालू कर दिया गया है।</string>
+    <!-- ZH: 宿主密钥指纹 -->
+    <string name="host_adb_debug_panel_0abaafd6">होस्ट कुंजी फिंगरप्रिंट</string>
+    <!-- ZH: 已撤销调试授权，连接已断开。重新调试时需再次授权。 -->
+    <string name="host_adb_debug_panel_0ba2dbed">डीबगिंग प्राधिकरण को रद्द कर दिया गया है और कनेक्शन को डिस्कनेक्ट कर दिया गया है। फिर से कमीशन करते समय प्राधिकरण को फिर से आवश्यक है।</string>
+    <!-- ZH: 正在读取状态… -->
+    <string name="host_adb_debug_panel_0f90f9d0">पढ़ना स्थिति...</string>
+    <!-- ZH: ADB 调试 -->
+    <string name="host_adb_debug_panel_15def2e2">ADB डिबगिंग</string>
+    <!-- ZH: 开启 -->
+    <string name="host_adb_debug_panel_256783b7">खुला</string>
+    <!-- ZH: 宿主 ADB 调试 -->
+    <string name="host_adb_debug_panel_28b71056">होस्ट ADB डिबगिंग</string>
+    <!-- ZH: 已授权 Download/AndVM -->
+    <string name="host_adb_debug_panel_2e22a0a7">आधिकारिक डाउनलोड / AndVM</string>
+    <!-- ZH: 复制 adb connect 命令 -->
+    <string name="host_adb_debug_panel_31f0e30c">ADB कनेक्ट कमांड कॉपी करें</string>
+    <!-- ZH: ADB 连接命令 -->
+    <string name="host_adb_debug_panel_32c4fb98">ADB कनेक्शन कमांड</string>
+    <!-- ZH: 连接已断开，可重新连接。 -->
+    <string name="host_adb_debug_panel_357cbec8">कनेक्शन को डिस्कनेक्ट कर दिया गया है और इसे फिर से कनेक्ट किया जा सकता है।</string>
+    <!-- ZH: 已开启本机 ADB 调试。 -->
+    <string name="host_adb_debug_panel_35eb5b12">मूल ADB डिबगिंग को चालू कर दिया गया है।</string>
+    <!-- ZH: 无法读取 ADB 状态。 -->
+    <string name="host_adb_debug_panel_433fcdf6">ADB स्टेटस पढ़ने में असमर्थ।</string>
+    <!-- ZH: 取消 -->
+    <string name="host_adb_debug_panel_4d0b4688">रद्द करें</string>
+    <!-- ZH: 已关闭，仅本机可连接 -->
+    <string name="host_adb_debug_panel_4fcabbad">बंद, केवल यह मशीन कनेक्ट हो सकती है</string>
+    <!-- ZH: ADB 终端 -->
+    <string name="host_adb_debug_panel_58112d43">ADB टर्मिनल</string>
+    <!-- ZH: 电脑与宿主设备连接同一可信网络 -->
+    <string name="host_adb_debug_panel_581cb08d">कंप्यूटर और होस्ट डिवाइस एक ही विश्वसनीय नेटवर्क से जुड़े हुए हैं</string>
+    <!-- ZH: 开启 ADB 调试？ -->
+    <string name="host_adb_debug_panel_5c12bcbc">ADB डिबगिंग को चालू करें?</string>
+    <!-- ZH: 请求已提交，正在等待虚拟机更新 ADB 状态。 -->
+    <string name="host_adb_debug_panel_5ee2dd46">अनुरोध जमा किया गया है और ADB स्थिति को अद्यतन करने के लिए आभासी मशीन की प्रतीक्षा कर रहा है।</string>
+    <!-- ZH: 虚拟机暂时无法接受 ADB 配置，请确认虚拟机正在运行。 -->
+    <string name="host_adb_debug_panel_601d5f83">आभासी मशीन अस्थायी रूप से एडीबी विन्यास को स्वीकार करने में असमर्थ है। कृपया पुष्टि करें कि आभासी मशीन चल रही है।</string>
+    <!-- ZH: 启动失败 -->
+    <string name="host_adb_debug_panel_65525f0f">स्टार्टअप विफल</string>
+    <!-- ZH: 连接已断开。 -->
+    <string name="host_adb_debug_panel_689251ea">कनेक्शन को डिस्कनेक्ट किया गया है।</string>
+    <!-- ZH: 无法打开文件权限设置：%1$s -->
+    <string name="host_adb_debug_panel_6b2c6a41">फ़ाइल अनुमति सेटिंग खोलने में असमर्थ: %1$s</string>
+    <!-- ZH: 撤销调试授权？ -->
+    <string name="host_adb_debug_panel_70c5bf27">Debugging प्राधिकरण रद्द करें?</string>
+    <!-- ZH: 直接执行 adb 命令，支持双指缩放字号、命令历史和 Ctrl+C 中断。宿主默认目录 Download/AndVM。 -->
+    <string name="host_adb_debug_panel_710d6abc">सीधे adb कमांड निष्पादित करें, दो-फिंगर ज़ूम फ़ॉन्ट आकार, कमांड इतिहास और Ctrl + C रुकावट का समर्थन करें। होस्ट डिफ़ॉल्ट निर्देशिका डाउनलोड/AndVM।</string>
+    <!-- ZH: 将撤销此虚拟机的 ADB 授权并断开调试连接。电脑再次连接时需要重新确认授权。 -->
+    <string name="host_adb_debug_panel_7491cd15">इस आभासी मशीन के लिए ADB प्राधिकरण को रद्द कर दिया जाएगा और डीबगिंग कनेक्शन को डिस्कनेक्ट कर दिया जाएगा। जब कंप्यूटर फिर से जुड़ा हुआ है तो प्राधिकरण को फिर से पुष्टि की जानी चाहिए।</string>
+    <!-- ZH: 暂未找到可用的局域网地址，请检查宿主设备的网络连接。 -->
+    <string name="host_adb_debug_panel_7754c448">कोई उपलब्ध लैन पता नहीं मिला है, कृपया मेजबान डिवाइस के नेटवर्क कनेक्शन की जांच करें।</string>
+    <!-- ZH: 无须电脑直连虚拟机 ADB 调试 -->
+    <string name="host_adb_debug_panel_77eebf46">सीधे आभासी मशीन ADB डिबगिंग से कनेक्ट करने के लिए कंप्यूटर की आवश्यकता नहीं है</string>
+    <!-- ZH: 已复制终端内容 -->
+    <string name="host_adb_debug_panel_7f8f5931">टर्मिनल सामग्री को कॉपी किया गया है</string>
+    <!-- ZH: 撤销调试授权 -->
+    <string name="host_adb_debug_panel_834ee04f">Debugging प्राधिकरण रद्द करना</string>
+    <!-- ZH: 启动或快照操作期间暂不可修改 ADB 调试。 -->
+    <string name="host_adb_debug_panel_8860ebe9">स्टार्टअप या स्नैपशॉट ऑपरेशन के दौरान एडीबी डिबगिंग को अस्थायी रूप से संशोधित नहीं किया जा सकता है।</string>
+    <!-- ZH: ADB 配置失败。 -->
+    <string name="host_adb_debug_panel_89fa5bd1">ADB विन्यास विफल हो गया।</string>
+    <!-- ZH: 启动虚拟机后可开启 ADB 调试。 -->
+    <string name="host_adb_debug_panel_928d80fa">वर्चुअल मशीन शुरू करने के बाद एडीबी डिबगिंग को चालू किया जा सकता है।</string>
+    <!-- ZH: 打开调试终端 -->
+    <string name="host_adb_debug_panel_a89ac7c9">ओपन डीबगिंग टर्मिनल</string>
+    <!-- ZH: 首次连接时，请打开虚拟机画面，核对并确认电脑的 RSA 密钥指纹。 -->
+    <string name="host_adb_debug_panel_ac070d8a">पहली बार कनेक्ट करते समय, कृपया वर्चुअल मशीन स्क्रीन खोलें, कंप्यूटर के आरएसए कुंजी फिंगरप्रिंट की जांच और पुष्टि करें।</string>
+    <!-- ZH: 撤销授权 -->
+    <string name="host_adb_debug_panel_b31883bd">प्राधिकरण रद्द करना</string>
+    <!-- ZH: 目录授权失败 -->
+    <string name="host_adb_debug_panel_b3a3360b">निर्देशिका प्राधिकरण विफल</string>
+    <!-- ZH: 无线 ADB 调试 -->
+    <string name="host_adb_debug_panel_bd064c4b">वायरलेस ADB डिबगिंग</string>
+    <!-- ZH: 调试连接可执行命令、安装应用并访问虚拟机内的数据。开启后默认仅允许本机连接，外部无线调试需单独开启。请仅在需要调试时使用。 -->
+    <string name="host_adb_debug_panel_bd240ae4">एक डिबग कनेक्शन कमांड को निष्पादित कर सकता है, एप्लिकेशन इंस्टॉल कर सकता है और आभासी मशीन के भीतर डेटा एक्सेस कर सकता है। इसे चालू करने के बाद, केवल स्थानीय कनेक्शन को डिफ़ॉल्ट रूप से अनुमति दी जाती है, और बाहरी वायरलेस डीबगिंग को अलग से चालू करने की आवश्यकता होती है। कृपया केवल तभी उपयोग करें जब डीबगिंग की आवश्यकता होती है।</string>
+    <!-- ZH: 单次粘贴最多支持 16,384 个字符，请分段粘贴。 -->
+    <string name="host_adb_debug_panel_c248f129">एक एकल पेस्ट 16,384 वर्ण तक का समर्थन करता है, कृपया अनुभागों में पेस्ट करें।</string>
+    <!-- ZH: 允许外部网络连接 -->
+    <string name="host_adb_debug_panel_c38f29f7">बाह्य नेटवर्क कनेक्शन की अनुमति दें</string>
+    <!-- ZH: 本机地址  127.0.0.1:%1$s -->
+    <string name="host_adb_debug_panel_ca266cf8">स्थानीय पता 127.0.0.1:%1$s</string>
+    <!-- ZH: 启用 ADB -->
+    <string name="host_adb_debug_panel_cb02432a">ADB को सक्षम करें</string>
+    <!-- ZH: 无线 ADB 已开启 -->
+    <string name="host_adb_debug_panel_cc0c19fb">वायरलेस ADB चालू है</string>
+    <!-- ZH: 通过 ADB 调试接口对虚拟机系统进行操作 -->
+    <string name="host_adb_debug_panel_d8b895e7">ADB डीबगिंग इंटरफ़ेस के माध्यम से आभासी मशीन प्रणाली का संचालन करें</string>
+    <!-- ZH: 开启外部无线调试？ -->
+    <string name="host_adb_debug_panel_df575eb0">बाहरी वायरलेस डीबगिंग पर बारी?</string>
+    <!-- ZH: 正在准备调试服务… -->
+    <string name="host_adb_debug_panel_e07a34bb">डीबगिंग सेवा तैयार करना ...</string>
+    <!-- ZH: 已关闭 ADB 调试。 -->
+    <string name="host_adb_debug_panel_e2fbd1a4">ADB डिबगिंग बंद कर दिया गया है।</string>
+    <!-- ZH: 断开连接 -->
+    <string name="host_adb_debug_panel_eb724612">डिस्कनेक्ट</string>
+    <!-- ZH: 认证方式：ADB 密钥。调试权限由虚拟机系统决定。 -->
+    <string name="host_adb_debug_panel_ef7431ab">प्रमाणीकरण विधि: ADB कुंजी। डिबगिंग अनुमतियां आभासी मशीन प्रणाली द्वारा निर्धारित की जाती हैं।</string>
+    <!-- ZH: 恢复调试终端 -->
+    <string name="host_adb_debug_panel_f197950a">डिबगिंग टर्मिनल को पुनर्स्थापित करें</string>
+    <!-- ZH: 已就绪 -->
+    <string name="host_adb_debug_panel_f2afde89">रेडी</string>
+    <!-- ZH: 已关闭 -->
+    <string name="host_adb_debug_panel_f628761b">बंद</string>
+    <!-- ZH: 同一网络的电脑将可以连接此虚拟机，并在授权后执行调试操作。无线 ADB 使用未加密的 TCP 连接，请仅在可信网络使用，并在调试结束后关闭。 -->
+    <string name="host_adb_debug_panel_fa7735fa">उसी नेटवर्क पर कंप्यूटर इस वर्चुअल मशीन से कनेक्ट करने में सक्षम होंगे और प्राधिकरण के बाद डीबगिंग ऑपरेशन करने में सक्षम होंगे। वायरलेस एडीबी अनक्रिप्टेड टीसीपी कनेक्शन का उपयोग करता है, कृपया केवल एक विश्वसनीय नेटवर्क पर इसका उपयोग करें और डीबगिंग के बाद इसे बंद करें।</string>
+    <!-- ZH: 收起键盘 -->
+    <string name="host_adb_terminal_pane_0478ffd3">कीबोर्ड को हटा दें</string>
+    <!-- ZH: 缩小字号 -->
+    <string name="host_adb_terminal_pane_0a1432d7">फ़ॉन्ट आकार कम करें</string>
+    <!-- ZH: 正在准备终端… -->
+    <string name="host_adb_terminal_pane_11f03e0b">टर्मिनल तैयार करना...</string>
+    <!-- ZH: 光标右移 -->
+    <string name="host_adb_terminal_pane_229b6967">कर्सर सही ढंग से चलता है</string>
+    <!-- ZH: 断开 -->
+    <string name="host_adb_terminal_pane_28fb7ced">डिस्कनेक्ट</string>
+    <!-- ZH: 下一条命令 -->
+    <string name="host_adb_terminal_pane_4235661b">अगले आदेश</string>
+    <!-- ZH: 宿主文件访问权限 -->
+    <string name="host_adb_terminal_pane_44238741">होस्ट फ़ाइल एक्सेस अधिकार</string>
+    <!-- ZH: 虚拟机 Shell -->
+    <string name="host_adb_terminal_pane_4b76bbaa">आभासी मशीन शैल</string>
+    <!-- ZH: ADB 终端 -->
+    <string name="host_adb_terminal_pane_58112d43">ADB टर्मिनल</string>
+    <!-- ZH: 宿主 ADB 交互式终端 -->
+    <string name="host_adb_terminal_pane_5fc823bc">ADB इंटरैक्टिव टर्मिनल</string>
+    <!-- ZH: 回到最新输出 -->
+    <string name="host_adb_terminal_pane_627387f4">नवीनतम आउटपुट पर लौटें</string>
+    <!-- ZH: 复制选区 / 全部输出 -->
+    <string name="host_adb_terminal_pane_666b26cb">चयनित क्षेत्र / आउटपुट सभी को कॉपी करें</string>
+    <!-- ZH: 回车 -->
+    <string name="host_adb_terminal_pane_67d8ad0a">प्रवेश</string>
+    <!-- ZH: 正在连接… -->
+    <string name="host_adb_terminal_pane_703c7fdd">कनेक्ट ...</string>
+    <!-- ZH: 连接 -->
+    <string name="host_adb_terminal_pane_7328deeb">कनेक्शन</string>
+    <!-- ZH: 授权 Download/AndVM -->
+    <string name="host_adb_terminal_pane_80e37fe7">प्राधिकरण डाउनलोड/AndVM</string>
+    <!-- ZH: 更多 -->
+    <string name="host_adb_terminal_pane_9b0c6c78">और</string>
+    <!-- ZH: 上一条命令 -->
+    <string name="host_adb_terminal_pane_a21dbf8c">पिछला आदेश</string>
+    <!-- ZH: 光标左移 -->
+    <string name="host_adb_terminal_pane_af689452">कर्सर बाईं ओर जाता है</string>
+    <!-- ZH: 显示键盘 -->
+    <string name="host_adb_terminal_pane_af88626f">कीबोर्ड प्रदर्शित करें</string>
+    <!-- ZH: 放大字号 -->
+    <string name="host_adb_terminal_pane_b60958c3">फ़ॉन्ट आकार बढ़ाना</string>
+    <!-- ZH: 关闭终端 -->
+    <string name="host_adb_terminal_pane_cfc53731">टर्मिनल बंद</string>
+    <!-- ZH: 宿主 · AndVM -->
+    <string name="host_adb_terminal_pane_dbddfe34">होस्ट · AndVM</string>
+    <!-- ZH: 粘贴 -->
+    <string name="host_adb_terminal_pane_de7fb7d3">पेस्ट करें</string>
+    <!-- ZH: 清屏 -->
+    <string name="host_adb_terminal_pane_e8db7ce0">स्पष्ट स्क्रीन</string>
+    <!-- ZH: 未连接 -->
+    <string name="host_adb_terminal_pane_f2f3e980">संबद्ध नहीं</string>
+    <!-- ZH: 使用 ROM 默认属性 -->
+    <string name="host_advanced_options_2ec24b0f">रॉम डिफ़ॉल्ट गुण का उपयोग करना</string>
+    <!-- ZH: 高级选项 -->
+    <string name="host_advanced_options_378a5408">उन्नत विकल्प</string>
+    <!-- ZH: 已收起 -->
+    <string name="host_advanced_options_5dd9d53e">संग्रहित</string>
+    <!-- ZH: 清空属性 -->
+    <string name="host_advanced_options_642c86e0">स्पष्ट विशेषताएँ</string>
+    <!-- ZH: 覆盖系统加载的属性默认值；persist.* 的已保存值及系统脚本可能再次改写属性。修改核心属性可能影响启动，可清空配置恢复。 -->
+    <string name="host_advanced_options_a5c5caee">सिस्टम द्वारा लोड की गई विशेषता के डिफ़ॉल्ट मान को ओवरराइट करें; शेष मूल्य का शेष मूल्य।* और सिस्टम स्क्रिप्ट फिर से विशेषता को फिर से लिख सकती है। कोर विशेषताओं को संशोधित करना स्टार्टअप को प्रभावित कर सकता है, और आप कॉन्फ़िगरेशन को साफ़ कर सकते हैं और इसे पुनर्स्थापित कर सकते हैं।</string>
+    <!-- ZH: 每行填写 属性名=值，支持 # 注释。 -->
+    <string name="host_advanced_options_b6db14ae">प्रत्येक पंक्ति में विशेषता नाम = मान भरें, # टिप्पणी का समर्थन करें।</string>
+    <!-- ZH: 编辑属性 -->
+    <string name="host_advanced_options_c98388f3">गुण संपादित करें</string>
+    <!-- ZH: build.prop 属性覆盖 -->
+    <string name="host_advanced_options_d1b402d5">build.prop संपत्ति ओवरराइड</string>
+    <!-- ZH: 已配置 %1$s 个覆盖属性 -->
+    <string name="host_advanced_options_d6f19fa7">%1$s ओवरराइड विशेषताओं को कॉन्फ़िगर किया गया</string>
+    <!-- ZH: 下次冷启动生效，无需重新准备系统。清空配置后恢复 ROM 默认属性。 -->
+    <string name="host_advanced_options_dbb39e25">अगले कोल्ड स्टार्ट सिस्टम को फिर से तैयार किए बिना प्रभाव डालेगा। कॉन्फ़िगरेशन को साफ़ करने के बाद रॉम डिफ़ॉल्ट गुणों को पुनर्स्थापित करें।</string>
+    <!-- ZH: 已展开 -->
+    <string name="host_advanced_options_fa83a257">विस्तारित</string>
+    <!-- ZH: 保存 -->
+    <string name="host_advanced_options_fadf24db">सहेजें</string>
+    <!-- ZH: AndVM 正在启动虚拟机 -->
+    <string name="host_and_vm_startup_animation_d17705a9">AndVM आभासी मशीन शुरू कर रहा है</string>
+    <!-- ZH: 本机 Android %1$s · 可直接用「开发者选项」 -->
+    <string name="host_android_developer_method">इस उपकरण: एंड्रॉयड %1$s · सीधे डेवलपर विकल्प का उपयोग करें</string>
+    <!-- ZH: 本机 Android %1$s · 需使用「无线调试」方式 -->
+    <string name="host_android_wireless_method">इस उपकरण: एंड्रॉयड %1$s · वायरलेस डीबगिंग का प्रयोग करें</string>
+    <!-- ZH: 虚拟机仍在运行，后台限制可能导致系统强行停止虚拟机。 -->
+    <string name="host_background_execution_reminder_0cf8528e">एक आभासी मशीन अभी भी चल रही है। पृष्ठभूमि प्रतिबंध इसे रोकने के लिए मजबूर कर सकते हैं।</string>
+    <!-- ZH: 请设置 AndVM 后台无限制 -->
+    <string name="host_background_execution_reminder_45a03622">AndVM के लिए अप्रतिबंधित पृष्ठभूमि उपयोग की अनुमति दें</string>
+    <!-- ZH: 前往设置 -->
+    <string name="host_background_execution_reminder_9ea2c95e">सेटिंग्स पर जाएं</string>
+    <!-- ZH: 虚拟机后台运行提醒 -->
+    <string name="host_background_execution_reminder_a56abb0a">आभासी मशीनें पृष्ठभूमि में चल रही हैं</string>
+    <!-- ZH: 虚拟机仍在运行。建议在系统电池或后台设置中将 AndVM 设为「无限制」，否则虚拟机可能被系统强行停止。 -->
+    <string name="host_background_execution_reminder_aa1bf5c5">एक आभासी मशीन अभी भी चल रही है। सिस्टम को रोकने के लिए सिस्टम बैटरी या पृष्ठभूमि सेटिंग्स में अप्रतिबंधित करने के लिए एंडवीएम को सेट करें।</string>
+    <!-- ZH: 取消 -->
+    <string name="host_background_execution_settings_4d0b4688">रद्द करें</string>
+    <!-- ZH: "若需要在后台或息屏继续运行虚拟机，请将 AndVM 的电池或后台策略设为「无限制」，否则虚拟机可能被系统强行停止；允许持续运行可能增加耗电。 -->
+    <string name="host_background_execution_settings_55a69ee1">"आभासी मशीनों को पृष्ठभूमि में या स्क्रीन के साथ चलाने के लिए, एंडवीएम की बैटरी या पृष्ठभूमि नीति को अप्रतिबंधित करने के लिए सेट करें। अन्यथा, सिस्टम उन्हें रोकने के लिए मजबूर कर सकता है। सतत संचालन बैटरी उपयोग को बढ़ा सकता है।</string>
+    <!-- ZH: 前往设置 -->
+    <string name="host_background_execution_settings_9ea2c95e">सेटिंग्स पर जाएं</string>
+    <!-- ZH: 允许虚拟机持续在后台运行 -->
+    <string name="host_background_execution_settings_f71710aa">आभासी मशीनों को पृष्ठभूमि में चलने की अनुमति दें</string>
+    <!-- ZH: 请输入 %1$s–%2$s 之间的整数 -->
+    <string name="host_bottom_gesture_settings_2cd4a17a">कृपया %1$s-%2$s के बीच एक पूर्णांक दर्ज करें</string>
+    <!-- ZH: 上滑触发区域高度（dp） -->
+    <string name="host_bottom_gesture_settings_45688a63">स्लाइड-अप ट्रिगर क्षेत्र ऊंचाई (डीपी)</string>
+    <!-- ZH: 跟随宿主机 -->
+    <string name="host_bottom_gesture_settings_79529e83">मेजबान का पालन करें</string>
+    <!-- ZH: 手势导航栏优化 -->
+    <string name="host_bottom_gesture_settings_86dc6c3e">Gesture नेविगेशन बार अनुकूलन</string>
+    <!-- ZH: 区域高 %1$s dp -->
+    <string name="host_bottom_gesture_settings_87c03e45">क्षेत्रफल उच्च %1$sDp</string>
+    <!-- ZH: 扩大底部上滑触发区域，避免与宿主手势冲突 -->
+    <string name="host_bottom_gesture_settings_c43df18f">मेजबान इशारा के साथ संघर्ष से बचने के लिए नीचे स्लाइडिंग ट्रिगर क्षेत्र का विस्तार करें</string>
+    <!-- ZH: 自定义 -->
+    <string name="host_bottom_gesture_settings_c493338e">कस्टम</string>
+    <!-- ZH: 取消 -->
+    <string name="host_cancel">रद्द करें</string>
+    <!-- ZH: 精简组件 -->
+    <string name="host_component_settings_page_07b00f3f">घटकों को निकालें</string>
+    <!-- ZH: 组件清单来自旧版本扫描，「必要」标识和「最精简」会偏保守；重新扫描可更新。 -->
+    <string name="host_component_settings_page_14066b82">इस घटक सूची को एक पुराने संस्करण द्वारा स्कैन किया गया था। आवश्यक घटक लेबल और न्यूनतम प्रीसेट रूढ़िवादी हो सकता है। उन्हें अद्यतन करने के लिए फिर से स्कैन करें।</string>
+    <!-- ZH: 扫描后显示此系统的组件和应用。扫描与应用均可在后台进行。 -->
+    <string name="host_component_settings_page_1e60ac57">इस प्रणाली के घटकों और अनुप्रयोगों को स्कैनिंग के बाद प्रदर्शित किया जाता है। पृष्ठभूमि में स्कैन और अनुप्रयोगों का प्रदर्शन किया जा सकता है।</string>
+    <!-- ZH: 另一虚拟机正在处理系统组件… -->
+    <string name="host_component_settings_page_36100c88">एक अन्य आभासी मशीन प्रसंस्करण प्रणाली घटक है ...</string>
+    <!-- ZH: 扫描系统组件 -->
+    <string name="host_component_settings_page_38acb408">स्कैनिंग सिस्टम घटक</string>
+    <!-- ZH: 精简组件 (%1$s) -->
+    <string name="host_component_settings_page_55edd0ff">घटकों को हटा दें (%1$s)</string>
+    <!-- ZH: 重新扫描 -->
+    <string name="host_component_settings_page_7b3a48e2">रेस्कन</string>
+    <!-- ZH: 精简组件可能导致系统无法启动，应用前请检查标识和影响提示；若出现无法启动，可取消勾选恢复组件。 -->
+    <string name="host_component_settings_page_7bfbe0d6">घटकों को हटाने से सिस्टम शुरू होने से रोका जा सकता है। आवेदन करने से पहले लेबल और प्रभाव नोट्स की समीक्षा करें। यदि स्टार्टअप विफल हो जाता है, तो उन्हें बहाल करने के लिए हटाए गए घटकों का चयन करें।</string>
+    <!-- ZH: 后台进行 -->
+    <string name="host_component_settings_page_95669168">पृष्ठभूमि में प्रदर्शन</string>
+    <!-- ZH: 正在读取虚拟机… -->
+    <string name="host_component_settings_page_b55da8c1">आभासी मशीन पढ़ना...</string>
+    <!-- ZH: 管理系统组件 -->
+    <string name="host_component_settings_page_c918028f">प्रबंधन प्रणाली घटक</string>
+    <!-- ZH: %1$s · 已精简 %2$s 项 · 勾选表示移除 -->
+    <string name="host_component_settings_page_dd6dc5c8">%1$s · हटा दिया: %2$s · निकालने के लिए चुनें</string>
+    <!-- ZH: 共 %1$s 项，可复制后分享给使用同一 ROM 的人 -->
+    <string name="host_component_trim_sheets_1094ac8a">कुल %1$s आइटमों को समान रॉम का उपयोग करके लोगों के साथ कॉपी और साझा किया जा सकता है।</string>
+    <!-- ZH: %1$s 项 -->
+    <string name="host_component_trim_sheets_27500691">%1$s आइटम</string>
+    <!-- ZH: 来源系统 -->
+    <string name="host_component_trim_sheets_43552db8">स्रोत प्रणाली</string>
+    <!-- ZH: 精简配置 JSON -->
+    <string name="host_component_trim_sheets_45ebdd0d">हटाने विन्यास JSON</string>
+    <!-- ZH: 粘贴配置，自动勾选对应组件 -->
+    <string name="host_component_trim_sheets_47803786">कॉन्फ़िगरेशन पेस्ट करें और स्वचालित रूप से संबंधित घटकों की जांच करें</string>
+    <!-- ZH: 导出精简配置 -->
+    <string name="host_component_trim_sheets_4f29babf">सम्पर्क करने का विवरण</string>
+    <!-- ZH: 配置包含 -->
+    <string name="host_component_trim_sheets_5e80951d">कॉन्फ़िगरेशन में शामिल हैं</string>
+    <!-- ZH: 勾选 %1$s 项 -->
+    <string name="host_component_trim_sheets_8489dc55">%1$s आइटम की जाँच करें</string>
+    <!-- ZH: 清空 -->
+    <string name="host_component_trim_sheets_84fcd70d">साफ़ करें</string>
+    <!-- ZH: 本机匹配 -->
+    <string name="host_component_trim_sheets_858c9c87">स्थानीय मिलान</string>
+    <!-- ZH: 把导出的配置粘贴到这里。 -->
+    <string name="host_component_trim_sheets_85d88ce9">यहाँ निर्यात किए गए विन्यास को पेस्ट करें।</string>
+    <!-- ZH: 无法读取这段精简配置 -->
+    <string name="host_component_trim_sheets_b348a3be">इस हटाने विन्यास को पढ़ा नहीं सकता</string>
+    <!-- ZH: 这份配置里的组件此系统一个也没有，可能来自另一个 ROM 或另一个版本。 -->
+    <string name="host_component_trim_sheets_c0553d7c">इस विन्यास में घटकों में से कोई भी इस प्रणाली में मौजूद नहीं है और किसी अन्य ROM या किसी अन्य संस्करण से आ सकता है।</string>
+    <!-- ZH: AndVM 精简配置 -->
+    <string name="host_component_trim_sheets_c19743eb">AndVM हटाने विन्यास</string>
+    <!-- ZH: 勾选组件 -->
+    <string name="host_component_trim_sheets_c6eb2dd5">घटक की जाँच करें</string>
+    <!-- ZH: 勾选后仍需点“精简组件”才会真正精简。 -->
+    <string name="host_component_trim_sheets_d75ec54c">घटकों का चयन करने के बाद, परिवर्तन लागू करने के लिए "कंपोनेंट्स को हटा दें" टैप करें।</string>
+    <!-- ZH: 已复制 -->
+    <string name="host_component_trim_sheets_e381a576">कॉपी हो गया</string>
+    <!-- ZH: 导入精简配置 -->
+    <string name="host_component_trim_sheets_ea44b2ac">सम्पर्क करने का विवरण</string>
+    <!-- ZH: 粘贴剪贴板 -->
+    <string name="host_component_trim_sheets_f2519e46">पेस्ट क्लिपबोर्ड</string>
+    <!-- ZH: 复制配置 -->
+    <string name="host_component_trim_sheets_f4500a2a">विन्यास</string>
+    <!-- ZH: 压缩内存 %1$s -->
+    <string name="host_compressed_memory">संकुचित स्मृति: %1$s_</string>
+    <!-- ZH: 正在准备运行环境，请稍后... -->
+    <string name="host_console_bindings_2ffe4d48">ऑपरेटिंग वातावरण तैयार करना, कृपया प्रतीक्षा करें ...</string>
+    <!-- ZH: 正在初始化应用 -->
+    <string name="host_console_bindings_7475b9d1">सम्पर्क करने का परिचय</string>
+    <!-- ZH: 运行通知用于查看虚拟机状态，以及从通知栏返回或停止虚拟机。 -->
+    <string name="host_console_bindings_7d6032ba">चल रही अधिसूचना का उपयोग आभासी मशीन की स्थिति को देखने के लिए किया जाता है, और अधिसूचना बार से आभासी मशीन को वापस लौटने या रोकने के लिए किया जाता है।</string>
+    <!-- ZH: 取消启动 -->
+    <string name="host_console_bindings_8f935f0b">स्टार्टअप रद्द करना</string>
+    <!-- ZH: 正在恢复… -->
+    <string name="host_console_components_0654d3fc">......</string>
+    <!-- ZH: 恢复快照中 -->
+    <string name="host_console_components_1db887cb">Restore स्नैपशॉट</string>
+    <!-- ZH: 虚拟机预览 -->
+    <string name="host_console_components_2ad0b684">वर्चुअल मशीन पूर्वावलोकन</string>
+    <!-- ZH: 暂停前的 Guest 画面 -->
+    <string name="host_console_components_4a4127d0">निलंबन से पहले गेस्ट स्क्रीन</string>
+    <!-- ZH: 实时画面 -->
+    <string name="host_console_components_54ced08c">रियल टाइम पिक्चर</string>
+    <!-- ZH: 运行中 -->
+    <string name="host_console_components_59424970">चल रही है</string>
+    <!-- ZH: 启动失败 -->
+    <string name="host_console_components_65525f0f">स्टार्टअप विफल</string>
+    <!-- ZH: 已暂停，恢复后继续上次运行状态 -->
+    <string name="host_console_components_7a7385f5">Pause, पुनर्प्राप्ति के बाद अंतिम चल रही अवस्था को फिर से शुरू करें</string>
+    <!-- ZH: 上次启动失败，可重新启动排查 -->
+    <string name="host_console_components_7b0e859a">आखिरी स्टार्टअप विफल हो गया, आप चेक करने के लिए पुनः आरंभ कर सकते हैं</string>
+    <!-- ZH: 画面已交给全屏 Guest 任务，返回后继续预览 -->
+    <string name="host_console_components_97540606">स्क्रीन को पूर्ण स्क्रीन गेस्ट कार्य को सौंपा गया है, और पूर्वावलोकन वापस आने के बाद जारी रहेगा।</string>
+    <!-- ZH: 正在停止… -->
+    <string name="host_console_components_a6dd18c3">बंद करना</string>
+    <!-- ZH: 未运行 -->
+    <string name="host_console_components_b2ba9634">बंद है</string>
+    <!-- ZH: 未运行，启动后在这里显示实时画面 -->
+    <string name="host_console_components_b4c6e3aa">नहीं चल रहा है, स्टार्टअप के बाद रियल टाइम पिक्चर यहां प्रदर्शित की जाएगी</string>
+    <!-- ZH: 进入全屏操作 -->
+    <string name="host_console_components_db52f6ec">पूर्ण स्क्रीन ऑपरेशन दर्ज करें</string>
+    <!-- ZH: 正在暂停… -->
+    <string name="host_console_components_e8c236b6">......</string>
+    <!-- ZH: 已暂停 -->
+    <string name="host_console_components_fcbae46b">रुकी हुई है</string>
+    <!-- ZH: 保存快照中 -->
+    <string name="host_console_components_fd5ffbf3">सेविंग स्नैपशॉट</string>
+    <!-- ZH: 操作失败 -->
+    <string name="host_console_feedback_09e424b5">ऑपरेशन विफल</string>
+    <!-- ZH: 知道了 -->
+    <string name="host_console_feedback_cb63c62e">समझ गया</string>
+    <!-- ZH: Android 通用内核 GSI 虚拟机 -->
+    <string name="host_console_screen_0e891d23">एंड्रॉइड सामान्य कर्नेल जीएसआई वर्चुअल मशीन</string>
+    <!-- ZH: 导入 ROM -->
+    <string name="host_console_screen_233cfdb1">आयात रॉम</string>
+    <!-- ZH: 设置 -->
+    <string name="host_console_screen_7debf9cb">सेटिंग</string>
+    <!-- ZH: 查看导入任务 -->
+    <string name="host_console_screen_92213089">आयात कार्य देखें</string>
+    <!-- ZH: 正在处理… -->
+    <string name="host_console_screen_ce9fd54c">प्रसंस्करण...</string>
+    <!-- ZH: ROM 市场 -->
+    <string name="host_console_screen_d8540f96">रॉम बाजार</string>
+    <!-- ZH: %1$s 核 %2$s 进程 -->
+    <string name="host_cpu_processes">सीपीयू कोर: %1$s · प्रक्रियाएं: %2$s</string>
+    <!-- ZH: %1$s 核 最大进程 -->
+    <string name="host_cpu_unlimited_processes">CPU कोर: %1$s_ · असीमित प्रक्रियाएं</string>
+    <!-- ZH: 正在恢复… -->
+    <string name="host_detail_header_0654d3fc">......</string>
+    <!-- ZH: 停止虚拟机 -->
+    <string name="host_detail_header_078b34fd">आभासी मशीन बंद करो</string>
+    <!-- ZH: 运行中，点按画面放大 -->
+    <string name="host_detail_header_0aecbb24">ऑपरेशन के दौरान, स्क्रीन पर विस्तार करने के लिए क्लिक करें</string>
+    <!-- ZH: 暂停并保存运行快照 -->
+    <string name="host_detail_header_1c757341">रोकें और बचे हुए स्नैपशॉट को सहेजें</string>
+    <!-- ZH: 虚拟机已暂停。停止会丢弃运行快照，下次启动执行冷启动。 -->
+    <string name="host_detail_header_1fd9aaa7">आभासी मशीन को रोक दिया गया है। स्टॉपिंग चल रहे स्नैपशॉट को छोड़ देगा और अगले स्टार्टअप पर एक ठंडी शुरुआत करेगा।</string>
+    <!-- ZH: 虚拟机画面 -->
+    <string name="host_detail_header_25b3ab4d">वर्चुअल मशीन स्क्रीन</string>
+    <!-- ZH: 虚拟机预览 -->
+    <string name="host_detail_header_2ad0b684">वर्चुअल मशीन पूर्वावलोकन</string>
+    <!-- ZH: 停止并丢弃运行快照？ -->
+    <string name="host_detail_header_2f2328b4">बंद करो और बंद करो स्नैपशॉट चल रहा है?</string>
+    <!-- ZH: 正在启动… -->
+    <string name="host_detail_header_4fe38132">शुरू करना</string>
+    <!-- ZH: 恢复运行 -->
+    <string name="host_detail_header_67be57f3">फिर से शुरू ऑपरेशन</string>
+    <!-- ZH: 已暂停，恢复后继续上次运行状态 -->
+    <string name="host_detail_header_7a7385f5">Pause, पुनर्प्राप्ति के बाद अंतिम चल रही अवस्था को फिर से शुरू करें</string>
+    <!-- ZH: 正在暂停 -->
+    <string name="host_detail_header_897ea382">रोकना जारी है</string>
+    <!-- ZH: 停止虚拟机并丢弃运行快照 -->
+    <string name="host_detail_header_a1bc393b">आभासी मशीन बंद करो और स्नैपशॉट चल रहा है</string>
+    <!-- ZH: 正在恢复运行… -->
+    <string name="host_detail_header_a8405a26">फिर से शुरू किया जा रहा है...</string>
+    <!-- ZH: 正在停止 -->
+    <string name="host_detail_header_caa14e6a">बंद करना</string>
+    <!-- ZH: 打开画面 -->
+    <string name="host_detail_header_d4f465dd">ओपन स्क्रीन</string>
+    <!-- ZH: 完成 -->
+    <string name="host_device_mapping_components_33246f6a">हो गया</string>
+    <!-- ZH: 虚拟充电状态 -->
+    <string name="host_device_mapping_editors_1bde82f5">वर्चुअल चार्जिंग स्टेट</string>
+    <!-- ZH: 纬度（-90..90） -->
+    <string name="host_device_mapping_editors_7464cab2">अक्षांश (90.90)</string>
+    <!-- ZH: 虚拟电量 -->
+    <string name="host_device_mapping_editors_9ab57937">आभासी शक्ति</string>
+    <!-- ZH: 有效数值会立即保存，并在下一次启动时生效 -->
+    <string name="host_device_mapping_editors_b88288ba">वैध मूल्य तुरंत बचाया जाएगा और अगले स्टार्टअप पर प्रभावी होगा।</string>
+    <!-- ZH: 经度（-180..180） -->
+    <string name="host_device_mapping_editors_d6aada69">अक्षांश (-180.180)</string>
+    <!-- ZH: 精度半径（米） -->
+    <string name="host_device_mapping_editors_df1fe2af">प्रेसिजन त्रिज्या (मीटर)</string>
+    <!-- ZH: 海拔（米） -->
+    <string name="host_device_mapping_editors_eb045494">ऊंचाई (मीटर)</string>
+    <!-- ZH: 虚拟 GPS 固定位置 -->
+    <string name="host_device_mapping_editors_f0d57fa7">वर्चुअल जीपीएस निश्चित स्थान</string>
+    <!-- ZH: 当前完全跟随默认映射，修改任意一项后即成为此虚拟机的独立配置。 -->
+    <string name="host_device_mapping_screen_00124354">वर्तमान में, यह पूरी तरह से डिफ़ॉल्ट मैपिंग का पालन करता है। किसी भी आइटम को संशोधित करने के बाद, यह इस आभासी मशीन का एक स्वतंत्र विन्यास बन जाता है।</string>
+    <!-- ZH: 九项能力 · 点按卡片调整 -->
+    <string name="host_device_mapping_screen_10822810">नौ क्षमताओं · समायोजित करने के लिए कार्ड पर क्लिक करें</string>
+    <!-- ZH: 虚拟模式由 AndVM 提供确定的数据，无需额外设置。 -->
+    <string name="host_device_mapping_screen_1c060d0c">वर्चुअल मोड एंडवीएम द्वारा कुछ डेटा प्रदान करता है, कोई अतिरिक्त सेटिंग्स की आवश्यकता नहीं है।</string>
+    <!-- ZH: 此虚拟机已有独立映射，未覆盖的项目继续跟随默认值。 -->
+    <string name="host_device_mapping_screen_1f1759d5">इस आभासी मशीन में स्वतंत्र मानचित्रण है, और उन वस्तुओं को शामिल नहीं किया जाता है जो डिफ़ॉल्ट मान का पालन करना जारी रखते हैं।</string>
+    <!-- ZH: 字段：name、address、kind（CLASSIC/LE/DUAL）、rssi、class（十六进制）。当前映射扫描身份，不转交宿主配对密钥或 Profile。 -->
+    <string name="host_device_mapping_screen_23079883">फ़ील्ड: नाम, पता, प्रकार (CLASSIC/LE/DUAL), rssi, वर्ग (hexadecimal)। केवल स्कैन किए गए डिवाइस पहचान को मैप किया जाता है; होस्ट जोड़ी कुंजी और प्रोफाइल साझा नहीं किए जाते हैं।</string>
+    <!-- ZH: 每行一个 Wi-Fi -->
+    <string name="host_device_mapping_screen_2897c077">प्रति पंक्ति एक वाई-फाई</string>
+    <!-- ZH: 新虚拟机默认映射 -->
+    <string name="host_device_mapping_screen_2cc5d064">नई आभासी मशीन डिफ़ॉल्ट मैपिंग</string>
+    <!-- ZH: 每行一个基站 -->
+    <string name="host_device_mapping_screen_3a51924c">प्रति पंक्ति एक आधार स्टेशन</string>
+    <!-- ZH: 这里的选择只作为新导入虚拟机的初始值；已有虚拟机在各自的配置页中单独设置。 -->
+    <string name="host_device_mapping_screen_47fd06b6">यहां चयन केवल नए आयातित आभासी मशीन के लिए प्रारंभिक मूल्य के रूप में प्रयोग किया जाता है; मौजूदा आभासी मशीनों को उनके संबंधित विन्यास पृष्ठों में अलग से सेट किया जाता है।</string>
+    <!-- ZH: 取消 -->
+    <string name="host_device_mapping_screen_4d0b4688">रद्द करें</string>
+    <!-- ZH: 字段以分号分隔：ssid、bssid、frequency、rssi、security（OPEN/WPA2/WPA3）。 -->
+    <string name="host_device_mapping_screen_6d575971">सेमीकोलॉन्स द्वारा अलग किए गए फ़ील्ड: ssid, bssid, आवृत्ति, rssi, सुरक्षा (OPEN/WPA2/WPA3)।</string>
+    <!-- ZH: 宿主模式使用 Android 公开 API，只读映射，不控制宿主设备。 -->
+    <string name="host_device_mapping_screen_82981e71">होस्ट मोड एंड्रॉइड सार्वजनिक एपीआई का उपयोग करता है, केवल मैपिंग करता है, और होस्ट डिवाइस को नियंत्रित नहीं करता है।</string>
+    <!-- ZH: 禁用后虚拟机里看不到这项设备。 -->
+    <string name="host_device_mapping_screen_8bf6ac7c">इस उपकरण को निष्क्रिय होने के बाद आभासी मशीन में नहीं देखा जा सकता है।</string>
+    <!-- ZH: 作用范围 -->
+    <string name="host_device_mapping_screen_95a5e614">कार्रवाई का दायरा</string>
+    <!-- ZH: 每行一个蓝牙设备 -->
+    <string name="host_device_mapping_screen_aa80c1e2">प्रति लाइन एक ब्लूटूथ डिवाइस</string>
+    <!-- ZH: 虚拟机应用可使用宿主摄像头，并调整支持的闪光灯、对焦、变焦和曝光。 -->
+    <string name="host_device_mapping_screen_af3c32b9">वर्चुअल मशीन एप्लिकेशन होस्ट कैमरा का उपयोग कर सकता है और समर्थित फ्लैश, फोकस, ज़ूम और एक्सपोजर को समायोजित कर सकता है।</string>
+    <!-- ZH: 支持 GSM/WCDMA/TDSCDMA/LTE/NR；字段以分号分隔。LTE 的 RSRP/RSRQ 与 NR 信号值使用负 dBm。 -->
+    <string name="host_device_mapping_screen_b832208f">जीएसएम / डब्ल्यूसीडीएमए / टीडीएससीडीएमए / एलटीई / एनआर का समर्थन करता है; सेमीकोलॉन्स के साथ अलग-अलग क्षेत्रों। एलटीई आरएसआरपी / आरएसआरक्यू और एनआर सिग्नल मूल्यों के लिए नकारात्मक डीबीएम का उपयोग करें।</string>
+    <!-- ZH: 继续授权 -->
+    <string name="host_device_mapping_screen_c11028eb">पढ़ना</string>
+    <!-- ZH:   恢复为默认映射 -->
+    <string name="host_device_mapping_screen_c6dac9e0">  डिफ़ॉल्ट मैपिंग के लिए पुनर्स्थापित करें</string>
+    <!-- ZH: "%1$s -->
+    <string name="host_device_mapping_screen_c70c955e">"%1$s</string>
+    <!-- ZH: 真实模式使用 Android 公开 API；虚拟模式由 AndVM 的 UMK 设备/HAL 提供。 -->
+    <string name="host_device_mapping_screen_d98e255b">रियल मोड एंड्रॉइड सार्वजनिक एपीआई का उपयोग करता है; वर्चुअल मोड एंडवीएम के UMK डिवाइस / HAL द्वारा प्रदान किया जाता है।</string>
+    <!-- ZH: 使用宿主%1$s -->
+    <string name="host_device_mapping_screen_db3c2c53">मेजबान का उपयोग करें %1$s</string>
+    <!-- ZH: 若未授予 AndVM 对应权限，将保留原来的模式。 -->
+    <string name="host_device_mapping_screen_f08155b3">यदि एंडवीएम को संबंधित अनुमति नहीं दी जाती है, तो मूल मोड को बनाए रखा जाएगा।</string>
+    <!-- ZH: 新导入的虚拟机从这里取初始值 -->
+    <string name="host_device_mapping_settings_activity_560507bf">नए आयातित आभासी मशीनों के लिए प्रारंभिक सेटिंग्स</string>
+    <!-- ZH: 默认设备映射 -->
+    <string name="host_device_mapping_settings_activity_5a34bda1">डिफ़ॉल्ट उपकरण मैपिंग</string>
+    <!-- ZH: 设备映射 -->
+    <string name="host_device_mapping_settings_activity_eaccc7b0">डिवाइस मैपिंग</string>
+    <!-- ZH: 请输入整数像素 -->
+    <string name="host_display_settings_0be75071">कृपया एक पूर्ण पिक्सेल दर्ज करें</string>
+    <!-- ZH: 每边 %1$s–%2$s 像素，总像素不超过 4096×2160 -->
+    <string name="host_display_settings_16d08cbf">प्रत्येक पक्ष को %1$s_%2$s पिक्सेल होना चाहिए, जिसमें कुल 4096 × 2160 पिक्सेल नहीं हैं।</string>
+    <!-- ZH: 宿主状态栏高度无法读取，使用系统资源或 24 dp 估算。 -->
+    <string name="host_display_settings_1aa904f2">होस्ट स्टेटस बार की ऊंचाई को सिस्टम संसाधनों या 24 डीपी का उपयोग करके पढ़ा नहीं जा सकता है।</string>
+    <!-- ZH: 未检测到顶部圆角，自动边距按挖孔安全区或 0 计算。 -->
+    <string name="host_display_settings_2342663f">शीर्ष पट्टिका का पता नहीं लगाया जाता है, और स्वचालित मार्जिन की गणना छेद खुदाई सुरक्षित क्षेत्र या 0 के रूप में की जाती है।</string>
+    <!-- ZH: 请输入 %1$s–%2$s 之间的整数 -->
+    <string name="host_display_settings_2cd4a17a">कृपया %1$s-%2$s के बीच एक पूर्णांक दर्ज करें</string>
+    <!-- ZH: 状态栏高度 %1$s dp；内容边距：左 %2$s、右 %3$s、上 %4$s dp。 -->
+    <string name="host_display_settings_3a7c6ca6">स्टेटस बार ऊंचाई: %1$s dp; सामग्री मार्जिन: बाएं %2$s, दाएं %3$s, शीर्ष %4$s dp।</string>
+    <!-- ZH: 常见取值：320（标准）、420（高密度）、560（超高密度）。 -->
+    <string name="host_display_settings_6185d56a">आम मान: 320 (मानक), 420 (उच्च घनत्व), 560 (अल्ट्रा उच्च घनत्व)।</string>
+    <!-- ZH: 高（像素） -->
+    <string name="host_display_settings_7291ad26">उच्च (पिक्सेल)</string>
+    <!-- ZH: 跟随宿主机 -->
+    <string name="host_display_settings_79529e83">मेजबान का पालन करें</string>
+    <!-- ZH: 调整虚拟机状态栏高度及内容边距，避免宿主机圆角遮挡状态栏 -->
+    <string name="host_display_settings_7b7a0e74">स्थिति पट्टी को अवरुद्ध करने से होस्ट मशीन के गोल कोनों से बचने के लिए वर्चुअल मशीन स्टेटस बार की ऊंचाई और सामग्री मार्जिन को समायोजित करें।</string>
+    <!-- ZH: 状态栏高度 -->
+    <string name="host_display_settings_7e630ee9">स्टेटस बार ऊंचाई</string>
+    <!-- ZH: 自定义尺寸会原样交给 Guest 显示管线；与宿主比例不同的尺寸会在预览中留边。 -->
+    <string name="host_display_settings_9ac6bd50">कस्टम आयाम सीधे अतिथि प्रदर्शन के लिए पारित कर रहे हैं। यदि उनके पहलू अनुपात मेजबान से अलग है, तो पूर्वावलोकन खाली सीमाओं होगा।</string>
+    <!-- ZH: 右边距 -->
+    <string name="host_display_settings_a78c05fb">सही मार्जिन</string>
+    <!-- ZH: 宽（像素） -->
+    <string name="host_display_settings_c1cc1c8d">चौड़ाई (पिक्सेल)</string>
+    <!-- ZH: 左边距 -->
+    <string name="host_display_settings_c22a3ffa">लेफ्ट मार्जिन</string>
+    <!-- ZH: 上边距 -->
+    <string name="host_display_settings_c2b2faa5">शीर्ष मार्जिन</string>
+    <!-- ZH: 自定义 -->
+    <string name="host_display_settings_c493338e">कस्टम</string>
+    <!-- ZH: 状态栏美化 -->
+    <string name="host_display_settings_c6841802">स्टेटस बार beautification</string>
+    <!-- ZH: 分辨率 -->
+    <string name="host_display_settings_cde9b52b">रिज़ॉल्यूशन</string>
+    <!-- ZH: 支持 %1$s–%2$s dpi -->
+    <string name="host_display_settings_df35aef8">समर्थन %1$s-%2$s डीपीआई</string>
+    <!-- ZH: 请输入整数 DPI -->
+    <string name="host_display_settings_eaa1b6f8">कृपया इंटेगर डीपीआई दर्ज करें</string>
+    <!-- ZH: 高 %1$s dp -->
+    <string name="host_display_settings_ed4804db">ऊँचाई: %1$s dp</string>
+    <!-- ZH: 内存扩展 %1$s -->
+    <string name="host_extended_memory">मेमोरी एक्सटेंशन: %1$s_</string>
+    <!-- ZH: 读取所选文件失败：%1$s -->
+    <string name="host_file_read_failure">चयनित फ़ाइल को नहीं पढ़ा जा सकता: %1$s</string>
+    <!-- ZH: 开启通知后，可以在通知栏查看虚拟机状态、导入和导出进度，并快速返回相应任务。 -->
+    <string name="host_global_settings_activity_37c1eb04">अधिसूचना को बदलने के बाद, आप अधिसूचना बार में आभासी मशीन की स्थिति, आयात और निर्यात प्रगति को देख सकते हैं, और जल्दी से संबंधित कार्य में वापस आ सकते हैं।</string>
+    <!-- ZH: 未找到邮件应用，请先安装邮件应用。 -->
+    <string name="host_global_settings_activity_3824d378">मेल एप्लिकेशन नहीं मिला था, कृपया पहले मेल एप्लिकेशन इंस्टॉल करें।</string>
+    <!-- ZH: 无法打开邮件应用，请稍后重试。 -->
+    <string name="host_global_settings_activity_4bc15dde">मेल एप्लिकेशन खोलने में असमर्थ, बाद में फिर से प्रयास करें।</string>
+    <!-- ZH: 未找到可分享的应用。 -->
+    <string name="host_global_settings_activity_79581cc7">कोई साझा करने योग्य अनुप्रयोग नहीं मिला।</string>
+    <!-- ZH: 设置 -->
+    <string name="host_global_settings_activity_7debf9cb">सेटिंग</string>
+    <!-- ZH: 分享 AndVM -->
+    <string name="host_global_settings_activity_82028d26">शेयर AndVM</string>
+    <!-- ZH: 返回虚拟机列表 -->
+    <string name="host_global_settings_activity_8e98a049">आभासी मशीन सूची में वापसी</string>
+    <!-- ZH: 虚拟机默认配置 -->
+    <string name="host_global_settings_activity_9ccb1700">वर्चुअल मशीन डिफ़ॉल्ट विन्यास</string>
+    <!-- ZH: 通知已开启 -->
+    <string name="host_global_settings_activity_b6b82a88">अधिसूचना जारी है</string>
+    <!-- ZH: 返回设置 -->
+    <string name="host_global_settings_activity_f3b15420">सेटिंग्स पर लौटें</string>
+    <!-- ZH: 外观 -->
+    <string name="host_global_settings_screen_09b58aa3">दिखावट</string>
+    <!-- ZH: 预设按短边缩放到宿主比例；默认跟随宿主物理分辨率 -->
+    <string name="host_global_settings_screen_0a966a75">प्रीसेट मेजबान पहलू अनुपात के लिए शॉर्ट साइड को स्केल करते हैं। डिफ़ॉल्ट मेजबान के भौतिक संकल्प का उपयोग करता है।</string>
+    <!-- ZH: 联系开发者 -->
+    <string name="host_global_settings_screen_1b2417f9">संपर्क डेवलपर</string>
+    <!-- ZH: 默认显示 -->
+    <string name="host_global_settings_screen_2c8e7b64">डिफ़ॉल्ट प्रदर्शन</string>
+    <!-- ZH: 新建虚拟机使用的默认显示配置 -->
+    <string name="host_global_settings_screen_2ea370fa">डिफ़ॉल्ट प्रदर्शन विन्यास एक नई आभासी मशीन द्वारा इस्तेमाल किया</string>
+    <!-- ZH: 解除子进程限制 -->
+    <string name="host_global_settings_screen_384ec36c">बच्चे की प्रक्रिया प्रतिबंध निकालें</string>
+    <!-- ZH: 新建虚拟机使用的默认设备映射配置 -->
+    <string name="host_global_settings_screen_42061fa5">एक नई आभासी मशीन द्वारा उपयोग की जाने वाली डिफ़ॉल्ट डिवाइस मैपिंग कॉन्फ़िगरेशन</string>
+    <!-- ZH: 默认网络配置 -->
+    <string name="host_global_settings_screen_42a4db0d">डिफ़ॉल्ट नेटवर्क विन्यास</string>
+    <!-- ZH: 允许宿主与虚拟机之间共享复制的文本 -->
+    <string name="host_global_settings_screen_4806cf60">होस्ट और वर्चुअल मशीन के बीच कॉपी किए गए पाठ को साझा करने की अनुमति दें</string>
+    <!-- ZH: 高性能模式下，避免虚拟机子进程被系统终止 -->
+    <string name="host_global_settings_screen_4e8e05fa">उच्च प्रदर्शन मोड के तहत, सिस्टम द्वारा आभासी मशीन चाइल्ड प्रक्रियाओं को समाप्त होने से बचें</string>
+    <!-- ZH: 显示、网络与代理、剪贴板、设备映射 -->
+    <string name="host_global_settings_screen_5581a878">प्रदर्शन, नेटवर्क और प्रॉक्सी, क्लिपबोर्ड, डिवाइस मैपिंग</string>
+    <!-- ZH: 前台通知 -->
+    <string name="host_global_settings_screen_55e732b1">फ्रंट डेस्क अधिसूचना</string>
+    <!-- ZH: 允许联网 -->
+    <string name="host_global_settings_screen_5a2dec93">नेटवर्किंग की अनुमति दें</string>
+    <!-- ZH: 默认设备映射 -->
+    <string name="host_global_settings_screen_5a34bda1">डिफ़ॉल्ट उपकरण मैपिंग</string>
+    <!-- ZH: 虚拟机 -->
+    <string name="host_global_settings_screen_5aeca041">वर्चुअल मशीन</string>
+    <!-- ZH: 版本号 -->
+    <string name="host_global_settings_screen_5d55e288">संस्करण संख्या</string>
+    <!-- ZH: 新建虚拟机使用的默认剪贴板配置 -->
+    <string name="host_global_settings_screen_5dcdb5c9">एक नई आभासी मशीन द्वारा इस्तेमाल किया जाने वाला डिफ़ॉल्ट क्लिपबोर्ड विन्यास</string>
+    <!-- ZH: 新导入的虚拟机会带上这个代理；已有虚拟机不受影响。 -->
+    <string name="host_global_settings_screen_6243239a">हाल ही में आयातित आभासी मशीन इस एजेंट को लाएगी; मौजूदा आभासी मशीनों को प्रभावित नहीं किया जाएगा।</string>
+    <!-- ZH: 共享剪贴板 -->
+    <string name="host_global_settings_screen_6d73b0eb">साझा क्लिपबोर्ड</string>
+    <!-- ZH: 运行权限 -->
+    <string name="host_global_settings_screen_7058b8a3">रन प्राधिकरण</string>
+    <!-- ZH: 后台无限制 -->
+    <string name="host_global_settings_screen_74cc80b7">असीमित पृष्ठभूमि</string>
+    <!-- ZH: 配置虚拟机持续运行所需的宿主权限 -->
+    <string name="host_global_settings_screen_88e46da2">आभासी मशीन के निरंतर संचालन के लिए आवश्यक होस्ट अनुमतियों को कॉन्फ़िगर करें</string>
+    <!-- ZH: 默认剪贴板配置 -->
+    <string name="host_global_settings_screen_8a5dd3a1">डिफ़ॉल्ट क्लिपबोर्ड विन्यास</string>
+    <!-- ZH: 选择 AndVM 的显示主题 -->
+    <string name="host_global_settings_screen_961576eb">AndVM के प्रदर्शन विषय का चयन करें</string>
+    <!-- ZH: 允许新虚拟机通过宿主网络访问互联网 -->
+    <string name="host_global_settings_screen_9ae727bb">होस्ट नेटवर्क के माध्यम से इंटरनेट तक पहुंचने के लिए नई आभासी मशीनों की अनुमति दें</string>
+    <!-- ZH: 在通知栏查看运行状态、任务进度和保活虚拟机 -->
+    <string name="host_global_settings_screen_9c754012">चल रही स्थिति, कार्य प्रगति की जांच करें और अधिसूचना बार में लाइव वर्चुअल मशीन को रखें</string>
+    <!-- ZH: 虚拟机默认配置 -->
+    <string name="host_global_settings_screen_9ccb1700">वर्चुअल मशीन डिफ़ॉल्ट विन्यास</string>
+    <!-- ZH: 关于 -->
+    <string name="host_global_settings_screen_bed172ef">परिचय</string>
+    <!-- ZH: 分享应用 -->
+    <string name="host_global_settings_screen_c315d7d9">सम्पर्क करने का विवरण</string>
+    <!-- ZH: 默认跟随宿主物理 DPI -->
+    <string name="host_global_settings_screen_d8d46aa8">डिफ़ॉल्ट रूप से मेजबान भौतिक डीपीआई का पालन करें</string>
+    <!-- ZH: 允许后台持续运行，避免虚拟机被系统停止 -->
+    <string name="host_global_settings_screen_e341851b">सिस्टम द्वारा आभासी मशीन को बंद करने से बचने के लिए पृष्ठभूमि को जारी रखने की अनुमति दें</string>
+    <!-- ZH: 新建虚拟机使用的默认网络配置 -->
+    <string name="host_global_settings_screen_f81e5e0b">डिफ़ॉल्ट नेटवर्क विन्यास एक नई आभासी मशीन द्वारा इस्तेमाल किया</string>
+    <!-- ZH: 收起错误详情 -->
+    <string name="host_gsi_import_failure_dialog_468eac0f">त्रुटि विवरण बंद करें</string>
+    <!-- ZH: 失败阶段：%1$s -->
+    <string name="host_gsi_import_failure_dialog_5705d2a8">विफलता चरण: %1$s_</string>
+    <!-- ZH: 关闭 -->
+    <string name="host_gsi_import_failure_dialog_6c14bd7f">नज़दीक से</string>
+    <!-- ZH: 复制错误信息 -->
+    <string name="host_gsi_import_failure_dialog_d54c6970">त्रुटि संदेश कॉपी करें</string>
+    <!-- ZH: 查看错误详情 -->
+    <string name="host_gsi_import_failure_dialog_f565b3b2">त्रुटि विवरण देखें</string>
+    <!-- ZH: 正在启动 Android 系统 -->
+    <string name="host_guest_boot_tips_ae138bfa">एंड्रॉइड सिस्टम शुरू करना</string>
+    <!-- ZH: 首次启动完成，系统仍在初始化，可能卡顿发热 -->
+    <string name="host_guest_boot_tips_ba5cd90f">पहला स्टार्टअप पूरा हो गया है, सिस्टम अभी भी शुरू हो रहा है, और फ्रीज हो सकता है और गर्म हो सकता है।</string>
+    <!-- ZH: 关闭提示 -->
+    <string name="host_guest_boot_tips_c620893e">बंद शीघ्र</string>
+    <!-- ZH: %1$s · 首次启动较慢，请耐心等待 -->
+    <string name="host_guest_boot_tips_ee4f9d13">%1$s · पहला स्टार्टअप धीमी है, कृपया धैर्यपूर्वक प्रतीक्षा करें।</string>
+    <!-- ZH: 系统暂时无法启动悬浮窗。请稍后重试，虚拟机继续在全屏中运行。 -->
+    <string name="host_guest_display_activity_0ad50784">सिस्टम अभी एक फ्लोटिंग विंडो नहीं खोल सकता है। बाद में फिर से कोशिश करें। आभासी मशीन पूरी स्क्रीन पर चल रही है।</string>
+    <!-- ZH: 返回 -->
+    <string name="host_guest_display_activity_11d02415">वापस</string>
+    <!-- ZH: 去设置 -->
+    <string name="host_guest_display_activity_1f2998c9">ओपन सेटिंग्स</string>
+    <!-- ZH: 无法打开系统悬浮窗设置。可稍后在系统设置中允许 AndVM 显示在其他应用上层，再点按浮窗运行。 -->
+    <string name="host_guest_display_activity_24532a90">सिस्टम ओवरले सेटिंग्स को नहीं खोल सकता है। बाद में, एंडवीएम को सिस्टम सेटिंग्स में अन्य ऐप्स पर प्रदर्शित करने की अनुमति देता है, फिर फिर से फ्लोटिंग विंडो को टैप करता है।</string>
+    <!-- ZH: 暂不开启 -->
+    <string name="host_guest_display_activity_2dc8b377">अब नहीं</string>
+    <!-- ZH: 系统未能创建悬浮窗。请确认悬浮窗权限仍然开启，然后重试。虚拟机继续在全屏中运行。 -->
+    <string name="host_guest_display_activity_3020a564">सिस्टम एक फ्लोटिंग विंडो नहीं बना सकता है। जांचें कि ओवरले अनुमति अभी भी सक्षम और retry है। आभासी मशीन पूरी स्क्रीन पर चल रही है।</string>
+    <!-- ZH: 无法开启悬浮窗 -->
+    <string name="host_guest_display_activity_3cf2b20c">फ्लोटिंग विंडो नहीं खोल सकता है।</string>
+    <!-- ZH: CPU 指令能力检查 -->
+    <string name="host_guest_display_activity_487e63ba">CPU निर्देश समर्थन जाँच</string>
+    <!-- ZH: 悬浮窗权限已关闭。请重新点按浮窗运行，并在提示后开启权限。 -->
+    <string name="host_guest_display_activity_549bf60a">ओवरले अनुमति अक्षम है। फिर से फ्लोटिंग विंडो को टैप करें और जब संकेत दिया जाता है तो अनुमति सक्षम करें।</string>
+    <!-- ZH: 浮窗运行需要允许 AndVM 显示在其他应用上层，才能在使用其他应用时继续查看和操作这台虚拟机。开启后返回即可进入浮窗；暂不开启也可继续全屏使用。 -->
+    <string name="host_guest_display_activity_908d29c9">अन्य एप्लिकेशन का उपयोग करते समय इस आभासी मशीन को देखने और नियंत्रित रखने के लिए AndVM को अन्य ऐपों को प्रदर्शित करने की अनुमति दें। फ्लोटिंग-विंडो मोड में प्रवेश करने की अनुमति देने के बाद यहां लौटें। आप अनुमति देने के बिना पूर्ण स्क्रीन का उपयोग कर रख सकते हैं।</string>
+    <!-- ZH: 继续全屏使用 -->
+    <string name="host_guest_display_activity_9b63062e">पढ़ना जारी रखें</string>
+    <!-- ZH: 正在检查启动环境… -->
+    <string name="host_guest_display_activity_bd7e00d3">स्टार्टअप वातावरण की जाँच...</string>
+    <!-- ZH: 虚拟机未启动 -->
+    <string name="host_guest_display_activity_c59d505a">आभासी मशीन शुरू नहीं हुई</string>
+    <!-- ZH: 允许显示悬浮窗 -->
+    <string name="host_guest_display_activity_ea8637b5">फ्लोटिंग विंडो की अनुमति दें</string>
+    <!-- ZH: 确定 -->
+    <string name="host_guest_display_activity_f526c899">ठीक है</string>
+    <!-- ZH: 虚拟机启动失败：缺少 SVE 能力 -->
+    <string name="host_guest_display_activity_f7afa95b">वर्चुअल मशीन स्टार्टअप विफल: SVE समर्थित नहीं है</string>
+    <!-- ZH: 搜索当前文件夹 -->
+    <string name="host_guest_file_transfer_sheets_042fe553">वर्तमान फ़ोल्डर खोजें</string>
+    <!-- ZH: 导出 -->
+    <string name="host_guest_file_transfer_sheets_18889679">एक्सपोर्ट करें</string>
+    <!-- ZH: 保存到宿主的 下载/AndVM 目录，无需存储权限 -->
+    <string name="host_guest_file_transfer_sheets_2808f2d7">होस्ट की डाउनलोड/AndVM डायरेक्टरी को सेव करें, कोई स्टोरेज अनुमति आवश्यक नहीं है</string>
+    <!-- ZH: 修改时间未知 -->
+    <string name="host_guest_file_transfer_sheets_2f455cc7">अज्ञात संशोधन समय</string>
+    <!-- ZH: 在宿主与这台虚拟机之间导入或导出 -->
+    <string name="host_guest_file_transfer_sheets_31cc5066">मेजबान और इस आभासी मशीन के बीच आयात या निर्यात</string>
+    <!-- ZH: 导出虚拟机文件 -->
+    <string name="host_guest_file_transfer_sheets_45971ccd">आभासी मशीन फ़ाइलों का निर्यात करें</string>
+    <!-- ZH: 文件夹 -->
+    <string name="host_guest_file_transfer_sheets_46ecac29">फ़ोल्डर</string>
+    <!-- ZH: 内部存储%1$s -->
+    <string name="host_guest_file_transfer_sheets_4cff2656">आंतरिक भंडारण%1$s_</string>
+    <!-- ZH: 没有找到已安装的应用 -->
+    <string name="host_guest_file_transfer_sheets_511137e9">कोई स्थापित अनुप्रयोग नहीं मिला</string>
+    <!-- ZH: 上一级 -->
+    <string name="host_guest_file_transfer_sheets_53addb32">पिछले स्तर</string>
+    <!-- ZH: 导出 (%1$s) -->
+    <string name="host_guest_file_transfer_sheets_64e873ba">निर्यात (%1$s)</string>
+    <!-- ZH: 搜索应用名、包名或版本 -->
+    <string name="host_guest_file_transfer_sheets_6c2885bd">खोज आवेदन नाम, पैकेज नाम या संस्करण</string>
+    <!-- ZH: 此文件夹为空 -->
+    <string name="host_guest_file_transfer_sheets_6d564b02">यह फ़ोल्डर खाली है</string>
+    <!-- ZH: 没有匹配的应用 -->
+    <string name="host_guest_file_transfer_sheets_78b85095">कोई मेलिंग आवेदन नहीं</string>
+    <!-- ZH: 后台继续 -->
+    <string name="host_guest_file_transfer_sheets_7c6723cf">पृष्ठभूमि में जारी</string>
+    <!-- ZH: 已传输 %1$s -->
+    <string name="host_guest_file_transfer_sheets_861b64e3">%1$s_ हस्तांतरित</string>
+    <!-- ZH: 导出虚拟机应用 -->
+    <string name="host_guest_file_transfer_sheets_8f80e039">आभासी मशीन अनुप्रयोग निर्यात करें</string>
+    <!-- ZH: 分包 -->
+    <string name="host_guest_file_transfer_sheets_99f6b91c">उपसंविदा</string>
+    <!-- ZH: 没有匹配的文件 -->
+    <string name="host_guest_file_transfer_sheets_a4d86f59">कोई मेलिंग फ़ाइल नहीं</string>
+    <!-- ZH: 文件传输 -->
+    <string name="host_guest_file_transfer_sheets_c3111e97">फ़ाइल स्थानांतरण</string>
+    <!-- ZH: 已处理 %1$s / %2$s 项 -->
+    <string name="host_guest_file_transfer_sheets_dc6a5acb">%1$s / %2$s आइटम संसाधित</string>
+    <!-- ZH: 保存为安装包到宿主的 下载/AndVM 目录；分包应用保存为 .apks -->
+    <string name="host_guest_file_transfer_sheets_f0da99d2">एप्लिकेशन इंस्टॉलेशन पैकेज को होस्ट पर डाउनलोड / AndVM में सहेजें। विभाजित APKs वाले ऐप्स को .apks के रूप में बचाया जाता है।</string>
+    <!-- ZH: 向右展开悬浮菜单 -->
+    <string name="host_guest_floating_menu_36958f54">सही करने के लिए फ्लोटिंग मेनू का विस्तार</string>
+    <!-- ZH: 向左展开悬浮菜单 -->
+    <string name="host_guest_floating_menu_8240051f">बाईं ओर फ्लोटिंग मेनू का विस्तार करें</string>
+    <!-- ZH: 更多 -->
+    <string name="host_guest_floating_menu_9b0c6c78">और</string>
+    <!-- ZH: 取消静音 -->
+    <string name="host_guest_floating_window_59bc75ca">आवाज़ चालू करें</string>
+    <!-- ZH: 悬浮窗控制 -->
+    <string name="host_guest_floating_window_8f4dc854">फ्लोटिंग विंडो कंट्रोल</string>
+    <!-- ZH: 静音 -->
+    <string name="host_guest_floating_window_afdbd1dd">म्यूट</string>
+    <!-- ZH: 关闭悬浮窗，长按可暂停或停止虚拟机 -->
+    <string name="host_guest_floating_window_b26bc0d8">फ्लोटिंग विंडो बंद करें, वर्चुअल मशीन को रोकें या रोकें</string>
+    <!-- ZH: 返回全屏 -->
+    <string name="host_guest_floating_window_c4ad2079">पूर्ण स्क्रीन पर लौटें</string>
+    <!-- ZH: 知道了 -->
+    <string name="host_guest_floating_window_cb63c62e">समझ गया</string>
+    <!-- ZH: 启用触摸透传 -->
+    <string name="host_guest_floating_window_d062f9c0">टच पासथ्रू सक्षम करें</string>
+    <!-- ZH: 停用触摸透传 -->
+    <string name="host_guest_floating_window_d4d06337">निष्क्रिय स्पर्श passthrough</string>
+    <!-- ZH: 单击关闭悬浮窗，长按并滑动可暂停或停止虚拟机 -->
+    <string name="host_guest_floating_window_d505a1e3">वर्चुअल मशीन को रोकने या रोकने के लिए फ्लोटिंग विंडो, लॉन्ग प्रेस और स्लाइड को बंद करने के लिए क्लिक करें</string>
+    <!-- ZH: 暂停失败：%1$s -->
+    <string name="host_guest_floating_window_service_140cbd1d">नहीं रोक सकता: %1$s_</string>
+    <!-- ZH: 虚拟机未在运行 -->
+    <string name="host_guest_floating_window_service_4a9b3c67">आभासी मशीन नहीं चल रही</string>
+    <!-- ZH: %1$s 台虚拟机正在悬浮窗中运行 -->
+    <string name="host_guest_floating_window_service_56183d53">वर्चुअल मशीन फ्लोटिंग खिड़कियों में चल रही है: %1$s</string>
+    <!-- ZH: 全部关闭 -->
+    <string name="host_guest_floating_window_service_6fe9dcf2">नज़दीक से</string>
+    <!-- ZH: 关闭悬浮窗 -->
+    <string name="host_guest_floating_window_service_803658e0">फ्लोटिंग विंडो बंद करें।</string>
+    <!-- ZH: 点按悬浮窗可显示关闭与触摸透传按钮 -->
+    <string name="host_guest_floating_window_service_89240144">बंद और टच-थ्रू नियंत्रण दिखाने के लिए फ्लोटिंग विंडो को टैप करें</string>
+    <!-- ZH: 正在暂停并保存运行快照… -->
+    <string name="host_guest_floating_window_service_9a55c9ed">प्यूसिंग और सेविंग रनिंग स्नैपशॉट...</string>
+    <!-- ZH: 虚拟机正在悬浮窗中运行 -->
+    <string name="host_guest_floating_window_service_b8826051">वर्चुअल मशीन एक फ्लोटिंग विंडो में चल रही है।</string>
+    <!-- ZH: 虚拟机悬浮窗 -->
+    <string name="host_guest_floating_window_service_ce73d66c">वर्चुअल मशीन फ्लोटिंग विंडो</string>
+    <!-- ZH: 停止失败：%1$s -->
+    <string name="host_guest_floating_window_service_e333a0f0">नहीं रोक सकता: %1$s_</string>
+    <!-- ZH: 暂停失败：%1$s -->
+    <string name="host_guest_menu_host_140cbd1d">Pause विफल रहा: %1$s_</string>
+    <!-- ZH: 停止运行？ -->
+    <string name="host_guest_menu_host_2a2a92d5">चलना बंद करो?</string>
+    <!-- ZH: 虚拟机输入尚未就绪，请稍后再试 -->
+    <string name="host_guest_menu_host_2e38f2fb">वर्चुअल मशीन इनपुट अभी तक तैयार नहीं है, कृपया बाद में फिर से प्रयास करें।</string>
+    <!-- ZH: 停止运行 -->
+    <string name="host_guest_menu_host_42bf555d">चलना बंद करो</string>
+    <!-- ZH: 正在暂停并保存运行快照… -->
+    <string name="host_guest_menu_host_9a55c9ed">प्यूसिंग और सेविंग रनिंग स्नैपशॉट...</string>
+    <!-- ZH: 虚拟机会立即关闭，未保存的内容将丢失。如需稍后继续，请改用暂停运行。 -->
+    <string name="host_guest_menu_host_a7447a78">आभासी मशीन को तुरंत बंद कर दिया जाएगा और बिना किसी शर्त को खो दिया जाएगा। बाद में फिर से शुरू करने के लिए, इसके बजाय Pause का उपयोग करें।</string>
+    <!-- ZH: 导入 (%1$s) -->
+    <string name="host_host_app_import_dialog_0ef581b9">आयात (%1$s)</string>
+    <!-- ZH: 导入宿主应用 -->
+    <string name="host_host_app_import_dialog_1a5a9c4a">मेजबान एप्लिकेशन आयात करें</string>
+    <!-- ZH: 运行中的虚拟机会直接安装；未运行时会把 APK 放入 Download -->
+    <string name="host_host_app_import_dialog_24d45d4b">चलने वाली आभासी मशीन सीधे स्थापित की जाएगी; जब यह चल रहा नहीं है, तो एपीके को डाउनलोड किया जाएगा।</string>
+    <!-- ZH: 导入 -->
+    <string name="host_host_app_import_dialog_60e2bcad">इंपोर्ट करें</string>
+    <!-- ZH: 搜索应用名、包名或版本 -->
+    <string name="host_host_app_import_dialog_6c2885bd">खोज आवेदन नाम, पैकेज नाम या संस्करण</string>
+    <!-- ZH: 没有匹配的应用 -->
+    <string name="host_host_app_import_dialog_78b85095">कोई मेलिंग आवेदन नहीं</string>
+    <!-- ZH: 没有可导入的宿主应用 -->
+    <string name="host_host_app_import_dialog_ea7c4e46">आयात करने के लिए कोई मेजबान आवेदन नहीं</string>
+    <!-- ZH: 搜索分区 -->
+    <string name="host_import_choice_list_0dbc04d1">विभाजन खोजें</string>
+    <!-- ZH: 全选 -->
+    <string name="host_import_choice_list_3e44b2a9">सभी चुनें</string>
+    <!-- ZH: %1$s将移除 %2$s 项，应用前仍可逐项调整。 -->
+    <string name="host_import_choice_list_6a328c76">%1$s %2$s आइटम को हटा देगा, जो अभी भी आवेदन से पहले आइटम द्वारा समायोजित किया जा सकता है।</string>
+    <!-- ZH: 收起其他分区 -->
+    <string name="host_import_choice_list_7d4b2ecb">अन्य विभाजन बंद करें</string>
+    <!-- ZH: 清空 -->
+    <string name="host_import_choice_list_84fcd70d">साफ़ करें</string>
+    <!-- ZH: 搜索名称、包名 -->
+    <string name="host_import_choice_list_96cb41e4">नाम खोजें, पैकेज का नाम</string>
+    <!-- ZH: 已选择移除 %1$s 个必要组件，可能导致相关功能不可用或系统启动失败。 -->
+    <string name="host_import_choice_list_a178f1b7">%1$s आवश्यक घटकों को हटाने के लिए चुना गया है, जिसके परिणामस्वरूप संबंधित कार्यों में अनुपलब्ध या सिस्टम स्टार्टअप विफलता हो सकती है।</string>
+    <!-- ZH: 恢复默认 -->
+    <string name="host_import_choice_list_a191935b">डिफ़ॉल्ट बहाल करें</string>
+    <!-- ZH: 搜索恢复内容 -->
+    <string name="host_import_choice_list_acda0202">वसूली सामग्री के लिए खोज</string>
+    <!-- ZH: 未选择 system 时将只保存分区，无法启动虚拟机。 -->
+    <string name="host_import_choice_list_b3fc4e4c">जब सिस्टम का चयन नहीं किया जाता है, तो केवल विभाजन को बचाया जाएगा और आभासी मशीन शुरू नहीं की जा सकती है।</string>
+    <!-- ZH: 显示其他 %1$s 个分区 -->
+    <string name="host_import_choice_list_b4fa7661">Show %1$s_ अन्य विभाजन</string>
+    <!-- ZH: 没有匹配的条目。 -->
+    <string name="host_import_choice_list_c1d46654">कोई मेलिंग प्रविष्टि नहीं।</string>
+    <!-- ZH: 必要 -->
+    <string name="host_import_choice_list_d04a6f75">आवश्यक</string>
+    <!-- ZH: 请先完成上一步。 -->
+    <string name="host_import_choice_list_f2572feb">पहले कदम पूरा करें।</string>
+    <!-- ZH: 自定义 ·  -->
+    <string name="host_import_choice_list_fac852ea">अनुकूलित </string>
+    <!-- ZH: 导入 ROM 或打开 ROM 市场 -->
+    <string name="host_import_fab_menu_4b48bb3b">आयात रॉम या ओपन रॉम मार्केट</string>
+    <!-- ZH: 收起导入菜单 -->
+    <string name="host_import_fab_menu_61016507">कोलैप्स आयात मेनू</string>
+    <!-- ZH: 使用 userdata 替换现有用户数据 -->
+    <string name="host_import_wizard_screen_09d03ddb">मौजूदा उपयोगकर्ता डेटा को बदलने के लिए उपयोगकर्ता डेटा का उपयोग करें</string>
+    <!-- ZH: 选择导入分区 -->
+    <string name="host_import_wizard_screen_0eea2d39">आयात विभाजन चुनें</string>
+    <!-- ZH: 请返回文件页填写虚拟机名称。 -->
+    <string name="host_import_wizard_screen_13d701f7">कृपया आभासी मशीन के नाम को भरने के लिए फ़ाइल पेज पर लौटें।</string>
+    <!-- ZH: 选择文件 -->
+    <string name="host_import_wizard_screen_21a6f5a8">फ़ाइल चुनें</string>
+    <!-- ZH: 选择恢复内容 -->
+    <string name="host_import_wizard_screen_29cd31b9">वसूली सामग्री का चयन करें</string>
+    <!-- ZH: 重装 -->
+    <string name="host_import_wizard_screen_31891e04">पुनरीक्षण</string>
+    <!-- ZH: 完成 -->
+    <string name="host_import_wizard_screen_33246f6a">हो गया</string>
+    <!-- ZH: 保留现有用户数据 -->
+    <string name="host_import_wizard_screen_392ac0f8">मौजूदा उपयोगकर्ता डेटा को संरक्षित करना</string>
+    <!-- ZH: 重装「%1$s」：%2$s，保留名称和配置，系统分区以本次选择为准。 -->
+    <string name="host_import_wizard_screen_463e101b">"%1$s" की स्थापना: %2$s, नाम और विन्यास को बनाए रखता है, और सिस्टम विभाजन इस चयन के अधीन होगा।</string>
+    <!-- ZH: 无法打开所选文件，请确认文件仍然存在并重新选择。 -->
+    <string name="host_import_wizard_screen_4876de68">चयनित फ़ाइल खोला नहीं जा सकता है, कृपया पुष्टि करें कि फ़ाइल अभी भी मौजूद है और फिर से चयन करें।</string>
+    <!-- ZH: 恢复内容 -->
+    <string name="host_import_wizard_screen_4a8f4a64">सामग्री बहाल करना</string>
+    <!-- ZH: 列出包内全部分区。已勾选预设分区，你可以自由调整。 -->
+    <string name="host_import_wizard_screen_4c939fb0">पैकेज में सभी विभाजनों की सूची। डिफ़ॉल्ट विभाजन की जांच की गई है और आप इसे स्वतंत्र रूप से समायोजित कर सकते हैं।</string>
+    <!-- ZH: 取消 -->
+    <string name="host_import_wizard_screen_4d0b4688">रद्द करें</string>
+    <!-- ZH: 导入虚拟机 -->
+    <string name="host_import_wizard_screen_4db5eeac">आभासी मशीन आयात करें</string>
+    <!-- ZH: 导入 -->
+    <string name="host_import_wizard_screen_60e2bcad">इंपोर्ट करें</string>
+    <!-- ZH: 用户数据会保留。导入时保存所选分区，启动时自动准备系统；分区提交前取消会丢弃临时内容。 -->
+    <string name="host_import_wizard_screen_61215ed4">उपयोगकर्ता डेटा को बनाए रखा जाएगा। जब आयात करने और स्वचालित रूप से स्टार्टअप पर सिस्टम तैयार करने के लिए चयनित विभाजन को बचाओ; विभाजन प्रस्तुत करने से पहले को रद्द करना अस्थायी सामग्री को त्याग देता है।</string>
+    <!-- ZH: 第 %1$s 步 / %2$s -->
+    <string name="host_import_wizard_screen_6c858a5c">चरण %1$s / %2$s</string>
+    <!-- ZH: 上一步 -->
+    <string name="host_import_wizard_screen_75ef1241">पिछला कदम</string>
+    <!-- ZH: 恢复 -->
+    <string name="host_import_wizard_screen_79748ca1">वसूली</string>
+    <!-- ZH: 返回虚拟机列表 -->
+    <string name="host_import_wizard_screen_8e98a049">आभासी मशीन सूची में वापसी</string>
+    <!-- ZH: 后台进行 -->
+    <string name="host_import_wizard_screen_95669168">पृष्ठभूमि में प्रदर्शन</string>
+    <!-- ZH: 覆盖现有用户数据？ -->
+    <string name="host_import_wizard_screen_a3bb69b9">मौजूदा उपयोगकर्ता डेटा को ओवरराइट करें?</string>
+    <!-- ZH: 退出导入 -->
+    <string name="host_import_wizard_screen_bf115464">एक्सिट आयात</string>
+    <!-- ZH: 确认覆盖 -->
+    <string name="host_import_wizard_screen_c54d0ff7">कवरेज की पुष्टि करें</string>
+    <!-- ZH: 选择分区 -->
+    <string name="host_import_wizard_screen_ccb62923">विभाजन का चयन</string>
+    <!-- ZH: 勾选 userdata 后，重装时会用该分区中的内容替换虚拟机现有的应用、设置和文件，此操作不可撤销。确认覆盖后才会勾选。 -->
+    <string name="host_import_wizard_screen_cecdf87a">userdata चुनने पर, दोबारा इंस्टॉल करते समय वर्चुअल मशीन के मौजूदा ऐप, सेटिंग और फ़ाइलें उस पार्टीशन की सामग्री से बदल दी जाएँगी। इस कार्रवाई को वापस नहीं लिया जा सकता। बदलाव की पुष्टि करने के बाद ही पार्टीशन चुना जाएगा।</string>
+    <!-- ZH: 导入较大 ROM 包耗时较长，可以切到后台继续 -->
+    <string name="host_import_wizard_screen_d04eeaec">यह एक बड़ा रॉम पैकेज आयात करने के लिए एक लंबे समय लेता है, और आप जारी रखने के लिए पृष्ठभूमि पर स्विच कर सकते हैं।</string>
+    <!-- ZH: 没有读取所选文件的权限，请重新选择文件。 -->
+    <string name="host_import_wizard_screen_d093007f">चयनित फ़ाइल पढ़ने की कोई अनुमति नहीं है, कृपया फिर से फ़ाइल का चयन करें।</string>
+    <!-- ZH: 重装系统 -->
+    <string name="host_import_wizard_screen_e9499722">पुनर्स्थापना प्रणाली</string>
+    <!-- ZH: 下一步 -->
+    <string name="host_import_wizard_screen_ea0ef2ae">अगला कदम</string>
+    <!-- ZH: 已识别 AndVM 虚拟机备份。选择镜像、配置、数据和补丁；保留源文件用于重新准备系统。 -->
+    <string name="host_import_wizard_screen_f64a8cd5">AndVM आभासी मशीन बैकअप की पहचान की गई। छवियों, विन्यास, डेटा और पैच का चयन करें; सिस्टम को फिर से तैयार करने के लिए स्रोत फ़ाइलों को बनाए रखें।</string>
+    <!-- ZH: 查看 -->
+    <string name="host_import_wizard_screen_f7acefd2">देखें</string>
+    <!-- ZH: 已解压的分区会被丢弃，虚拟机不会被创建。重新导入需要从头开始。 -->
+    <string name="host_import_wizard_screen_fc7ed9bc">विघटित विभाजन को खारिज कर दिया जाएगा और आभासी मशीन बनाई नहीं की जाएगी। फिर से आयात करने के लिए स्क्रैच से शुरू होने की आवश्यकता है।</string>
+    <!-- ZH: 文件不可用 -->
+    <string name="host_import_wizard_steps_17837c8d">फ़ाइल उपलब्ध नहीं</string>
+    <!-- ZH: 导入进度 -->
+    <string name="host_import_wizard_steps_186aa174">प्रगति आयात करें</string>
+    <!-- ZH: 一些比真机更强大的系统操作能力 -->
+    <string name="host_import_wizard_steps_21271176">कुछ सिस्टम ऑपरेटिंग क्षमताओं वास्तविक मशीनों की तुलना में अधिक शक्तिशाली हैं</string>
+    <!-- ZH: 选择文件 -->
+    <string name="host_import_wizard_steps_21a6f5a8">फ़ाइल चुनें</string>
+    <!-- ZH: 导入 ROM 或 GSI 镜像，创建你的虚拟机 -->
+    <string name="host_import_wizard_steps_31baeeea">रॉम या जीएसआई छवि को आयात करें और अपनी आभासी मशीन बनायें</string>
+    <!-- ZH: 失败 -->
+    <string name="host_import_wizard_steps_3e3c8068">विफलता</string>
+    <!-- ZH: 虚拟机名称 -->
+    <string name="host_import_wizard_steps_4506ef63">आभासी मशीन का नाम</string>
+    <!-- ZH: 下一步会列出包内全部分区，可以自由增减。 -->
+    <string name="host_import_wizard_steps_6568683e">अगले कदम पैकेज में सभी विभाजनों को सूचीबद्ध करेगा, जिसे स्वतंत्र रूप से बढ़ाया या कम किया जा सकता है।</string>
+    <!-- ZH: 进行中 -->
+    <string name="host_import_wizard_steps_6f1972e4">प्रगति में</string>
+    <!-- ZH: 等待导入服务… -->
+    <string name="host_import_wizard_steps_6fc960c0">आयात सेवा के लिए प्रतीक्षा...</string>
+    <!-- ZH: 导入结果 -->
+    <string name="host_import_wizard_steps_747404d6">आयात परिणाम</string>
+    <!-- ZH: 使用小提示 -->
+    <string name="host_import_wizard_steps_76f08721">सुझावों का उपयोग करें</string>
+    <!-- ZH: 单独的 IMG 镜像会跳过分区选择，下一步直接开始导入。 -->
+    <string name="host_import_wizard_steps_799d6f41">एक अलग IMG छवि विभाजन चयन को छोड़ देगी और अगले चरण में सीधे आयात करना शुरू कर देगी।</string>
+    <!-- ZH: 选择系统文件 -->
+    <string name="host_import_wizard_steps_7cb53121">सिस्टम फ़ाइलों का चयन करें</string>
+    <!-- ZH: 导入步骤 -->
+    <string name="host_import_wizard_steps_966a1769">आयात चरण</string>
+    <!-- ZH: 接下来可以做什么 -->
+    <string name="host_import_wizard_steps_98ab08aa">आगे क्या किया जा सकता है?</string>
+    <!-- ZH: 正在检查文件… -->
+    <string name="host_import_wizard_steps_a528d3f5">फ़ाइलों की जाँच...</string>
+    <!-- ZH: 已取消 -->
+    <string name="host_import_wizard_steps_a5ffdc95">रद्द करना</string>
+    <!-- ZH: 更换 -->
+    <string name="host_import_wizard_steps_b1a3fede">प्रतिस्थापन</string>
+    <!-- ZH: 正在导入 -->
+    <string name="host_import_wizard_steps_c3ddf132">आयात करना</string>
+    <!-- ZH: 失败详情 -->
+    <string name="host_import_wizard_steps_da5fb1a6">विफलता विवरण</string>
+    <!-- ZH: 尚未选择文件 -->
+    <string name="host_import_wizard_steps_dee789fd">अभी तक चयनित नहीं है</string>
+    <!-- ZH: 已完成 -->
+    <string name="host_import_wizard_steps_e99b48a2">पूरा</string>
+    <!-- ZH: 虚拟机启动超过 10 分钟仍未检测到系统启动完成，用户选择停止并上报日志。 -->
+    <string name="host_instance_detail_activity_197898f2">यदि आभासी मशीन 10 मिनट से अधिक समय तक शुरू होती है और सिस्टम स्टार्टअप पूरा नहीं होता है, तो उपयोगकर्ता लॉग को रोकने और रिपोर्ट करने का विकल्प चुनता है।</string>
+    <!-- ZH: 上报日志 -->
+    <string name="host_instance_detail_activity_2dc64877">रिपोर्ट लॉग</string>
+    <!-- ZH: 虚拟机已重新启动，本次超时操作已取消。 -->
+    <string name="host_instance_detail_activity_537add17">आभासी मशीन को फिर से शुरू किया गया है और इस टाइमआउट ऑपरेशन को रद्द कर दिया गया है।</string>
+    <!-- ZH: 虚拟机 -->
+    <string name="host_instance_detail_activity_5aeca041">वर्चुअल मशीन</string>
+    <!-- ZH: 停止虚拟机失败：%1$s -->
+    <string name="host_instance_detail_activity_75208814">वर्चुअल मशीन को रोकने में विफल: %1$s</string>
+    <!-- ZH: 更多操作 -->
+    <string name="host_instance_detail_activity_77836d3a">अधिक परिचालन</string>
+    <!-- ZH: 返回虚拟机列表 -->
+    <string name="host_instance_detail_activity_8e98a049">आभासी मशीन सूची में वापसी</string>
+    <!-- ZH: 虚拟机不可用。 -->
+    <string name="host_instance_detail_activity_a1a4c13f">आभासी मशीन अनुपलब्ध है।</string>
+    <!-- ZH: ；当前任务：%1$s -->
+    <string name="host_instance_detail_activity_c1f475f1">;वर्तमान कार्य: %1$s</string>
+    <!-- ZH: 正在打包日志 -->
+    <string name="host_instance_detail_activity_e5b4f75a">पैकिंग लॉग</string>
+    <!-- ZH: " -->
+    <string name="host_instance_detail_overlays_0147664a">"</string>
+    <!-- ZH: 原安装镜像暂不能清理 -->
+    <string name="host_instance_detail_overlays_01c821ef">मूल स्थापना छवि को अस्थायी रूप से साफ नहीं किया जा सकता है।</string>
+    <!-- ZH: 清理不删除当前系统和用户数据，但无法再从本地取得原始块镜像，不能用于基于原始块的增量 OTA。未来若有功能需要这些内容，须重新导入匹配 ROM。 -->
+    <string name="host_instance_detail_overlays_0420c4a8">सफाई वर्तमान प्रणाली और उपयोगकर्ता डेटा को नहीं हटाती है, लेकिन मूल ब्लॉक छवि स्थानीय रूप से प्राप्त नहीं की जा सकती है और इसका उपयोग मूल ब्लॉक पर आधारित वृद्धिशील ओटीए के लिए नहीं किया जा सकता है। यदि ऐसे कार्य हैं जिन्हें भविष्य में इन सामग्रियों की आवश्यकता होती है, तो मिलान रॉम को फिर से आयात किया जाना चाहिए।</string>
+    <!-- ZH: 保留快照 -->
+    <string name="host_instance_detail_overlays_15616aa2">स्नैपशॉट रखें</string>
+    <!-- ZH: 将重置组件精简、Recovery 与兼容性配置；不会执行 Recovery 脚本，也不会清空用户数据。 -->
+    <string name="host_instance_detail_overlays_1588228e">घटक हटाने, रिकवरी और संगतता सेटिंग्स को रीसेट करें। रिकवरी स्क्रिप्ट नहीं चलेंगे। उपयोगकर्ता डेटा को साफ़ नहीं किया जाएगा।</string>
+    <!-- ZH: 我了解清理后可能需要重新导入 ROM -->
+    <string name="host_instance_detail_overlays_1e1d6885">मैं समझता हूँ कि आपको सफाई के बाद रॉम को फिर से आयात करने की आवश्यकता हो सकती है</string>
+    <!-- ZH: 若恢复材料已损坏或缺失，清理时可能无法发现；之后重新准备或恢复系统可能失败，需要重新导入匹配 ROM。 -->
+    <string name="host_instance_detail_overlays_20dca424">यदि वसूली सामग्री क्षतिग्रस्त हो जाती है या लापता हो जाती है, तो इसे सफाई के दौरान नहीं पाया जा सकता है; बाद में फिर से तैयारी या सिस्टम की वसूली विफल हो सकती है, और मिलान रॉम को फिर से आयात करने की आवश्यकता होती है।</string>
+    <!-- ZH: 运行快照恢复失败 -->
+    <string name="host_instance_detail_overlays_2234be0b">स्नैपशॉट वसूली चलाने में विफल</string>
+    <!-- ZH: ROM 适配器版本 %1$s → %2$s -->
+    <string name="host_instance_detail_overlays_2244cab2">ROM एडाप्टर संस्करण %1$s → %2$s_</string>
+    <!-- ZH: 请按上方原因处理后重新检查；本次检查不会自动重装或删除文件。 -->
+    <string name="host_instance_detail_overlays_27817814">उपरोक्त कारणों को संभालने के बाद कृपया फिर से जांच करें; यह जांच स्वचालित रूप से फ़ाइलों को पुनर्स्थापित या हटा नहीं करेगी।</string>
+    <!-- ZH: 清理原安装镜像？ -->
+    <string name="host_instance_detail_overlays_2c4e1791">मूल स्थापना छवि को साफ करें?</string>
+    <!-- ZH: 提交成功后不保留本次重装的系统回退点；恢复材料完整且原安装镜像不再被引用时，会自动尝试清理原安装镜像。 -->
+    <string name="host_instance_detail_overlays_35f0e554">सफल प्रस्तुति के बाद, इस पुनर्स्थापना के लिए सिस्टम रोलबैक पॉइंट को बनाए रखा नहीं जाएगा; जब वसूली सामग्री पूरी हो जाती है और मूल स्थापना छवि अब संदर्भित नहीं होती है, तो मूल स्थापना छवि को साफ करने के लिए एक स्वचालित प्रयास किया जाएगा।</string>
+    <!-- ZH: 取消 -->
+    <string name="host_instance_detail_overlays_4d0b4688">रद्द करें</string>
+    <!-- ZH: ROM 适配器有更新 -->
+    <string name="host_instance_detail_overlays_55babc86">रॉम एडाप्टर के लिए एक अद्यतन है</string>
+    <!-- ZH: "该 Android 版本的系统适配器已更新：%1$s -->
+    <string name="host_instance_detail_overlays_58537ea6">"इस Android संस्करण के लिए सिस्टम एडाप्टर को अपडेट किया गया है: %1$s</string>
+    <!-- ZH: 虚拟机 -->
+    <string name="host_instance_detail_overlays_5aeca041">वर्चुअल मशीन</string>
+    <!-- ZH: 其他实例、旧快照、Recovery 或未完成事务仍依赖原镜像时不会清理。确认后只复查引用和清理条件，直接删除文件，不再全量读取或校验恢复内容。 -->
+    <string name="host_instance_detail_overlays_77fc9a7c">मूल छवियां रखी जाती हैं जबकि अन्य उदाहरण, पुराने स्नैपशॉट, रिकवरी या अधूरे लेनदेन अभी भी उन पर निर्भर हैं। पुष्टिकरण के बाद, संदर्भ और सफाई की स्थिति फिर से जांच की जाती है, फिर पूरी तरह से पुनरीक्षण डेटा को पुनरीक्षण या सत्यापित किए बिना पात्र फाइलें हटा दी जाती हैं।</string>
+    <!-- ZH: 成功后旧运行快照将失效；失败保留原系统、配置与快照。恢复来源不完整时会停止重装，并提示重新提供 ROM。 -->
+    <string name="host_instance_detail_overlays_7e453597">सफलता के बाद, पुराने चलने वाले स्नैपशॉट अमान्य होंगे; यदि यह विफल हो जाता है, तो मूल प्रणाली, विन्यास और स्नैपशॉट को बनाए रखा जाएगा। यदि वसूली स्रोत अधूरा है, तो पुनर्स्थापन बंद हो जाएगा और आपको फिर से रॉम प्रदान करने के लिए प्रेरित किया जाएगा।</string>
+    <!-- ZH: 重装当前 ROM -->
+    <string name="host_instance_detail_overlays_835d5fa1">वर्तमान ROM की स्थापना रद्द करें</string>
+    <!-- ZH: 暂无法计算 -->
+    <string name="host_instance_detail_overlays_8c223745">वर्तमान में गणना करने में असमर्थ</string>
+    <!-- ZH: 冷重启 -->
+    <string name="host_instance_detail_overlays_92552f72">शीत पुनरारंभ</string>
+    <!-- ZH: 原选择必须能完整应用；若存在无法保留的组件或 Recovery 脚本修改，会明确报错，不会静默丢弃。 -->
+    <string name="host_instance_detail_overlays_ad6992d6">मूल चयन पूरी तरह से लागू होना चाहिए; यदि घटक या रिकवरी स्क्रिप्ट संशोधन हैं जिन्हें बनाए रखा नहीं जा सकता है, तो त्रुटि को स्पष्ट रूप से सूचित किया जाएगा और चुपचाप खारिज नहीं किया जाएगा।</string>
+    <!-- ZH: 使用当前 ROM 保留数据重装？ -->
+    <string name="host_instance_detail_overlays_ba82db23">डेटा को बनाए रखने के लिए वर्तमान रॉम का उपयोग करके पुनर्स्थापित करें?</string>
+    <!-- ZH: "「%1$s」的运行快照无法恢复：%2$s -->
+    <string name="host_instance_detail_overlays_bc31d763">""%1$s_" के रनटाइम स्नैपशॉट को पुनर्स्थापित नहीं किया जा सकता: %2$s</string>
+    <!-- ZH: 升级并启动 -->
+    <string name="host_instance_detail_overlays_be47b12d">उन्नयन और शुरू करना</string>
+    <!-- ZH: 确认清理 -->
+    <string name="host_instance_detail_overlays_c1ac3cc2">सफाई की पुष्टि करें</string>
+    <!-- ZH: 正在导入 -->
+    <string name="host_instance_detail_overlays_c3ddf132">आयात करना</string>
+    <!-- ZH: 保留组件精简、Recovery 与兼容性配置 -->
+    <string name="host_instance_detail_overlays_c5658d3a">घटक हटाने, रिकवरी और संगतता सेटिंग्स रखें</string>
+    <!-- ZH: 知道了 -->
+    <string name="host_instance_detail_overlays_cb63c62e">समझ गया</string>
+    <!-- ZH: " -->
+    <string name="host_instance_detail_overlays_cd17bfaa">"</string>
+    <!-- ZH: 「%1$s」本次独占可释放空间：%2$s。 -->
+    <string name="host_instance_detail_overlays_d4de869d">विशेष रूप से "%1$s" द्वारा उपयोग किए जाने वाले अंतरिक्ष को अब पुनः प्राप्त किया जा सकता है: %2$s।</string>
+    <!-- ZH: 没有可安全清理的原安装镜像文件，或已完成清理。 -->
+    <string name="host_instance_detail_overlays_e6820ef1">कोई मूल स्थापना छवि फ़ाइल नहीं है जिसे सुरक्षित रूप से साफ किया जा सकता है, या सफाई पूरी की गई है।</string>
+    <!-- ZH: 忽略并启动 -->
+    <string name="host_instance_detail_overlays_ef4ae7d9">Ignore और शुरू</string>
+    <!-- ZH: ROM 配置版本 %1$s → %2$s -->
+    <string name="host_instance_detail_overlays_ef62a0dc">ROM कॉन्फ़िगरेशन संस्करण %1$s → %2$s</string>
+    <!-- ZH: 将从「%1$s」保留的原始系统视图重新准备系统，不需要重新选择 ROM。用户数据不会清除，完成后保持停止状态。 -->
+    <string name="host_instance_detail_overlays_ef738703">सिस्टम को फिर से "%1$s" के बनाए रखा मूल सिस्टम दृश्य से तैयार करें, फिर से रॉम का चयन किए बिना। उपयोगकर्ता डेटा संरक्षित है। आभासी मशीन समाप्त होने पर बंद हो जाती है।</string>
+    <!-- ZH:   解除子进程限制 -->
+    <string name="host_instance_detail_screen_01fc2171">  बच्चे की प्रक्रिया प्रतिबंध निकालें</string>
+    <!-- ZH: 删除虚拟机？ -->
+    <string name="host_instance_detail_screen_043b20b0">आभासी मशीन हटाएँ?</string>
+    <!-- ZH: 虚拟机可使用的 CPU 核心数；默认跟随宿主的 %1$s 核 -->
+    <string name="host_instance_detail_screen_0452cac9">सीपीयू कोर की संख्या जो आभासी मशीन का उपयोग कर सकती है; मेजबान के %1$s कोर को डिफ़ॉल्ट</string>
+    <!-- ZH: 正在恢复… -->
+    <string name="host_instance_detail_screen_0654d3fc">......</string>
+    <!-- ZH: 停止虚拟机 -->
+    <string name="host_instance_detail_screen_078b34fd">आभासी मशीन बंद करो</string>
+    <!-- ZH: 网络 -->
+    <string name="host_instance_detail_screen_0cbda6b5">नेटवर्क</string>
+    <!-- ZH: 虚拟机 ID -->
+    <string name="host_instance_detail_screen_0ed36e07">वर्चुअल मशीन ID</string>
+    <!-- ZH: 已禁用 -->
+    <string name="host_instance_detail_screen_0fe5a98e">विकलांग</string>
+    <!-- ZH: 收起分区 -->
+    <string name="host_instance_detail_screen_0ff72db5">विभाजन को रोकता है</string>
+    <!-- ZH: 暂停虚拟机时自动保存，恢复后继续上次运行状态 -->
+    <string name="host_instance_detail_screen_126e2cd8">आभासी मशीन को निलंबित करते समय स्वचालित रूप से सहेजते हैं, और वसूली के बाद अंतिम चल रहा राज्य जारी रखते हैं</string>
+    <!-- ZH: 若虚拟机正在运行，将先停止再丢弃快照。下次启动会执行冷启动，Guest 文件与已安装应用不受影响。 -->
+    <string name="host_instance_detail_screen_165c0940">यदि आभासी मशीन चल रही है, तो इसे पहले बंद कर दिया जाएगा और फिर स्नैपशॉट को खारिज कर दिया जाएगा। अगले स्टार्टअप पर एक ठंडा बूट किया जाएगा, और गेस्ट फाइलें और स्थापित अनुप्रयोग प्रभावित नहीं होंगे।</string>
+    <!-- ZH: 名称 -->
+    <string name="host_instance_detail_screen_1be7ae4f">नाम</string>
+    <!-- ZH: 启动虚拟机 -->
+    <string name="host_instance_detail_screen_1c0029aa">आभासी मशीन शुरू करें</string>
+    <!-- ZH: 暂停并保存运行快照 -->
+    <string name="host_instance_detail_screen_1c757341">रोकें और बचे हुए स्नैपशॉट को सहेजें</string>
+    <!-- ZH: 虚拟机已暂停。停止会丢弃运行快照，下次启动执行冷启动。 -->
+    <string name="host_instance_detail_screen_1fd9aaa7">आभासी मशीन को रोक दिया गया है। स्टॉपिंग चल रहे स्नैपशॉट को छोड़ देगा और अगले स्टार्टअप पर एक ठंडी शुरुआत करेगा।</string>
+    <!-- ZH: 虚拟机运行时无法创建或恢复停止态快照。 -->
+    <string name="host_instance_detail_screen_220f0a1f">जबकि आभासी मशीन चल रही है बंद राज्य स्नैपशॉट बनाया या बहाल नहीं किया जा सकता है।</string>
+    <!-- ZH: 文件会写入虚拟机的 Download 目录，应用会直接安装到虚拟机 -->
+    <string name="host_instance_detail_screen_2319625e">फ़ाइल को आभासी मशीन की डाउनलोड निर्देशिका में लिखा जाएगा, और एप्लिकेशन को सीधे आभासी मशीन में स्थापित किया जाएगा।</string>
+    <!-- ZH: 已启用 -->
+    <string name="host_instance_detail_screen_25d28431">सक्षम</string>
+    <!-- ZH: 正在重置数据… -->
+    <string name="host_instance_detail_screen_26862de7">डेटा रीसेट करना</string>
+    <!-- ZH: %1$s 项 -->
+    <string name="host_instance_detail_screen_27500691">%1$s आइटम</string>
+    <!-- ZH: 运行状态 -->
+    <string name="host_instance_detail_screen_2a4080ad">संचालन की स्थिति</string>
+    <!-- ZH:   选择 ROM 并重装 -->
+    <string name="host_instance_detail_screen_2aa50f40">  ROM चुनें और फिर से स्थापित करें</string>
+    <!-- ZH: 包含分区 -->
+    <string name="host_instance_detail_screen_2b78e51d">विभाजन को शामिल करना</string>
+    <!-- ZH: 正在复制… -->
+    <string name="host_instance_detail_screen_2cd116d0">कॉपी करना</string>
+    <!-- ZH: 为当前虚拟机数据留一份可回滚的副本 -->
+    <string name="host_instance_detail_screen_2ef900af">वर्तमान आभासी मशीन डेटा की एक रोल करने योग्य प्रतिलिपि छोड़ें</string>
+    <!-- ZH: 停止并丢弃运行快照？ -->
+    <string name="host_instance_detail_screen_2f2328b4">बंद करो और बंद करो स्नैपशॉट चल रहा है?</string>
+    <!-- ZH: 运行中无法重命名 -->
+    <string name="host_instance_detail_screen_3132ab10">ऑपरेशन के दौरान नाम बदलने में असमर्थ</string>
+    <!-- ZH:   导出虚拟机应用为安装包 -->
+    <string name="host_instance_detail_screen_35486ab3">  स्थापना पैकेज के रूप में आभासी मशीन अनुप्रयोग निर्यात करें</string>
+    <!-- ZH: 删除 -->
+    <string name="host_instance_detail_screen_3755f56f">हटाएँ</string>
+    <!-- ZH: 虚拟机运行时不可用 -->
+    <string name="host_instance_detail_screen_385e98bb">जब चल रहा है तो आभासी मशीन उपलब्ध नहीं है</string>
+    <!-- ZH: 删除快照？ -->
+    <string name="host_instance_detail_screen_389bb39f">स्नैपशॉट हटाएं?</string>
+    <!-- ZH: 超过 %1$s 个进程时需要解除系统的「子进程限制」（部分系统称为幻影进程限制），否则系统会在运行中终止 Guest 进程。若已解除，请忽略本提示。 -->
+    <string name="host_instance_detail_screen_39e8fda2">%1$s से अधिक प्रक्रियाओं का उपयोग करने के लिए सिस्टम चाइल्ड-प्रोसेस लिमिट को उठाने की आवश्यकता होती है (जिसे फांटम-प्रोसेस लिमिट भी कहा जाता है)। अन्यथा, सिस्टम चलने के दौरान अतिथि प्रक्रियाओं को समाप्त कर सकता है। इस नोटिस को अनदेखा करें यदि सीमा पहले से ही उठाई गई है।</string>
+    <!-- ZH: 此虚拟机跟随默认映射，修改后成为独立配置 -->
+    <string name="host_instance_detail_screen_3e97badc">यह आभासी मशीन डिफ़ॉल्ट मैपिंग का अनुसरण करती है और संशोधन के बाद एक स्वतंत्र विन्यास बन जाती है।</string>
+    <!-- ZH: %1$s（不含在数据占用中） -->
+    <string name="host_instance_detail_screen_3f7312b3">%1$s_ (डेटा के उपयोग में शामिल नहीं है)</string>
+    <!-- ZH: 刷机 -->
+    <string name="host_instance_detail_screen_41c2819a">फ्लैश मशीन</string>
+    <!-- ZH:   导入宿主应用到虚拟机 -->
+    <string name="host_instance_detail_screen_421cfe91">  आभासी मशीन के लिए होस्ट एप्लिकेशन आयात करें</string>
+    <!-- ZH: 代理配置在下次冷启动时生效。 -->
+    <string name="host_instance_detail_screen_425307ca">प्रॉक्सी विन्यास अगले ठंड शुरू में प्रभाव डालता है।</string>
+    <!-- ZH: 虚拟机名称 -->
+    <string name="host_instance_detail_screen_4506ef63">आभासी मशीन का नाम</string>
+    <!-- ZH:   导入宿主文件到虚拟机 -->
+    <string name="host_instance_detail_screen_4b9d6c6f">  होस्ट फ़ाइल को आभासी मशीन में आयात करें</string>
+    <!-- ZH: 虚拟机可使用的进程数；系统组件越多，越需要更多的进程，同时也需要更多的内存用量；默认 %1$s。 -->
+    <string name="host_instance_detail_screen_4cccdc79">आभासी मशीन के लिए उपलब्ध प्रक्रियाओं की संख्या। अधिक सिस्टम घटकों को अधिक प्रक्रियाओं और स्मृति की आवश्यकता होती है। डिफ़ॉल्ट: %1$s।</string>
+    <!-- ZH: 独立镜像占用 -->
+    <string name="host_instance_detail_screen_4ce26b74">स्वतंत्र दर्पण व्यवसाय</string>
+    <!-- ZH: 数据占用 -->
+    <string name="host_instance_detail_screen_4ecebce4">डेटा व्यवसाय</string>
+    <!-- ZH: 复制 -->
+    <string name="host_instance_detail_screen_4edd1d00">कॉपी करें</string>
+    <!-- ZH: 正在启动… -->
+    <string name="host_instance_detail_screen_4fe38132">शुरू करना</string>
+    <!-- ZH:  · 快照  -->
+    <string name="host_instance_detail_screen_504efd04"> · Snapshot </string>
+    <!-- ZH:   导入并安装宿主应用 -->
+    <string name="host_instance_detail_screen_5292c1eb">  होस्ट एप्लिकेशन आयात और स्थापित करें</string>
+    <!-- ZH: 重置虚拟机数据？ -->
+    <string name="host_instance_detail_screen_532e4a4f">आभासी मशीन डेटा रीसेट करें?</string>
+    <!-- ZH: 基于当前镜像新建虚拟机，带上配置、刷入的补丁与精简组件；不复制用户数据 -->
+    <string name="host_instance_detail_screen_585dd247">वर्तमान छवि से एक आभासी मशीन बनाएं, जिसमें विन्यास, स्थापित पैच और घटक हटाने शामिल हैं। उपयोगकर्ता डेटा की प्रतिलिपि नहीं है।</string>
+    <!-- ZH: 配置此虚拟机的设备映射 -->
+    <string name="host_instance_detail_screen_5b02b312">इस आभासी मशीन के उपकरण मानचित्रण को कॉन्फ़िगर करें</string>
+    <!-- ZH: 停止态快照 -->
+    <string name="host_instance_detail_screen_5c48683d">स्टॉप स्टेट स्नैपशॉट</string>
+    <!-- ZH: 修改将在恢复时生效；暂停期间不能关闭代理。 -->
+    <string name="host_instance_detail_screen_5def2f72">संशोधन फिर से शुरू होने पर प्रभावी होगा; निलंबन के दौरान एजेंट को बंद नहीं किया जा सकता।</string>
+    <!-- ZH: 正在导出… -->
+    <string name="host_instance_detail_screen_5e0aa0b1">निर्यात...</string>
+    <!-- ZH: 由 Worker 与运行快照共同决定 -->
+    <string name="host_instance_detail_screen_60cf1af0">वर्कर द्वारा संयुक्त रूप से निर्धारित किया गया और स्नैपशॉट चला रहा है</string>
+    <!-- ZH: 状态 -->
+    <string name="host_instance_detail_screen_62e951a6">स्थिति</string>
+    <!-- ZH: 给虚拟机分配的性能；将影响虚拟机的开机速度、流畅度、多应用负载。 -->
+    <string name="host_instance_detail_screen_65753f4c">आभासी मशीन को आवंटित प्रदर्शन आभासी मशीन की स्टार्टअप गति, प्रवाह और बहु-आवेदन भार को प्रभावित करेगा।</string>
+    <!-- ZH: 虚拟机正忙，请稍候 -->
+    <string name="host_instance_detail_screen_662d5d31">आभासी मशीन व्यस्त है, कृपया प्रतीक्षा करें।</string>
+    <!-- ZH: 配置项在下一次启动时生效 -->
+    <string name="host_instance_detail_screen_66e36e4c">कॉन्फ़िगरेशन आइटम अगले स्टार्टअप पर प्रभाव डालते हैं</string>
+    <!-- ZH: 恢复运行 -->
+    <string name="host_instance_detail_screen_67be57f3">संचालन की पुनरावृत्ति</string>
+    <!-- ZH: 删除虚拟机 -->
+    <string name="host_instance_detail_screen_69c51cf2">आभासी मशीन को हटा दें</string>
+    <!-- ZH: 原安装镜像尚未清理，可检查可释放空间并安全清理 -->
+    <string name="host_instance_detail_screen_6afdf611">मूल स्थापना छवि को अभी तक साफ नहीं किया गया है। आप मुफ्त अंतरिक्ष की जांच कर सकते हैं और इसे सुरक्षित रूप से साफ़ कर सकते हैं।</string>
+    <!-- ZH:   保存名称 -->
+    <string name="host_instance_detail_screen_6b2afc89">  नाम सहेजें</string>
+    <!-- ZH: 共享剪贴板 -->
+    <string name="host_instance_detail_screen_6d73b0eb">साझा क्लिपबोर्ड</string>
+    <!-- ZH: 使用此虚拟机时，双向同步宿主与虚拟机复制的文本 -->
+    <string name="host_instance_detail_screen_6e0c4bb6">इस आभासी मशीन का उपयोग करते समय, मेजबान और आभासी मशीन द्वारा कॉपी किए गए पाठ को द्वि-दिशात्मक रूप से सिंक्रनाइज़ किया जाता है।</string>
+    <!-- ZH: 显示 -->
+    <string name="host_instance_detail_screen_71b6771b">प्रदर्शन</string>
+    <!-- ZH: 无限制 -->
+    <string name="host_instance_detail_screen_7258118a">असीमित</string>
+    <!-- ZH: 导入内容 -->
+    <string name="host_instance_detail_screen_73ed57a1">आयात सामग्री</string>
+    <!-- ZH: 正在计算… -->
+    <string name="host_instance_detail_screen_74192025">गणना...</string>
+    <!-- ZH:   恢复 -->
+    <string name="host_instance_detail_screen_77214af8">  वसूली</string>
+    <!-- ZH: 将删除“%1$s”的全部数据、快照与准备好的 rootfs，此操作不可撤销。 -->
+    <string name="host_instance_detail_screen_7b5585c5">“%1$s” का सारा डेटा, स्नैपशॉट और तैयार rootfs मिटा दिया जाएगा। इस कार्रवाई को वापस नहीं लिया जा सकता।</string>
+    <!-- ZH: 导出内容 -->
+    <string name="host_instance_detail_screen_7d1a7c32">निर्यात सामग्री</string>
+    <!-- ZH: 最近更新 -->
+    <string name="host_instance_detail_screen_80920cd6">नवीनतम अपडेट</string>
+    <!-- ZH: 快照名称 -->
+    <string name="host_instance_detail_screen_83ae8f09">स्नैपशॉट नाम</string>
+    <!-- ZH: 从虚拟机复制文件或应用到宿主的 下载/AndVM 目录，运行或停止时均可导出 -->
+    <string name="host_instance_detail_screen_849626c1">वर्चुअल मशीन से होस्ट के डाउनलोड / AndVM निर्देशिका में फ़ाइलों या अनुप्रयोगों की प्रतिलिपि बनाएँ, जिसे चलाने या रोकने के दौरान निर्यात किया जा सकता है।</string>
+    <!-- ZH: 创建时间 -->
+    <string name="host_instance_detail_screen_84e3802f">निर्माण समय</string>
+    <!-- ZH: 选择原 ROM 包或更新的 ROM 包重装虚拟机；保留虚拟机用户数据 -->
+    <string name="host_instance_detail_screen_8590829d">आभासी मशीन को फिर से स्थापित करने के लिए मूल रॉम पैकेज या अद्यतन रॉम पैकेज का चयन करें; आभासी मशीन उपयोगकर्ता डेटा को बनाए रखें</string>
+    <!-- ZH: Recovery 与刷入补丁 -->
+    <string name="host_instance_detail_screen_85ddaaf5">वसूली और पैच</string>
+    <!-- ZH: 此虚拟机使用独立的设备映射 -->
+    <string name="host_instance_detail_screen_87771563">यह आभासी मशीन स्वतंत्र उपकरण मैपिंग का उपयोग करती है</string>
+    <!-- ZH: 正在暂停 -->
+    <string name="host_instance_detail_screen_897ea382">रोकना जारी है</string>
+    <!-- ZH: 虚拟机信息 -->
+    <string name="host_instance_detail_screen_8ab71444">आभासी मशीन की जानकारी</string>
+    <!-- ZH: 通过 Recovery 刷入系统补丁；或管理已刷入的内容 -->
+    <string name="host_instance_detail_screen_8dd3d593">रिकवरी के माध्यम से सिस्टम पैच स्थापित करें या स्थापित पैच का प्रबंधन करें।</string>
+    <!-- ZH: 展开全部分区 -->
+    <string name="host_instance_detail_screen_8e122ffa">सभी विभाजनों का विस्तार</string>
+    <!-- ZH: 还没有停止态快照。 -->
+    <string name="host_instance_detail_screen_8eca4d47">अभी तक कोई स्टॉप स्टेट स्नैपशॉट नहीं है।</string>
+    <!-- ZH:   创建停止态快照 -->
+    <string name="host_instance_detail_screen_8f0e4592">  बंद राज्य स्नैपशॉट बनाने</string>
+    <!-- ZH: 原安装镜像 -->
+    <string name="host_instance_detail_screen_906321e5">मूल स्थापना छवि</string>
+    <!-- ZH: %1$s 核 -->
+    <string name="host_instance_detail_screen_90edb1d5">%1$s कोर</string>
+    <!-- ZH: 正在删除… -->
+    <string name="host_instance_detail_screen_91647936">हटाने...</string>
+    <!-- ZH: 运行快照 -->
+    <string name="host_instance_detail_screen_92b341c7">रन स्नैपशॉट</string>
+    <!-- ZH: 暂停期间修改配置前需先停止运行，或在“快照”页明确丢弃运行快照。 -->
+    <string name="host_instance_detail_screen_94ecda6a">रोकें अवधि के दौरान विन्यास को संशोधित करने से पहले, आपको दौड़ना बंद करना होगा, या स्पष्ट रूप से "स्नैपशॉट" पृष्ठ पर चल रहे स्नैपशॉट को खारिज करना होगा।</string>
+    <!-- ZH: 仅在虚拟机画面获得焦点时同步文本，不共享图片和文件。 -->
+    <string name="host_instance_detail_screen_95445b70">केवल पाठ को सिंक्रनाइज़ किया जाता है जब आभासी मशीन स्क्रीन फोकस हो जाती है, और चित्र और फ़ाइलों को साझा नहीं किया जाता है।</string>
+    <!-- ZH: 可以离开此页面，重装会在后台继续。 -->
+    <string name="host_instance_detail_screen_95864348">आप इस पृष्ठ को छोड़ सकते हैं और पुन: स्थापना पृष्ठभूमि में जारी रहेगा।</string>
+    <!-- ZH: 虚拟机可使用的进程数；无限制仅适用于内存充足的设备。 -->
+    <string name="host_instance_detail_screen_95d973a0">उन प्रक्रियाओं की संख्या जो एक आभासी मशीन का उपयोग कर सकती हैं; असीमित केवल पर्याप्त स्मृति वाले उपकरणों पर लागू होता है।</string>
+    <!-- ZH: 正在重装… -->
+    <string name="host_instance_detail_screen_96d2c23c">पुन: स्थापना ...</string>
+    <!-- ZH: （用户数据  -->
+    <string name="host_instance_detail_screen_9710e6e5">(उपयोगकर्ता डेटा </string>
+    <!-- ZH: 虚拟机已暂停，需停止或到“快照”页丢弃运行快照后才能修改配置。 -->
+    <string name="host_instance_detail_screen_992c3ee1">आभासी मशीन को निलंबित कर दिया गया है और इसे बंद करने की आवश्यकता है या कॉन्फ़िगरेशन को संशोधित करने से पहले "स्नैपशॉट" पृष्ठ पर चलने वाले स्नैपशॉट को खारिज कर दिया जाना चाहिए।</string>
+    <!-- ZH:   导出虚拟机文件到宿主 -->
+    <string name="host_instance_detail_screen_9d28adf4">  होस्ट करने के लिए आभासी मशीन फ़ाइलों का निर्यात करें</string>
+    <!-- ZH: 快照提示：%1$s -->
+    <string name="host_instance_detail_screen_9fa0cb04">स्नैपशॉट प्रॉम्प्ट: %1$s_</string>
+    <!-- ZH: 撤销 -->
+    <string name="host_instance_detail_screen_9fcefd8d">रद्द करना</string>
+    <!-- ZH: 选择 ROM -->
+    <string name="host_instance_detail_screen_a0146bb7">ROM चुनें</string>
+    <!-- ZH: 停止虚拟机并丢弃运行快照 -->
+    <string name="host_instance_detail_screen_a1bc393b">आभासी मशीन बंद करो और चल रहे स्नैपशॉट को छोड़ दें</string>
+    <!-- ZH: 检查可释放空间 -->
+    <string name="host_instance_detail_screen_a46cc1ae">मुफ्त अंतरिक्ष की जाँच करें</string>
+    <!-- ZH: 虚拟机网络 -->
+    <string name="host_instance_detail_screen_a6a5c802">वर्चुअल मशीन नेटवर्क</string>
+    <!-- ZH: 虚拟机屏幕分辨率 -->
+    <string name="host_instance_detail_screen_a6c8b1e9">वर्चुअल मशीन स्क्रीन रिज़ॉल्यूशन</string>
+    <!-- ZH: 关闭后虚拟机不再获得出站网络 -->
+    <string name="host_instance_detail_screen_a99a4070">बंद होने के बाद, वर्चुअल मशीन अब आउटबाउंड नेटवर्क प्राप्त नहीं करती है</string>
+    <!-- ZH: 重置数据 -->
+    <string name="host_instance_detail_screen_b1dd0402">डेटा रीसेट करें</string>
+    <!-- ZH: 丢弃运行快照？ -->
+    <string name="host_instance_detail_screen_b34c3510">डिस्कर्ड चल रहा स्नैपशॉट?</string>
+    <!-- ZH: 将永久删除“%1$s”，此操作不可撤销。 -->
+    <string name="host_instance_detail_screen_b45d4021">स्थायी रूप से "%1$s_" को हटा दें? यह बिना सोचे समझे नहीं सकता।</string>
+    <!-- ZH:   管理系统组件 -->
+    <string name="host_instance_detail_screen_b460f88a">  प्रबंधन प्रणाली घटक</string>
+    <!-- ZH: 复制虚拟机 -->
+    <string name="host_instance_detail_screen_c01e8325">आभासी मशीन कॉपी करें</string>
+    <!-- ZH: 可以离开此页面，核验与清理会在后台继续。 -->
+    <string name="host_instance_detail_screen_c4032cab">आप इस पृष्ठ को छोड़ सकते हैं और सत्यापन और सफाई पृष्ठभूमि में जारी रहेगी।</string>
+    <!-- ZH: 剪贴板 -->
+    <string name="host_instance_detail_screen_c4eb94d0">क्लिपबोर्ड</string>
+    <!-- ZH: 正在停止 -->
+    <string name="host_instance_detail_screen_caa14e6a">बंद करना</string>
+    <!-- ZH: 性能 -->
+    <string name="host_instance_detail_screen_cb1df607">प्रदर्शन</string>
+    <!-- ZH: 正在导入… -->
+    <string name="host_instance_detail_screen_cd74f096">आयात...</string>
+    <!-- ZH: 重置虚拟机数据 -->
+    <string name="host_instance_detail_screen_cef4ad5f">आभासी मशीन डेटा रीसेट करें</string>
+    <!-- ZH: 内存 -->
+    <string name="host_instance_detail_screen_d014ab77">मेमोरी</string>
+    <!-- ZH: 精简 -->
+    <string name="host_instance_detail_screen_d0e259b0">प्रबंधन</string>
+    <!-- ZH: 保留数据重装？ -->
+    <string name="host_instance_detail_screen_d1aeddd8">डेटा संरक्षित करें और पुनर्स्थापित करें?</string>
+    <!-- ZH:   丢弃运行快照 -->
+    <string name="host_instance_detail_screen_d3d71e66">  डिस्कर्ड चल रहा स्नैपशॉट</string>
+    <!-- ZH: 系统组件 -->
+    <string name="host_instance_detail_screen_d3e6c509">सिस्टम घटक</string>
+    <!-- ZH: 打开画面 -->
+    <string name="host_instance_detail_screen_d4f465dd">ओपन स्क्रीन</string>
+    <!-- ZH: 当前虚拟机组件较多，建议使用高性能模式，以提升开机速度和运行流畅度。 -->
+    <string name="host_instance_detail_screen_d72c5b49">वर्तमान में, कई आभासी मशीन घटक हैं, और बूट गति को बेहतर बनाने और चिकनीपन चलाने के लिए उच्च प्रदर्शन मोड का उपयोग करने की सिफारिश की जाती है।</string>
+    <!-- ZH: 丢弃快照 -->
+    <string name="host_instance_detail_screen_d852def8">डिस्कर्ड स्नैपशॉट</string>
+    <!-- ZH: 按需移除系统组件和预装应用，提升运行性能；或恢复已精简的组件 -->
+    <string name="host_instance_detail_screen_d937eee4">अप्रयुक्त सिस्टम घटकों को हटा दें और प्रदर्शन में सुधार करने, या हटाए गए घटकों को पुनर्स्थापित करने के लिए पूर्वस्थापित ऐप्स को हटा दें।</string>
+    <!-- ZH: 虚拟机可使用的进程数；无限制仅适用于已解除子进程限制且内存充足的设备。 -->
+    <string name="host_instance_detail_screen_d9d9710f">उन प्रक्रियाओं की संख्या जो एक आभासी मशीन का उपयोग कर सकती हैं; असीमित केवल उन उपकरणों पर लागू होता है जिन्होंने बाल प्रक्रिया प्रतिबंध जारी किया है और पर्याप्त स्मृति है।</string>
+    <!-- ZH: 读取失败 -->
+    <string name="host_instance_detail_screen_d9f607a2">पढ़ना विफल</string>
+    <!-- ZH: "请选择这台虚拟机原来的 ROM，或它的升级版本。换成别的 ROM 时，保留下来的用户数据可能与新系统不兼容，导致无法开机。新 ROM 保存成功后不保留本次重装的系统回退点。 -->
+    <string name="host_instance_detail_screen_dc91b9d0">"इस आभासी मशीन के लिए मूल रॉम का चयन करें या इसके लिए अद्यतन करें। एक अन्य रॉम का उपयोग बनाए रखा उपयोगकर्ता डेटा को असंगत बना सकता है और स्टार्टअप को रोक सकता है। इस पुन: स्थापना के लिए कोई सिस्टम रोलबैक प्वाइंट को नए रॉम के सहेजने के बाद रखा जाता है।</string>
+    <!-- ZH: 镜像大小 -->
+    <string name="host_instance_detail_screen_df63c0a1">छवि आकार</string>
+    <!-- ZH: 正在准备系统 -->
+    <string name="host_instance_detail_screen_e32d9e7b">सिस्टम तैयार करना</string>
+    <!-- ZH: 精简系统组件 -->
+    <string name="host_instance_detail_screen_e36538ee">सिस्टम घटक निकालें</string>
+    <!-- ZH: 虚拟机可使用的内存；最终可使用内存仍受宿主可用内存限制 -->
+    <string name="host_instance_detail_screen_e5ebfef0">स्मृति है कि आभासी मशीन का उपयोग कर सकते हैं; अंतिम उपयोग योग्य स्मृति अभी भी मेजबान की उपलब्ध स्मृति द्वारा सीमित है।</string>
+    <!-- ZH: 保留数据重装 -->
+    <string name="host_instance_detail_screen_e7c95bcc">डेटा को संरक्षित करें और पुनर्स्थापित करें</string>
+    <!-- ZH: 此操作不可逆，请谨慎操作 -->
+    <string name="host_instance_detail_screen_e8c35377">यह ऑपरेशन अपरिवर्तनीय है, कृपया सावधानी से काम करें</string>
+    <!-- ZH: 虚拟机正在运行，停止后才能修改配置。 -->
+    <string name="host_instance_detail_screen_ea3484b9">आभासी मशीन चल रही है और इसके बंद होने के बाद ही कॉन्फ़िगरेशन को संशोधित किया जा सकता है।</string>
+    <!-- ZH: 来源 ROM -->
+    <string name="host_instance_detail_screen_ea7ac7be">स्रोत रोम</string>
+    <!-- ZH: 设备映射 -->
+    <string name="host_instance_detail_screen_eaccc7b0">डिवाइस मैपिंग</string>
+    <!-- ZH: 重命名后立即生效 -->
+    <string name="host_instance_detail_screen_f1ffd5c3">नाम बदलने के तुरंत बाद प्रभावी</string>
+    <!-- ZH: 进程数 -->
+    <string name="host_instance_detail_screen_f2b9d59a">प्रक्रियाओं की संख्या</string>
+    <!-- ZH: APK 与文件会写入虚拟机的 Download 目录 -->
+    <string name="host_instance_detail_screen_f4b5a18e">APK और फ़ाइलें आभासी मशीन की डाउनलोड निर्देशिका के लिए लिखा जाएगा</string>
+    <!-- ZH: 虚拟机屏幕像素密度 -->
+    <string name="host_instance_detail_screen_f8401cea">वर्चुअल मशीन स्क्रीन पिक्सेल घनत्व</string>
+    <!-- ZH: 虚拟机的用户数据将被清空并回到刚导入的状态，已安装应用会全部丢失。 -->
+    <string name="host_instance_detail_screen_f848fa65">सभी उपयोगकर्ता डेटा को मंजूरी दे दी जाएगी और आभासी मशीन अपने ताजा आयातित राज्य में वापस आ जाएगी। सभी स्थापित ऐप्स खो जाएंगे।</string>
+    <!-- ZH: 摄像头、麦克风、GPS、Wi-Fi、蓝牙、基站、传感器、震动与电量 -->
+    <string name="host_instance_detail_screen_f9bf5a8c">कैमरा, माइक्रोफोन, जीपीएस, वाई-फाई, ब्लूटूथ, बेस स्टेशन, सेंसर, कंपन और बिजली</string>
+    <!-- ZH: 待统计 -->
+    <string name="host_instance_detail_screen_faf6292b">गणना करने के लिए</string>
+    <!-- ZH: 正在读取… -->
+    <string name="host_instance_detail_screen_fcabadb2">पढ़ना...</string>
+    <!-- ZH: 危险操作 -->
+    <string name="host_instance_detail_screen_fcfcc873">खतरनाक ऑपरेशन</string>
+    <!-- ZH: 新虚拟机名称 -->
+    <string name="host_instance_duplicate_dialog_3ae448c8">नई आभासी मशीन का नाम</string>
+    <!-- ZH: 取消 -->
+    <string name="host_instance_duplicate_dialog_4d0b4688">रद्द करें</string>
+    <!-- ZH: 复制 -->
+    <string name="host_instance_duplicate_dialog_4edd1d00">प्रतिलिपि बनाएँ</string>
+    <!-- ZH: 基于当前镜像新建一台虚拟机，并带上配置、已刷入的补丁与精简组件状态；用户数据和快照不会复制。新虚拟机首次启动时会重新准备系统。 -->
+    <string name="host_instance_duplicate_dialog_85fb9613">वर्तमान छवि से एक आभासी मशीन बनाएं, जिसमें इसके विन्यास, स्थापित पैच और हटाए गए घटक सेटिंग्स शामिल हैं। उपयोगकर्ता डेटा और स्नैपशॉट्स की प्रतिलिपि नहीं की जाती है। सिस्टम को पहली बार फिर से तैयार किया जाएगा।</string>
+    <!-- ZH: 复制虚拟机 -->
+    <string name="host_instance_duplicate_dialog_c01e8325">आभासी मशीन कॉपी करें</string>
+    <!-- ZH: 自定义 -->
+    <string name="host_label_guestdensitymode_custom">कस्टम</string>
+    <!-- ZH: 高密度 -->
+    <string name="host_label_guestdensitymode_high_density">उच्च घनत्व</string>
+    <!-- ZH: 宿主原生 -->
+    <string name="host_label_guestdensitymode_host_native">देशी</string>
+    <!-- ZH: 标准 -->
+    <string name="host_label_guestdensitymode_xhdpi">मानक</string>
+    <!-- ZH: 超高密度 -->
+    <string name="host_label_guestdensitymode_xxxhdpi">अतिरिक्त उच्च घनत्व</string>
+    <!-- ZH: HTTP -->
+    <string name="host_label_guestproxytype_http">HTTP</string>
+    <!-- ZH: 关闭 -->
+    <string name="host_label_guestproxytype_none">बंद करना</string>
+    <!-- ZH: SOCKS5 -->
+    <string name="host_label_guestproxytype_socks5">SOCKS5</string>
+    <!-- ZH: 自定义 -->
+    <string name="host_label_guestresolutionmode_custom">कस्टम</string>
+    <!-- ZH: 1080P -->
+    <string name="host_label_guestresolutionmode_full_hd">1080P</string>
+    <!-- ZH: 720P -->
+    <string name="host_label_guestresolutionmode_hd">720P</string>
+    <!-- ZH: 宿主原生 -->
+    <string name="host_label_guestresolutionmode_host_native">देशी</string>
+    <!-- ZH: 仍受限 -->
+    <string name="host_label_phantomlocalstatus_restricted">प्रतिबंधित</string>
+    <!-- ZH: 待确认 -->
+    <string name="host_label_phantomlocalstatus_unknown">पुष्टि नहीं हुई</string>
+    <!-- ZH: 已解除 -->
+    <string name="host_label_phantomlocalstatus_unlocked">सीमित उठा</string>
+    <!-- ZH: 深色 -->
+    <string name="host_label_thememode_dark">डार्क</string>
+    <!-- ZH: 浅色 -->
+    <string name="host_label_thememode_light">लाइट</string>
+    <!-- ZH: 跟随系统 -->
+    <string name="host_label_thememode_system">सिस्टम के अनुसार</string>
+    <!-- ZH: 返回 -->
+    <string name="host_label_umkguestmenuaction_back">वापस</string>
+    <!-- ZH: 设备映射 -->
+    <string name="host_label_umkguestmenuaction_device_mapping">डिवाइस मैपिंग</string>
+    <!-- ZH: 文件传输 -->
+    <string name="host_label_umkguestmenuaction_file_transfer">फ़ाइल स्थानांतरण</string>
+    <!-- ZH: 浮窗运行 -->
+    <string name="host_label_umkguestmenuaction_floating_window">फ्लोटिंग विंडो</string>
+    <!-- ZH: 主页 -->
+    <string name="host_label_umkguestmenuaction_home">घर</string>
+    <!-- ZH: 详情页 -->
+    <string name="host_label_umkguestmenuaction_instance_detail">विवरण</string>
+    <!-- ZH: 静音 -->
+    <string name="host_label_umkguestmenuaction_mute">म्यूट</string>
+    <!-- ZH: 暂停运行 -->
+    <string name="host_label_umkguestmenuaction_pause">पौलुस</string>
+    <!-- ZH: 电源键 -->
+    <string name="host_label_umkguestmenuaction_power">शक्ति</string>
+    <!-- ZH: 最近任务 -->
+    <string name="host_label_umkguestmenuaction_recents">हाल ही में</string>
+    <!-- ZH: 停止运行 -->
+    <string name="host_label_umkguestmenuaction_stop">रुकना</string>
+    <!-- ZH: 全部 -->
+    <string name="host_label_umkinstancefilter_all">सभी</string>
+    <!-- ZH: 已暂停 -->
+    <string name="host_label_umkinstancefilter_paused">रुकी हुई है</string>
+    <!-- ZH: 运行中 -->
+    <string name="host_label_umkinstancefilter_running">चल रही है</string>
+    <!-- ZH: 未运行 -->
+    <string name="host_label_umkinstancefilter_stopped">बंद है</string>
+    <!-- ZH: 高性能 -->
+    <string name="host_label_umkperformancetier_high">उच्च</string>
+    <!-- ZH: 低性能 -->
+    <string name="host_label_umkperformancetier_low">कम</string>
+    <!-- ZH: 中性能 -->
+    <string name="host_label_umkperformancetier_medium">संतुलित</string>
+    <!-- ZH: 语言 -->
+    <string name="host_language">भाषा</string>
+    <!-- ZH: 可用内存 -->
+    <string name="host_library_header_027febb3">उपलब्ध स्मृति</string>
+    <!-- ZH: 虚拟内存 %1$s / %2$s -->
+    <string name="host_library_header_11df4471">वर्चुअल मेमोरी %1$s / %2$s_</string>
+    <!-- ZH: 当前设备未启用虚拟内存，建议启用虚拟内存以增强虚拟机的并发数和保活率。 -->
+    <string name="host_library_header_12c174ae">वर्तमान उपकरण वर्चुअल मेमोरी को सक्षम नहीं करता है। वर्चुअल मेमोरी को वर्चुअल मशीन की संख्या और वर्चुअल मशीन की शेष दर को बढ़ाने के लिए सक्षम करने की सिफारिश की जाती है।</string>
+    <!-- ZH: 搜索虚拟机或来源镜像 -->
+    <string name="host_library_header_159ee508">आभासी मशीनों या स्रोत छवियों के लिए खोज</string>
+    <!-- ZH: 收起虚拟内存与 vCPU 明细 -->
+    <string name="host_library_header_4f6985ef">आभासी स्मृति और vCPU विवरण संक्षिप्त करें</string>
+    <!-- ZH: 宿主物理与虚拟内存合计占用 %1$s%% -->
+    <string name="host_library_header_54efe625">होस्ट की भौतिक और वर्चुअल मेमोरी का कुल उपयोग: %1$s%%</string>
+    <!-- ZH: 内存紧张 -->
+    <string name="host_library_header_5e32eeb5">मेमोरी तंग</string>
+    <!-- ZH: 并发 Worker -->
+    <string name="host_library_header_5e5bda91">समवर्ती Worker</string>
+    <!-- ZH: Guest 预算 -->
+    <string name="host_library_header_63fc880a">अतिथि बजट</string>
+    <!-- ZH: 本设备支持并发运行 %1$s 个虚拟机。 -->
+    <string name="host_library_header_68a9b72c">यह उपकरण लगातार %1$s_ आभासी मशीनों को चलाने का समर्थन करता है।</string>
+    <!-- ZH: 收起宿主明细 -->
+    <string name="host_library_header_6c82ea82">Collapse मेजबान विवरण</string>
+    <!-- ZH: 状态良好 -->
+    <string name="host_library_header_729ec409">अच्छी स्थिति में</string>
+    <!-- ZH: 长按卡片拖动排序 -->
+    <string name="host_library_header_8c5cb9c4">लंबे समय तक कार्ड को खींचें और सॉर्ट करने के लिए दबाएं</string>
+    <!-- ZH: 宿主资源 -->
+    <string name="host_library_header_a9c19df8">होस्ट संसाधन</string>
+    <!-- ZH: 展开虚拟内存与 vCPU 明细 -->
+    <string name="host_library_header_c04fc6f5">वर्चुअल मेमोरी और vCPU विवरण का विस्तार करें</string>
+    <!-- ZH: 决定能同时跑几个虚拟机 -->
+    <string name="host_library_header_d8388aa5">यह तय करें कि कितने आभासी मशीनों को उसी समय चलाया जा सकता है</string>
+    <!-- ZH: 停止虚拟机 -->
+    <string name="host_library_screen_078b34fd">आभासी मशीन बंद करो</string>
+    <!-- ZH: 暂停并保存运行快照 -->
+    <string name="host_library_screen_1c757341">रोकें और बचे हुए स्नैपशॉट को सहेजें</string>
+    <!-- ZH: 处理中… -->
+    <string name="host_library_screen_1cac8ac7">प्रसंस्करण...</string>
+    <!-- ZH: 打开虚拟机详情 -->
+    <string name="host_library_screen_21836d04">आभासी मशीन विवरण खोलें</string>
+    <!-- ZH: 导入 ROM -->
+    <string name="host_library_screen_233cfdb1">आयात रॉम</string>
+    <!-- ZH:   启动 -->
+    <string name="host_library_screen_43e8b2d9">  प्रारंभ करना</string>
+    <!-- ZH: 还没有虚拟机 -->
+    <string name="host_library_screen_44b5227f">अभी तक कोई आभासी मशीन नहीं है</string>
+    <!-- ZH: 清除筛选 -->
+    <string name="host_library_screen_4bbc4e5f">साफ़ फिल्टर</string>
+    <!-- ZH: 请先导入一个虚拟机，支持导入 GSI 的 system.img 或整包 ROM.zip。 -->
+    <string name="host_library_screen_50ed6213">कृपया एक आभासी मशीन पहले आयात करें। यह जीएसआई प्रणाली.img या पूरे पैकेज ROM.zip आयात का समर्थन करता है।</string>
+    <!-- ZH: 没有匹配的虚拟机 -->
+    <string name="host_library_screen_854ef798">कोई मिलान आभासी मशीन नहीं</string>
+    <!-- ZH: 正在暂停 -->
+    <string name="host_library_screen_897ea382">रोकना जारी है</string>
+    <!-- ZH:   详情 -->
+    <string name="host_library_screen_b538670a">  विवरण</string>
+    <!-- ZH:   恢复运行 -->
+    <string name="host_library_screen_b89a7031">  फिर से शुरू ऑपरेशन</string>
+    <!-- ZH: 查找虚拟机 -->
+    <string name="host_library_screen_bd3bcc0a">आभासी मशीन का पता लगाएं</string>
+    <!-- ZH: 正在停止 -->
+    <string name="host_library_screen_caa14e6a">बंद करना</string>
+    <!-- ZH:   打开画面 -->
+    <string name="host_library_screen_d77f9f11">  ओपन स्क्रीन</string>
+    <!-- ZH: 设备概览 -->
+    <string name="host_library_screen_f9f72001">उपकरण अवलोकन</string>
+    <!-- ZH: 我的虚拟机 -->
+    <string name="host_library_screen_fcd74ae4">मेरी आभासी मशीन</string>
+    <!-- ZH: 所选记录 -->
+    <string name="host_log_export_1a9bad61">चयनित रिकॉर्ड</string>
+    <!-- ZH: 当前筛选结果 -->
+    <string name="host_log_export_229ffdef">वर्तमान फिल्टर परिणाम</string>
+    <!-- ZH: 导出日志 -->
+    <string name="host_log_export_252fed94">लॉग निर्यात करें</string>
+    <!-- ZH: 保留完整原文，不受当前筛选限制 -->
+    <string name="host_log_export_395db2e8">वर्तमान फ़िल्टरिंग प्रतिबंध के बिना पूर्ण मूल पाठ को रखें</string>
+    <!-- ZH: 取消 -->
+    <string name="host_log_export_4d0b4688">रद्द करें</string>
+    <!-- ZH: 全部日志 -->
+    <string name="host_log_export_5fc07ff2">सभी लॉग</string>
+    <!-- ZH: 当前日志文件 -->
+    <string name="host_log_export_66579aad">वर्तमान लॉग फ़ाइल</string>
+    <!-- ZH: 仅保存已选中的 %1$s 条记录 -->
+    <string name="host_log_export_76315481">केवल चयनित %1$s रिकॉर्ड सहेजें</string>
+    <!-- ZH: 导出 TXT -->
+    <string name="host_log_export_78622e1e">TXT निर्यात करें</string>
+    <!-- ZH: 无法打开文件选择器：%1$s -->
+    <string name="host_log_export_98935376">फ़ाइल चयनकर्ता खोलने में असमर्थ: %1$s</string>
+    <!-- ZH: 当前页匹配的 %1$s 条记录 -->
+    <string name="host_log_export_9f54eee4">%1$s रिकॉर्ड वर्तमान पृष्ठ से मेल खाते हैं</string>
+    <!-- ZH: 包含各日志源及保留的历史文件 -->
+    <string name="host_log_export_c57bc4a7">प्रत्येक लॉग स्रोत होते हैं और ऐतिहासिक फ़ाइलों को बनाए रखते हैं</string>
+    <!-- ZH: 当前页暂无匹配记录 -->
+    <string name="host_log_export_ca9f735b">वर्तमान पृष्ठ पर कोई मेलिंग रिकॉर्ड नहीं है।</string>
+    <!-- ZH: 导出 ZIP -->
+    <string name="host_log_export_d6b10af5">ZIP निर्यात करें</string>
+    <!-- ZH: 选择需要保存的内容，下一步指定保存位置。 -->
+    <string name="host_log_export_da421cf8">सामग्री को सहेजने के लिए चुनें और अगले चरण में सेव स्थान निर्दिष्ट करें।</string>
+    <!-- ZH: 例如：启动后一直黑屏，等待两分钟仍无画面 -->
+    <string name="host_log_report_description_sheet_24cddba2">उदाहरण के लिए: स्टार्टअप के बाद स्क्रीन काला बनी हुई है, और दो मिनट के इंतजार के बाद अभी भी कोई तस्वीर नहीं है।</string>
+    <!-- ZH: 取消 -->
+    <string name="host_log_report_description_sheet_4d0b4688">रद्द करें</string>
+    <!-- ZH: ROM 链接（可选） -->
+    <string name="host_log_report_description_sheet_52c8f52d">रॉम लिंक (वैकल्पिक)</string>
+    <!-- ZH: ROM 下载地址或发布页面 -->
+    <string name="host_log_report_description_sheet_627077e9">रॉम डाउनलोड पता या रिलीज पृष्ठ</string>
+    <!-- ZH: "例如：1. 导入 ROM -->
+    <string name="host_log_report_description_sheet_68424cf7">"उदाहरण के लिए: 1. आयात रॉम</string>
+    <!-- ZH: 打包并上报 -->
+    <string name="host_log_report_description_sheet_7aeb9b47">पैकेज और रिपोर्ट</string>
+    <!-- ZH: 请描述遇到的问题，帮助开发者定位原因。填写内容会附加到邮件和日志报告中。 -->
+    <string name="host_log_report_description_sheet_baf20601">कृपया सामना की गई समस्याओं का वर्णन करें और डेवलपर्स को कारणों का पता लगाने में मदद करें। भरा हुआ सामग्री ईमेल और लॉग रिपोर्ट से जुड़ी होगी।</string>
+    <!-- ZH: 问题现象 -->
+    <string name="host_log_report_description_sheet_c27f59d4">समस्या की घटना</string>
+    <!-- ZH: 复现步骤（可选） -->
+    <string name="host_log_report_description_sheet_c86955bf">प्रजनन चरण (वैकल्पिक)</string>
+    <!-- ZH: 描述问题 -->
+    <string name="host_log_report_description_sheet_cdeaced6">समस्या का वर्णन करें</string>
+    <!-- ZH: 首次使用需要进行联网初始化操作, 请连接网络后重新打开软件 -->
+    <string name="host_main_activity_3e9ceced">पहली बार सेटअप के लिए एक इंटरनेट कनेक्शन की आवश्यकता होती है। इंटरनेट से कनेक्ट करें, फिर ऐप को फिर से खोलें।</string>
+    <!-- ZH: 宿主模式需要精确位置授权；模式在下一次启动时生效。 -->
+    <string name="host_mapping_12bcf996">होस्ट मोड को सटीक स्थान अनुमति की आवश्यकता होती है। अगले शुरू में बदलाव लागू होते हैं।</string>
+    <!-- ZH: 宿主真实 -->
+    <string name="host_mapping_1a5e84ab">होस्ट डिवाइस</string>
+    <!-- ZH: 传感器 -->
+    <string name="host_mapping_23362670">सेंसर</string>
+    <!-- ZH: 需要精确位置权限，向使用此映射的虚拟机提供手机的真实位置、定位精度等定位信息。 -->
+    <string name="host_mapping_2b7dcb88">सटीक स्थान अनुमति इस मैपिंग का उपयोग करके आभासी मशीनों के साथ फोन के वास्तविक स्थान, स्थान सटीकता और अन्य स्थान की जानकारी साझा करती है।</string>
+    <!-- ZH: 电量与电池状态 -->
+    <string name="host_mapping_31ac7eb1">बैटरी स्तर और स्थिति</string>
+    <!-- ZH: 震动 -->
+    <string name="host_mapping_3c5112e8">कंपन</string>
+    <!-- ZH: 只读映射扫描列表；宿主模式需要附近设备与精确位置授权，不读取密码或控制宿主网络。 -->
+    <string name="host_mapping_43b39102">केवल स्कैन परिणामों की मैपिंग। होस्ट मोड को पास-डिवाइस और सटीक-स्थान अनुमतियों की आवश्यकता होती है। पासवर्ड पढ़ा नहीं जाता है और होस्ट नेटवर्क को नियंत्रित नहीं किया जाता है।</string>
+    <!-- ZH: 需要麦克风权限，让虚拟机应用录音或语音通话。手机麦克风采集的声音会提供给使用此映射的虚拟机。 -->
+    <string name="host_mapping_4e5265b2">माइक्रोफोन अनुमति आभासी मशीन क्षुधा ऑडियो रिकॉर्ड या आवाज कॉल करने देता है। ऑडियो फोन के माइक्रोफोन द्वारा कब्जा आभासी मशीनों इस मैपिंग का उपयोग के साथ साझा किया जाता है।</string>
+    <!-- ZH: 需要精确位置与电话状态权限，向使用此映射的虚拟机提供手机可读取的基站标识、网络类型和信号强度；不开放手机的基带控制。 -->
+    <string name="host_mapping_502d02b0">सटीक स्थान और फोन-राज्य अनुमतियां इस मैपिंग का उपयोग करके आभासी मशीनों के साथ फोन द्वारा पठनीय सेल पहचानकर्ता, नेटवर्क प्रकार और सिग्नल शक्ति साझा करती हैं। फोन बेसबैंड नियंत्रण उजागर नहीं है।</string>
+    <!-- ZH: 只读映射标准 CellInfo；宿主模式需要电话状态与精确位置授权，不开放基带控制。 -->
+    <string name="host_mapping_6547baf5">मानक सेलइन्फो के केवल मानचित्रण होस्ट मोड को फोन-स्टेट और सटीक स्थान अनुमतियों की आवश्यकता होती है। बेसबैंड नियंत्रण उजागर नहीं है।</string>
+    <!-- ZH: 摄像头 -->
+    <string name="host_mapping_6f67e210">कैमरा</string>
+    <!-- ZH: 虚拟数据 -->
+    <string name="host_mapping_7c636be7">वर्चुअल डेटा</string>
+    <!-- ZH: GPS 位置 -->
+    <string name="host_mapping_8136ac8a">जीपीएस स्थिति</string>
+    <!-- ZH: 需要蓝牙扫描与连接权限，向使用此映射的虚拟机提供附近蓝牙设备的名称、地址、类型和信号强度；不转交手机的配对密钥。 -->
+    <string name="host_mapping_8248d00f">ब्लूटूथ स्कैन और कनेक्ट अनुमतियां इस मैपिंग का उपयोग करके आभासी मशीनों के साथ पास के ब्लूटूथ डिवाइस नाम, पते, प्रकार और संकेत शक्ति साझा करती हैं। फोन की जोड़ी कुंजी साझा नहीं की जाती है।</string>
+    <!-- ZH: 宿主模式使用公开 AudioRecord；虚拟模式提供确定的静音 PCM，均通过 Guest Audio HAL。 -->
+    <string name="host_mapping_8ab32802">होस्ट मोड सार्वजनिक AudioRecord API का उपयोग करता है। वर्चुअल मोड निश्चित मूक PCM की आपूर्ति करता है। दोनों अतिथि ऑडियो HAL का उपयोग करते हैं।</string>
+    <!-- ZH: 仅映射宿主实际存在的标准传感器；虚拟模式提供确定值。 -->
+    <string name="host_mapping_90e36d37">मानचित्र केवल मानक सेंसर जो मेजबान पर मौजूद हैं। वर्चुअल मोड निश्चित मूल्यों की आपूर्ति करता है।</string>
+    <!-- ZH: 只读映射扫描身份；宿主模式需要蓝牙扫描与连接授权。 -->
+    <string name="host_mapping_9ac55775">केवल स्कैन किए गए डिवाइस पहचानों का मानचित्रण। होस्ट मोड को ब्लूटूथ स्कैन की आवश्यकता होती है और अनुमतियों को कनेक्ट करती है।</string>
+    <!-- ZH: 宿主模式使用手机真实摄像头的分辨率和已支持的拍摄能力；虚拟模式提供测试画面。切换后重启虚拟机，以更新应用识别到的相机能力。 -->
+    <string name="host_mapping_b918150b">होस्ट मोड फोन कैमरा के वास्तविक रिज़ॉल्यूशन और समर्थित कैप्चर सुविधाओं का उपयोग करता है। वर्चुअल मोड एक परीक्षण छवि की आपूर्ति करता है। स्विच करने के बाद वर्चुअल मशीन को फिर से शुरू करें ताकि ऐप अपडेट किए गए कैमरा क्षमताओं का पता लगा सके।</string>
+    <!-- ZH: Guest 震动通过私有端点映射到宿主公开振动 API。 -->
+    <string name="host_mapping_b9371379">अतिथि कंपन को मेजबान के सार्वजनिक कंपन एपीआई के लिए एक निजी समापन बिंदु के माध्यम से मैप किया जाता है।</string>
+    <!-- ZH: 需要相机权限，让虚拟机应用使用手机摄像头。摄像头画面和支持的拍摄能力会提供给使用此映射的虚拟机。 -->
+    <string name="host_mapping_bacad22c">कैमरा अनुमति आभासी मशीन क्षुधा फोन के कैमरे का उपयोग करने देता है। कैमरा छवियों और समर्थित कैप्चर सुविधाओं को इस मैपिंग का उपयोग करके आभासी मशीनों के साथ साझा किया जाता है।</string>
+    <!-- ZH: 麦克风 -->
+    <string name="host_mapping_bbefc72e">माइक्रोफोन</string>
+    <!-- ZH: 禁用 -->
+    <string name="host_mapping_be70be5a">विकलांग</string>
+    <!-- ZH: 蓝牙 -->
+    <string name="host_mapping_c4dc12d3">ब्लूटूथ</string>
+    <!-- ZH: UMK 只读电源 ABI 已接入；状态源最多 1 秒更新。 -->
+    <string name="host_mapping_e1fcfd43">UMK read-only power ABI का उपयोग करता है। स्टेटस अपडेट एक सेकंड में लेते हैं।</string>
+    <!-- ZH: 当前 Android 版本需要精确位置权限才能扫描蓝牙。附近蓝牙设备的名称、地址、类型和信号强度会提供给使用此映射的虚拟机；不转交手机的配对密钥。 -->
+    <string name="host_mapping_e436ffd1">इस Android संस्करण को ब्लूटूथ स्कैन करने की अनुमति के लिए सटीक स्थान की आवश्यकता होती है। लगभग ब्लूटूथ डिवाइस नाम, पते, प्रकार और संकेत शक्ति इस मैपिंग का उपयोग करके आभासी मशीनों के साथ साझा की जाती है। फोन की जोड़ी की चाबियाँ साझा नहीं की जाती हैं।</string>
+    <!-- ZH: 需要精确位置权限；Android 13 及以上还需要附近 Wi-Fi 设备权限。附近 Wi-Fi 的名称、地址、频率、信号强度和安全类型会提供给使用此映射的虚拟机，不读取 Wi-Fi 密码。 -->
+    <string name="host_mapping_effad6d4">सटीक स्थान अनुमति की आवश्यकता है। एंड्रॉइड 13 और बाद में पास के वाई-फाई डिवाइस अनुमति की भी आवश्यकता होती है। इसके पास वाई-फाई नाम, पते, आवृत्तियों, संकेत शक्ति और सुरक्षा प्रकार इस मैपिंग का उपयोग करके आभासी मशीनों के साथ साझा किए जाते हैं। वाई-फाई पासवर्ड पढ़ा नहीं जाता है।</string>
+    <!-- ZH: 基站 -->
+    <string name="host_mapping_ffaeea62">बेस स्टेशन</string>
+    <!-- ZH: 只作用于「%1$s」，不影响其他虚拟机。 -->
+    <string name="host_mapping_scope">केवल "%1$s_" के लिए लागू होता है। अन्य आभासी मशीनें अप्रभावित हैं।</string>
+    <!-- ZH: 已识别设备虚拟内存（%1$s），其中 %2$s 计入 Guest 预算。 -->
+    <string name="host_memory_summary">वर्चुअल मेमोरी का पता लगाया गया (%1$s); %2$s अतिथि स्मृति बजट की ओर गिनती करता है।</string>
+    <!-- ZH: 已识别设备虚拟内存，其中 %1$s 计入 Guest 预算。 -->
+    <string name="host_memory_summary_no_parts">वर्चुअल मेमोरी का पता लगाया गया; %1$s गेस्ट मेमोरी बजट की ओर गिना जाता है।</string>
+    <!-- ZH: 此系统没有的 %1$s 项已跳过：%2$s -->
+    <string name="host_missing_components">इस प्रणाली से अनुपस्थित वस्तुओं को छोड़ दें: %1$s — %2$s</string>
+    <!-- ZH: 此系统没有的 %1$s 项已跳过：%2$s 等 -->
+    <string name="host_missing_components_more">इस प्रणाली से अनुपस्थित वस्तुओं को छोड़ दें: %1$s — %2$s और अधिक</string>
+    <!-- ZH: 尚未发现分区。 -->
+    <string name="host_no_partitions">अभी तक कोई विभाजन नहीं हुआ।</string>
+    <!-- ZH: 无法打开通知设置，请在系统应用设置中开启通知。 -->
+    <string name="host_notification_permission_request_2b8495e1">अधिसूचना सेटिंग्स को खोलने में असमर्थ, कृपया सिस्टम एप्लिकेशन सेटिंग्स में सूचनाएं सक्षम करें।</string>
+    <!-- ZH: 取消 -->
+    <string name="host_notification_permission_request_4d0b4688">रद्द करें</string>
+    <!-- ZH: 开启通知提醒 -->
+    <string name="host_notification_permission_request_5b822b94">अधिसूचना अनुस्मारक चालू करें</string>
+    <!-- ZH: 允许通知 -->
+    <string name="host_notification_permission_request_5d8cce39">अधिसूचनाओं की अनुमति दें</string>
+    <!-- ZH: 系统未允许打开通知授权，请在应用设置中开启通知。 -->
+    <string name="host_notification_permission_request_649f160c">सिस्टम अधिसूचना प्राधिकरण को चालू करने की अनुमति नहीं देता है। कृपया आवेदन सेटिंग्स में अधिसूचनाओं को चालू करें।</string>
+    <!-- ZH: 前往通知设置 -->
+    <string name="host_notification_permission_request_c2c18fb6">अधिसूचना सेटिंग्स पर जाएं</string>
+    <!-- ZH: " -->
+    <string name="host_notification_permission_request_e4e85411">"</string>
+    <!-- ZH: 暂不开启，继续 -->
+    <string name="host_notification_permission_request_ef1f3e4a">इसे अभी तक सक्षम न करें, जारी रखें</string>
+    <!-- ZH: 返回 -->
+    <string name="host_page_chrome_11d02415">वापस</string>
+    <!-- ZH: 暂停失败：%1$s -->
+    <string name="host_pause_failure">नहीं रोक सकता: %1$s_</string>
+    <!-- ZH: %1$s · %2$s 核 · %3$s 进程 -->
+    <string name="host_performance_summary">%1$s · CPU कोर: %2$s · प्रक्रियाएं: %3$s</string>
+    <!-- ZH: 若没看到输入框，请长按本通知（或下拉展开）再点“输入配对码”。 -->
+    <string name="host_phantom_pairing_service_08ae3e94">यदि इनपुट फ़ील्ड गायब हो जाती है, तो इस अधिसूचना को स्पर्श करें और पकड़ें (या इसका विस्तार करें), फिर "Enter pairing कोड" टैप करें।</string>
+    <!-- ZH: 已解除子进程限制 -->
+    <string name="host_phantom_pairing_service_2d3c837f">चाइल्ड-प्रोसेस लिमिट लिफ्ट</string>
+    <!-- ZH: 已有解除任务在进行中，请等待它结束后再输入。 -->
+    <string name="host_phantom_pairing_service_3f975cb8">सीमा को उठाने का एक कार्य पहले से ही चल रहा है। किसी अन्य कोड में प्रवेश करने से पहले इसे खत्म करने की प्रतीक्षा करें।</string>
+    <!-- ZH: 尚未检测到配对弹窗：请先打开“无线调试 → 使用配对码配对设备”。 -->
+    <string name="host_phantom_pairing_service_46e14796">अभी तक कोई जोड़ी संवाद नहीं मिला। ओपन वायरलेस डीबगिंग → जोड़ी डिवाइस पहले जोड़ी कोड के साथ।</string>
+    <!-- ZH: 正在配对… -->
+    <string name="host_phantom_pairing_service_4a3bd776">जोड़ी...</string>
+    <!-- ZH: 取消 -->
+    <string name="host_phantom_pairing_service_4d0b4688">रद्द करें</string>
+    <!-- ZH: 等待打开配对弹窗…长按本通知可展开输入。 -->
+    <string name="host_phantom_pairing_service_4e0a4d49">जोड़ी संवाद के लिए प्रतीक्षा कर रहा है... इस अधिसूचना को कोड में प्रवेश करने के लिए पकड़ो।</string>
+    <!-- ZH: 已就绪：长按本通知展开并输入 6 位配对码。 -->
+    <string name="host_phantom_pairing_service_59c90ea1">रेडी: इसे विस्तार करने और छह अंकों के कोड में प्रवेश करने के लिए इस अधिसूचना को पकड़ो।</string>
+    <!-- ZH: 输入配对码 -->
+    <string name="host_phantom_pairing_service_7d475d44">एक जोड़ी कोड दर्ज करें</string>
+    <!-- ZH: 无线调试配对 -->
+    <string name="host_phantom_pairing_service_8adf19e8">वायरलेस डीबगिंग जोड़ी</string>
+    <!-- ZH: 配对码应为 %1$s 位数字，请重新输入。 -->
+    <string name="host_phantom_pairing_service_8b265482">जोड़ी कोड में शामिल होना चाहिए %1$s अंक। इसे फिर से दर्ज करें।</string>
+    <!-- ZH: 6 位配对码 -->
+    <string name="host_phantom_pairing_service_8cadbd36">6 अंकों का पेयरिंग कोड</string>
+    <!-- ZH: 正在执行解除命令… -->
+    <string name="host_phantom_pairing_service_926fb6f4">आदेश जारी करने के लिए सीमा उठाने के लिए...</string>
+    <!-- ZH: 输入无线调试配对码（长按可展开） -->
+    <string name="host_phantom_pairing_service_9cd4f4ab">वायरलेस डीबगिंग जोड़ी कोड दर्ज करें (विस्तार करने के लिए देखें)</string>
+    <!-- ZH: 配对失败。 -->
+    <string name="host_phantom_pairing_service_b9206728">जोड़ी असफल रही।</string>
+    <!-- ZH: 正在查找配对服务… -->
+    <string name="host_phantom_pairing_service_c80bad9d">जोड़ी सेवा का पता लगाना...</string>
+    <!-- ZH: "%1$s -->
+    <string name="host_phantom_pairing_service_ca77cdd6">"%1$s</string>
+    <!-- ZH: 将使用手动指定的端口 %1$s。 -->
+    <string name="host_phantom_pairing_service_cc29136d">मैन्युअल रूप से निर्दिष्ट पोर्ट %1$s_ का उपयोग करना।</string>
+    <!-- ZH: 正在处理… -->
+    <string name="host_phantom_pairing_service_ce9fd54c">प्रसंस्करण...</string>
+    <!-- ZH: 高性能现在可以稳定运行。 -->
+    <string name="host_phantom_pairing_service_d48615f8">उच्च प्रदर्शन मोड अब विश्वसनीय रूप से चल सकता है।</string>
+    <!-- ZH: 解除子进程限制时，在通知里输入无线调试配对码 -->
+    <string name="host_phantom_pairing_service_f3317cd8">चाइल्ड-प्रोसेस लिमिट को उठाने के लिए अधिसूचना में वायरलेस डीबगिंग जोड़ी कोड दर्ज करें</string>
+    <!-- ZH: 正在连接 adbd… -->
+    <string name="host_phantom_pairing_service_f5224d68">ADBD से कनेक्ट ...</string>
+    <!-- ZH: ✓ 已检测到配对弹窗（%1$s:%2$s），现在可以输入配对码。 -->
+    <string name="host_phantom_pairing_service_f7f4ec87">✓ जोड़ी संवाद का पता चला (%1$s:%2$s)। अब आप जोड़ी कोड में प्रवेश कर सकते हैं।</string>
+    <!-- ZH: 正在解除子进程限制 -->
+    <string name="host_phantom_pairing_service_ff6c4204">बच्चे की प्रक्रिया की सीमा को उठाना</string>
+    <!-- ZH: 通知权限用于在通知栏输入无线调试配对码。也可以取消申请，使用下方的分屏输入方式完成配对。 -->
+    <string name="host_phantom_unlock_activity_25caaec0">अधिसूचना अनुमति आपको अधिसूचना छाया से वायरलेस डीबगिंग जोड़ी कोड दर्ज करने देता है। आप इसके बजाय जोड़ी के लिए नीचे विभाजित स्क्रीन इनपुट को रद्द और उपयोग कर सकते हैं।</string>
+    <!-- ZH: 无法发送配对通知，请重试或使用分屏输入。 -->
+    <string name="host_phantom_unlock_activity_41a8787f">युग्मित अधिसूचना को नहीं भेज सकता है। प्रत्यावर्तन या स्प्लिट-स्क्रीन इनपुट का उपयोग करें।</string>
+    <!-- ZH:   已配对过，直接解除 -->
+    <string name="host_phantom_unlock_screen_033c0c15">  पहले से ही युग्मित, सीधे रद्द</string>
+    <!-- ZH: 当前状态 -->
+    <string name="host_phantom_unlock_screen_045859e7">वर्तमान स्थिति</string>
+    <!-- ZH:   打开无线调试并发送配对通知 -->
+    <string name="host_phantom_unlock_screen_05490590">  वायरलेस डीबगिंग पर मुड़ें और जोड़ी अधिसूचना भेजें</string>
+    <!-- ZH: 仍受限 -->
+    <string name="host_phantom_unlock_screen_058662d0">अभी भी सीमित</string>
+    <!-- ZH: 隐藏分屏输入 -->
+    <string name="host_phantom_unlock_screen_06595b1f">विभाजित स्क्रीन इनपुट छुपाएं</string>
+    <!-- ZH: 无需电脑，通过无线调试连接 ADB -->
+    <string name="host_phantom_unlock_screen_0c5eac3f">कंप्यूटर की आवश्यकता नहीं है, वायरलेस डीबगिंग के माध्यम से एडीबी को कनेक्ट करें</string>
+    <!-- ZH: 开启开发者选项：进入系统设置 → 关于手机/版本信息，连点「版本号」7 次。 -->
+    <string name="host_phantom_unlock_screen_121485c5">डेवलपर विकल्पों को चालू करें: सिस्टम सेटिंग्स दर्ज करें → मोबाइल फोन / संस्करण जानकारी के बारे में, "version number" 7 बार क्लिक करें।</string>
+    <!-- ZH: 本机为 Android %1$s，开发者选项里通常没有该开关。请改用“无线调试”方式。 -->
+    <string name="host_phantom_unlock_screen_1807fa95">यह उपकरण एंड्रॉइड %1$s चलाता है, जो आमतौर पर डेवलपर विकल्पों में इस स्विच की कमी करता है। इसके बजाय वायरलेस डीबगिंग का प्रयोग करें।</string>
+    <!-- ZH: 方式二 · 无线调试 -->
+    <string name="host_phantom_unlock_screen_215245e5">विधि 2 · वायरलेस डीबगिंग</string>
+    <!-- ZH: 进入开发者选项 → 打开「停用子进程限制」。 -->
+    <string name="host_phantom_unlock_screen_23b46a7b">डेवलपर विकल्प दर्ज करें → "Disable Child Process Restrictions" पर बारी।</string>
+    <!-- ZH: 或用电脑 ADB 执行 -->
+    <string name="host_phantom_unlock_screen_248079d7">या निष्पादित करने के लिए कंप्यूटर ADB का उपयोग करें</string>
+    <!-- ZH: 待确认 -->
+    <string name="host_phantom_unlock_screen_27b5842c">पुष्टि की जानी चाहिए</string>
+    <!-- ZH:   用无线调试恢复限制 -->
+    <string name="host_phantom_unlock_screen_291fc9bf">  वायरलेस डिबगिंग के साथ बहाली की सीमा</string>
+    <!-- ZH: 本机 Android %1$s -->
+    <string name="host_phantom_unlock_screen_2937ca38">नेटिव एंड्रॉयड %1$s</string>
+    <!-- ZH: 为什么需要解除？ -->
+    <string name="host_phantom_unlock_screen_296651f5">इसे क्यों उठाया जाना चाहिए?</string>
+    <!-- ZH: 撤销解除子进程限制 -->
+    <string name="host_phantom_unlock_screen_2f17f2ca">बाल प्रक्रिया प्रतिबंधों को रद्द करना</string>
+    <!-- ZH: 或 -->
+    <string name="host_phantom_unlock_screen_30f4d7cf">या</string>
+    <!-- ZH: 解除子进程限制 -->
+    <string name="host_phantom_unlock_screen_384ec36c">बच्चे की प्रक्रिया प्रतिबंध निकालें</string>
+    <!-- ZH: 配对成功后会自动连接并解除限制，通知栏会显示结果。 -->
+    <string name="host_phantom_unlock_screen_38ddc260">सफल जोड़ी के बाद, यह स्वचालित रूप से प्रतिबंधों को जोड़ देगा और हटा देगा, और अधिसूचना बार परिणाम प्रदर्शित करेगा।</string>
+    <!-- ZH: 尝试在另一侧打开无线调试 -->
+    <string name="host_phantom_unlock_screen_3cb19c1c">दूसरी तरफ वायरलेस डीबगिंग को चालू करने की कोशिश करें</string>
+    <!-- ZH: 找不到配对服务？手动指定端口 -->
+    <string name="host_phantom_unlock_screen_4a06c372">मिलान सेवा नहीं मिली? मैन्युअल रूप से पोर्ट निर्दिष्ट करें</string>
+    <!-- ZH: 取消 -->
+    <string name="host_phantom_unlock_screen_4d0b4688">रद्द करें</string>
+    <!-- ZH: 查看日志（%1$s 行） -->
+    <string name="host_phantom_unlock_screen_4edb17a6">लॉग देखें (line %1$s_)</string>
+    <!-- ZH:   进入开发者选项 -->
+    <string name="host_phantom_unlock_screen_506540d4">  डेवलपर विकल्प दर्ज करें</string>
+    <!-- ZH: 保持该弹窗不关闭，下拉通知栏找到 AndVM 的通知。 -->
+    <string name="host_phantom_unlock_screen_5523c142">पॉप-अप विंडो को खुला रखें और एंडवीएम अधिसूचना को खोजने के लिए अधिसूचना बार को नीचे खींचें।</string>
+    <!-- ZH: 留空自动查找；连接失败时填「无线调试」首页“IP 地址和端口”的端口，勿填配对弹窗端口。 -->
+    <string name="host_phantom_unlock_screen_583d0797">स्वचालित रूप से खोज करने के लिए खाली छोड़ दें; जब कनेक्शन विफल हो जाता है, तो "वायरलेस डिबगिंग" के होमपेज पर "आईपी एड्रेस एंड पोर्ट" के बंदरगाह को भरें।</string>
+    <!-- ZH:   复制 -->
+    <string name="host_phantom_unlock_screen_5a909f74">  कॉपी करें</string>
+    <!-- ZH: 推荐，适用于本机 -->
+    <string name="host_phantom_unlock_screen_6ef195f5">इस मशीन पर लागू</string>
+    <!-- ZH:   关掉开发者选项里的开关 -->
+    <string name="host_phantom_unlock_screen_752b9c4a">  डेवलपर विकल्पों में स्विच बंद करें</string>
+    <!-- ZH: 隐藏手动端口 -->
+    <string name="host_phantom_unlock_screen_7880f082">मैनुअल पोर्ट छुपाएं</string>
+    <!-- ZH: 6 位配对码 -->
+    <string name="host_phantom_unlock_screen_8cadbd36">6 अंकों का पेयरिंग कोड</string>
+    <!-- ZH: 尝试将「设置」与 AndVM 分屏显示。若设置占满屏幕，请从最近任务手动将两者分屏。在设置中打开「无线调试 → 使用配对码配对设备」，保持弹窗可见，再在这里输入配对码。 -->
+    <string name="host_phantom_unlock_screen_8f345786">स्प्लिट स्क्रीन में सेटिंग और AndVM को खोलने की कोशिश करें। यदि सेटिंग स्क्रीन को भरती है, तो दो ऐप को मैन्युअल रूप से हाल ही में विभाजित करें। सेटिंग में, ओपन वायरलेस डीबगिंग → जोड़ी कोड के साथ जोड़ी डिवाइस, संवाद को दिखाई देता है और यहां कोड दर्ज करता है।</string>
+    <!-- ZH: 恢复后系统重新监控子进程，高性能模式下或多开的虚拟机可能变得不稳定。 -->
+    <string name="host_phantom_unlock_screen_9ab41eb1">डिफॉल्ट लिमिट को फिर से स्थापित करने योग्य चाइल्ड-प्रोसेस मॉनिटरिंग। उच्च प्रदर्शन मोड या एकाधिक वर्चुअल मशीन चलाना अस्थिर हो सकता है।</string>
+    <!-- ZH: 通常在通知栏输入配对码；通知不支持输入时可使用分屏输入。 -->
+    <string name="host_phantom_unlock_screen_9ea3fa88">जोड़ी कोड आमतौर पर अधिसूचना बार में प्रवेश किया जाता है; विभाजन स्क्रीन इनपुट का उपयोग तब किया जा सकता है जब अधिसूचना इनपुट का समर्थन नहीं करती है।</string>
+    <!-- ZH: Android %1$s 没有 Android 12 引入的子进程数量限制，无需执行解除操作。 -->
+    <string name="host_phantom_unlock_screen_9fd69c7c">एंड्रॉइड %1$s में एंड्रॉइड 12 में शुरू की गई चाइल्ड प्रक्रियाओं की संख्या पर सीमा नहीं है, और रिलीज ऑपरेशन करने की कोई आवश्यकता नहीं है।</string>
+    <!-- ZH: 长按（或下拉展开）该通知 → 点“输入配对码” → 输入 6 位配对码并发送。 -->
+    <string name="host_phantom_unlock_screen_ab03d3c9">लंबे प्रेस (या विस्तार करने के लिए नीचे खींचो) अधिसूचना → क्लिक करें "Enter Pairing Code" → दर्ज 6-digits जोड़ी कोड और इसे भेजने के लिए।</string>
+    <!-- ZH: 已解除 -->
+    <string name="host_phantom_unlock_screen_ac4a6cc8">जारी करना</string>
+    <!-- ZH: 通知无法输入配对码？分屏输入 -->
+    <string name="host_phantom_unlock_screen_acbf24b9">ध्यान दें कि जोड़ी कोड दर्ज नहीं किया जा सकता है? स्प्लिट स्क्रीन इनपुट</string>
+    <!-- ZH: 恢复默认限制 -->
+    <string name="host_phantom_unlock_screen_aeb87de5">डिफ़ॉल्ट प्रतिबंधों को पुनर्स्थापित करें</string>
+    <!-- ZH: Android 从 12 起会终止启动过多子进程的应用，导致虚拟机在运行中被系统杀掉，解除该限制后高性能模式和多开虚拟机才能稳定运行。 -->
+    <string name="host_phantom_unlock_screen_b242bd08">एंड्रॉइड 12 से, सिस्टम उन ऐप्स को रोक सकता है जो बहुत अधिक बच्चे प्रक्रियाओं को शुरू करते हैं, जो चल रहे आभासी मशीनों को समाप्त करते हैं। स्थिर उच्च प्रदर्शन मोड और एकाधिक आभासी मशीनों के लिए इस सीमा को उठाते हैं।</string>
+    <!-- ZH: 点击下方按钮跳转到开发者选项。 -->
+    <string name="host_phantom_unlock_screen_b3e53155">डेवलपर विकल्पों में कूदने के लिए नीचे दिए गए बटन पर क्लिक करें।</string>
+    <!-- ZH: 当前无法读取或确认系统状态，可通过无线调试校验。 -->
+    <string name="host_phantom_unlock_screen_b53c9934">वर्तमान में सिस्टम की स्थिति को पढ़ना या पुष्टि करना असंभव है, जिसे वायरलेस डीबगिंग के माध्यम से सत्यापित किया जा सकता है।</string>
+    <!-- ZH: 确认 -->
+    <string name="host_phantom_unlock_screen_b56d9ac6">पुष्टि करें</string>
+    <!-- ZH: 读取系统的子进程监控设置；返回此页或点击刷新可重新检测。 -->
+    <string name="host_phantom_unlock_screen_b6903038">सिस्टम की उप-प्रक्रिया निगरानी सेटिंग्स को पढ़ें; इस पृष्ठ पर लौटें या फिर दोहराने के लिए ताज़ा क्लिक करें।</string>
+    <!-- ZH: 端口需为 1–65535。 -->
+    <string name="host_phantom_unlock_screen_bbfad719">पोर्ट को 1–65535 होना चाहिए।</string>
+    <!-- ZH: 高性能模式或多开虚拟机时会有大量的进程启动 -->
+    <string name="host_phantom_unlock_screen_bd001045">उच्च प्रदर्शन मोड में प्रक्रियाओं की एक बड़ी संख्या शुरू की जाएगी या जब एकाधिक आभासी मशीनों को खोला जाता है।</string>
+    <!-- ZH: 有些机型的开启方式可能不同，可自行网络搜索：您的机型+开启开发者选项。 -->
+    <string name="host_phantom_unlock_screen_bdd9c6df">कुछ मॉडल के शुरुआती तरीके अलग हो सकते हैं। आप अपने आप से ऑनलाइन खोज सकते हैं: आपका मॉडल + ओपन डेवलपर विकल्प।</string>
+    <!-- ZH:   通过无线调试确认 -->
+    <string name="host_phantom_unlock_screen_c5125b48">  वायरलेस डीबगिंग के माध्यम से पुष्टिकरण</string>
+    <!-- ZH: 已连 USB/无线调试的电脑上运行以下命令，效果相同 -->
+    <string name="host_phantom_unlock_screen_c569a0ac">यूएसबी / वायरलेस डीबगिंग से जुड़े कंप्यूटर पर निम्नलिखित कमांड चलाएं, प्रभाव समान है</string>
+    <!-- ZH: 配对端口（配对弹窗中 IP:端口 里的端口） -->
+    <string name="host_phantom_unlock_screen_cd1b1ed8">युग्मित पोर्ट (IP में पोर्ट: जोड़ी पॉप-अप विंडो में पोर्ट)</string>
+    <!-- ZH: 配对通知已请求发送，打开配对弹窗后下拉通知栏输入。 -->
+    <string name="host_phantom_unlock_screen_d05241ad">जोड़ी अधिसूचना को भेजने का अनुरोध किया गया है। जोड़ीदार पॉप-अप विंडो खोलने के बाद, प्रवेश करने के लिए अधिसूचना बार को नीचे खींचें।</string>
+    <!-- ZH: 打开「无线调试」→「使用配对码配对设备」。 -->
+    <string name="host_phantom_unlock_screen_dbd8e5b4">ओपन "वायरलेस डिबगिंग" → "पेयर डिवाइस जोड़ी कोड का उपयोग कर"।</string>
+    <!-- ZH: 确认恢复系统默认的子进程限制？ -->
+    <string name="host_phantom_unlock_screen_e35b7c38">सिस्टम की डिफ़ॉल्ट चाइल्ड प्रोसेस प्रतिबंधों को बहाल करने की पुष्टि करें?</string>
+    <!-- ZH: 无需解除 -->
+    <string name="host_phantom_unlock_screen_e3f3247f">जारी करने की कोई आवश्यकता नहीं है</string>
+    <!-- ZH:   刷新 -->
+    <string name="host_phantom_unlock_screen_e4e7e902">  रिफ्रेश</string>
+    <!-- ZH: 解除方式 -->
+    <string name="host_phantom_unlock_screen_e766e26b">रिलीज मोड</string>
+    <!-- ZH: 连接端口（可选） -->
+    <string name="host_phantom_unlock_screen_eaadb610">कनेक्शन पोर्ट (वैकल्पिक)</string>
+    <!-- ZH: 配对并解除限制 -->
+    <string name="host_phantom_unlock_screen_eb8a2522">जोड़ी और प्रतिबंध को हटा दें</string>
+    <!-- ZH: 本机版本不支持该开关 -->
+    <string name="host_phantom_unlock_screen_f5399e29">मूल संस्करण इस स्विच का समर्थन नहीं करता है</string>
+    <!-- ZH: 隐藏日志 -->
+    <string name="host_phantom_unlock_screen_f5b388df">लॉग इन करें</string>
+    <!-- ZH: 开启开发者选项：进入系统设置 → 关于手机，连点「版本号」7 次。 -->
+    <string name="host_phantom_unlock_screen_fa54853a">डेवलपर विकल्पों को चालू करें: सिस्टम सेटिंग्स दर्ज करें → मोबाइल फोन के बारे में, "Version Number" 7 बार क्लिक करें।</string>
+    <!-- ZH: 方式一 · 开发者选项 -->
+    <string name="host_phantom_unlock_screen_fec41006">विधि One·Developer विकल्प</string>
+    <!-- ZH: 准备系统 · %1$s -->
+    <string name="host_preparation_progress_card_4b2a0d53">सिस्टम तैयार करना %1$s</string>
+    <!-- ZH: 正在取消… -->
+    <string name="host_preparation_progress_card_6bc0d687">रद्द करना</string>
+    <!-- ZH: 取消准备 -->
+    <string name="host_preparation_progress_card_cc601652">तैयारी रद्द करना</string>
+    <!-- ZH: 准备系统 -->
+    <string name="host_preparation_progress_card_f9c00b34">सिस्टम तैयार करना</string>
+    <!-- ZH: 代理配置在下次冷启动时生效。 -->
+    <string name="host_proxy_cold_start">प्रॉक्सी परिवर्तन अगले ठंड शुरू पर लागू होते हैं।</string>
+    <!-- ZH: 配置代理 -->
+    <string name="host_proxy_settings_10cc2378">प्रॉक्सी कॉन्फ़िगर करें</string>
+    <!-- ZH: 密码（可选） -->
+    <string name="host_proxy_settings_29e03e6c">पासवर्ड (वैकल्पिक)</string>
+    <!-- ZH: 服务器地址 -->
+    <string name="host_proxy_settings_2eb291f6">सर्वर पता</string>
+    <!-- ZH: 用户名（可选） -->
+    <string name="host_proxy_settings_48517cc4">उपयोगकर्ता नाम (वैकल्पिक)</string>
+    <!-- ZH: 本机代理可填写 127.0.0.1；IPv6 地址无需方括号。 -->
+    <string name="host_proxy_settings_525b4f86">स्थानीय प्रॉक्सी 127.0.0.1 में भर सकते हैं; IPv6 पते को वर्ग कोष्ठक की आवश्यकता नहीं है।</string>
+    <!-- ZH: 端口 -->
+    <string name="host_proxy_settings_6cbb7335">पोर्ट</string>
+    <!-- ZH: 未使用代理，直接联网 -->
+    <string name="host_proxy_settings_7bc6f234">कोई प्रॉक्सी का उपयोग नहीं किया जाता है, सीधे इंटरनेट से कनेक्ट होता है</string>
+    <!-- ZH: 网络代理 -->
+    <string name="host_proxy_settings_b046fe27">नेटवर्क प्रॉक्सी</string>
+    <!-- ZH: 保存 -->
+    <string name="host_proxy_settings_fadf24db">सहेजें</string>
+    <!-- ZH: 包名 -->
+    <string name="host_recovery_dialog_03c2d07a">पैकेज का नाम</string>
+    <!-- ZH: 操作完成前请勿启动虚拟机，可切到后台等待。 -->
+    <string name="host_recovery_dialog_0478e3a4">ऑपरेशन पूरा होने से पहले आभासी मशीन शुरू न करें। आप पृष्ठभूमि पर स्विच कर सकते हैं और इंतजार कर सकते हैं।</string>
+    <!-- ZH: 查看文件校验信息 -->
+    <string name="host_recovery_dialog_06a813a5">फ़ाइल सत्यापन जानकारी देखें</string>
+    <!-- ZH: 确认回退 -->
+    <string name="host_recovery_dialog_0917e35d">रोलबैक की पुष्टि</string>
+    <!-- ZH: 刷入 -->
+    <string name="host_recovery_dialog_11116128">स्थापित करना</string>
+    <!-- ZH: 完整 OTA 更新系统并保留数据；增量 OTA、真机固件及直接操作块设备的安装包可能不受支持。 -->
+    <string name="host_recovery_dialog_12029a9a">पूरा ओटीए सिस्टम को अपडेट करता है और डेटा को बरकरार रखता है; वृद्धिशील ओटीए, वास्तविक उपकरण फर्मवेयर और स्थापना पैकेज जो सीधे ब्लॉक उपकरणों को संचालित करते हैं उन्हें समर्थित नहीं किया जा सकता है।</string>
+    <!-- ZH: Recovery 正在处理 -->
+    <string name="host_recovery_dialog_399c6826">रिकवरी को संसाधित किया जा रहा है</string>
+    <!-- ZH: 未刷入 -->
+    <string name="host_recovery_dialog_436073d5">स्थापित नहीं है</string>
+    <!-- ZH: 管理 -->
+    <string name="host_recovery_dialog_4989b5cf">प्रबंधन</string>
+    <!-- ZH: OTA 回退恢复原系统并保留数据；Recovery 脚本回退同时恢复刷入前的系统变更与用户数据，刷入后的数据变更会丢失。声明式补丁和 Magisk 回退保留数据。下次冷启动生效。 -->
+    <string name="host_recovery_dialog_535a11ac">ओटीए रोलबैक पिछले सिस्टम को पुनर्स्थापित करता है और उपयोगकर्ता डेटा रखता है। रिकवरी-स्क्रिप्ट रोलबैक सिस्टम परिवर्तन और उपयोगकर्ता डेटा को फ्लैशिंग से पहले पुनर्स्थापित करता है; बाद में डेटा परिवर्तन खो दिया जाएगा। घोषणात्मक-पैच और Magisk रोलबैक उपयोगकर्ता डेटा रखता है। अगले ठंड शुरू में बदलाव लागू होते हैं।</string>
+    <!-- ZH: 完成后将在此处显示结果，请勿重复操作。 -->
+    <string name="host_recovery_dialog_646e1f54">परिणाम को पूरा होने के बाद यहां प्रदर्शित किया जाएगा, कृपया ऑपरेशन को दोहराएं नहीं।</string>
+    <!-- ZH: 无 -->
+    <string name="host_recovery_dialog_72077749">कोई नहीं</string>
+    <!-- ZH: 启动失败时可禁用全部补丁和 Magisk，保留用户数据。下次冷启动生效。 -->
+    <string name="host_recovery_dialog_7973c81e">जब स्टार्टअप विफल हो जाता है, तो सभी पैच और Magisk को अक्षम किया जा सकता है और उपयोगकर्ता डेटा को बनाए रखा जा सकता है। यह अगले कोल्ड स्टार्ट पर प्रभाव डालेगा।</string>
+    <!-- ZH: 安装脚本会在隔离的 Recovery 中实际执行；成功后保存系统与数据变更，失败保留原状态。OTA 更新系统并保留用户数据。 -->
+    <string name="host_recovery_dialog_7d199e2d">स्थापना स्क्रिप्ट वास्तव में पृथक रिकवरी में निष्पादित किया जाएगा; सिस्टम और डेटा परिवर्तन सफलता के बाद बचाया जाएगा, और मूल राज्य विफलता के बाद बनाए रखा जाएगा।</string>
+    <!-- ZH: 确认禁用 -->
+    <string name="host_recovery_dialog_816c6819">अक्षम होने की पुष्टि करें</string>
+    <!-- ZH: 是 · 上次刷入 -->
+    <string name="host_recovery_dialog_8614885c">हाँ · अंतिम स्थापना</string>
+    <!-- ZH: 正在检查 -->
+    <string name="host_recovery_dialog_8872ba18">जांच</string>
+    <!-- ZH: 已刷入项目 -->
+    <string name="host_recovery_dialog_8afa6ad9">स्थापित आइटम</string>
+    <!-- ZH: 否 -->
+    <string name="host_recovery_dialog_8bf5c10a">नहीं</string>
+    <!-- ZH:   选择文件 -->
+    <string name="host_recovery_dialog_9e03156e">  फ़ाइल चुनें</string>
+    <!-- ZH: 返回管理 -->
+    <string name="host_recovery_dialog_9ef07f14">प्रबंधन के लिए वापसी</string>
+    <!-- ZH:   回退上次刷入 -->
+    <string name="host_recovery_dialog_a0c64877">  पिछले स्थापना वापस रोल</string>
+    <!-- ZH: 可回退 -->
+    <string name="host_recovery_dialog_c0693230">वापस रोल किया जा सकता है</string>
+    <!-- ZH: 救援 -->
+    <string name="host_recovery_dialog_c11c41c4">बचाव</string>
+    <!-- ZH: 确认刷入 -->
+    <string name="host_recovery_dialog_c356319f">स्थापना की पुष्टि करें</string>
+    <!-- ZH: 禁用补丁和 Magisk？ -->
+    <string name="host_recovery_dialog_c604ea67">अक्षम पैच और Magisk?</string>
+    <!-- ZH:   重新选择文件 -->
+    <string name="host_recovery_dialog_c6f0bf48">  फिर से फ़ाइल चुनें</string>
+    <!-- ZH: 待刷入 -->
+    <string name="host_recovery_dialog_d9226dfb">स्थापित करने के लिए तैयार</string>
+    <!-- ZH: 正在处理：%1$s -->
+    <string name="host_recovery_dialog_da107e58">प्रसंस्करण: %1$s__</string>
+    <!-- ZH: 选择刷入文件 -->
+    <string name="host_recovery_dialog_dda2f9d3">सम्पर्क करने का विवरण</string>
+    <!-- ZH: 下一次冷启动跳过所有系统补丁和 Magisk。已刷入的 OTA 系统、用户数据、Magisk 设置和模块保留；恢复原系统需使用回退。重新启用前请先处理异常模块，否则仍可能再次启动失败。 -->
+    <string name="host_recovery_dialog_ddd000af">अगले कोल्ड स्टार्ट पर सभी सिस्टम पैच और Magisk छोड़ें। स्थापित ओटीए प्रणाली, उपयोगकर्ता डेटा, Magisk सेटिंग्स और मॉड्यूल को बनाए रखा गया है। पिछले सिस्टम को बहाल करने के लिए रोलबैक का उपयोग करें। उन्हें फिर से सक्षम करने से पहले समस्याग्रस्त मॉड्यूल को ठीक करें, या स्टार्टअप फिर विफल हो सकते हैं।</string>
+    <!-- ZH: 回退上次刷入？ -->
+    <string name="host_recovery_dialog_e0f7d92c">पिछले फ़्लैश वापस रोल?</string>
+    <!-- ZH: 支持完整 OTA、Recovery ZIP、AndVM 补丁和 Magisk APK。选择文件后先检查，再确认刷入。 -->
+    <string name="host_recovery_dialog_e44455d4">पूर्ण OTA, रिकवरी ZIP, AndVM पैच और Magisk APK का समर्थन करता है। चयनित फ़ाइल को इंस्टॉलेशन की पुष्टि करने से पहले चेक किया जाता है।</string>
+    <!-- ZH: 类型 -->
+    <string name="host_recovery_dialog_e4e46c72">प्रकार</string>
+    <!-- ZH: 已用时 %1$s 分 %2$s 秒 · 大文件处理可能需要较长时间 -->
+    <string name="host_recovery_dialog_ea309504">Elapsed समय %1$s मिनट %2$s सेकंड · बड़ी फ़ाइल प्रसंस्करण एक लंबे समय तक ले सकता है</string>
+    <!-- ZH: 当前刷入内容 -->
+    <string name="host_recovery_dialog_f4dda419">वर्तमान प्रतिष्ठान</string>
+    <!-- ZH: 收起文件校验信息 -->
+    <string name="host_recovery_dialog_f78c32d0">फ़ाइल सत्यापन जानकारी को दूर रखें</string>
+    <!-- ZH:   禁用补丁和 Magisk -->
+    <string name="host_recovery_dialog_ff7728d9">  अक्षम पैच और Magisk</string>
+    <!-- ZH: 重试下载 -->
+    <string name="host_rom_market_cards_14ecb8c9">Retry download</string>
+    <!-- ZH: 下载说明 -->
+    <string name="host_rom_market_cards_1fe4d81e">निर्देश डाउनलोड करें</string>
+    <!-- ZH: 导入 ROM -->
+    <string name="host_rom_market_cards_233cfdb1">आयात रॉम</string>
+    <!-- ZH: 下载 -->
+    <string name="host_rom_market_cards_2b9d0131">डाउनलोड करें</string>
+    <!-- ZH: 将在系统浏览器中打开下载页面。 -->
+    <string name="host_rom_market_cards_45d4a1a5">डाउनलोड पेज सिस्टम ब्राउज़र में खुल जाएगा।</string>
+    <!-- ZH: 取消 -->
+    <string name="host_rom_market_cards_4d0b4688">रद्द करें</string>
+    <!-- ZH: 有新版可更新 · 保留现有数据 -->
+    <string name="host_rom_market_cards_5827d4c6">वहाँ एक नया संस्करण है कि अद्यतन किया जा सकता है · मौजूदा डेटा रखें</string>
+    <!-- ZH: 查看文件 -->
+    <string name="host_rom_market_cards_63deb966">फ़ाइलों को देखें</string>
+    <!-- ZH: 已下载 %1$s -->
+    <string name="host_rom_market_cards_a5e2a7e2">डाउनलोड किया गया %1$s</string>
+    <!-- ZH: 查看介绍与安装说明 -->
+    <string name="host_rom_market_cards_a6230ead">परिचय और स्थापना निर्देश देखें</string>
+    <!-- ZH: 重试更新 -->
+    <string name="host_rom_market_cards_baeb5d4b">रिट्री अपडेट</string>
+    <!-- ZH: 更新虚拟机 -->
+    <string name="host_rom_market_cards_bcbf2722">आभासी मशीन अद्यतन</string>
+    <!-- ZH: 浏览器打开 -->
+    <string name="host_rom_market_cards_c578c377">ब्राउज़र खुला</string>
+    <!-- ZH: 知道了 -->
+    <string name="host_rom_market_cards_cb63c62e">समझ गया</string>
+    <!-- ZH: 下载完成后更新虚拟机 -->
+    <string name="host_rom_market_cards_cd3ad430">डाउनलोड पूरा होने के बाद वर्चुअल मशीन अपडेट करें</string>
+    <!-- ZH: 关于这个系统 -->
+    <string name="host_rom_market_cards_d07abc2b">इस प्रणाली के बारे में</string>
+    <!-- ZH: 文件保存至 Download/AndVM，离开页面后下载仍会继续。 -->
+    <string name="host_rom_market_cards_d65fb18c">फ़ाइल को डाउनलोड/AndVM में सहेजा जाता है और डाउनलोड पृष्ठ छोड़ने के बाद जारी रहेगा।</string>
+    <!-- ZH: 更新 -->
+    <string name="host_rom_market_cards_d9db02d0">अपडेट</string>
+    <!-- ZH: 未找到可打开链接的浏览器 -->
+    <string name="host_rom_market_cards_e5e3dd18">लिंक खोलने के लिए कोई ब्राउज़र नहीं मिला</string>
+    <!-- ZH: 查看详情 -->
+    <string name="host_rom_market_cards_faea8c1d">विवरण देखें</string>
+    <!-- ZH: 暂无下载 -->
+    <string name="host_rom_market_cards_fba30a04">अभी तक कोई डाउनलोड नहीं</string>
+    <!-- ZH: 处理中 -->
+    <string name="host_rom_market_cards_fcb979ef">प्रसंस्करण में</string>
+    <!-- ZH: 导入新虚拟机 -->
+    <string name="host_rom_market_cards_fe13f080">नई आभासी मशीन आयात करें</string>
+    <!-- ZH: 作者暂未提供介绍 -->
+    <string name="host_rom_market_cards_fec2b05d">लेखक ने अभी तक एक परिचय नहीं दिया है</string>
+    <!-- ZH: 文件已就绪 -->
+    <string name="host_rom_market_cards_ff7aa385">फ़ाइल तैयार है</string>
+    <!-- ZH: 可在后台继续 -->
+    <string name="host_rom_market_cards_ff8acf02">पृष्ठभूमि में जारी रह सकते हैं</string>
+    <!-- ZH: 关闭截图 -->
+    <string name="host_rom_market_images_28a04cda">स्क्रीनशॉट बंद करें</string>
+    <!-- ZH: 系统截图 · %1$s -->
+    <string name="host_rom_market_images_57a9845a">System स्क्रीनशॉट · %1$s_</string>
+    <!-- ZH: %2$s 截图 %1$s -->
+    <string name="host_rom_market_images_aa2d8a02">%2$s स्क्रीनशॉट %1$s</string>
+    <!-- ZH: 第 %1$s 张，共 %2$s 张截图 -->
+    <string name="host_rom_market_images_acf4f9b8">No. %1$s, कुल %2$s स्क्रीनशॉट</string>
+    <!-- ZH: %2$s 截图 %1$s，点击放大 -->
+    <string name="host_rom_market_images_bbc5a899">%2$s स्क्रीनशॉट %1$s, विस्तार करने के लिए क्लिक करें</string>
+    <!-- ZH: 重试 -->
+    <string name="host_rom_market_images_e2d53a6d">फिर से कोशिश करें</string>
+    <!-- ZH: 换个关键词或分类试试，也可以下拉刷新。 -->
+    <string name="host_rom_market_screen_01a95628">बदलते कीवर्ड या श्रेणियों की कोशिश करें, या आप ताज़ा करने के लिए नीचे खींच सकते हैं।</string>
+    <!-- ZH: 加载遇到了一点问题 -->
+    <string name="host_rom_market_screen_0bab022c">लोड हो रहा है कुछ समस्याओं का सामना</string>
+    <!-- ZH: 返回 -->
+    <string name="host_rom_market_screen_11d02415">वापस</string>
+    <!-- ZH: 查看全部 ROM -->
+    <string name="host_rom_market_screen_19992185">सभी रोम देखें</string>
+    <!-- ZH: 名称 -->
+    <string name="host_rom_market_screen_1be7ae4f">नाम</string>
+    <!-- ZH: 热度 -->
+    <string name="host_rom_market_screen_296adf95">लोकप्रियता</string>
+    <!-- ZH: 刷新失败，已保留当前列表 -->
+    <string name="host_rom_market_screen_2d055378">ताज़ा विफल रहा, वर्तमान सूची को बरकरार रखा गया है</string>
+    <!-- ZH: 搜索结果 -->
+    <string name="host_rom_market_screen_2f17ec14">खोज परिणाम</string>
+    <!-- ZH: 展开搜索 -->
+    <string name="host_rom_market_screen_31586e05">खोज विस्तार</string>
+    <!-- ZH: 下拉刷新，发现更多系统 -->
+    <string name="host_rom_market_screen_41f87a43">अधिक प्रणालियों को ताज़ा करने और खोजने के लिए नीचे खींचो</string>
+    <!-- ZH: %1$s 个 ROM -->
+    <string name="host_rom_market_screen_519b5bc1">%1$s ROM</string>
+    <!-- ZH: 已经到底了 · 下拉可刷新 -->
+    <string name="host_rom_market_screen_595c8679">यह अंत है · ताज़ा करने के लिए नीचे खींचो</string>
+    <!-- ZH: 重新加载 -->
+    <string name="host_rom_market_screen_5982c44c">रीलोड</string>
+    <!-- ZH: 刷新 ROM 列表 -->
+    <string name="host_rom_market_screen_63974ae5">रिफ्रेश रॉम सूची</string>
+    <!-- ZH: 已选择 -->
+    <string name="host_rom_market_screen_743aaf95">चयनित</string>
+    <!-- ZH: 全部 -->
+    <string name="host_rom_market_screen_778fc8f9">सभी</string>
+    <!-- ZH: 最新 -->
+    <string name="host_rom_market_screen_7e805a12">नवीनतम</string>
+    <!-- ZH: 暂时无法获取 ROM -->
+    <string name="host_rom_market_screen_8c6012c4">अस्थायी रूप से रॉम प्राप्त करने में असमर्थ</string>
+    <!-- ZH: 全部系统 -->
+    <string name="host_rom_market_screen_966d52ed">सभी प्रणालियों</string>
+    <!-- ZH: 正在发现可用系统… -->
+    <string name="host_rom_market_screen_cde5f219">उपलब्ध प्रणालियों की खोज ...</string>
+    <!-- ZH: ROM 市场 -->
+    <string name="host_rom_market_screen_d8540f96">रॉम बाजार</string>
+    <!-- ZH: 正在加载更多… -->
+    <string name="host_rom_market_screen_e04bb564">लोड हो रहा है...</string>
+    <!-- ZH: 重试 -->
+    <string name="host_rom_market_screen_e2d53a6d">फिर से कोशिश करें</string>
+    <!-- ZH: 搜索系统名称 -->
+    <string name="host_rom_market_screen_ea0aba3d">खोज प्रणाली का नाम</string>
+    <!-- ZH: 发现你的下一个系统 -->
+    <string name="host_rom_market_screen_ef464c85">अपने अगले सिस्टम की खोज करें</string>
+    <!-- ZH: 还没有找到匹配的系统 -->
+    <string name="host_rom_market_screen_fc67a1e8">अभी तक कोई मेलिंग सिस्टम नहीं मिला</string>
+    <!-- ZH: 当前没有需要更新的实例，请刷新 ROM 列表。 -->
+    <string name="host_rom_market_update_sheet_2a5259fc">वर्तमान में कोई ऐसा उदाहरण नहीं है जिसे अद्यतन करने की आवश्यकता है, कृपया रॉम सूची को ताज़ा करें।</string>
+    <!-- ZH: %1$s %2$s · 选择要更新的实例，保留应用、设置与文件 -->
+    <string name="host_rom_market_update_sheet_a5567f92">%1$s %2$s · एप्लिकेशन, सेटिंग्स और फ़ाइलों को अद्यतन करने, बनाए रखने के लिए उदाहरण का चयन करें</string>
+    <!-- ZH: 更新虚拟机 -->
+    <string name="host_rom_market_update_sheet_bcbf2722">आभासी मशीन अद्यतन</string>
+    <!-- ZH: 清除搜索 -->
+    <string name="host_search_field_318ea18e">स्पष्ट खोज</string>
+    <!-- ZH: 请重新选择文件 -->
+    <string name="host_select_file_again">फिर से फाइल का चयन करें</string>
+    <!-- ZH: 虚拟机未能保存运行快照 -->
+    <string name="host_snapshot_save_failure">आभासी मशीन अपने रनटाइम स्नैपशॉट को नहीं बचा सकती है</string>
+    <!-- ZH: 上报失败日志 -->
+    <string name="host_startup_failure_report_button_522d674a">रिपोर्ट विफलता लॉग</string>
+    <!-- ZH: 正在打包全部日志… -->
+    <string name="host_startup_failure_report_button_c50f4e3e">सभी लॉग्स पैकिंग ...</string>
+    <!-- ZH: 上报日志准备失败：%1$s -->
+    <string name="host_startup_failure_report_button_d3f5fa1d">रिपोर्ट लॉग तैयारी विफलता: %1$s_</string>
+    <!-- ZH: 无法打开日志分享，请确认已安装支持附件的邮件或分享应用。 -->
+    <string name="host_startup_failure_report_button_d918147e">लॉग साझा करने में असमर्थ, कृपया पुष्टि करें कि आपने एक ईमेल या साझा करने वाला एप्लिकेशन स्थापित किया है जो संलग्नक का समर्थन करता है।</string>
+    <!-- ZH: 正在启动 Android 系统… -->
+    <string name="host_startup_stage_android">एंड्रॉयड शुरू करना</string>
+    <!-- ZH: 正在生成 ART 启动镜像… -->
+    <string name="host_startup_stage_art">ART बूट छवि उत्पन्न करना ...</string>
+    <!-- ZH: 首次启动优化完成，正在重启虚拟机… -->
+    <string name="host_startup_stage_art_restart">पहले से शुरू अनुकूलन पूरा। आभासी मशीन शुरू ...</string>
+    <!-- ZH: 正在进入 Guest 桌面… -->
+    <string name="host_startup_stage_desktop">डेस्कटॉप खोलने...</string>
+    <!-- ZH: 虚拟机启动失败 -->
+    <string name="host_startup_stage_failed">आभासी मशीन शुरू करने में विफल रही</string>
+    <!-- ZH: 正在准备虚拟机… -->
+    <string name="host_startup_stage_preparing">आभासी मशीन तैयार करना...</string>
+    <!-- ZH: 运行快照恢复失败 -->
+    <string name="host_startup_stage_restore_failed">रनटाइम स्नैपशॉट बहाली विफल</string>
+    <!-- ZH: 正在恢复运行快照… -->
+    <string name="host_startup_stage_restoring">रनटाइम स्नैपशॉट बहाल किया जा रहा है…</string>
+    <!-- ZH: 正在启动虚拟机 -->
+    <string name="host_startup_stage_starting">आभासी मशीन शुरू करना</string>
+    <!-- ZH: 虚拟机已停止 -->
+    <string name="host_startup_stage_stopped">आभासी मशीन बंद कर दिया</string>
+    <!-- ZH: 操作 -->
+    <string name="host_tab_actions">कार्य</string>
+    <!-- ZH: 配置 -->
+    <string name="host_tab_configuration">सेटिंग्स</string>
+    <!-- ZH: 调试 -->
+    <string name="host_tab_debug">डेबग</string>
+    <!-- ZH: 概览 -->
+    <string name="host_tab_overview">अवलोकन</string>
+    <!-- ZH: 快照 -->
+    <string name="host_tab_snapshots">स्नैपशॉट</string>
+    <!-- ZH: 此虚拟机 -->
+    <string name="host_this_vm">इस आभासी मशीन</string>
+    <!-- ZH: 把虚拟机里安装的应用导出为安装包 -->
+    <string name="host_transfer_export_applications_detail">स्थापना पैकेज के रूप में स्थापित वर्चुअल मशीन ऐप निर्यात करें</string>
+    <!-- ZH: 导出应用 -->
+    <string name="host_transfer_export_applications_title">ऐप्स निर्यात करें</string>
+    <!-- ZH: 从虚拟机存储中选择文件，保存到宿主的下载目录 -->
+    <string name="host_transfer_export_files_detail">होस्ट के डाउनलोड फ़ोल्डर में चयनित वर्चुअल मशीन फ़ाइलों को सहेजें</string>
+    <!-- ZH: 导出文件 -->
+    <string name="host_transfer_export_files_title">फाइल निर्यात करें</string>
+    <!-- ZH: 把宿主已安装的应用安装到虚拟机 -->
+    <string name="host_transfer_import_applications_detail">आभासी मशीन में होस्ट से ऐप्स इंस्टॉल करें</string>
+    <!-- ZH: 导入应用 -->
+    <string name="host_transfer_import_applications_title">ऐप्स आयात करें</string>
+    <!-- ZH: 从宿主选择文件，写入虚拟机的 Download 目录 -->
+    <string name="host_transfer_import_files_detail">वर्चुअल मशीन के डाउनलोड फ़ोल्डर को कॉपी करने के लिए होस्ट फ़ाइलों का चयन करें</string>
+    <!-- ZH: 导入文件 -->
+    <string name="host_transfer_import_files_title">फाइल आयात करें</string>
+    <!-- ZH: 未知 -->
+    <string name="host_unknown">अज्ञात</string>
+    <!-- ZH: 无限制 -->
+    <string name="host_unlimited">असीमित</string>
+    <!-- ZH: 虚拟机 -->
+    <string name="host_virtual_machine">वर्चुअल मशीन</string>
+    <!-- ZH: 选择保存位置并导出 -->
+    <string name="host_vm_export_sheet_011ef795">स्थान और निर्यात को बचाने के लिए चुनें</string>
+    <!-- ZH: 正在选择保存位置… -->
+    <string name="host_vm_export_sheet_0b93def9">स्थान बचाने का चयन...</string>
+    <!-- ZH: 请先恢复运行并正常停止虚拟机，或丢弃暂停快照后导出。 -->
+    <string name="host_vm_export_sheet_2f16a743">कृपया पहले ऑपरेशन को फिर से शुरू करें और आभासी मशीन को सामान्य रूप से बंद करें, या प्यूज्ड स्नैपशॉट को छोड़ दें और फिर इसे निर्यात करें।</string>
+    <!-- ZH: ZIP 已保存到所选位置，可通过「导入 ROM」恢复虚拟机。 -->
+    <string name="host_vm_export_sheet_2fcc3be1">ZIP को चयनित स्थान पर सहेजा गया है और आभासी मशीन को "आयपोर्ट रॉम" के माध्यम से बहाल किया जा सकता है।</string>
+    <!-- ZH: 完成 -->
+    <string name="host_vm_export_sheet_33246f6a">हो गया</string>
+    <!-- ZH: 虚拟机数据 -->
+    <string name="host_vm_export_sheet_3a47de0d">वर्चुअल मशीन डेटा</string>
+    <!-- ZH: Recovery 补丁、Magisk 和当前刷入内容 -->
+    <string name="host_vm_export_sheet_50f564f8">रिकवरी पैच, Magisk और वर्तमान प्रतिष्ठान</string>
+    <!-- ZH: 取消导出 -->
+    <string name="host_vm_export_sheet_56afa043">निर्यात रद्द करना</string>
+    <!-- ZH: 分辨率、内存、网络、设备映射等 -->
+    <string name="host_vm_export_sheet_5e917853">संकल्प, स्मृति, नेटवर्क, डिवाइस मैपिंग, आदि।</string>
+    <!-- ZH: 点击查看结果 -->
+    <string name="host_vm_export_sheet_62ca2434">परिणाम देखने के लिए क्लिक करें</string>
+    <!-- ZH: 可以关闭弹框或离开页面，导出会在后台继续。 -->
+    <string name="host_vm_export_sheet_6a7fd3c3">आप पॉप-अप बॉक्स को बंद कर सकते हैं या पेज छोड़ सकते हैं, और निर्यात पृष्ठभूमि में जारी रहेगा।</string>
+    <!-- ZH: 刷入的补丁 -->
+    <string name="host_vm_export_sheet_6eb73fed">स्थापित पैच</string>
+    <!-- ZH: 请先停止虚拟机并完成当前任务后导出。 -->
+    <string name="host_vm_export_sheet_7e36bf55">वर्तमान कार्य को पूरा करने के बाद कृपया वर्चुअल मशीन को पहले बंद करें और निर्यात करें।</string>
+    <!-- ZH: 准备好的 EROFS 镜像和原 ROM 保留文件会一起导出，可用于再次准备系统及恢复精简组件。 -->
+    <string name="host_vm_export_sheet_87838221">तैयार EROFS छवि और बनाए रखा मूल रॉम फ़ाइलों को एक साथ निर्यात किया जाता है, इसलिए सिस्टम को फिर से तैयार किया जा सकता है और घटकों को हटा दिया जा सकता है।</string>
+    <!-- ZH: 虚拟机镜像与保留源文件 -->
+    <string name="host_vm_export_sheet_87e583cc">आभासी मशीन छवि और बनाए रखा स्रोत फ़ाइलों</string>
+    <!-- ZH: 导出虚拟机 -->
+    <string name="host_vm_export_sheet_9a83bd65">आभासी मशीन निर्यात करें</string>
+    <!-- ZH: 后台导出中 · 点击查看进度 -->
+    <string name="host_vm_export_sheet_a0f9d567">प्रगति में पृष्ठभूमि निर्यात · प्रगति देखने के लिए क्लिक करें</string>
+    <!-- ZH: 始终包含 -->
+    <string name="host_vm_export_sheet_a10ffbc5">हमेशा शामिल</string>
+    <!-- ZH: 虚拟机配置 -->
+    <string name="host_vm_export_sheet_a4b64c79">आभासी मशीन विन्यास</string>
+    <!-- ZH: 分享备份 -->
+    <string name="host_vm_export_sheet_ad9fd0bf">शेयर बैकअप</string>
+    <!-- ZH: 备份为 ZIP，可通过「导入 ROM」恢复或传输到其他设备 -->
+    <string name="host_vm_export_sheet_ae29cb80">ZIP के रूप में बैकअप, जिसे "Import ROM" के माध्यम से अन्य उपकरणों को पुनर्स्थापित या स्थानांतरित किया जा सकता है।</string>
+    <!-- ZH: 后台导出 -->
+    <string name="host_vm_export_sheet_b0b28759">पृष्ठभूमि निर्यात</string>
+    <!-- ZH: 无法开始导出。 -->
+    <string name="host_vm_export_sheet_b3f77e03">निर्यात शुरू करने में असमर्थ।</string>
+    <!-- ZH: 已安装应用、用户文件和缓存 -->
+    <string name="host_vm_export_sheet_c080da23">स्थापित अनुप्रयोग, उपयोगकर्ता फ़ाइलों और कैश</string>
+    <!-- ZH:   导出虚拟机 -->
+    <string name="host_vm_export_sheet_cd4201c9">  आभासी मशीन निर्यात करें</string>
+    <!-- ZH: 导出通知用于显示备份进度和完成结果，离开页面后也能查看导出状态。 -->
+    <string name="host_vm_export_sheet_d4c5d6a7">निर्यात अधिसूचना का उपयोग बैकअप प्रगति और पूरा होने के परिणाम को प्रदर्शित करने के लिए किया जाता है, और पृष्ठ छोड़ने के बाद निर्यात की स्थिति को भी देखा जा सकता है।</string>
+    <!-- ZH: 分享虚拟机备份 -->
+    <string name="host_vm_export_sheet_ee594c92">आभासी मशीन बैकअप साझा करें</string>
+    <!-- ZH: 查看虚拟机导出进度 -->
+    <string name="host_vm_export_sheet_fbd8c67b">आभासी मशीन निर्यात प्रगति देखें</string>
+    <!-- ZH: 返回 -->
+    <string name="host_vm_log_activity_11d02415">वापस</string>
+    <!-- ZH: 虚拟机日志 -->
+    <string name="host_vm_log_activity_1f282ce2">वर्चुअल मशीन लॉग</string>
+    <!-- ZH: 虚拟机 -->
+    <string name="host_vm_log_activity_5aeca041">वर्चुअल मशीन</string>
+    <!-- ZH: 正在读取日志… -->
+    <string name="host_vm_log_activity_79aa9eab">लॉग पढ़ा जा रहा है...</string>
+    <!-- ZH: 无法打开虚拟机日志 -->
+    <string name="host_vm_log_activity_97dddce5">आभासी मशीन लॉग नहीं खोल सकता</string>
+    <!-- ZH: 虚拟机已不存在 -->
+    <string name="host_vm_log_activity_bcfc03b0">वर्चुअल मशीन अब मौजूद नहीं है।</string>
+    <!-- ZH: 返回 -->
+    <string name="host_vm_log_viewer_11d02415">वापस</string>
+    <!-- ZH: 启动虚拟机后自动记录，停止后仍可回看。 -->
+    <string name="host_vm_log_viewer_12388351">आभासी मशीन शुरू करने के बाद स्वचालित रूप से रिकॉर्ड किया जाता है और फिर भी इसे रोकने के बाद देखा जा सकता है।</string>
+    <!-- ZH: 上一处 -->
+    <string name="host_vm_log_viewer_126a5f43">पिछला स्थान</string>
+    <!-- ZH: 更新日志 -->
+    <string name="host_vm_log_viewer_18536844">लॉग इन करें</string>
+    <!-- ZH: 复制所选日志 -->
+    <string name="host_vm_log_viewer_1887696f">चयनित लॉग कॉपी करें</string>
+    <!-- ZH: 日志选项 -->
+    <string name="host_vm_log_viewer_19a149da">लॉग विकल्प</string>
+    <!-- ZH: 清空显示（保留文件） -->
+    <string name="host_vm_log_viewer_1a21509d">स्पष्ट प्रदर्शन (keep files)</string>
+    <!-- ZH: 虚拟机日志 -->
+    <string name="host_vm_log_viewer_1f282ce2">वर्चुअल मशीन लॉग</string>
+    <!-- ZH: 导出日志… -->
+    <string name="host_vm_log_viewer_207b2587">लॉग निर्यात करें...</string>
+    <!-- ZH: 开头 -->
+    <string name="host_vm_log_viewer_25829b81">शुरुआत</string>
+    <!-- ZH: 选择当前页日志 -->
+    <string name="host_vm_log_viewer_2c4dcbea">वर्तमान पृष्ठ लॉग चुनें</string>
+    <!-- ZH: 日志级别 -->
+    <string name="host_vm_log_viewer_307ac59f">लॉग स्तर</string>
+    <!-- ZH: 已复制前 100,000 个字符，请分段复制其余日志 -->
+    <string name="host_vm_log_viewer_3512c9d0">पहले 100,000 अक्षरों की प्रतिलिपि बनाई गई है, कृपया बाकी लॉग इन अनुभागों की प्रतिलिपि बनाएँ।</string>
+    <!-- ZH: 等待日志 -->
+    <string name="host_vm_log_viewer_36e476f2">लॉग के लिए प्रतीक्षा करें</string>
+    <!-- ZH: Ⅱ 回看 -->
+    <string name="host_vm_log_viewer_39cc04ae">II वापस देखो</string>
+    <!-- ZH: 更早日志 -->
+    <string name="host_vm_log_viewer_44ba0ad2">पहले लॉग</string>
+    <!-- ZH: %1$s 及以上 -->
+    <string name="host_vm_log_viewer_48052bf7">%1$s और ऊपर</string>
+    <!-- ZH: 已复制日志 -->
+    <string name="host_vm_log_viewer_48247d19">लॉग कॉपी</string>
+    <!-- ZH: 清除筛选 -->
+    <string name="host_vm_log_viewer_4bbc4e5f">साफ़ फिल्टर</string>
+    <!-- ZH: 过滤查询 -->
+    <string name="host_vm_log_viewer_5265e9ba">फ़िल्टर क्वेरी</string>
+    <!-- ZH: 查找关键词 -->
+    <string name="host_vm_log_viewer_5845effb">कीवर्ड खोजें</string>
+    <!-- ZH: 调整筛选条件，或加载更早的日志。 -->
+    <string name="host_vm_log_viewer_613a33ee">फ़िल्टरिंग की स्थिति को समायोजित करें, या पहले लॉग लोड करें।</string>
+    <!-- ZH: 复制当前筛选结果 -->
+    <string name="host_vm_log_viewer_6624fb67">वर्तमान स्क्रीनिंग परिणाम कॉपी करें</string>
+    <!-- ZH: 过滤日志… -->
+    <string name="host_vm_log_viewer_6fb5f1d6">फ़िल्टर लॉग...</string>
+    <!-- ZH: 级别 %1$s -->
+    <string name="host_vm_log_viewer_74fcc5e5">स्तर %1$s</string>
+    <!-- ZH: 全部 -->
+    <string name="host_vm_log_viewer_778fc8f9">सभी</string>
+    <!-- ZH: 正在读取日志… -->
+    <string name="host_vm_log_viewer_79aa9eab">लॉग पढ़ा जा रहा है...</string>
+    <!-- ZH: 查找日志 -->
+    <string name="host_vm_log_viewer_7a43ac4a">खोज लॉग</string>
+    <!-- ZH: 跳到最新 -->
+    <string name="host_vm_log_viewer_7b3a9cc8">नवीनतम के लिए कूद</string>
+    <!-- ZH:  …（点击查看完整日志） -->
+    <string name="host_vm_log_viewer_8272f6d4"> ...(पूरी लॉग देखने के लिए क्लिक करें)</string>
+    <!-- ZH: 切换为紧凑单行 -->
+    <string name="host_vm_log_viewer_85b2512d">कॉम्पैक्ट सिंगल लाइन पर स्विच करें</string>
+    <!-- ZH: 日志详情 -->
+    <string name="host_vm_log_viewer_88b864bd">लॉग विवरण</string>
+    <!-- ZH: 自动换行 -->
+    <string name="host_vm_log_viewer_8ad6b817">स्वचालित लाइन रैपिंग</string>
+    <!-- ZH: 关闭查找 -->
+    <string name="host_vm_log_viewer_91afbf89">खोज बंद करें</string>
+    <!-- ZH: 此进程 -->
+    <string name="host_vm_log_viewer_93f16829">यह प्रक्रिया</string>
+    <!-- ZH: 下一处 -->
+    <string name="host_vm_log_viewer_942482d1">अगला स्थान</string>
+    <!-- ZH: 没有匹配的日志 -->
+    <string name="host_vm_log_viewer_9b1e558c">कोई मिलान लॉग नहीं</string>
+    <!-- ZH: 已选择 %1$s 条 -->
+    <string name="host_vm_log_viewer_a03b1a3a">%1$s आइटम चुना गया है</string>
+    <!-- ZH: 启动、系统与应用的独立日志工作台 -->
+    <string name="host_vm_log_viewer_a3bc7cdf">स्टार्टअप, सिस्टम और एप्लिकेशन के लिए स्वतंत्र लॉग वर्कबेंच</string>
+    <!-- ZH: 搜索、筛选、选择与复制作用于当前载入的日志段（约 128 KiB）。底部箭头翻阅历史；拖动列表自动暂停跟随，采集仍继续。点击日志查看完整内容，长按进入多选。 -->
+    <string name="host_vm_log_viewer_a3cb76b9">खोज, फ़िल्टर, चयन और प्रतिलिपि वर्तमान में लोड किए गए लॉग सेगमेंट (लगभग 128 किबी) पर काम करती है। इतिहास के माध्यम से स्क्रॉल करने के लिए नीचे तीरों का उपयोग करें; सूची को स्वचालित रूप से खींचने के बाद, और संग्रह जारी रहता है। लॉग पर क्लिक करें पूरी सामग्री देखने के लिए, और एकाधिक चयनों में प्रवेश करने के लिए लंबे प्रेस।</string>
+    <!-- ZH: 读取日志失败 -->
+    <string name="host_vm_log_viewer_aa2684e3">लॉग पढ़ने में विफल</string>
+    <!-- ZH: 筛选此 Tag -->
+    <string name="host_vm_log_viewer_ab365eb0">इस टैग को फ़िल्टर करें</string>
+    <!-- ZH: 暂停显示 -->
+    <string name="host_vm_log_viewer_b087167d">Pause प्रदर्शन</string>
+    <!-- ZH: 重置筛选 -->
+    <string name="host_vm_log_viewer_b63e2829">फ़िल्टरिंग रीसेट करें</string>
+    <!-- ZH: 复制日志 -->
+    <string name="host_vm_log_viewer_c4a79c3a">लॉग कॉपी करें</string>
+    <!-- ZH: 恢复实时 -->
+    <string name="host_vm_log_viewer_c57d4f37">रीयल-टाइम पुनर्स्थापित करें</string>
+    <!-- ZH: 旧版本已在运行的虚拟机需下次启动后开始采集 Logcat。清空显示不会删除文件。 -->
+    <string name="host_vm_log_viewer_ca4e21cf">आभासी मशीन जो पहले से ही पुराने संस्करण में चल रही है, को अगले स्टार्टअप के बाद Logcat इकट्ठा करना शुरू करना होगा। डिस्प्ले को साफ़ करने से फ़ाइलों को हटा नहीं जाएगा।</string>
+    <!-- ZH: 筛选语法与说明 -->
+    <string name="host_vm_log_viewer_cab27967">फ़िल्टर वाक्यविन्यास और विवरण</string>
+    <!-- ZH: 知道了 -->
+    <string name="host_vm_log_viewer_cb63c62e">समझ गया</string>
+    <!-- ZH: 输入普通关键词，或组合字段筛选。多个条件同时满足，文本匹配忽略大小写。 -->
+    <string name="host_vm_log_viewer_cd16d040">सामान्य कीवर्ड दर्ज करें, या फ़ील्ड स्क्रीनिंग को जोड़ दें। यदि एकाधिक स्थितियां एक ही समय में मिलती हैं, तो पाठ मिलान मामले को अनदेखा करता है।</string>
+    <!-- ZH: 查看实时日志 -->
+    <string name="host_vm_log_viewer_cebc962b">वास्तविक समय लॉग देखें</string>
+    <!-- ZH: 查找当前日志… -->
+    <string name="host_vm_log_viewer_cf35010c">वर्तमान लॉग खोजें...</string>
+    <!-- ZH: %1$s 条 · %2$s–%3$s / %4$s KiB -->
+    <string name="host_vm_log_viewer_d4136085">%1$s लाइनों · %2$s-%3$s / %4$s KiB</string>
+    <!-- ZH: 正在导出日志… -->
+    <string name="host_vm_log_viewer_dcb8ae09">लॉग निर्यात करना...</string>
+    <!-- ZH: 全部级别 -->
+    <string name="host_vm_log_viewer_e1e387db">सभी स्तरों</string>
+    <!-- ZH: 复制失败：%1$s -->
+    <string name="host_vm_log_viewer_e258486b">प्रतिलिपि विफल: %1$s_</string>
+    <!-- ZH: 隐藏时间与进程信息 -->
+    <string name="host_vm_log_viewer_e38985ae">छिपे समय और प्रक्रिया जानकारी</string>
+    <!-- ZH: 日志已轮换，请切换到历史记录继续查看。 -->
+    <string name="host_vm_log_viewer_eab2d40e">लॉग को घुमाया गया है, कृपया देखने को जारी रखने के लिए इतिहास रिकॉर्ड पर स्विच करें।</string>
+    <!-- ZH: 筛选与日志说明 -->
+    <string name="host_vm_log_viewer_eeedf995">स्क्रीनिंग और लॉग विवरण</string>
+    <!-- ZH: Logcat 每轮读取最近 2000 条，间隔 3 秒；突发大量日志可能遗漏。每个 Logcat 文件最多 4 MiB，保留 3 份历史。其他日志在启动前保留最近 4 MiB，最多 3 份。 -->
+    <string name="host_vm_log_viewer_f00590db">Logcat प्रत्येक दौर में अंतिम 2000 प्रविष्टियों को पढ़ता है, जिसमें 3 सेकंड का अंतराल होता है; अचानक बड़ी संख्या में लॉग याद किया जा सकता है। अधिकतम 4 MiB प्रति Logcat फ़ाइल, इतिहास की 3 प्रतियां बरकरार रखी गईं। अन्य लॉग शुरू करने से पहले सबसे हाल के 4 MiB को बरकरार रखते हैं, अधिकतम 3 प्रतियां तक।</string>
+    <!-- ZH: 取消选择 -->
+    <string name="host_vm_log_viewer_f02e9439">चयन रद्द करना</string>
+    <!-- ZH: 日志源：%1$s -->
+    <string name="host_vm_log_viewer_f29d97f4">लॉग स्रोत: %1$s_</string>
+    <!-- ZH: 显示时间与进程信息 -->
+    <string name="host_vm_log_viewer_f7379e2c">समय और प्रक्रिया की जानकारी प्रदर्शित करें</string>
+    <!-- ZH: 日志列表 -->
+    <string name="host_vm_log_viewer_fa32fdb2">लॉग इन करें</string>
+    <!-- ZH: ● 实时 -->
+    <string name="host_vm_log_viewer_fd2ae082">● रियल टाइम</string>
+    <!-- ZH: 级别包含指定级别及以上。此处支持上述字段、双引号与减号排除；不解析正则、OR 或包名。 -->
+    <string name="host_vm_log_viewer_ffbdb793">स्तर में नामित स्तर और ऊपर शामिल हैं। उपरोक्त फ़ील्ड, डबल उद्धरण और माइनस संकेत यहां समर्थित हैं; नियमित अभिव्यक्ति, OR या पैकेज नामों को पार नहीं किया जाता है।</string>
+    <!-- ZH: 取消导入 -->
+    <string name="host_wizard_import_cancel">आयात रद्द करना</string>
+    <!-- ZH: 取消导入？ -->
+    <string name="host_wizard_import_canceltitle">आयात रद्द करना?</string>
+    <!-- ZH: 继续导入 -->
+    <string name="host_wizard_import_continuelabel">जारी रखें आयात</string>
+    <!-- ZH: 退出导入 -->
+    <string name="host_wizard_import_exit">आयात</string>
+    <!-- ZH: 导入 已结束，可以查看结果 -->
+    <string name="host_wizard_import_finished">आयात समाप्त हो गया है। आप परिणाम देख सकते हैं।</string>
+    <!-- ZH: 开始导入 -->
+    <string name="host_wizard_import_start">आयात प्रारंभ करें</string>
+    <!-- ZH: 取消重装 -->
+    <string name="host_wizard_reinstall_cancel">पुनर्स्थापन रद्द करना</string>
+    <!-- ZH: 取消重装？ -->
+    <string name="host_wizard_reinstall_canceltitle">पुनर्स्थापना रद्द करना</string>
+    <!-- ZH: 继续重装 -->
+    <string name="host_wizard_reinstall_continuelabel">स्थापना जारी रखें</string>
+    <!-- ZH: 退出重装 -->
+    <string name="host_wizard_reinstall_exit">दोबारा इंस्टॉल करने से बाहर निकलें</string>
+    <!-- ZH: 重装 已结束，可以查看结果 -->
+    <string name="host_wizard_reinstall_finished">पुन: स्थापना समाप्त हो गई है। आप परिणाम देख सकते हैं।</string>
+    <!-- ZH: 开始重装 -->
+    <string name="host_wizard_reinstall_start">पुन: स्थापना प्रारंभ करें</string>
+    <!-- ZH: 取消恢复 -->
+    <string name="host_wizard_restore_cancel">पुनर्स्थापना रद्द करना</string>
+    <!-- ZH: 取消恢复？ -->
+    <string name="host_wizard_restore_canceltitle">पुनर्स्थापना रद्द करना</string>
+    <!-- ZH: 继续恢复 -->
+    <string name="host_wizard_restore_continuelabel">जारी रखें</string>
+    <!-- ZH: 退出恢复 -->
+    <string name="host_wizard_restore_exit">एक्सिट बहाली</string>
+    <!-- ZH: 恢复 已结束，可以查看结果 -->
+    <string name="host_wizard_restore_finished">बहाली समाप्त हो गई है। आप परिणाम देख सकते हैं।</string>
+    <!-- ZH: 开始恢复 -->
+    <string name="host_wizard_restore_start">आरंभिक पुनर्स्थापन</string>
+    <string name="in_progress">जारी है</string>
+    <string name="indeterminate">कुछ विकल्पों को चुना गया</string>
+    <string name="m3c_bottom_sheet_collapse_description">बॉटम शीट को छोटा करें</string>
+    <string name="m3c_bottom_sheet_dismiss_description">बॉटम शीट को खारिज करें</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">खींचकर छोड़ने वाला हैंडल</string>
+    <string name="m3c_bottom_sheet_expand_description">बॉटम शीट को बड़ा करें</string>
+    <string name="m3c_bottom_sheet_pane_title">बॉटम शीट</string>
+    <string name="m3c_dialog">डायलॉग</string>
+    <string name="m3c_snackbar_dismiss">खारिज करें</string>
+    <string name="m3c_snackbar_pane_title">चेतावनी</string>
+    <string name="not_selected">नहीं चुना गया</string>
+    <string name="password_toggle_content_description">पासवर्ड दिखाएं</string>
+    <string name="search_menu_title">खोजें</string>
+    <string name="selected">चुना गया</string>
+    <string name="side_sheet_accessibility_pane_title">साइड शीट</string>
+    <string name="state_empty">कोई भी तार नहीं लगा है</string>
+    <string name="state_off">बंद है</string>
+    <string name="state_on">चालू है</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="switch_role">स्विच करें</string>
+    <string name="tab">टैब</string>
+    <string name="template_percent">%1$d प्रतिशत.</string>
+    <string name="tooltip_description">टूलटिप</string>
+    <string name="tooltip_label">टूलटिप दिखाएं</string>
+</resources>
