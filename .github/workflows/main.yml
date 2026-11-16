@@ -1,0 +1,83 @@
+name: Build Translated APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'translations/**'
+      - '.github/workflows/build-apk.yml'
+      - 'patch_apk_strings.py'
+
+jobs:
+  build-apk:
+    name: Build & Sign Translated APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Locate Android Build Tools
+        run: |
+          BUILD_TOOLS_DIR=$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -n 1)
+          echo "Using Android Build Tools at: $BUILD_TOOLS_DIR"
+          echo "BUILD_TOOLS=$BUILD_TOOLS_DIR" >> $GITHUB_ENV
+
+      - name: Download Latest Apktool
+        run: |
+          APKTOOL_URL=$(curl -sL https://api.github.com/repos/iBotPeaches/Apktool/releases/latest | grep "browser_download_url.*jar" | cut -d '"' -f 4)
+          echo "Downloading Apktool from: $APKTOOL_URL"
+          curl -L -o apktool.jar "$APKTOOL_URL"
+          java -jar apktool.jar --version
+
+      - name: Download Official Release APK
+        run: |
+          echo "Downloading latest official release APK..."
+          curl -L -o AndVM-release.apk https://github.com/AndVM-Dev/AndVM/releases/download/Android/AndVM-release.apk
+
+      - name: Decompile APK Resources
+        run: |
+          # Use -s to leave classes.dex untouched
+          java -jar apktool.jar d -s AndVM-release.apk -o apk_decompiled
+
+      - name: Patch Translated Strings
+        run: |
+          python3 patch_apk_strings.py apk_decompiled
+
+      - name: Rebuild APK
+        run: |
+          java -jar apktool.jar b apk_decompiled -o AndVM-rebuilt.apk
+
+      - name: Align and Sign APK
+        run: |
+          # Create a signing key
+          keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=AndVM Translated,O=Community,C=US"
+
+          # Zipalign the package
+          "$BUILD_TOOLS/zipalign" -v -p 4 AndVM-rebuilt.apk AndVM-aligned.apk
+
+          # Sign with apksigner
+          "$BUILD_TOOLS/apksigner" sign --ks debug.keystore --ks-pass pass:android --key-pass pass:android --out AndVM-translated.apk AndVM-aligned.apk
+
+          # Verify signature
+          "$BUILD_TOOLS/apksigner" verify --verbose AndVM-translated.apk
+
+      - name: Upload Translated APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AndVM-translated-apk
+          path: AndVM-translated.apk
+          if-no-files-found: error
