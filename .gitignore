@@ -1,8 +1,11 @@
 # Large binaries (exceeds GitHub 100MB limit)
 *.apk
+*.idsig
+*.keystore
 
 # Ephemeral chat attachments
 attachments/
 
-# Temporary dumps
+# Temporary dumps and resources
 resources_dump.txt
+resources.arsc
